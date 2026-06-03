@@ -122,6 +122,45 @@ Thema: Basierend auf diesen aktuellen Nachrichten + YouTube-Trends:
 
           python3 agent.py
 
+      - name: Sitemap & RSS aktualisieren
+        run: |
+          cat <<'NODEEOF' > generate-xml.js
+          const fs = require("fs");
+          const src = fs.readFileSync("posts.js", "utf8");
+          global.window = {};
+          eval(src);
+          const posts = global.window.POSTS || [];
+
+          // ---------- sitemap.xml ----------
+          const url = (loc, extra = "") => `  <url>\n    <loc>${loc}</loc>${extra}\n  </url>`;
+          const artUrls = posts.map(p => url(
+            `https://ercanblog.vercel.app/#/beitrag/${encodeURIComponent(p.id)}`,
+            `\n    <lastmod>${p.date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>`
+          )).join("\n");
+          const catUrls = ["agentic","modelle","sicherheit","business","forschung"]
+            .map(k => url(`https://ercanblog.vercel.app/#/kategorie/${k}`,
+              `\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>`)).join("\n");
+          const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${url("https://ercanblog.vercel.app/", "\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>")}\n${catUrls}\n${url("https://ercanblog.vercel.app/#/tipps", "\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>")}\n${artUrls}\n</urlset>\n`;
+          fs.writeFileSync("sitemap.xml", sitemap);
+          console.log("✅ sitemap.xml aktualisiert (" + posts.length + " Artikel)");
+
+          // ---------- rss.xml ----------
+          const escXml = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+          const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+          const items = posts.slice(0, 50).map(p => {
+            const de = p.de || {};
+            const [y, m, d] = p.date.split("-").map(Number);
+            const dateStr = `${d} ${months[m-1]} ${y} 00:00:00 +0200`;
+            return `    <item>\n      <title>${escXml(de.title || "")}</title>\n      <link>https://ercanblog.vercel.app/#/beitrag/${encodeURIComponent(p.id)}</link>\n      <description>${escXml(de.teaser || "")}</description>\n      <pubDate>${dateStr}</pubDate>\n      <guid>https://ercanblog.vercel.app/#/beitrag/${encodeURIComponent(p.id)}</guid>\n    </item>`;
+          }).join("\n");
+          const now = new Date();
+          const buildDate = `${now.getUTCDate()} ${months[now.getUTCMonth()]} ${now.getUTCFullYear()} 00:00:00 +0200`;
+          const rss = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title>Ercan Blog — KI-News täglich</title>\n    <link>https://ercanblog.vercel.app/</link>\n    <description>Täglich das Wichtigste aus der Welt der künstlichen Intelligenz: Agenten, Modelle, Forschung, Markt und Hardware.</description>\n    <language>de</language>\n    <atom:link href="https://ercanblog.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>\n    <lastBuildDate>${buildDate}</lastBuildDate>\n${items}\n  </channel>\n</rss>\n`;
+          fs.writeFileSync("rss.xml", rss);
+          console.log("✅ rss.xml aktualisiert (" + Math.min(posts.length, 50) + " Einträge)");
+          NODEEOF
+          node generate-xml.js
+
       - name: Änderungen committen & pushen
         run: |
           git config user.name "Ercan Blog Agent"
