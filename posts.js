@@ -42,6 +42,50 @@ const CATEGORIES = [
 const POSTS = [
   /* ---------------------------------------------------------- */
   {
+    id: "ercanblog-quellen-test-2026-06-03",
+    cat: "agentic",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/microsoft-agent365.jpg",
+    featured: true,
+    views: 9999,
+    de: {
+      title: "TESTLAUF: ErcanBlog-Quellenpool ist jetzt zweisprachig aktiv",
+      teaser: "Dieser sichtbare Testbeitrag prüft, ob der neue deutsch-türkische Quellenworkflow korrekt auf der Blogseite erscheint.",
+      body: `Dieser Beitrag ist ein bewusst markierter Testlauf für Cem: ErcanBlog nutzt jetzt einen gespeicherten Quellenpool für deutsche und türkische KI-Inhalte.
+
+## Was getestet wird
+
+- Deutsche Quellen wie heise, heise KI-Update, Handelsblatt, t3n, Golem, All-AI.de und BigData-Insider sind im redaktionellen Workflow gespeichert.
+- Türkische Quellen wie DonanımHaber, Webrazzi, TechInside, TRAI, ShiftDelete und TRT Haber bleiben ebenfalls aktiv.
+- Video-Tipps werden getrennt über die Video-Liste gepflegt.
+
+## Warum das wichtig ist
+
+> Der tägliche 09:00-Lauf soll künftig nicht blind posten, sondern aus geprüften Quellen die besten KI-News und Videos auswählen.
+
+Wenn dieser Beitrag auf der Startseite sichtbar ist, funktionieren GitHub-Push, Vercel-Deployment und die Blog-Darstellung grundsätzlich. Danach kann der Testbeitrag wieder entfernt oder durch echte Tagesmeldungen ersetzt werden.`,
+    },
+    tr: {
+      title: "TEST: ErcanBlog kaynak havuzu artık iki dilli aktif",
+      teaser: "Bu görünür test yazısı, yeni Almanca-Türkçe kaynak iş akışının blog sayfasında doğru görünüp görünmediğini kontrol eder.",
+      body: `Bu yazı Cem için bilinçli olarak işaretlenmiş bir testtir: ErcanBlog artık Almanca ve Türkçe yapay zekâ içerikleri için kayıtlı bir kaynak havuzu kullanıyor.
+
+## Ne test ediliyor
+
+- heise, heise KI-Update, Handelsblatt, t3n, Golem, All-AI.de ve BigData-Insider gibi Almanca kaynaklar editoryal iş akışına kaydedildi.
+- DonanımHaber, Webrazzi, TechInside, TRAI, ShiftDelete ve TRT Haber gibi Türkçe kaynaklar da aktif kalıyor.
+- Video önerileri ayrı video listesi üzerinden yönetiliyor.
+
+## Neden önemli
+
+> Günlük 09:00 çalışması gelecekte körlemesine paylaşım yapmayacak; denetlenmiş kaynaklardan en iyi KI/YZ haberlerini ve videoları seçecek.
+
+Bu yazı ana sayfada görünüyorsa GitHub push, Vercel deployment ve blog gösterimi temel olarak çalışıyor demektir. Sonrasında test yazısı kaldırılabilir veya gerçek günlük haberlerle değiştirilebilir.`,
+    },
+  },
+  /* ---------------------------------------------------------- */
+  {
     id: "microsoft-build-2026-windows-agenten",
     cat: "agentic",
     author: "Ercan Yıldız",
@@ -441,6 +485,20 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+  {
+    id: "ercanblog-video-test-2026-06-03",
+    date: "2026-06-03",
+    youtube: "-f3-WUw-jsQ",
+    lang: "de",
+    de: {
+      title: "TESTLAUF: Deutscher KI-Video-Tipp ist sichtbar",
+      desc: "Dieser Test prüft, ob deutsche YouTube-Tipps aus dem neuen Quellenpool auf der Blogseite angezeigt werden.",
+    },
+    tr: {
+      title: "TEST: Almanca KI video önerisi görünüyor",
+      desc: "Bu test, yeni kaynak havuzundan gelen Almanca YouTube önerilerinin blogda gösterilip gösterilmediğini kontrol eder.",
+    },
+  },
   {
     id: "minimax-m3-claude-opus-rakip",
     date: "2026-06-03",
