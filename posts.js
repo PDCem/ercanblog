@@ -42,48 +42,150 @@ const CATEGORIES = [
 const POSTS = [
   /* ---------------------------------------------------------- */
   {
-    id: "ercanblog-quellen-test-2026-06-03",
+    id: "ki-wurm-individuelle-angriffe-2026-06-03",
+    cat: "sicherheit",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/google-agents.jpg",
+    featured: true,
+    views: 5360,
+    de: {
+      title: "Forschende zeigen KI-Wurm mit eigener Angriffsstrategie",
+      teaser: "Ein Bericht von t3n beschreibt einen Computerwurm, der mithilfe eingebauter KI für jedes Ziel eine neue Vorgehensweise entwickeln kann.",
+      body: `Eine der wichtigsten heutigen Meldungen kommt aus der IT-Sicherheit: t3n berichtet über Forschende, die einen KI-gestützten Computerwurm demonstriert haben. Das Besondere ist nicht nur die Automatisierung, sondern die Anpassung an jedes einzelne Ziel.
+
+## Warum das relevant ist
+
+Klassische Schadsoftware folgt oft festen Mustern. Ein KI-Wurm kann dagegen Schwachstellen, Umgebung und mögliche nächste Schritte dynamischer bewerten. Damit verschiebt sich die Abwehr von einfachen Signaturen hin zu Verhaltenserkennung, Segmentierung und schneller Reaktion.
+
+- Quelle: t3n / MIT Technology Review News.
+- Kernthema: Cybersecurity trifft autonome KI.
+- Risiko: Angriffe werden individueller und schwerer vorhersehbar.
+
+## Einordnung für Unternehmen
+
+> Wenn Angreifer KI zur Planung nutzen, reicht reine Mustererkennung nicht mehr aus.
+
+Für Firmen bedeutet das: Logging, Rechteverwaltung und Notfallpläne werden wichtiger. Besonders Systeme mit automatisierten Workflows und Agenten sollten klare Grenzen bekommen, bevor sie produktiv laufen.`,
+    },
+    tr: {
+      title: "Araştırmacılar kendi saldırı stratejisini üreten bir YZ solucanı gösterdi",
+      teaser: "t3n'in aktardığına göre araştırmacılar, her hedef için yeni bir yol izleyebilen yapay zekâ destekli bir bilgisayar solucanı geliştirdi.",
+      body: `Bugünün en önemli haberlerinden biri siber güvenlik alanından geliyor: t3n, yapay zekâ destekli bir bilgisayar solucanı üzerinde çalışan araştırmacıları aktarıyor. Önemli nokta yalnızca otomasyon değil; sistemin her hedefe göre farklı bir strateji geliştirebilmesi.
+
+## Neden önemli
+
+Klasik zararlı yazılımlar çoğu zaman sabit kalıplara dayanır. Bir YZ solucanı ise açıkları, ortamı ve sonraki adımları daha dinamik değerlendirebilir. Bu da savunmayı basit imza kontrolünden davranış analizi, segmentasyon ve hızlı müdahale tarafına kaydırıyor.
+
+- Kaynak: t3n / MIT Technology Review News.
+- Ana konu: Siber güvenlik ve otonom yapay zekânın kesişimi.
+- Risk: Saldırılar daha kişiselleşmiş ve öngörülmesi daha zor hale geliyor.
+
+## Şirketler için yorum
+
+> Saldırganlar planlama için yapay zekâ kullandığında sadece kalıp tanıma yeterli olmaz.
+
+Şirketler için günlük kayıtları, yetki yönetimi ve acil durum planları daha kritik hale geliyor. Özellikle otomatik iş akışları ve ajanlar net sınırlarla üretime alınmalı.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "deepseek-v4-huawei-ascend-nvidia-abkehr-2026-06-03",
+    cat: "modelle",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/qualcomm-chips.jpg",
+    views: 4210,
+    de: {
+      title: "DeepSeek V4 soll auf Huawei Ascend 950 optimiert werden",
+      teaser: "BigData-Insider berichtet: DeepSeek V4 unterstützt Huaweis Ascend 950. Das Signal ist klar – China will bei KI-Chips unabhängiger von Nvidia werden.",
+      body: `Die zweite starke Meldung des Tages betrifft die KI-Infrastruktur: BigData-Insider berichtet über DeepSeek V4 und Huaweis Ascend 950. Die Kooperation zeigt, wie eng Modelle und Hardware inzwischen zusammen gedacht werden.
+
+## Mehr als nur ein Modell-Update
+
+Wenn ein großes Modell gezielt für bestimmte Beschleuniger optimiert wird, geht es nicht nur um Geschwindigkeit. Es geht um Lieferketten, Kosten, Exportregeln und technologische Souveränität.
+
+- Quelle: BigData-Insider / KI-Insider.
+- Thema: DeepSeek V4, Huawei Ascend 950, Abkehr von Nvidia.
+- Bedeutung: KI-Strategie wird zunehmend auch Chip-Strategie.
+
+## Warum das für Europa interessant ist
+
+> Wer KI betreiben will, braucht nicht nur Modelle – sondern Zugriff auf passende Rechenleistung.
+
+Für europäische Firmen ist das ein Warnsignal: Abhängigkeiten entstehen nicht erst beim Cloudanbieter, sondern schon bei Chips, Frameworks und Modellarchitektur.`,
+    },
+    tr: {
+      title: "DeepSeek V4, Huawei Ascend 950 için optimize edilecek",
+      teaser: "BigData-Insider'a göre DeepSeek V4, Huawei Ascend 950'yi destekliyor. Mesaj net: Çin, KI/YZ çiplerinde Nvidia'ya bağımlılığı azaltmak istiyor.",
+      body: `Günün ikinci güçlü haberi yapay zekâ altyapısıyla ilgili: BigData-Insider, DeepSeek V4 ve Huawei Ascend 950 iş birliğini aktarıyor. Bu gelişme, modeller ile donanımın artık birlikte tasarlandığını gösteriyor.
+
+## Sadece model güncellemesi değil
+
+Büyük bir model belirli hızlandırıcılar için optimize edildiğinde mesele yalnızca performans değildir. Tedarik zinciri, maliyet, ihracat kuralları ve teknolojik egemenlik de işin içine girer.
+
+- Kaynak: BigData-Insider / KI-Insider.
+- Konu: DeepSeek V4, Huawei Ascend 950, Nvidia'dan uzaklaşma.
+- Anlamı: YZ stratejisi giderek çip stratejisi haline geliyor.
+
+## Avrupa için neden ilginç
+
+> Yapay zekâ çalıştırmak isteyenlerin sadece modele değil, uygun hesaplama gücüne de erişmesi gerekir.
+
+Avrupalı şirketler için bu bir uyarı: Bağımlılıklar yalnızca bulut sağlayıcılarında değil, çiplerde, framework'lerde ve model mimarisinde de başlar.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "microsoft-agent-optimizer-repariert-agenten-2026-06-03",
     cat: "agentic",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/microsoft-agent365.jpg",
-    featured: true,
-    views: 9999,
+    views: 3980,
     de: {
-      title: "TESTLAUF: ErcanBlog-Quellenpool ist jetzt zweisprachig aktiv",
-      teaser: "Dieser sichtbare Testbeitrag prüft, ob der neue deutsch-türkische Quellenworkflow korrekt auf der Blogseite erscheint.",
-      body: `Dieser Beitrag ist ein bewusst markierter Testlauf für Cem: ErcanBlog nutzt jetzt einen gespeicherten Quellenpool für deutsche und türkische KI-Inhalte.
+      title: "Microsofts Agent Optimizer soll KI-Agenten automatisch verbessern",
+      teaser: "All-AI.de berichtet über Microsofts Agent Optimizer: Statt Agenten manuell zu testen, sucht das System automatisch nach besseren Konfigurationen.",
+      body: `Die dritte Meldung passt perfekt zum Schwerpunkt von ErcanBlog: All-AI.de berichtet über Microsofts „Agent Optimizer“. Das System soll KI-Agenten nicht nur ausführen, sondern ihre Konfiguration automatisch verbessern und Fehlerquellen finden.
 
-## Was getestet wird
+## Vom Agenten zum Agenten-Betrieb
 
-- Deutsche Quellen wie heise, heise KI-Update, Handelsblatt, t3n, Golem, All-AI.de und BigData-Insider sind im redaktionellen Workflow gespeichert.
-- Türkische Quellen wie DonanımHaber, Webrazzi, TechInside, TRAI, ShiftDelete und TRT Haber bleiben ebenfalls aktiv.
-- Video-Tipps werden getrennt über die Video-Liste gepflegt.
+Viele Agenten funktionieren in Demos gut, scheitern aber im Alltag an falschen Prompts, Werkzeugauswahl oder unklaren Zwischenschritten. Genau hier setzt ein Optimierer an: Er testet Varianten und sucht nach stabileren Abläufen.
 
-## Warum das wichtig ist
+- Quelle: All-AI.de.
+- Thema: automatische Verbesserung und Reparatur von KI-Agenten.
+- Nutzen: weniger manuelles Experimentieren, bessere Qualitätssicherung.
 
-> Der tägliche 09:00-Lauf soll künftig nicht blind posten, sondern aus geprüften Quellen die besten KI-News und Videos auswählen.
+## Einordnung
 
-Wenn dieser Beitrag auf der Startseite sichtbar ist, funktionieren GitHub-Push, Vercel-Deployment und die Blog-Darstellung grundsätzlich. Danach kann der Testbeitrag wieder entfernt oder durch echte Tagesmeldungen ersetzt werden.`,
+> Agentische KI wird erst dann produktiv, wenn Tests, Monitoring und Optimierung mitwachsen.
+
+Für Unternehmen ist das wichtiger als der nächste Chatbot: Wer Agenten wirklich einsetzen will, braucht Werkzeuge, die Fehler sichtbar machen und Abläufe systematisch verbessern.`,
     },
     tr: {
-      title: "TEST: ErcanBlog kaynak havuzu artık iki dilli aktif",
-      teaser: "Bu görünür test yazısı, yeni Almanca-Türkçe kaynak iş akışının blog sayfasında doğru görünüp görünmediğini kontrol eder.",
-      body: `Bu yazı Cem için bilinçli olarak işaretlenmiş bir testtir: ErcanBlog artık Almanca ve Türkçe yapay zekâ içerikleri için kayıtlı bir kaynak havuzu kullanıyor.
+      title: "Microsoft Agent Optimizer, KI/YZ ajanlarını otomatik iyileştirmeyi hedefliyor",
+      teaser: "All-AI.de, Microsoft'un Agent Optimizer aracını aktarıyor: Ajanları manuel test etmek yerine sistem daha iyi konfigürasyonları otomatik arıyor.",
+      body: `Üçüncü haber ErcanBlog'un odağına tam uyuyor: All-AI.de, Microsoft'un “Agent Optimizer” aracını aktarıyor. Sistem, yapay zekâ ajanlarını yalnızca çalıştırmakla kalmayıp yapılandırmalarını iyileştirmeyi ve hata kaynaklarını bulmayı hedefliyor.
 
-## Ne test ediliyor
+## Ajandan ajan operasyonuna
 
-- heise, heise KI-Update, Handelsblatt, t3n, Golem, All-AI.de ve BigData-Insider gibi Almanca kaynaklar editoryal iş akışına kaydedildi.
-- DonanımHaber, Webrazzi, TechInside, TRAI, ShiftDelete ve TRT Haber gibi Türkçe kaynaklar da aktif kalıyor.
-- Video önerileri ayrı video listesi üzerinden yönetiliyor.
+Birçok ajan demoda iyi görünür, fakat günlük kullanımda yanlış prompt, yanlış araç seçimi veya belirsiz ara adımlar yüzünden sorun çıkarır. Optimizasyon tam burada devreye girer: Farklı varyantları test eder ve daha kararlı akışlar arar.
 
-## Neden önemli
+- Kaynak: All-AI.de.
+- Konu: KI/YZ ajanlarının otomatik iyileştirilmesi ve onarılması.
+- Fayda: daha az manuel deneme, daha iyi kalite kontrol.
 
-> Günlük 09:00 çalışması gelecekte körlemesine paylaşım yapmayacak; denetlenmiş kaynaklardan en iyi KI/YZ haberlerini ve videoları seçecek.
+## Yorum
 
-Bu yazı ana sayfada görünüyorsa GitHub push, Vercel deployment ve blog gösterimi temel olarak çalışıyor demektir. Sonrasında test yazısı kaldırılabilir veya gerçek günlük haberlerle değiştirilebilir.`,
+> Agentik yapay zekâ ancak test, izleme ve optimizasyon araçlarıyla birlikte üretime hazır hale gelir.
+
+Şirketler için bu, sıradaki sohbet robotundan daha önemlidir: Ajanları gerçekten kullanmak isteyenler, hataları görünür kılan ve akışları sistematik şekilde iyileştiren araçlara ihtiyaç duyar.`,
     },
   },
+
+
   /* ---------------------------------------------------------- */
   {
     id: "microsoft-build-2026-windows-agenten",
@@ -91,7 +193,6 @@ Bu yazı ana sayfada görünüyorsa GitHub push, Vercel deployment ve blog göst
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/microsoft-build.jpg",
-    featured: true,
     views: 5240,
     de: {
       title: "Microsoft macht Windows zur Plattform für KI-Agenten",
@@ -140,6 +241,7 @@ Merkezde, bellek, planlama, araç çağırma ve standart çıktılar gibi tekrar
 Mevcut yazılımların yeni arayüzlerle ne kadar sorunsuz çalışacağı ve vaat edilen hızın günlük kullanımda tutup tutmayacağı henüz belirsiz. Küçük ve orta ölçekli işletmeler için asıl belirleyici olan, kurulumun gerçekte ne kadar zahmetli olacağı.`,
     },
   },
+
 
   /* ---------------------------------------------------------- */
   {
@@ -486,17 +588,31 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
   {
-    id: "ercanblog-video-test-2026-06-03",
+    id: "neulandpro-krasse-ki-news-google-io-codex-2026-06-03",
     date: "2026-06-03",
-    youtube: "-f3-WUw-jsQ",
+    youtube: "pq2GS-2bXg4",
     lang: "de",
     de: {
-      title: "TESTLAUF: Deutscher KI-Video-Tipp ist sichtbar",
-      desc: "Dieser Test prüft, ob deutsche YouTube-Tipps aus dem neuen Quellenpool auf der Blogseite angezeigt werden.",
+      title: "Neulandpro: Google I/O, Codex-Updates und OpenAI-Wettlauf",
+      desc: "Schneller deutscher KI-News-Überblick: Google I/O, starke Codex-Neuerungen und der Wettbewerb zwischen Musk und OpenAI.",
     },
     tr: {
-      title: "TEST: Almanca KI video önerisi görünüyor",
-      desc: "Bu test, yeni kaynak havuzundan gelen Almanca YouTube önerilerinin blogda gösterilip gösterilmediğini kontrol eder.",
+      title: "Neulandpro: Google I/O, Codex güncellemeleri ve OpenAI yarışı",
+      desc: "Almanca hızlı KI haber özeti: Google I/O, güçlü Codex yenilikleri ve Musk ile OpenAI arasındaki rekabet.",
+    },
+  },
+  {
+    id: "digitale-profis-chatgpt-limit-ki-richtig-nutzen-2026-06-03",
+    date: "2026-06-03",
+    youtube: "byiFNsRsxzg",
+    lang: "de",
+    de: {
+      title: "Digitale Profis: ChatGPT-Limit erreicht? KI besser nutzen",
+      desc: "Praktischer Video-Tipp mit sieben Ansätzen, wie Chatbots und KI-Tools im Alltag effizienter genutzt werden können.",
+    },
+    tr: {
+      title: "Digitale Profis: ChatGPT limiti mi doldu? Yapay zekâyı daha doğru kullan",
+      desc: "Chatbotları ve KI/YZ araçlarını günlük kullanımda daha verimli kullanmak için yedi pratik yaklaşım.",
     },
   },
   {
