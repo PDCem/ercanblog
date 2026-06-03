@@ -442,6 +442,20 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
   {
+    id: "opus-48-minimax-m3-coding-preisvergleich",
+    date: "2026-06-03",
+    youtube: "-f3-WUw-jsQ",
+    lang: "de",
+    de: {
+      title: "Opus 4.8 & MiniMax M3: Der Preis-Unterschied beim Coden",
+      desc: "The Morpheus Tutorials vergleicht, wie stark sich KI-Coding-Modelle bei Leistung und Kosten unterscheiden – wichtig für alle, die Agenten produktiv einsetzen.",
+    },
+    tr: {
+      title: "Opus 4.8 ve MiniMax M3: Kodlamada fiyat farkı",
+      desc: "The Morpheus Tutorials, KI kodlama modellerinde performans ve maliyet farkını karşılaştırıyor – ajanları üretimde kullananlar için önemli bir bakış.",
+    },
+  },
+  {
     id: "ki-job-luege-claude-opus",
     date: "2026-06-03",
     youtube: "ui2418ZlUYM",
