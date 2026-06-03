@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ercan Blog — KI-News täglich</title>
+  <meta name="description" content="Täglich das Wichtigste aus der Welt der künstlichen Intelligenz: Agenten, Modelle, Forschung, Markt und Hardware.">
+  <meta property="og:title" content="Ercan Blog — KI-News täglich">
+  <meta property="og:description" content="Täglich das Wichtigste aus der Welt der künstlichen Intelligenz: Agenten, Modelle, Forschung, Markt und Hardware.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ercanblog.de">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ercan Blog — KI-News täglich">
+  <meta name="twitter:description" content="Täglich das Wichtigste aus der Welt der künstlichen Intelligenz: Agenten, Modelle, Forschung, Markt und Hardware.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="header-inner">
+        <a class="logo" href="#/" aria-label="Ercan Blog Startseite">
+          <span class="logo-mark">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#fff">
+                <rect x="13" y="10" width="4" height="20" rx="2"/>
+                <rect x="13" y="10" width="14" height="4" rx="2"/>
+                <rect x="13" y="18" width="10" height="4" rx="2"/>
+                <rect x="13" y="26" width="14" height="4" rx="2"/>
+                <circle cx="30" cy="10" r="2.5" fill="#93c5fd"/>
+              </g>
+            </svg>
+          </span>
+          <span class="logo-text">Ercan<b>Blog</b></span>
+        </a>
+
+        <nav class="nav" id="nav" aria-label="Kategorien"></nav>
+
+        <div class="tools">
+          <div class="search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            <input id="search-input" type="search" placeholder="Suchen…" aria-label="Beiträge durchsuchen" autocomplete="off">
+          </div>
+          <button class="lang-btn" id="lang-toggle" aria-label="Sprache wechseln" title="Sprache wechseln">
+            <span class="lang-de on">DE</span><span class="lang-sep">/</span><span class="lang-tr">TR</span>
+          </button>
+          <button class="icon-btn" id="theme-toggle" aria-label="Hell/Dunkel umschalten" title="Hell/Dunkel umschalten"></button>
+        </div>
+      </div>
+    </div>
+    <nav class="mobile-cats" id="mobile-cats" aria-label="Kategorien (mobil)"></nav>
+  </header>
+
+  <div id="app"></div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <p id="footer-note">© 2026 Ercan Blog — Regional. Digital. Vernetzt.</p>
+        <div class="footer-links" id="footer-links">
+          <a id="f-home" href="#/">Startseite</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <div style="padding:2rem;text-align:center;font-family:sans-serif">
+      <p>Ercan Blog benötigt JavaScript. Bitte aktiviere JavaScript in deinem Browser.</p>
+      <p>Ercan Blog, JavaScript gerektirir. Lütfen tarayıcınızda JavaScript'i etkinleştirin.</p>
+    </div>
+  </noscript>
+  <script src="posts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
