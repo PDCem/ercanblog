@@ -219,14 +219,16 @@ button { font-family: inherit; cursor: pointer; }
 /* ================= TIPS ================= */
 .tips-page { padding: var(--space-10) 0 var(--space-20); }
 .tips-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-8); margin-top: var(--space-8); }
-.tip-card { border: 1px solid var(--border); border-radius: var(--radius-xl); overflow: hidden; background: var(--surface); transition: border-color var(--dur-fast); }
+.tip-card { display: block; border: 1px solid var(--border); border-radius: var(--radius-xl); overflow: hidden; background: var(--surface); text-decoration: none; color: inherit; transition: border-color var(--dur-fast); }
 .tip-card:hover { border-color: var(--electric-500); }
 .tip-video { aspect-ratio: 16 / 9; background: var(--navy-950); }
 .tip-video iframe { width: 100%; height: 100%; display: block; }
 .tip-body { padding: var(--space-5); }
+.tip-body h1 { font-size: var(--fs-2xl); line-height: var(--lh-tight); margin: var(--space-3) 0 var(--space-3); color: var(--fg-strong); }
 .tip-body h3 { font-size: var(--fs-lg); margin: 0 0 var(--space-2); color: var(--fg-strong); }
 .tip-body p { margin: 0 0 var(--space-3); font-size: var(--fs-sm); color: var(--fg-muted); line-height: var(--lh-normal); }
 .tip-body .meta { font-size: var(--fs-xs); color: var(--fg-subtle); }
+.tip-card--single { max-width: 980px; margin: var(--space-6) auto 0; }
 @media (max-width: 600px) { .tips-grid { grid-template-columns: 1fr; } }
 
 /* ================= FOOTER ================= */

@@ -154,7 +154,7 @@
 
   function tipRowTpl(tip) {
     const c = tip[LANG] || tip.de;
-    return `<a class="post-row" href="#/tipps">
+    return `<a class="post-row" href="#/tipps/${encodeURIComponent(tip.id)}">
       <div class="post-thumb"><img src="https://img.youtube.com/vi/${tip.youtube}/maxresdefault.jpg" alt="" loading="lazy"></div>
       <div class="post-body">
         <span class="chip chip--tip">${esc(t("youtubeTip"))}</span>
@@ -274,18 +274,39 @@
     }
     const cards = visible.map((tip) => {
       const c = tip[LANG] || tip.de;
-      return `<div class="tip-card">
+      return `<a class="tip-card" href="#/tipps/${encodeURIComponent(tip.id)}">
         <div class="tip-video"><iframe src="https://www.youtube.com/embed/${tip.youtube}" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
         <div class="tip-body">
           <h3>${esc(c.title)}</h3>
           <p>${esc(c.desc)}</p>
           <span class="meta">${fmtDate(tip.date)}</span>
         </div>
-      </div>`;
+      </a>`;
     }).join("");
     return `<div class="wrap"><div class="tips-page">
       <div class="feed-head"><h1>${esc(t("tipsTitle"))}</h1><span class="count">${visible.length} ${esc(t("tips"))}</span></div>
       <div class="tips-grid">${cards}</div>
+    </div></div>`;
+  }
+
+  function renderTip(id) {
+    const tip = TIPS.find((x) => x.id === id && (!x.lang || x.lang === "all" || x.lang === LANG))
+      || TIPS.find((x) => x.id === id);
+    if (!tip) {
+      return `<div class="wrap"><div class="empty"><h2>${esc(t("notFoundTitle"))}</h2><p><a class="back-link" href="#/tipps">← ${esc(t("tipsTitle"))}</a></p></div></div>`;
+    }
+    const c = tip[LANG] || tip.de;
+    return `<div class="wrap"><div class="tips-page tip-detail-page">
+      <p><a class="back-link" href="#/tipps">← ${esc(t("tipsTitle"))}</a></p>
+      <div class="tip-card tip-card--single">
+        <div class="tip-video"><iframe src="https://www.youtube.com/embed/${tip.youtube}" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+        <div class="tip-body">
+          <span class="chip chip--tip">${esc(t("youtubeTip"))}</span>
+          <h1>${esc(c.title)}</h1>
+          <p>${esc(c.desc)}</p>
+          <span class="meta">${fmtDate(tip.date)}</span>
+        </div>
+      </div>
     </div></div>`;
   }
 
@@ -299,6 +320,7 @@
     if (parts[0] === "beitrag" && parts[1]) return { view: "article", id: decodeURIComponent(parts[1]) };
     if (parts[0] === "kategorie" && parts[1]) return { view: "category", catKey: parts[1] };
     if (parts[0] === "suche" && parts[1]) return { view: "search", q: decodeURIComponent(parts[1]) };
+    if (parts[0] === "tipps" && parts[1]) return { view: "tip", id: decodeURIComponent(parts[1]) };
     if (parts[0] === "tipps") return { view: "tips" };
     return { view: "home" };
   }
@@ -338,6 +360,11 @@
       window.scrollTo(0, 0);
     } else if (route.view === "tips") {
       app.innerHTML = renderTips();
+      syncNav("__tips__");
+      if (search) search.value = "";
+      window.scrollTo(0, 0);
+    } else if (route.view === "tip") {
+      app.innerHTML = renderTip(route.id);
       syncNav("__tips__");
       if (search) search.value = "";
       window.scrollTo(0, 0);
