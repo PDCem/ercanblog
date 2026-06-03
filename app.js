@@ -103,7 +103,7 @@
   const L = (p) => p[LANG] || p.de;
 
   // Sort newest first
-  const byDate = (a, b) => (a.date < b.date ? 1 : -1);
+  const byDate = (a, b) => (a.date === b.date ? 0 : (a.date < b.date ? 1 : -1));
   const allPosts = [...POSTS].sort(byDate);
 
   /* ---------- Markdown-lite -> HTML ---------- */

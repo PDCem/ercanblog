@@ -40,6 +40,296 @@ const CATEGORIES = [
 ];
 
 const POSTS = [
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "amazon-ki-produkte-shopping-2026-06-03",
+    cat: "business",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/google-agents.jpg",
+    featured: true,
+    views: 6120,
+    de: {
+      title: "Amazon-App zeigt KI-Produkte, die es so gar nicht gibt",
+      teaser: "heise berichtet über generative Shopping-Funktionen: Amazon zeigt KI-Collagen und Produktideen, die nicht zwingend eins zu eins bestellbar sind.",
+      body: `Amazon testet in seiner Shopping-App eine neue Form der Produktsuche: Generative KI erzeugt Bilder, Collagen und Produktvorschläge, die Nutzer schneller zu passenden Artikeln führen sollen. Laut heise können dabei aber Darstellungen entstehen, die es als konkretes Produkt gar nicht gibt.
+
+## Warum das wichtig ist
+
+Für E-Commerce ist das ein Signal: Suche wird weniger zu einer Liste von Treffern und mehr zu einer visuellen Beratung. Gleichzeitig wächst das Risiko, dass Nutzer zwischen realem Angebot und KI-Vorschlag nicht sauber unterscheiden können.
+
+- Quelle: heise online, 03.06.2026.
+- Thema: generative KI im Onlinehandel.
+- Risiko: schöne KI-Bilder können Erwartungen erzeugen, die der Katalog nicht erfüllt.
+
+## Ercans Einordnung
+
+> KI-Shopping kann hilfreich sein, braucht aber klare Kennzeichnung.
+
+Wenn Plattformen Produkte erfinden, um echte Angebote zu vermitteln, wird Transparenz entscheidend. Gute KI-Beratung zeigt nicht nur Inspiration, sondern auch Verfügbarkeit, Preis und klare Grenzen.`,
+    },
+    tr: {
+      title: "Amazon uygulaması gerçekte birebir bulunmayan YZ ürünleri gösteriyor",
+      teaser: "heise'ye göre Amazon, alışveriş uygulamasında üretken YZ ile kolajlar ve ürün fikirleri gösteriyor; bunlar her zaman birebir satın alınabilir ürünler olmayabiliyor.",
+      body: `Amazon, alışveriş uygulamasında yeni bir ürün arama biçimini test ediyor: Üretken yapay zekâ görseller, kolajlar ve ürün önerileri üreterek kullanıcıları benzer ürünlere yönlendirmeyi amaçlıyor. heise'nin haberine göre bu görseller her zaman katalogda birebir bulunan bir ürünü temsil etmeyebiliyor.
+
+## Neden önemli
+
+E-ticaret için bu güçlü bir sinyal: Arama artık yalnızca sonuç listesi değil, görsel bir danışmanlık deneyimine dönüşüyor. Aynı zamanda kullanıcıların gerçek ürün ile YZ önerisini karıştırma riski artıyor.
+
+- Kaynak: heise online, 03.06.2026.
+- Konu: online alışverişte üretken YZ.
+- Risk: güzel YZ görselleri katalogda karşılığı olmayan beklentiler yaratabilir.
+
+## Ercan'ın yorumu
+
+> YZ destekli alışveriş faydalı olabilir, ama net etiketleme şart.
+
+Platformlar gerçek ürünlere yönlendirmek için ürün fikri üretiyorsa şeffaflık belirleyici olur. İyi bir YZ danışmanı yalnızca ilham değil, stok, fiyat ve sınırları da açık gösterir.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "microsoft-mai-modelle-frontier-tuning-2026-06-03",
+    cat: "modelle",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/microsoft-build.jpg",
+    views: 5880,
+    de: {
+      title: "Microsoft startet eigene MAI-Modelloffensive",
+      teaser: "Microsoft baut mit MAI-Thinking-1 und weiteren Spezialmodellen seine eigene Modellfamilie aus – inklusive Frontier Tuning für Nutzerabläufe.",
+      body: `Microsoft schärft seine KI-Strategie: heise berichtet über die MAI-Modellfamilie, darunter das Reasoning-Modell MAI-Thinking-1 sowie spezialisierte Modelle für Bild, Code, Transkription und Stimme. Besonders spannend ist Frontier Tuning: KI soll stärker aus realen Arbeitsabläufen lernen.
+
+## Mehr Unabhängigkeit im Modellstack
+
+Microsoft ist weiter eng mit OpenAI verbunden, baut aber sichtbarer eigene Modellkompetenz auf. Das ist strategisch wichtig, weil Modelle, Betriebssystem, Cloud und Produktivitätstools immer stärker zusammenwachsen.
+
+- Quelle: heise online, 03.06.2026.
+- Thema: Microsoft MAI-Modelle und Frontier Tuning.
+- Kategorie: KI-Modelle und Plattformstrategie.
+
+## Ercans Einordnung
+
+> Wer die Oberfläche kontrolliert, will langfristig auch mehr vom Modell kontrollieren.
+
+Für Nutzer bedeutet das: KI-Funktionen werden tiefer in Windows, Office und Entwicklerwerkzeuge wandern. Für Unternehmen wird wichtig, welche Daten für Tuning genutzt werden und wie viel Kontrolle die IT behält.`,
+    },
+    tr: {
+      title: "Microsoft kendi MAI model atağını başlatıyor",
+      teaser: "Microsoft, MAI-Thinking-1 ve farklı uzman modellerle kendi model ailesini büyütüyor; Frontier Tuning ile kullanıcı iş akışlarından öğrenme hedefleniyor.",
+      body: `Microsoft yapay zekâ stratejisini keskinleştiriyor: heise, MAI model ailesini aktarıyor. Ailede MAI-Thinking-1 adlı akıl yürütme modeli ve görüntü, kod, transkripsiyon ve ses için uzman modeller yer alıyor. En dikkat çekici başlıklardan biri Frontier Tuning: YZ'nin gerçek iş akışlarından daha fazla öğrenmesi hedefleniyor.
+
+## Model katmanında daha fazla bağımsızlık
+
+Microsoft OpenAI ile yakın çalışmayı sürdürüyor, fakat kendi model yetkinliğini de daha görünür biçimde büyütüyor. Bu stratejik, çünkü modeller, işletim sistemi, bulut ve üretkenlik araçları giderek birleşiyor.
+
+- Kaynak: heise online, 03.06.2026.
+- Konu: Microsoft MAI modelleri ve Frontier Tuning.
+- Kategori: YZ modelleri ve platform stratejisi.
+
+## Ercan'ın yorumu
+
+> Arayüzü kontrol eden şirket, uzun vadede model üzerinde de daha fazla kontrol ister.
+
+Kullanıcılar için bu, YZ özelliklerinin Windows, Office ve geliştirici araçlarına daha derin girmesi demek. Şirketler için kritik soru ise hangi verilerin tuning için kullanılacağı ve BT ekiplerinin ne kadar kontrol sahibi olacağı.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "duckduckgo-ki-freie-suche-standard-2026-06-03",
+    cat: "sicherheit",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/eu-souveraenitaet.jpg",
+    views: 5460,
+    de: {
+      title: "DuckDuckGo macht KI-freie Suche zum Standard-Thema",
+      teaser: "heise meldet starkes Interesse an DuckDuckGos KI-freier Suche. Der Trend zeigt: Nicht jeder Nutzer will automatisch KI-Zusammenfassungen in der Suche.",
+      body: `Während viele Suchmaschinen KI-Antworten in den Vordergrund stellen, geht DuckDuckGo den Gegenweg sichtbar mit: Eine KI-freie Suche wird laut heise stark nachgefragt und kann als Standard genutzt werden. Das ist weniger Anti-KI als ein Wunsch nach Wahlfreiheit.
+
+## Warum das relevant ist
+
+KI-Zusammenfassungen sparen Zeit, können aber Quellen verdecken, Fehler verstärken und Webseiten Traffic entziehen. Eine abschaltbare KI-Ebene macht Suche transparenter und gibt Nutzern mehr Kontrolle.
+
+- Quelle: heise online, 03.06.2026.
+- Thema: Suche, Datenschutz, KI-Overviews.
+- Signal: Nutzer wollen selbst entscheiden, wann KI dazwischensteht.
+
+## Ercans Einordnung
+
+> Gute KI ist optional stark, nicht zwangsweise überall.
+
+Für den Alltag heißt das: KI-Suche bleibt nützlich, aber klassische Ergebnislisten behalten ihren Wert. Besonders bei Recherche, Gesundheit, Recht und Technik ist Quellenkontrolle wichtiger als eine schnelle Zusammenfassung.`,
+    },
+    tr: {
+      title: "DuckDuckGo, YZ'siz aramayı standart seçenek haline getiriyor",
+      teaser: "heise, DuckDuckGo'nun YZ'siz aramasına büyük ilgi olduğunu yazıyor. Trend net: Her kullanıcı arama sonuçlarında otomatik YZ özetleri istemiyor.",
+      body: `Birçok arama motoru YZ cevaplarını öne çıkarırken DuckDuckGo ters yönde görünür bir adım atıyor: heise'ye göre YZ'siz arama yoğun ilgi görüyor ve standart olarak kullanılabiliyor. Bu YZ karşıtlığından çok seçim özgürlüğü talebi.
+
+## Neden önemli
+
+YZ özetleri zaman kazandırabilir, fakat kaynakları görünmez kılabilir, hataları büyütebilir ve web sitelerinin trafiğini azaltabilir. Kapatılabilir bir YZ katmanı aramayı daha şeffaf hale getirir.
+
+- Kaynak: heise online, 03.06.2026.
+- Konu: arama, gizlilik, YZ özetleri.
+- Sinyal: Kullanıcılar YZ'nin ne zaman araya gireceğine kendileri karar vermek istiyor.
+
+## Ercan'ın yorumu
+
+> İyi YZ güçlü bir seçenek olmalı, her yere zorla yerleşmemeli.
+
+Günlük kullanımda YZ arama faydalı kalır, ama klasik sonuç listelerinin değeri sürer. Özellikle araştırma, sağlık, hukuk ve teknik konularda kaynak kontrolü hızlı özetten daha önemlidir.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "abd-en-yeni-ai-modellerine-erken-erisim-2026-06-03",
+    cat: "sicherheit",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/ki-energie.jpg",
+    views: 5310,
+    de: {
+      title: "USA wollen frühe Einblicke in neueste KI-Modelle bekommen",
+      teaser: "DonanımHaber berichtet über eine neue US-Verordnung: Fortgeschrittene KI-Modelle können vor Veröffentlichung freiwillig mit Bundesbehörden geteilt werden.",
+      body: `Aus dem türkischen Quellenpool kommt heute eine wichtige Regulierungs- und Sicherheitsmeldung: DonanımHaber berichtet, dass die USA mit einer neuen Verordnung frühe Einblicke in fortgeschrittene KI-Modelle ermöglichen wollen. Es geht nicht um eine klassische Lizenzpflicht, sondern um freiwilliges Teilen vor der öffentlichen Veröffentlichung.
+
+## Sicherheitslogik statt harter Zulassung
+
+Die Idee dahinter: Behörden sollen Risiken früher erkennen können, ohne sofort ein starres Genehmigungssystem einzuführen. Zusätzlich ist ein KI-fokussiertes Cybersecurity-Zentrum vorgesehen.
+
+- Quelle: DonanımHaber, 03.06.2026.
+- Thema: KI-Regulierung und Cybersicherheit.
+- Bedeutung: Staaten suchen nach Kontrolle, ohne Innovation komplett zu bremsen.
+
+## Ercans Einordnung
+
+> Bei Frontier-Modellen wird Sicherheit zunehmend vor dem Launch verhandelt.
+
+Für Anbieter kann das Vertrauen schaffen, aber auch politischen Druck erhöhen. Entscheidend wird, ob freiwillige Prüfungen echte Transparenz bringen oder nur symbolische Compliance bleiben.`,
+    },
+    tr: {
+      title: "ABD, en yeni YZ modellerine erken erişim sağlamayı hedefliyor",
+      teaser: "DonanımHaber'e göre yeni kararnameyle gelişmiş YZ modelleri kamuya açılmadan önce gönüllü olarak federal kurumlarla paylaşılabilecek.",
+      body: `Türkçe kaynak havuzundan bugün önemli bir regülasyon ve güvenlik haberi geliyor: DonanımHaber, ABD'nin yeni bir kararnameyle gelişmiş YZ modellerine erken erişim sağlamayı hedeflediğini aktarıyor. Burada klasik bir lisans zorunluluğu değil, kamuya açılmadan önce gönüllü paylaşım modeli öne çıkıyor.
+
+## Sert izin yerine güvenlik mantığı
+
+Amaç, kurumların riskleri daha erken görebilmesi; bunu yaparken inovasyonu tamamen yavaşlatacak katı bir onay sistemi kurmamak. Ayrıca YZ odaklı bir siber güvenlik merkezi de gündemde.
+
+- Kaynak: DonanımHaber, 03.06.2026.
+- Konu: YZ regülasyonu ve siber güvenlik.
+- Anlamı: Devletler inovasyonu durdurmadan kontrol arıyor.
+
+## Ercan'ın yorumu
+
+> Frontier modellerde güvenlik artık lansmandan önce konuşuluyor.
+
+Sağlayıcılar için bu güven oluşturabilir, ama politik baskıyı da artırabilir. Kritik soru, gönüllü incelemelerin gerçek şeffaflık mı yoksa sembolik uyum mu sağlayacağı.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "anthropic-halka-arz-yolunda-2026-06-03",
+    cat: "business",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/softbank-rz.jpg",
+    views: 5140,
+    de: {
+      title: "Anthropic bereitet offenbar den Weg an die Börse vor",
+      teaser: "TechInside meldet: Anthropic arbeitet vertraulich an einem IPO. Der Schritt wäre ein wichtiger Test für die Bewertung großer KI-Unternehmen.",
+      body: `TechInside berichtet aus dem türkischen Quellenpool, dass Anthropic in den USA vertraulich einen Börsengang vorbereitet. Damit würde eines der wichtigsten KI-Unternehmen den nächsten Schritt Richtung Kapitalmarkt machen.
+
+## Warum der IPO wichtig wäre
+
+Anthropic steht mit Claude im direkten Wettbewerb mit OpenAI, Google und anderen Modellanbietern. Ein Börsengang würde zeigen, wie öffentliche Märkte Umsatz, Rechenkosten, Wachstum und Risiko großer KI-Firmen bewerten.
+
+- Quelle: TechInside, 03.06.2026.
+- Thema: KI-Wirtschaft und Kapitalmarkt.
+- Signal: Der KI-Boom muss sich zunehmend auch in belastbaren Geschäftsmodellen zeigen.
+
+## Ercans Einordnung
+
+> Die nächste KI-Phase wird nicht nur technisch, sondern finanziell geprüft.
+
+Für Investoren geht es um mehr als Hype: Kundenbindung, Infrastrukturkosten, Margen und Regulierung werden entscheidend. Für Nutzer kann ein IPO mehr Stabilität bringen, aber auch stärkeren Druck zur Monetarisierung.`,
+    },
+    tr: {
+      title: "Anthropic halka arz yolunda ilerliyor",
+      teaser: "TechInside'a göre Anthropic ABD'de gizli şekilde halka arz hazırlığı yapıyor. Bu adım büyük YZ şirketlerinin piyasa değerlemesi için önemli bir test olabilir.",
+      body: `Türkçe kaynak havuzundan TechInside, Anthropic'in ABD'de gizli şekilde halka arz hazırlığı yaptığını aktarıyor. Böylece en önemli YZ şirketlerinden biri sermaye piyasasına doğru yeni bir adım atmış olacak.
+
+## IPO neden önemli
+
+Anthropic, Claude ile OpenAI, Google ve diğer model sağlayıcılarıyla doğrudan rekabet ediyor. Halka arz, kamu piyasalarının büyük YZ şirketlerinde gelir, hesaplama maliyeti, büyüme ve riski nasıl fiyatlayacağını gösterebilir.
+
+- Kaynak: TechInside, 03.06.2026.
+- Konu: YZ ekonomisi ve sermaye piyasası.
+- Sinyal: YZ patlaması artık sağlam iş modelleriyle de sınanacak.
+
+## Ercan'ın yorumu
+
+> YZ'nin bir sonraki aşaması yalnızca teknik değil, finansal olarak da test edilecek.
+
+Yatırımcılar için konu hype'tan ibaret değil: müşteri bağlılığı, altyapı maliyetleri, marjlar ve regülasyon belirleyici olacak. Kullanıcılar için halka arz daha fazla istikrar getirebilir, ama daha güçlü gelir baskısı da yaratabilir.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "invisix-20-milyon-euro-yatirim-2026-06-03",
+    cat: "forschung",
+    author: "Ercan Yıldız",
+    date: "2026-06-03",
+    image: "images/qualcomm-chips.jpg",
+    views: 4930,
+    de: {
+      title: "KI-Startup Invisix erhält 20 Millionen Euro für Chip-Metrologie",
+      teaser: "Webrazzi berichtet über eine Seed-Runde für Invisix: Das Startup verbindet KI mit Soft-X-ray-Metrologie für fortgeschrittene Chipfertigung.",
+      body: `Webrazzi meldet eine 20-Millionen-Euro-Finanzierung für Invisix. Das niederländische Startup arbeitet an Soft-X-ray-Metrologie für moderne Chipfertigung und verbindet damit KI, Sensorik und Halbleiterproduktion.
+
+## Warum das mehr als Startup-News ist
+
+Fortgeschrittene Chips brauchen extrem präzise Mess- und Kontrollsysteme. Wenn KI solche Produktionsschritte verbessert, wirkt sie nicht nur in Software, sondern direkt in der industriellen Grundlage neuer Rechenleistung.
+
+- Quelle: Webrazzi, 01.06.2026.
+- Thema: KI, Halbleiter, Investment.
+- Investoren laut Bericht: unter anderem Hitachi Ventures, Transition Ventures, imec.xpand und Doosan Investment.
+
+## Ercans Einordnung
+
+> Die KI-Zukunft hängt auch an Maschinen, die bessere Chips messbar machen.
+
+Für Europa ist das besonders interessant: Wer bei KI souveräner werden will, muss nicht nur Modelle bauen, sondern auch Mess-, Fertigungs- und Chipkompetenz stärken.`,
+    },
+    tr: {
+      title: "Yapay zeka girişimi Invisix, 20 milyon euro yatırım aldı",
+      teaser: "Webrazzi, Invisix'in 20 milyon euro seed yatırım aldığını yazıyor. Girişim, gelişmiş çip üretimi için YZ destekli soft X-ray metrolojiye odaklanıyor.",
+      body: `Webrazzi, Invisix'in 20 milyon euro yatırım aldığını aktarıyor. Hollanda merkezli girişim, gelişmiş çip üretimi için soft X-ray metroloji üzerinde çalışıyor ve YZ, sensör teknolojisi ile yarı iletken üretimini birleştiriyor.
+
+## Neden sadece startup haberi değil
+
+Gelişmiş çipler son derece hassas ölçüm ve kontrol sistemleri gerektirir. YZ bu üretim adımlarını iyileştirdiğinde yalnızca yazılımda değil, yeni hesaplama gücünün endüstriyel temelinde de etkili olur.
+
+- Kaynak: Webrazzi, 01.06.2026.
+- Konu: YZ, yarı iletkenler, yatırım.
+- Habere göre yatırımcılar arasında Hitachi Ventures, Transition Ventures, imec.xpand ve Doosan Investment bulunuyor.
+
+## Ercan'ın yorumu
+
+> YZ'nin geleceği, daha iyi çipleri ölçülebilir kılan makinelerden de geçiyor.
+
+Avrupa için bu özellikle önemli: YZ'de daha bağımsız olmak isteyenler yalnızca model değil, ölçüm, üretim ve çip yetkinliği de geliştirmeli.`,
+    },
+  },
+
   /* ---------------------------------------------------------- */
   {
     id: "ki-wurm-individuelle-angriffe-2026-06-03",
@@ -587,6 +877,62 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+  {
+    id: "everlast-ai-mainzer-ki-neuromorphe-chips-quantencomputer-2026-06-03",
+    date: "2026-06-03",
+    youtube: "3GCiIlEISqs",
+    lang: "de",
+    de: {
+      title: "Everlast AI: KI, neuromorphe Chips und Quantencomputer",
+      desc: "Ein Deep-Dive mit Prof. Dr. Klaus Mainzer über KI, Komplexität, neuromorphe Chips und Quantencomputer – ideal für den größeren technischen Kontext.",
+    },
+    tr: {
+      title: "Everlast AI: YZ, nöromorfik çipler ve kuantum bilgisayarlar",
+      desc: "Prof. Dr. Klaus Mainzer ile YZ, karmaşıklık, nöromorfik çipler ve kuantum bilgisayarlar üzerine derin bir sohbet.",
+    },
+  },
+  {
+    id: "everlast-ai-ki-lernen-2026-neustart-2026-06-03",
+    date: "2026-06-03",
+    youtube: "-CcUGCi1Y0c",
+    lang: "de",
+    de: {
+      title: "Everlast AI: Wie ich 2026 KI neu lernen würde",
+      desc: "Evergreen-Tipp für Einsteiger und Umsteiger: Begriffe, Prompting, Automatisierung und KI-Agenten in einem klaren Lernpfad.",
+    },
+    tr: {
+      title: "Everlast AI: 2026'da YZ'yi yeniden nasıl öğrenirdim?",
+      desc: "Yeni başlayanlar için kalıcı bir rehber: temel kavramlar, prompt yazımı, otomasyon ve YZ ajanları için net bir öğrenme yolu.",
+    },
+  },
+  {
+    id: "mesut-cevik-abonelik-tuzaklari-yapay-zeka-cagi-2026-06-03",
+    date: "2026-06-03",
+    youtube: "Fn59G1vmDog",
+    lang: "tr",
+    de: {
+      title: "Mesut Çevik: Software-Abos und KI-Zeitalter",
+      desc: "Mesut Çevik ordnet Besitz, Abo-Modelle, Vibe Coding und agentische KI aus Nutzer- und Business-Sicht ein.",
+    },
+    tr: {
+      title: "Mesut Çevik: Yazılımda abonelik tuzakları ve yapay zeka çağı",
+      desc: "Sahiplik, abonelik modelleri, vibe coding ve ajan tabanlı YZ'nin kullanıcı ve iş dünyası açısından ne değiştirdiğini anlatıyor.",
+    },
+  },
+  {
+    id: "yapay-zeka-postasi-microsoft-build-2026-otonom-bilgisayarlar-2026-06-03",
+    date: "2026-06-03",
+    youtube: "5cdlHoA9_vo",
+    lang: "tr",
+    de: {
+      title: "Yapay Zeka Postası: Microsoft Build 2026 und autonome Computer",
+      desc: "Türkischer Überblick zu Microsoft Build 2026, OpenAI Codex, autonomen Agenten und aktuellen KI-Regulierungsfragen.",
+    },
+    tr: {
+      title: "Yapay Zeka Postası: Microsoft Build 2026 ve otonom bilgisayarlar",
+      desc: "Microsoft Build 2026, OpenAI Codex, otonom ajanlar ve güncel YZ regülasyonu için derli toplu Türkçe gündem özeti.",
+    },
+  },
   {
     id: "neulandpro-krasse-ki-news-google-io-codex-2026-06-03",
     date: "2026-06-03",
