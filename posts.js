@@ -442,6 +442,20 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
   {
+    id: "minimax-m3-claude-opus-rakip",
+    date: "2026-06-03",
+    youtube: "PCjMw28_zAI",
+    lang: "tr",
+    de: {
+      title: "MiniMax M3: Offenes Coding-Modell als Claude-Opus-Rivale",
+      desc: "Ömer Göçmen ordnet das neue MiniMax M3 ein: ein ambitioniertes Open-Source-Modell für Coding, Automatisierung und agentische Workflows.",
+    },
+    tr: {
+      title: "Yeni MiniMax M3: Kodlamada Claude Opus'a rakip açık kaynak model",
+      desc: "Ömer Göçmen, MiniMax M3'ün kodlama, otomasyon ve ajan tabanlı iş akışlarında neden iddialı bir açık kaynak alternatif olduğunu anlatıyor.",
+    },
+  },
+  {
     id: "opus-48-minimax-m3-coding-preisvergleich",
     date: "2026-06-03",
     youtube: "-f3-WUw-jsQ",
