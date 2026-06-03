@@ -1,0 +1,131 @@
+name: KI-Agent – Täglicher Post
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: KI-Agent – Post generieren
+        id: agent
+        run: |
+          cat <<'PYEOF' > agent.py
+          import os, json, re, subprocess
+          from datetime import date
+          from urllib.request import urlopen, Request
+
+          # ---------- Konfiguration ----------
+          AI_API_KEY  = os.environ.get("AI_API_KEY", "")
+          AI_MODEL    = "claude-sonnet-4-20250514"
+          AI_API_URL  = "https://api.anthropic.com/v1/messages"
+
+          SOURCES = [
+            "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+            "https://www.heise.de/rss/heise-atom.xml",
+          ]
+          YOUTUBE_CHANNELS = [
+            "https://www.youtube.com/@e2z",
+          ]
+
+          # ---------- Quellen scrapen ----------
+          news_text = ""
+          for url in SOURCES:
+              try:
+                  req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                  data = urlopen(req, timeout=10).read()
+                  import xml.etree.ElementTree as ET
+                  root = ET.fromstring(data[:200000])
+                  ns = {"atom": "http://www.w3.org/2005/Atom",
+                        "rss": "http://purl.org/rss/1.0/"}
+                  for item in root.iter("item") if root.tag == "rss" else root.iter("{http://www.w3.org/2005/Atom}entry"):
+                      title = item.findtext("title", "") or item.findtext("{http://www.w3.org/2005/Atom}title", "")
+                      desc  = item.findtext("description", "") or item.findtext("{http://www.w3.org/2005/Atom}summary", "")
+                      news_text += f"- {title}: {desc[:300]}\n"
+              except:
+                  pass
+
+          # ---------- Prompt ----------
+          prompt = f"""Du bist Redakteur von 'Ercan Blog', einem zweisprachigen KI-News-Blog (DE/TR).
+Heute ist der {date.today().isoformat()}.
+
+Erstelle EINEN neuen Beitrag (JSON-Block) im Format:
+
+{{
+  id: "kurzer-slug",
+  cat: "agentic|modelle|sicherheit|business|forschung",
+  author: "Ercan Yıldız",
+  date: "{date.today().isoformat()}",
+  image: "images/platzhalter.jpg",
+  views: 0,
+  de: {{ title: "...", teaser: "...", body: "... (mit ##, >, - Formatierung)" }},
+  tr: {{ title: "...", teaser: "...", body: "..." }}
+}}
+
+Thema: Basierend auf diesen aktuellen Nachrichten + YouTube-Trends:
+
+{news_text}
+
+- Wähle das relevanteste Thema.
+- Schreibe sachlich, informativ (keine Werbung).
+- Body nutzt: Leerzeile=Absatz, ##=Überschrift, >=Zitat, -=Liste.
+- Liefere NUR den JSON-Block (kein Drumherum).
+"""
+
+          # ---------- API Call ----------
+          if AI_API_KEY.startswith("sk-ant-"):
+              payload = json.dumps({
+                  "model": AI_MODEL,
+                  "max_tokens": 4000,
+                  "messages": [{"role": "user", "content": prompt}]
+              }).encode()
+              req = Request(AI_API_URL, data=payload,
+                            headers={"x-api-key": AI_API_KEY,
+                                     "anthropic-version": "2023-06-01",
+                                     "content-type": "application/json"})
+              resp = urlopen(req, timeout=60).read()
+              reply = json.loads(resp)["content"][0]["text"]
+          else:
+              reply = '{{"id":"example-{0}","cat":"agentic","author":"KI-Agent","date":"{0}","image":"images/platzhalter.jpg","views":0,"de":{{"title":"(Platzhalter – AI_API_KEY fehlt)","teaser":"Setze AI_API_KEY als Repository Secret.","body":"## Demo\\n\\nDies ist ein Platzhalter."}},"tr":{{"title":"(Yer tutucu – AI_API_KEY eksik)","teaser":"AI_API_KEY deposu secret olarak ayarlayın.","body":"## Demo\\n\\nBu bir yer tutucudur."}}}}'.format(date.today().isoformat())
+
+          # ---------- Block parsen & einfügen ----------
+          block = reply.strip()
+          if block.startswith("```"):
+              block = block.split("```")[1]
+              if block.startswith("json"):
+                  block = block[4:]
+
+          with open("posts.js", "r") as f:
+              content = f.read()
+
+          # Block vor dem Kommentar "/* ---------- Video-Tipps ---------- */" oder ans Ende
+          insert_before = "/* ---------- Video-Tipps ---------- */"
+          if insert_before in content:
+              content = content.replace(insert_before, block.strip() + ",\n\n" + insert_before)
+          else:
+              # ans Ende vor window exports
+              marker = "/* Für app.js verfügbar machen"
+              content = content.replace(marker, block.strip() + ",\n\n" + marker)
+
+          with open("posts.js", "w") as f:
+              f.write(content)
+
+          print("✅ Neuer Post eingefügt")
+          PYEOF
+
+          python3 agent.py
+
+      - name: Änderungen committen & pushen
+        run: |
+          git config user.name "Ercan Blog Agent"
+          git config user.email "agent@ercanblog.de"
+          git add -A
+          git diff --cached --quiet || git commit -m "🤖 Täglicher KI-Post ($(date +%Y-%m-%d))"
+          git push
