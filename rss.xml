@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ercan Blog — KI-News täglich</title>
+    <link>https://ercanblog.vercel.app/</link>
+    <description>Täglich das Wichtigste aus der Welt der künstlichen Intelligenz: Agenten, Modelle, Forschung, Markt und Hardware.</description>
+    <language>de</language>
+    <atom:link href="https://ercanblog.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Amazon-App zeigt KI-Produkte, die es so gar nicht gibt</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/amazon-ki-produkte-shopping-2026-06-03</link>
+      <description>heise berichtet über generative Shopping-Funktionen: Amazon zeigt KI-Collagen und Produktideen, die nicht zwingend eins zu eins bestellbar sind.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/amazon-ki-produkte-shopping-2026-06-03</guid>
+    </item>
+    <item>
+      <title>Microsoft startet eigene MAI-Modelloffensive</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/microsoft-mai-modelle-frontier-tuning-2026-06-03</link>
+      <description>Microsoft baut mit MAI-Thinking-1 und weiteren Spezialmodellen seine eigene Modellfamilie aus – inklusive Frontier Tuning für Nutzerabläufe.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/microsoft-mai-modelle-frontier-tuning-2026-06-03</guid>
+    </item>
+    <item>
+      <title>DuckDuckGo macht KI-freie Suche zum Standard-Thema</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/duckduckgo-ki-freie-suche-standard-2026-06-03</link>
+      <description>heise meldet starkes Interesse an DuckDuckGos KI-freier Suche. Der Trend zeigt: Nicht jeder Nutzer will automatisch KI-Zusammenfassungen in der Suche.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/duckduckgo-ki-freie-suche-standard-2026-06-03</guid>
+    </item>
+    <item>
+      <title>USA wollen frühe Einblicke in neueste KI-Modelle bekommen</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/abd-en-yeni-ai-modellerine-erken-erisim-2026-06-03</link>
+      <description>DonanımHaber berichtet über eine neue US-Verordnung: Fortgeschrittene KI-Modelle können vor Veröffentlichung freiwillig mit Bundesbehörden geteilt werden.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/abd-en-yeni-ai-modellerine-erken-erisim-2026-06-03</guid>
+    </item>
+    <item>
+      <title>Anthropic bereitet offenbar den Weg an die Börse vor</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/anthropic-halka-arz-yolunda-2026-06-03</link>
+      <description>TechInside meldet: Anthropic arbeitet vertraulich an einem IPO. Der Schritt wäre ein wichtiger Test für die Bewertung großer KI-Unternehmen.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/anthropic-halka-arz-yolunda-2026-06-03</guid>
+    </item>
+    <item>
+      <title>KI-Startup Invisix erhält 20 Millionen Euro für Chip-Metrologie</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/invisix-20-milyon-euro-yatirim-2026-06-03</link>
+      <description>Webrazzi berichtet über eine Seed-Runde für Invisix: Das Startup verbindet KI mit Soft-X-ray-Metrologie für fortgeschrittene Chipfertigung.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/invisix-20-milyon-euro-yatirim-2026-06-03</guid>
+    </item>
+    <item>
+      <title>Forschende zeigen KI-Wurm mit eigener Angriffsstrategie</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/ki-wurm-individuelle-angriffe-2026-06-03</link>
+      <description>Ein Bericht von t3n beschreibt einen Computerwurm, der mithilfe eingebauter KI für jedes Ziel eine neue Vorgehensweise entwickeln kann.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/ki-wurm-individuelle-angriffe-2026-06-03</guid>
+    </item>
+    <item>
+      <title>DeepSeek V4 soll auf Huawei Ascend 950 optimiert werden</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/deepseek-v4-huawei-ascend-nvidia-abkehr-2026-06-03</link>
+      <description>BigData-Insider berichtet: DeepSeek V4 unterstützt Huaweis Ascend 950. Das Signal ist klar – China will bei KI-Chips unabhängiger von Nvidia werden.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/deepseek-v4-huawei-ascend-nvidia-abkehr-2026-06-03</guid>
+    </item>
+    <item>
+      <title>Microsofts Agent Optimizer soll KI-Agenten automatisch verbessern</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/microsoft-agent-optimizer-repariert-agenten-2026-06-03</link>
+      <description>All-AI.de berichtet über Microsofts Agent Optimizer: Statt Agenten manuell zu testen, sucht das System automatisch nach besseren Konfigurationen.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/microsoft-agent-optimizer-repariert-agenten-2026-06-03</guid>
+    </item>
+    <item>
+      <title>Microsoft macht Windows zur Plattform für KI-Agenten</title>
+      <link>https://ercanblog.vercel.app/#/beitrag/microsoft-build-2026-windows-agenten</link>
+      <description>Auf der Build 2026 hat Microsoft Werkzeuge vorgestellt, mit denen autonome KI-Agenten direkt im Betriebssystem laufen – abgeschottet, teils lokal auf dem Gerät und unter zentraler Kontrolle der IT.</description>
+      <pubDate>03 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://ercanblog.vercel.app/#/beitrag/microsoft-build-2026-windows-agenten</guid>
+    </item>
+  </channel>
+</rss>

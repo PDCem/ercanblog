@@ -80,6 +80,49 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
+  /* ---------- Meta-Tags dynamisch aktualisieren ---------- */
+  function setMeta(name, content) {
+    const attr = name.startsWith("og:") ? "property" : "name";
+    let el = document.querySelector(`meta[${attr}="${name.replace(/["\\]/g, "")}"]`);
+    if (!el) {
+      el = document.createElement("meta");
+      el.setAttribute(attr, name);
+      document.head.appendChild(el);
+    }
+    el.setAttribute("content", content || "");
+  }
+
+  function setLink(rel, href) {
+    let el = document.querySelector(`link[rel="${rel}"]`);
+    if (el) el.setAttribute("href", href || "");
+  }
+
+  function setJsonLd(data) {
+    let el = document.getElementById("json-ld-post");
+    if (!el) {
+      el = document.createElement("script");
+      el.id = "json-ld-post";
+      el.type = "application/ld+json";
+      document.head.appendChild(el);
+    }
+    el.textContent = JSON.stringify(data, null, 2);
+  }
+
+  function updateMeta(opts = {}) {
+    const title = opts.title || "Ercan Blog \u2014 KI-News täglich";
+    const desc = opts.description || "Täglich das Wichtigste aus der Welt der künstlichen Intelligenz: Agenten, Modelle, Forschung, Markt und Hardware.";
+    const url = opts.url || "https://ercanblog.vercel.app/";
+    document.title = title;
+    setMeta("description", desc);
+    setMeta("og:title", title);
+    setMeta("og:description", desc);
+    setMeta("og:url", url);
+    setMeta("twitter:title", title);
+    setMeta("twitter:description", desc);
+    setLink("canonical", url);
+    if (opts.jsonLd) setJsonLd(opts.jsonLd);
+  }
+
   const CATEGORY_REDIRECT = { llm: "modelle", hardware: "forschung" };
   const catObj = (key) => CATEGORIES.find((c) => c.key === key);
   const catLabel = (key) => { const c = catObj(key); return c ? c[LANG] : key; };
@@ -240,9 +283,29 @@
 
   function renderArticle(id) {
     const p = POSTS.find((x) => x.id === id);
-    if (!p) return `<div class="wrap"><div class="empty"><h2>${esc(t("notFoundTitle"))}</h2><p><a class="back-link" href="#/">← ${esc(t("back"))}</a></p></div></div>`;
+    if (!p) {
+      updateMeta({ title: "Beitrag nicht gefunden — Ercan Blog" });
+      return `<div class="wrap"><div class="empty"><h2>${esc(t("notFoundTitle"))}</h2><p><a class="back-link" href="#/">← ${esc(t("back"))}</a></p></div></div>`;
+    }
 
     const c = L(p);
+    updateMeta({
+      title: esc(c.title) + " — Ercan Blog",
+      description: esc(c.teaser),
+      url: "https://ercanblog.vercel.app/#/beitrag/" + encodeURIComponent(p.id),
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": c.title,
+        "description": c.teaser,
+        "datePublished": p.date,
+        "author": { "@type": "Person", "name": p.author },
+        "image": "https://ercanblog.vercel.app/" + p.image,
+        "url": "https://ercanblog.vercel.app/#/beitrag/" + encodeURIComponent(p.id),
+        "inLanguage": LANG,
+        "isPartOf": { "@type": "WebSite", "name": "Ercan Blog", "url": "https://ercanblog.vercel.app/" }
+      }
+    });
     const more = allPosts.filter((x) => x.cat === p.cat && x.id !== p.id).slice(0, 3);
     const moreHtml = more.length ? `
       <div class="more">
@@ -353,6 +416,9 @@
       if (search) search.value = "";
       window.scrollTo(0, 0);
     } else if (route.view === "category") {
+      if (!catObj(route.catKey) && !CATEGORY_REDIRECT[route.catKey]) {
+        updateMeta({ title: "Kategorie nicht gefunden — Ercan Blog" });
+      }
       const redirect = CATEGORY_REDIRECT[route.catKey];
       if (redirect) {
         location.hash = "#/kategorie/" + redirect;
@@ -369,25 +435,42 @@
       syncNav(route.catKey);
       if (search) search.value = "";
       window.scrollTo(0, 0);
+      updateMeta({
+        title: catLabel(route.catKey) + " — Ercan Blog",
+        url: "https://ercanblog.vercel.app/#/kategorie/" + route.catKey
+      });
     } else if (route.view === "tips") {
       app.innerHTML = renderTips();
       syncNav("__tips__");
       if (search) search.value = "";
       window.scrollTo(0, 0);
+      updateMeta({ title: "Video-Tipps — Ercan Blog", url: "https://ercanblog.vercel.app/#/tipps" });
     } else if (route.view === "tip") {
       app.innerHTML = renderTip(route.id);
       syncNav("__tips__");
       if (search) search.value = "";
       window.scrollTo(0, 0);
+      const tip = TIPS.find((x) => x.id === route.id);
+      const tc = tip && (tip[LANG] || tip.de);
+      if (tc) updateMeta({
+        title: esc(tc.title) + " — Ercan Blog",
+        description: esc(tc.desc),
+        url: "https://ercanblog.vercel.app/#/tipps/" + encodeURIComponent(route.id)
+      });
     } else if (route.view === "search") {
       app.innerHTML = renderHome({ query: route.q });
       syncNav("__all__");
       if (search && document.activeElement !== search) search.value = route.q;
+      updateMeta({
+        title: "Suche: " + route.q + " — Ercan Blog",
+        url: "https://ercanblog.vercel.app/#/suche/" + encodeURIComponent(route.q)
+      });
     } else {
       app.innerHTML = renderHome({});
       syncNav("__all__");
       if (search) search.value = "";
       window.scrollTo(0, 0);
+      updateMeta({});
     }
   }
 
