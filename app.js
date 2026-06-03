@@ -36,6 +36,9 @@
       youtubeTip: "YouTube Tipp",
       tipsTitle: "Video-Tipps",
       tipsEmpty: "Noch keine Tipps. Schau bald wieder vorbei.",
+      videoContextTitle: "Kurz eingeordnet",
+      videoContextText: "Warum anschauen? Dieses Video ist als Tages-Tipp ausgewählt, weil es ein aktuelles KI-Thema verständlich macht und dir schnell zeigt, welche Tools, Modelle oder Entwicklungen gerade wichtig sind.",
+      videoContextTakeaway: "Ercans Hinweis: Schau besonders auf die praktischen Beispiele und überlege, welche Idee du direkt in deinen eigenen Workflow übernehmen kannst.",
     },
     tr: {
       all: "Tümü",
@@ -61,6 +64,9 @@
       youtubeTip: "YouTube İpucu",
       tipsTitle: "Video İpuçları",
       tipsEmpty: "Henüz ipucu yok. Daha sonra tekrar uğra.",
+      videoContextTitle: "Kısa değerlendirme",
+      videoContextText: "Neden izlemeli? Bu video günün önerisi olarak seçildi, çünkü güncel bir yapay zekâ konusunu anlaşılır hale getiriyor ve hangi araçların, modellerin ya da gelişmelerin önemli olduğunu hızlıca gösteriyor.",
+      videoContextTakeaway: "Ercan'ın notu: Özellikle pratik örneklere bak ve hangi fikri kendi iş akışına hemen taşıyabileceğini düşün.",
     },
   };
 
@@ -307,6 +313,11 @@
           <span class="meta">${fmtDate(tip.date)}</span>
         </div>
       </div>
+      <section class="tip-context" aria-labelledby="tip-context-title">
+        <h2 id="tip-context-title">${esc(t("videoContextTitle"))}</h2>
+        <p>${esc(t("videoContextText"))}</p>
+        <p>${esc(t("videoContextTakeaway"))}</p>
+      </section>
     </div></div>`;
   }
 
