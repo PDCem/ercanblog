@@ -1,3 +1,7 @@
+# DISABLED intentionally.
+# Grund: ErcanBlog-Posts sollen manuell/reviewed erstellt werden, nicht automatisch per GitHub Actions.
+# Alte Runs scheiterten außerdem mit YAML-Syntaxfehler um Zeile 57.
+
 name: KI-Agent – Täglicher Post
 
 on:
