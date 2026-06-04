@@ -47,7 +47,7 @@ const POSTS = [
     cat: "sicherheit",
     author: "Ercan Yıldız",
     date: "2026-06-04",
-    image: "images/ki-energie.jpg",
+    image: "images/2026-06-04-ki-recruiting-cv.jpg",
     featured: true,
     views: 6420,
     de: {
@@ -96,7 +96,7 @@ Unternehmen sollten Chatbots hier nicht als neutrale Richter einsetzen. Sinnvoll
     cat: "sicherheit",
     author: "Ercan Yıldız",
     date: "2026-06-04",
-    image: "images/github-copilot.jpg",
+    image: "images/2026-06-04-ki-wurm-malware-laptop.jpg",
     views: 6190,
     de: {
       title: "Forschende zeigen KI-Wurm mit wechselnder Angriffsstrategie",
@@ -144,7 +144,7 @@ Bu yalnızca kötü amaçlı yazılım araştırması değil. Otonom sistemler s
     cat: "business",
     author: "Ercan Yıldız",
     date: "2026-06-04",
-    image: "images/google-agents.jpg",
+    image: "images/2026-06-04-alphabet-data-center.jpg",
     views: 6040,
     de: {
       title: "Alphabet sucht 80 Milliarden Dollar für KI-Ziele",
@@ -192,7 +192,7 @@ Kullanıcılar için bu daha iyi ürünler anlamına gelebilir, ama platform ba�
     cat: "business",
     author: "Ercan Yıldız",
     date: "2026-06-04",
-    image: "images/google-agents.jpg",
+    image: "images/2026-06-04-suno-music-studio.jpg",
     views: 5920,
     de: {
       title: "Suno erhält 400 Millionen Dollar bei 5,4 Milliarden Bewertung",
@@ -240,7 +240,7 @@ Belirleyici konu; eğitim verisi, haklar, etiketleme ve gelir paylaşımının n
     cat: "agentic",
     author: "Ercan Yıldız",
     date: "2026-06-04",
-    image: "images/microsoft-agent365.jpg",
+    image: "images/2026-06-04-meta-enterprise-agents.jpg",
     views: 5750,
     de: {
       title: "Meta bringt KI-Agenten stärker in Unternehmensprozesse",
@@ -288,7 +288,7 @@ Wichtig wird, dass Unternehmen nicht einfach alles automatisieren. Gute Agenten 
     cat: "business",
     author: "Ercan Yıldız",
     date: "2026-06-04",
-    image: "images/eu-souveraenitaet.jpg",
+    image: "images/2026-06-04-eu-cloud-data-center.jpg",
     views: 5610,
     de: {
       title: "EU plant Paket für souveräne Chips, Cloud und KI",
@@ -336,7 +336,7 @@ Egemen YZ yalnızca yerli model demek değil. Veri merkezleri, veri alanları, �
     cat: "business",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/google-agents.jpg",
+    image: "images/2026-06-03-amazon-shopping-locker-hijo.jpg",
     featured: true,
     views: 6120,
     de: {
@@ -385,7 +385,7 @@ Platformlar gerçek ürünlere yönlendirmek için ürün fikri üretiyorsa şef
     cat: "modelle",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/microsoft-build.jpg",
+    image: "images/2026-06-03-microsoft-mai-modelle.jpg",
     views: 5880,
     de: {
       title: "Microsoft startet eigene MAI-Modelloffensive",
@@ -433,7 +433,7 @@ Kullanıcılar için bu, YZ özelliklerinin Windows, Office ve geliştirici ara�
     cat: "sicherheit",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/eu-souveraenitaet.jpg",
+    image: "images/2026-06-03-duckduckgo-search.jpg",
     views: 5460,
     de: {
       title: "DuckDuckGo macht KI-freie Suche zum Standard-Thema",
@@ -481,7 +481,7 @@ Günlük kullanımda YZ arama faydalı kalır, ama klasik sonuç listelerinin de
     cat: "sicherheit",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/ki-energie.jpg",
+    image: "images/2026-06-03-us-ai-model-access.jpg",
     views: 5310,
     de: {
       title: "USA wollen frühe Einblicke in neueste KI-Modelle bekommen",
@@ -529,7 +529,7 @@ Sağlayıcılar için bu güven oluşturabilir, ama politik baskıyı da artıra
     cat: "business",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/softbank-rz.jpg",
+    image: "images/2026-06-03-anthropic-ipo-exchange.jpg",
     views: 5140,
     de: {
       title: "Anthropic bereitet offenbar den Weg an die Börse vor",
@@ -577,7 +577,7 @@ Yatırımcılar için konu hype'tan ibaret değil: müşteri bağlılığı, alt
     cat: "forschung",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/qualcomm-chips.jpg",
+    image: "images/2026-06-03-invisix-chip-metrology.jpg",
     views: 4930,
     de: {
       title: "KI-Startup Invisix erhält 20 Millionen Euro für Chip-Metrologie",
@@ -625,7 +625,7 @@ Avrupa için bu özellikle önemli: YZ'de daha bağımsız olmak isteyenler yaln
     cat: "sicherheit",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/google-agents.jpg",
+    image: "images/2026-06-03-ki-wurm-cybersecurity-keyboard.jpg",
     featured: true,
     views: 5360,
     de: {
@@ -674,7 +674,7 @@ Klasik zararlı yazılımlar çoğu zaman sabit kalıplara dayanır. Bir YZ solu
     cat: "modelle",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/qualcomm-chips.jpg",
+    image: "images/2026-06-03-deepseek-huawei-wafer.jpg",
     views: 4210,
     de: {
       title: "DeepSeek V4 soll auf Huawei Ascend 950 optimiert werden",
@@ -722,7 +722,7 @@ Avrupalı şirketler için bu bir uyarı: Bağımlılıklar yalnızca bulut sağ
     cat: "agentic",
     author: "Ercan Yıldız",
     date: "2026-06-03",
-    image: "images/microsoft-agent365.jpg",
+    image: "images/2026-06-03-microsoft-agent-optimizer-code.jpg",
     views: 3980,
     de: {
       title: "Microsofts Agent Optimizer soll KI-Agenten automatisch verbessern",
