@@ -566,11 +566,10 @@
       .concat(CATEGORIES.map((c) => ({ label: c[LANG], key: c.key })));
     const html = items.map((it) =>
       `<a data-cat="${it.key || "__all__"}" href="${it.key ? "#/kategorie/" + it.key : "#/"}">${esc(it.label)}</a>`).join("");
-    const newsLink = `<a href="#/news" data-cat="__news__">${esc(LANG === "de" ? "News" : "Haber")}</a>`;
     const tipsLink = `<a href="#/tipps" data-cat="__tips__">${esc(t("tips"))}</a>`;
     const archiveLink = `<a href="#/archiv" data-cat="__archive__">${esc(t("archive"))}</a>`;
-    if (nav) nav.innerHTML = html + newsLink + tipsLink + archiveLink;
-    if (mcats) mcats.innerHTML = html + newsLink + tipsLink + archiveLink;
+    if (nav) nav.innerHTML = html + tipsLink + archiveLink;
+    if (mcats) mcats.innerHTML = html + tipsLink + archiveLink;
   }
 
   /* ---------- Statische UI-Texte setzen ---------- */
@@ -590,7 +589,7 @@
     const fLinks = $("#footer-links");
     if (fLinks) {
       const cats = CATEGORIES.map((c) => `<a href="#/kategorie/${c.key}">${esc(c[LANG])}</a>`).join("");
-      fLinks.innerHTML = `<a id="f-home" href="#/">${esc(t("home"))}</a><a href="#/news">${esc(t("allNews"))}</a>${cats}<a href="#/tipps">${esc(t("tips"))}</a><a href="#/archiv">${esc(t("archive"))}</a>`;
+      fLinks.innerHTML = `<a id="f-home" href="#/">${esc(t("home"))}</a>${cats}<a href="#/tipps">${esc(t("tips"))}</a><a href="#/archiv">${esc(t("archive"))}</a>`;
     }
   }
 
