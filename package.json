@@ -1,0 +1,22 @@
+{
+  "name": "ercanblog",
+  "version": "1.0.0",
+  "description": "Täglich das Wichtigste aus der Welt der künstlichen Intelligenz",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linter configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "blog",
+    "ai",
+    "ki",
+    "news"
+  ],
+  "author": "Ercan Yıldız",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
