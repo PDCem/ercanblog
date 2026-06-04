@@ -24,6 +24,14 @@
       moreFrom: "Mehr aus",
       postsWord: "Beiträge",
       latest: "Aktuelle Beiträge",
+      latestNews: "Aktuelle KI-News",
+      latestVideos: "Video-Tipps des Tages",
+      allNews: "Mehr News",
+      allVideos: "Alle Video-Tipps",
+      archive: "Archiv",
+      page: "Seite",
+      newer: "Neuere",
+      older: "Ältere",
       searchLabel: "Suche",
       notFoundTitle: "Beitrag nicht gefunden",
       noResultsTitle: "Keine Beiträge gefunden",
@@ -52,6 +60,14 @@
       moreFrom: "Daha fazla:",
       postsWord: "yazı",
       latest: "Güncel yazılar",
+      latestNews: "Güncel YZ haberleri",
+      latestVideos: "Günün Video İpuçları",
+      allNews: "Daha fazla haber",
+      allVideos: "Tüm video ipuçları",
+      archive: "Arşiv",
+      page: "Sayfa",
+      newer: "Daha yeni",
+      older: "Daha eski",
       searchLabel: "Arama",
       notFoundTitle: "Yazı bulunamadı",
       noResultsTitle: "Yazı bulunamadı",
@@ -148,6 +164,10 @@
   // Sort newest first
   const byDate = (a, b) => (a.date === b.date ? 0 : (a.date < b.date ? 1 : -1));
   const allPosts = [...POSTS].sort(byDate);
+  const HOME_NEWS_LIMIT = 6;
+  const HOME_TIPS_LIMIT = 4;
+  const NEWS_PAGE_SIZE = 10;
+  const TIPS_PAGE_SIZE = 8;
 
   /* ---------- Markdown-lite -> HTML ---------- */
   function renderBody(text) {
@@ -201,17 +221,23 @@
     </a>`;
   }
 
-  function tipRowTpl(tip) {
+  function tipTeaserTpl(tip) {
     const c = tip[LANG] || tip.de;
-    return `<a class="post-row" href="#/tipps/${encodeURIComponent(tip.id)}">
-      <div class="post-thumb"><img src="https://img.youtube.com/vi/${tip.youtube}/maxresdefault.jpg" alt="" loading="lazy"></div>
-      <div class="post-body">
+    return `<a class="tip-teaser" href="#/tipps/${encodeURIComponent(tip.id)}">
+      <div class="tip-teaser-thumb"><img src="https://img.youtube.com/vi/${tip.youtube}/hqdefault.jpg" alt="" loading="lazy"></div>
+      <div class="tip-teaser-body">
         <span class="chip chip--tip">${esc(t("youtubeTip"))}</span>
-        <h2 class="post-row-title">${esc(c.title)}</h2>
-        <p>${esc(c.desc)}</p>
-        <div class="meta"><span>${fmtDate(tip.date)}</span></div>
+        <h3>${esc(c.title)}</h3>
+        <span class="meta">${fmtDate(tip.date)}</span>
       </div>
     </a>`;
+  }
+
+  function paginationTpl(baseHash, page, totalPages) {
+    if (totalPages <= 1) return "";
+    const prev = page > 1 ? `<a class="pager-btn" href="${baseHash}${page - 1 === 1 ? "" : "/seite/" + (page - 1)}">← ${esc(t("newer"))}</a>` : `<span class="pager-btn disabled">← ${esc(t("newer"))}</span>`;
+    const next = page < totalPages ? `<a class="pager-btn" href="${baseHash}/seite/${page + 1}">${esc(t("older"))} →</a>` : `<span class="pager-btn disabled">${esc(t("older"))} →</span>`;
+    return `<nav class="pagination" aria-label="${esc(t("page"))}">${prev}<span class="pager-count">${esc(t("page"))} ${page} / ${totalPages}</span>${next}</nav>`;
   }
 
   function sidebarTpl() {
@@ -257,26 +283,65 @@
     let mainInner = "";
     if (list.length === 0) {
       mainInner = `<div class="empty"><h2>${esc(t("noResultsTitle"))}</h2><p>${esc(t("noResultsHint"))}</p></div>`;
-    } else {
-      let rows = list;
-      let featuredHtml = "";
-      let tipsHtml = "";
-      if (!categoryKey && !query) {
-        const feat = allPosts.find((p) => p.featured) || allPosts[0];
-        featuredHtml = featuredTpl(feat);
-        rows = list.filter((p) => p.id !== feat.id);
-        tipsHtml = langTips().map(tipRowTpl).join("");
-      }
-      const total = list.length + (tipsHtml ? langTips().length : 0);
+    } else if (!categoryKey && !query) {
+      const feat = allPosts.find((p) => p.featured) || allPosts[0];
+      const newsRows = allPosts.filter((p) => p.id !== feat.id).slice(0, HOME_NEWS_LIMIT);
+      const tipRows = langTips().slice(0, HOME_TIPS_LIMIT);
       mainInner = `
-        ${featuredHtml}
-        ${tipsHtml ? `<div class="tips-in-feed">${tipsHtml}</div>` : ""}
-        <div class="feed-head"><h1>${esc(headTitle)}</h1><span class="count">${total} ${esc(t("postsWord"))}</span></div>
-        <div class="feed-list">${rows.map(rowTpl).join("")}</div>`;
+        ${featuredTpl(feat)}
+        <section class="home-section">
+          <div class="feed-head"><h1>${esc(t("latestNews"))}</h1><span class="count">${Math.min(newsRows.length + 1, allPosts.length)} ${esc(t("postsWord"))}</span></div>
+          <div class="feed-list">${newsRows.map(rowTpl).join("")}</div>
+          <div class="section-actions"><a class="section-link" href="#/news">${esc(t("allNews"))} →</a><a class="section-link muted" href="#/archiv">${esc(t("archive"))} →</a></div>
+        </section>
+        ${tipRows.length ? `<section class="home-section video-section">
+          <div class="feed-head"><h1>${esc(t("latestVideos"))}</h1><span class="count">${tipRows.length} ${esc(t("tips"))}</span></div>
+          <div class="tips-teaser-grid">${tipRows.map(tipTeaserTpl).join("")}</div>
+          <div class="section-actions"><a class="section-link" href="#/tipps">${esc(t("allVideos"))} →</a></div>
+        </section>` : ""}`;
+    } else {
+      mainInner = `
+        <div class="feed-head"><h1>${esc(headTitle)}</h1><span class="count">${list.length} ${esc(t("postsWord"))}</span></div>
+        <div class="feed-list">${list.map(rowTpl).join("")}</div>`;
     }
 
     return `<div class="wrap"><div class="page">
       <main>${mainInner}</main>
+      ${sidebarTpl()}
+    </div></div>`;
+  }
+
+  function renderNewsPage(page = 1) {
+    const totalPages = Math.max(1, Math.ceil(allPosts.length / NEWS_PAGE_SIZE));
+    const current = Math.min(Math.max(1, page), totalPages);
+    const rows = allPosts.slice((current - 1) * NEWS_PAGE_SIZE, current * NEWS_PAGE_SIZE);
+    return `<div class="wrap"><div class="page">
+      <main>
+        <div class="feed-head"><h1>${esc(t("latestNews"))}</h1><span class="count">${allPosts.length} ${esc(t("postsWord"))}</span></div>
+        <div class="feed-list">${rows.map(rowTpl).join("")}</div>
+        ${paginationTpl("#/news", current, totalPages)}
+      </main>
+      ${sidebarTpl()}
+    </div></div>`;
+  }
+
+  function renderArchive() {
+    const groups = new Map();
+    allPosts.forEach((p) => {
+      const key = p.date.slice(0, 7);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(p);
+    });
+    const html = [...groups.entries()].map(([key, posts]) => {
+      const [y, m] = key.split("-").map(Number);
+      const title = `${MONTHS[LANG][m - 1]} ${y}`;
+      return `<section class="archive-month"><h2>${esc(title)}</h2><div class="archive-list">${posts.map((p) => `<a href="#/beitrag/${p.id}"><span>${fmtDate(p.date)}</span><b>${esc(L(p).title)}</b></a>`).join("")}</div></section>`;
+    }).join("");
+    return `<div class="wrap"><div class="page">
+      <main class="archive-page">
+        <div class="feed-head"><h1>${esc(t("archive"))}</h1><span class="count">${allPosts.length} ${esc(t("postsWord"))}</span></div>
+        ${html}
+      </main>
       ${sidebarTpl()}
     </div></div>`;
   }
@@ -336,12 +401,15 @@
     </div>`;
   }
 
-  function renderTips() {
+  function renderTips(page = 1) {
     const visible = langTips();
     if (visible.length === 0) {
       return `<div class="wrap"><div class="empty"><h2>${esc(t("tipsTitle"))}</h2><p>${esc(t("tipsEmpty"))}</p></div></div>`;
     }
-    const cards = visible.map((tip) => {
+    const totalPages = Math.max(1, Math.ceil(visible.length / TIPS_PAGE_SIZE));
+    const current = Math.min(Math.max(1, page), totalPages);
+    const pageItems = visible.slice((current - 1) * TIPS_PAGE_SIZE, current * TIPS_PAGE_SIZE);
+    const cards = pageItems.map((tip) => {
       const c = tip[LANG] || tip.de;
       return `<a class="tip-card" href="#/tipps/${encodeURIComponent(tip.id)}">
         <div class="tip-video"><iframe src="https://www.youtube.com/embed/${tip.youtube}" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
@@ -355,6 +423,7 @@
     return `<div class="wrap"><div class="tips-page">
       <div class="feed-head"><h1>${esc(t("tipsTitle"))}</h1><span class="count">${visible.length} ${esc(t("tips"))}</span></div>
       <div class="tips-grid">${cards}</div>
+      ${paginationTpl("#/tipps", current, totalPages)}
     </div></div>`;
   }
 
@@ -393,9 +462,12 @@
     const parts = h.split("/").filter(Boolean);
     if (parts[0] === "beitrag" && parts[1]) return { view: "article", id: decodeURIComponent(parts[1]) };
     if (parts[0] === "kategorie" && parts[1]) return { view: "category", catKey: parts[1] };
-    if (parts[0] === "suche" && parts[1]) return { view: "search", q: decodeURIComponent(parts[1]) };
+    if (parts[0] === "suche") return { view: "search", q: decodeURIComponent(parts.slice(1).join("/") || "") };
+    if (parts[0] === "news") return { view: "news", page: parts[1] === "seite" ? Number(parts[2] || 1) : 1 };
+    if (parts[0] === "archiv") return { view: "archive" };
+    if (parts[0] === "tipps" && parts[1] === "seite") return { view: "tips", page: Number(parts[2] || 1) };
     if (parts[0] === "tipps" && parts[1]) return { view: "tip", id: decodeURIComponent(parts[1]) };
-    if (parts[0] === "tipps") return { view: "tips" };
+    if (parts[0] === "tipps") return { view: "tips", page: 1 };
     return { view: "home" };
   }
 
@@ -439,8 +511,20 @@
         title: catLabel(route.catKey) + " — Ercan Blog",
         url: "https://ercanblog.vercel.app/#/kategorie/" + route.catKey
       });
+    } else if (route.view === "news") {
+      app.innerHTML = renderNewsPage(route.page || 1);
+      syncNav("__news__");
+      if (search) search.value = "";
+      window.scrollTo(0, 0);
+      updateMeta({ title: t("latestNews") + " — Ercan Blog", url: "https://ercanblog.vercel.app/#/news" });
+    } else if (route.view === "archive") {
+      app.innerHTML = renderArchive();
+      syncNav("__archive__");
+      if (search) search.value = "";
+      window.scrollTo(0, 0);
+      updateMeta({ title: t("archive") + " — Ercan Blog", url: "https://ercanblog.vercel.app/#/archiv" });
     } else if (route.view === "tips") {
-      app.innerHTML = renderTips();
+      app.innerHTML = renderTips(route.page || 1);
       syncNav("__tips__");
       if (search) search.value = "";
       window.scrollTo(0, 0);
@@ -482,9 +566,11 @@
       .concat(CATEGORIES.map((c) => ({ label: c[LANG], key: c.key })));
     const html = items.map((it) =>
       `<a data-cat="${it.key || "__all__"}" href="${it.key ? "#/kategorie/" + it.key : "#/"}">${esc(it.label)}</a>`).join("");
+    const newsLink = `<a href="#/news" data-cat="__news__">${esc(t("allNews"))}</a>`;
     const tipsLink = `<a href="#/tipps" data-cat="__tips__">${esc(t("tips"))}</a>`;
-    if (nav) nav.innerHTML = html + tipsLink;
-    if (mcats) mcats.innerHTML = html + tipsLink;
+    const archiveLink = `<a href="#/archiv" data-cat="__archive__">${esc(t("archive"))}</a>`;
+    if (nav) nav.innerHTML = html + newsLink + tipsLink + archiveLink;
+    if (mcats) mcats.innerHTML = html + newsLink + tipsLink + archiveLink;
   }
 
   /* ---------- Statische UI-Texte setzen ---------- */
@@ -504,7 +590,7 @@
     const fLinks = $("#footer-links");
     if (fLinks) {
       const cats = CATEGORIES.map((c) => `<a href="#/kategorie/${c.key}">${esc(c[LANG])}</a>`).join("");
-      fLinks.innerHTML = `<a id="f-home" href="#/">${esc(t("home"))}</a>${cats}<a href="#/tipps">${esc(t("tips"))}</a>`;
+      fLinks.innerHTML = `<a id="f-home" href="#/">${esc(t("home"))}</a><a href="#/news">${esc(t("allNews"))}</a>${cats}<a href="#/tipps">${esc(t("tips"))}</a><a href="#/archiv">${esc(t("archive"))}</a>`;
     }
   }
 
