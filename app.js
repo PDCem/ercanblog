@@ -566,7 +566,7 @@
       .concat(CATEGORIES.map((c) => ({ label: c[LANG], key: c.key })));
     const html = items.map((it) =>
       `<a data-cat="${it.key || "__all__"}" href="${it.key ? "#/kategorie/" + it.key : "#/"}">${esc(it.label)}</a>`).join("");
-    const newsLink = `<a href="#/news" data-cat="__news__">${esc(t("allNews"))}</a>`;
+    const newsLink = `<a href="#/news" data-cat="__news__">${esc(LANG === "de" ? "News" : "Haber")}</a>`;
     const tipsLink = `<a href="#/tipps" data-cat="__tips__">${esc(t("tips"))}</a>`;
     const archiveLink = `<a href="#/archiv" data-cat="__archive__">${esc(t("archive"))}</a>`;
     if (nav) nav.innerHTML = html + newsLink + tipsLink + archiveLink;

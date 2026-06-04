@@ -347,4 +347,8 @@ button { font-family: inherit; cursor: pointer; }
 .mobile-cats::-webkit-scrollbar { display: none; }
 .mobile-cats a { white-space: nowrap; font-size: var(--fs-sm); font-weight: 500; color: var(--fg-muted); padding: 6px 12px; border-radius: var(--radius-full); border: 1px solid var(--border); }
 .mobile-cats a.active { color: #fff; background: var(--electric-500); border-color: var(--electric-500); }
+@media (max-width: 1120px) {
+  .nav { display: none; }
+  .mobile-cats { display: flex; }
+}
 @media (max-width: 940px) { .mobile-cats { display: flex; } }
