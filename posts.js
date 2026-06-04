@@ -43,6 +43,295 @@ const POSTS = [
 
   /* ---------------------------------------------------------- */
   {
+    id: "heise-ki-lebenslaeufe-bias-chatbots-2026-06-04",
+    cat: "sicherheit",
+    author: "Ercan Yıldız",
+    date: "2026-06-04",
+    image: "images/ki-energie.jpg",
+    featured: true,
+    views: 6420,
+    de: {
+      title: "KI-Chatbots bewerten Lebensläufe nicht neutral",
+      teaser: "heise berichtet über eine Untersuchung zu KI-Bewerbungsbewertungen: Claude bevorzugte sich selbst stärker als GPT – ein Warnsignal für HR-Automation.",
+      body: `heise greift eine Untersuchung zur Bewertung von Lebensläufen durch KI-Chatbots auf. Der Kern: Systeme wie Claude und GPT wirken bei HR-Aufgaben nicht automatisch neutral. In der Untersuchung bewertete Claude Lebensläufe, die auf das eigene Modell hin optimiert waren, besonders positiv.
+
+## Warum das wichtig ist
+
+Bewerbungsprozesse sind ein klassischer Automatisierungsfall für LLMs: sortieren, vergleichen, zusammenfassen. Genau dort kann aber Modell-Bias direkte Folgen für Menschen haben.
+
+- Quelle: heise online, 04.06.2026.
+- Thema: KI in Recruiting und Lebenslaufbewertung.
+- Risiko: scheinbar objektive Scores können Modellvorlieben spiegeln.
+
+## Ercans Einordnung
+
+> KI im Recruiting braucht Audits, nicht nur gute Prompts.
+
+Unternehmen sollten Chatbots hier nicht als neutrale Richter einsetzen. Sinnvoller ist eine assistierende Rolle mit klaren Kriterien, menschlicher Kontrolle und Tests gegen Bias in Sprache, Format, Herkunft und Modellpräferenz.`,
+    },
+    tr: {
+      title: "YZ sohbet botları CV'leri tarafsız değerlendirmiyor",
+      teaser: "heise'nin aktardığı araştırma, YZ ile işe alım değerlendirmelerinde riskleri gösteriyor: Claude kendi tarzına uygun CV'leri GPT'ye göre daha avantajlı değerlendirdi.",
+      body: `heise, CV'lerin yapay zekâ sohbet botlarıyla değerlendirilmesine dair bir araştırmayı aktarıyor. Ana mesaj net: Claude ve GPT gibi sistemler İK süreçlerinde otomatik olarak tarafsız davranmıyor. Araştırmada Claude, kendi modeline göre optimize edilmiş CV'leri daha olumlu puanladı.
+
+## Neden önemli
+
+İşe alım süreçleri LLM otomasyonu için cazip: sıralama, karşılaştırma, özetleme. Fakat tam bu noktada model önyargısı insanların kariyer şanslarını doğrudan etkileyebilir.
+
+- Kaynak: heise online, 04.06.2026.
+- Konu: işe alımda YZ ve CV değerlendirme.
+- Risk: objektif görünen puanlar model tercihlerini yansıtabilir.
+
+## Ercan'ın yorumu
+
+> İşe alımda YZ için yalnızca iyi prompt değil, düzenli denetim gerekir.
+
+Şirketler sohbet botlarını tarafsız hakem gibi kullanmamalı. Daha doğru yaklaşım; net kriterler, insan kontrolü ve dil, format, köken ve model tercihi gibi önyargılara karşı test edilen yardımcı bir sistem kurmak.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "t3n-ki-wurm-dynamische-angriffe-2026-06-04",
+    cat: "sicherheit",
+    author: "Ercan Yıldız",
+    date: "2026-06-04",
+    image: "images/github-copilot.jpg",
+    views: 6190,
+    de: {
+      title: "Forschende zeigen KI-Wurm mit wechselnder Angriffsstrategie",
+      teaser: "t3n berichtet über einen KI-Wurm, der für jedes Ziel eine neue Strategie entwickelt – relevant für Agenten-Sicherheit und automatisierte Abwehr.",
+      body: `t3n meldet eine neue Forschungsarbeit aus der IT-Sicherheit: Ein KI-Wurm kann seine Angriffsstrategie dynamisch anpassen und für verschiedene Ziele jeweils andere Wege ausprobieren. Das macht klassische, starre Erkennungsmuster weniger zuverlässig.
+
+## Agenten brauchen Sicherheitsgrenzen
+
+Der Fall ist mehr als Malware-Forschung. Er zeigt, was passiert, wenn autonome Systeme nicht nur Text erzeugen, sondern Ziele planen, Umgebungen beobachten und ihre Taktik ändern.
+
+- Quelle: t3n, 04.06.2026.
+- Thema: KI-gestützte Cyberangriffe.
+- Signal: Sicherheitsmodelle müssen adaptives Verhalten erkennen.
+
+## Ercans Einordnung
+
+> Je agentischer KI wird, desto wichtiger werden Laufzeitkontrollen.
+
+Für Unternehmen heißt das: Prompt-Filter reichen nicht. Nötig sind Sandboxen, Rechtebegrenzung, Monitoring, rote Teams und klare Stoppsignale für Tools, die eigenständig handeln können.`,
+    },
+    tr: {
+      title: "Araştırmacılar hedefe göre strateji değiştiren bir YZ solucanı gösterdi",
+      teaser: "t3n'in haberine göre yeni bir YZ solucanı her hedef için farklı saldırı stratejisi geliştirebiliyor; bu, ajan güvenliği için önemli bir uyarı.",
+      body: `t3n, siber güvenlik alanındaki yeni bir araştırmayı aktarıyor: Bir YZ solucanı saldırı stratejisini dinamik biçimde uyarlayabiliyor ve farklı hedefler için farklı yollar deneyebiliyor. Bu da klasik, sabit imza tabanlı savunmaları daha az güvenilir hale getiriyor.
+
+## Ajanlar için güvenlik sınırları şart
+
+Bu yalnızca kötü amaçlı yazılım araştırması değil. Otonom sistemler sadece metin üretmeyip hedef planladığında, ortamı gözlemlediğinde ve taktik değiştirdiğinde neler olabileceğini gösteriyor.
+
+- Kaynak: t3n, 04.06.2026.
+- Konu: YZ destekli siber saldırılar.
+- Sinyal: güvenlik modelleri uyarlanabilir davranışı tanımalı.
+
+## Ercan'ın yorumu
+
+> YZ ne kadar ajanlaşırsa, çalışma zamanı kontrolleri o kadar kritik olur.
+
+Şirketler için yalnızca prompt filtresi yetmez. Sandbox, yetki sınırlaması, izleme, red-team testleri ve kendi başına araç kullanabilen sistemler için net durdurma mekanizmaları gerekir.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "techinside-alphabet-ki-yatirimlari-80-milyar-2026-06-04",
+    cat: "business",
+    author: "Ercan Yıldız",
+    date: "2026-06-04",
+    image: "images/google-agents.jpg",
+    views: 6040,
+    de: {
+      title: "Alphabet sucht 80 Milliarden Dollar für KI-Ziele",
+      teaser: "TechInside berichtet: Alphabet will für seine KI- und Infrastrukturziele zusätzliches Kapital in Milliardenhöhe mobilisieren.",
+      body: `TechInside meldet, dass Alphabet für seine KI-Ziele 80 Milliarden Dollar Kapital aufnehmen will. Der Schritt passt zum aktuellen Muster im Markt: Modelle, Rechenzentren, Energie und spezialisierte Infrastruktur werden zur eigentlichen Wachstumsfrage.
+
+## KI ist jetzt Kapital- und Infrastrukturgeschäft
+
+Wer große Modelle, Suche, Workspace, Cloud und Agentenprodukte gleichzeitig betreibt, braucht nicht nur gute Forschung, sondern enorme Rechenkapazität und langfristige Finanzierung.
+
+- Quelle: TechInside, 04.06.2026.
+- Thema: Alphabet, KI-Investitionen, Infrastruktur.
+- Kontext: Big Tech skaliert den KI-Stack weiter aggressiv.
+
+## Ercans Einordnung
+
+> Der KI-Wettlauf wird zunehmend über Strom, Chips und Kapitalkosten entschieden.
+
+Für Nutzer bedeutet das bessere Produkte, aber auch stärkere Plattformbindung. Für Europa und die Türkei bleibt die Frage, wie eigene Rechen- und Dateninfrastruktur konkurrenzfähig aufgebaut werden kann.`,
+    },
+    tr: {
+      title: "Alphabet YZ hedefleri için 80 milyar dolar arıyor",
+      teaser: "TechInside'a göre Alphabet, YZ ve altyapı hedefleri için milyarlarca dolarlık yeni sermaye toplamaya hazırlanıyor.",
+      body: `TechInside, Alphabet'in yapay zekâ hedefleri için 80 milyar dolar sermaye bulmayı planladığını aktarıyor. Bu adım piyasadaki genel tabloyla uyumlu: Modeller, veri merkezleri, enerji ve özel altyapı artık büyümenin ana belirleyicisi haline geliyor.
+
+## YZ artık sermaye ve altyapı işi
+
+Büyük modelleri, aramayı, Workspace'i, bulutu ve ajan ürünlerini aynı anda çalıştıran şirketler yalnızca iyi araştırmaya değil, devasa hesaplama kapasitesine ve uzun vadeli finansmana ihtiyaç duyuyor.
+
+- Kaynak: TechInside, 04.06.2026.
+- Konu: Alphabet, YZ yatırımları, altyapı.
+- Bağlam: Big Tech YZ yığınını agresif biçimde büyütüyor.
+
+## Ercan'ın yorumu
+
+> YZ yarışı giderek elektrik, çip ve sermaye maliyeti üzerinden kazanılıyor.
+
+Kullanıcılar için bu daha iyi ürünler anlamına gelebilir, ama platform bağımlılığı da artar. Avrupa ve Türkiye için kritik soru, rekabetçi yerel hesaplama ve veri altyapısının nasıl kurulacağı.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "webrazzi-suno-400-milyon-yatirim-2026-06-04",
+    cat: "business",
+    author: "Ercan Yıldız",
+    date: "2026-06-04",
+    image: "images/google-agents.jpg",
+    views: 5920,
+    de: {
+      title: "Suno erhält 400 Millionen Dollar bei 5,4 Milliarden Bewertung",
+      teaser: "Webrazzi berichtet über eine große Finanzierungsrunde für Suno. Generative Musik bleibt eines der heißesten Felder der Kreativ-KI.",
+      body: `Aus dem türkischen Quellenpool: Webrazzi berichtet, dass Suno 400 Millionen Dollar Investment bei einer Bewertung von 5,4 Milliarden Dollar erhalten hat. Das zeigt, wie stark Investoren weiterhin an generative Audio- und Musikplattformen glauben.
+
+## Kreativ-KI wird zur Plattformfrage
+
+Suno steht für einen Markt, in dem Nutzer aus Text, Stimmung und Stil komplette Songs erzeugen. Für Creator ist das Chance und Konflikt zugleich: schneller produzieren, aber auch neue Urheberrechts- und Erlösfragen.
+
+- Quelle: Webrazzi, 04.06.2026.
+- Thema: Suno, generative Musik, Investment.
+- Signal: Audio-KI bleibt ein großer Wachstumsbereich.
+
+## Ercans Einordnung
+
+> Musik-KI verlässt die Spielerei-Phase und wird Infrastruktur für Creator.
+
+Entscheidend wird, wie Plattformen Training, Rechte, Kennzeichnung und Vergütung lösen. Wer hier sauber arbeitet, kann nicht nur Songs generieren, sondern neue Workflows für Werbung, Games, Podcasts und Social Content schaffen.`,
+    },
+    tr: {
+      title: "Suno 5,4 milyar dolar değerlemeyle 400 milyon dolar yatırım aldı",
+      teaser: "Webrazzi'nin haberine göre Suno büyük bir yatırım turunu kapattı. Üretken müzik, yaratıcı YZ'nin en sıcak alanlarından biri olmayı sürdürüyor.",
+      body: `Türkçe kaynak havuzundan önemli bir iş dünyası haberi: Webrazzi, Suno'nun 5,4 milyar dolar değerleme üzerinden 400 milyon dolar yatırım aldığını yazıyor. Bu, yatırımcıların üretken ses ve müzik platformlarına hâlâ güçlü ilgi gösterdiğini ortaya koyuyor.
+
+## Yaratıcı YZ platform savaşına dönüyor
+
+Suno; metin, duygu ve stil girdilerinden komple şarkılar üretebilen bir pazarın simgesi. İçerik üreticileri için bu hem fırsat hem de çatışma: daha hızlı üretim, ama yeni telif ve gelir paylaşımı soruları.
+
+- Kaynak: Webrazzi, 04.06.2026.
+- Konu: Suno, üretken müzik, yatırım.
+- Sinyal: ses odaklı YZ büyük bir büyüme alanı olmaya devam ediyor.
+
+## Ercan'ın yorumu
+
+> Müzik YZ'si oyuncak aşamasından çıkıp creator altyapısına dönüşüyor.
+
+Belirleyici konu; eğitim verisi, haklar, etiketleme ve gelir paylaşımının nasıl çözüleceği. Bunu doğru yapan platformlar yalnızca şarkı üretmez, reklam, oyun, podcast ve sosyal içerik için yeni iş akışları kurar.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "shiftdelete-meta-isletmeler-icin-ai-ajanlari-2026-06-04",
+    cat: "agentic",
+    author: "Ercan Yıldız",
+    date: "2026-06-04",
+    image: "images/microsoft-agent365.jpg",
+    views: 5750,
+    de: {
+      title: "Meta bringt KI-Agenten stärker in Unternehmensprozesse",
+      teaser: "ShiftDelete.Net berichtet über Metas neue KI-Agentenlösung für Unternehmen – ein weiteres Zeichen, dass Agenten aus dem Chat in Workflows wandern.",
+      body: `ShiftDelete.Net meldet neue KI-basierte Agentenlösungen von Meta für Unternehmen. Der Trend ist klar: KI wird nicht mehr nur als Chatfenster gedacht, sondern als Schicht, die Kundenkontakt, Marketing, Support und interne Prozesse verbinden soll.
+
+## Agenten werden Produktivitätsinfrastruktur
+
+Für Firmen ist das attraktiv, weil wiederkehrende Aufgaben automatisiert und Konversationen besser ausgewertet werden können. Gleichzeitig steigen Anforderungen an Datenschutz, Kontrolle und Eskalation an Menschen.
+
+- Quelle: ShiftDelete.Net, 04.06.2026.
+- Thema: Meta, Business-KI, Agenten.
+- Nutzen: Automatisierung von Kunden- und Unternehmensprozessen.
+
+## Ercans Einordnung
+
+> Der nächste Schritt nach Chatbots sind Agenten mit klaren Zuständigkeiten.
+
+Wichtig wird, dass Unternehmen nicht einfach alles automatisieren. Gute Agenten haben begrenzte Rechte, messbare Ziele, Protokolle und eine saubere Übergabe an Menschen, wenn Entscheidungen kritisch werden.`,
+    },
+    tr: {
+      title: "Meta işletmeler için YZ tabanlı yeni ajan çözümünü öne çıkarıyor",
+      teaser: "ShiftDelete.Net'in haberine göre Meta, işletmelere yönelik yeni YZ ajan çözümleri sunuyor; bu, ajanların sohbetten iş akışlarına geçtiğini gösteriyor.",
+      body: `ShiftDelete.Net, Meta'nın işletmelere yönelik yeni yapay zekâ tabanlı ajan çözümlerini aktarıyor. Trend net: YZ artık yalnızca sohbet penceresi değil; müşteri iletişimi, pazarlama, destek ve iç süreçleri bağlayan bir katman olarak konumlanıyor.
+
+## Ajanlar üretkenlik altyapısına dönüşüyor
+
+Şirketler için bu cazip, çünkü tekrarlayan görevler otomatikleşebilir ve konuşmalar daha iyi analiz edilebilir. Ancak veri gizliliği, kontrol ve insana devretme gereksinimleri de artıyor.
+
+- Kaynak: ShiftDelete.Net, 04.06.2026.
+- Konu: Meta, işletme YZ'si, ajanlar.
+- Fayda: müşteri ve iş süreçlerinde otomasyon.
+
+## Ercan'ın yorumu
+
+> Chatbotlardan sonraki adım, net sorumlulukları olan ajanlar.
+
+Şirketler her şeyi otomatikleştirmemeli. İyi ajanların sınırlı yetkileri, ölçülebilir hedefleri, kayıtları ve karar kritik olduğunda insana temiz devri olmalı.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "t3n-eu-souveraene-chips-cloud-ki-2026-06-04",
+    cat: "business",
+    author: "Ercan Yıldız",
+    date: "2026-06-04",
+    image: "images/eu-souveraenitaet.jpg",
+    views: 5610,
+    de: {
+      title: "EU plant Paket für souveräne Chips, Cloud und KI",
+      teaser: "t3n berichtet über ein europäisches Gesetzespaket gegen Tech-Abhängigkeit – zentral für KI-Infrastruktur und digitale Souveränität.",
+      body: `t3n berichtet über ein EU-Paket, das Abhängigkeiten bei Chips, Cloud und KI reduzieren soll. Für die KI-Ökonomie ist das ein Schlüsselthema: Ohne eigene Infrastruktur bleibt Europa Nutzer fremder Plattformen.
+
+## Digitale Souveränität wird praktisch
+
+Souveräne KI bedeutet nicht nur eigene Modelle. Sie braucht Rechenzentren, Datenräume, Chips, Beschaffung, Sicherheitsstandards und verlässliche Cloud-Angebote für Behörden und Unternehmen.
+
+- Quelle: t3n, 04.06.2026.
+- Thema: EU, Chips, Cloud, KI-Souveränität.
+- Relevanz: Infrastruktur entscheidet über Handlungsfähigkeit.
+
+## Ercans Einordnung
+
+> Wer KI reguliert, muss auch KI-Infrastruktur bauen.
+
+Für Unternehmen könnte das mehr europäische Optionen bringen. Entscheidend ist aber Geschwindigkeit: Wenn Programme zu langsam umgesetzt werden, bleibt der Markt bei US- und China-Plattformen hängen.`,
+    },
+    tr: {
+      title: "AB egemen çip, bulut ve YZ için yeni paket hazırlıyor",
+      teaser: "t3n'e göre Avrupa Birliği teknoloji bağımlılığını azaltacak bir paket üzerinde çalışıyor; konu YZ altyapısı ve dijital egemenlik için kritik.",
+      body: `t3n, AB'nin çip, bulut ve YZ alanındaki bağımlılıkları azaltmayı hedefleyen bir paket hazırladığını yazıyor. YZ ekonomisi için bu kilit bir başlık: Kendi altyapısı olmayan Avrupa, başkalarının platformlarının kullanıcısı olarak kalır.
+
+## Dijital egemenlik somutlaşıyor
+
+Egemen YZ yalnızca yerli model demek değil. Veri merkezleri, veri alanları, çipler, kamu alımları, güvenlik standartları ve kurumlar için güvenilir bulut seçenekleri gerekir.
+
+- Kaynak: t3n, 04.06.2026.
+- Konu: AB, çip, bulut, YZ egemenliği.
+- Önemi: altyapı, hareket kabiliyetini belirler.
+
+## Ercan'ın yorumu
+
+> YZ'yi düzenleyen taraf, YZ altyapısını da kurmak zorunda.
+
+Şirketler için bu daha fazla Avrupa seçeneği anlamına gelebilir. Ancak hız belirleyici: Programlar yavaş kalırsa pazar ABD ve Çin platformlarına bağlı kalmaya devam eder.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
     id: "amazon-ki-produkte-shopping-2026-06-03",
     cat: "business",
     author: "Ercan Yıldız",
@@ -877,6 +1166,62 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+  {
+    id: "everlast-ai-claude-opus-48-weltmodell-2026-06-04",
+    date: "2026-06-04",
+    youtube: "lHU6jFHWAkM",
+    lang: "de",
+    de: {
+      title: "Everlast AI: Claude Opus 4.8 und KI-Weltmodelle",
+      desc: "Aktueller deutscher Tipp zu Claude Opus 4.8, neuen KI-Fähigkeiten und Weltmodell-Denken – nützlich für alle, die Modellwechsel einordnen wollen.",
+    },
+    tr: {
+      title: "Everlast AI: Claude Opus 4.8 ve YZ dünya modelleri",
+      desc: "Claude Opus 4.8, yeni YZ yetenekleri ve dünya modeli yaklaşımı üzerine güncel Almanca bir değerlendirme.",
+    },
+  },
+  {
+    id: "everlast-ai-unternehmen-ki-aufwachen-2026-06-04",
+    date: "2026-06-04",
+    youtube: "pFE9rmAFXLw",
+    lang: "de",
+    de: {
+      title: "Everlast AI: Unternehmen müssen bei KI endlich aufwachen",
+      desc: "Interview-Tipp für Business-Leser: Wie KI Organisationen, Rollen und Entscheidungen verändert – jenseits einzelner Tool-Demos.",
+    },
+    tr: {
+      title: "Everlast AI: Şirketler YZ konusunda artık uyanmalı",
+      desc: "İş dünyası için röportaj önerisi: YZ'nin şirketleri, rolleri ve karar süreçlerini araç demolarının ötesinde nasıl değiştirdiği.",
+    },
+  },
+  {
+    id: "mesut-cevik-rtx-spark-yapay-zeka-donanimi-2026-06-04",
+    date: "2026-06-04",
+    youtube: "aivsYPSje8I",
+    lang: "tr",
+    de: {
+      title: "Mesut Çevik: Warum RTX Spark nicht automatisch die Lösung ist",
+      desc: "Türkischer Technik-Tipp zu KI-Hardware, Erwartungen und Praxisnutzen – passend für Leser, die lokale KI und Gerätehype nüchtern bewerten wollen.",
+    },
+    tr: {
+      title: "Mesut Çevik: RTX Spark neden otomatik çözüm değil?",
+      desc: "YZ donanımı, beklentiler ve pratik fayda üzerine Türkçe teknoloji yorumu; yerel YZ ve cihaz hype'ını sakin değerlendirmek için iyi bir izleme.",
+    },
+  },
+  {
+    id: "utku-sen-cop-degil-mucize-degil-yapay-zeka-2026-06-04",
+    date: "2026-06-04",
+    youtube: "9Wtk7NPIwcs",
+    lang: "tr",
+    de: {
+      title: "Utku Sen: Weder Müll noch Wunder – nüchterner Blick auf KI",
+      desc: "Ergänzender türkischer Video-Tipp außerhalb der Kernliste: ein balancierter Blick darauf, warum KI weder pauschal Hype noch nutzlos ist.",
+    },
+    tr: {
+      title: "Utku Sen: Çöp de değil, mucize de değil",
+      desc: "Kern listenin dışından tamamlayıcı Türkçe öneri: YZ'nin ne tamamen hype ne de tamamen işe yaramaz olduğunu sakin bir çerçevede ele alıyor.",
+    },
+  },
   {
     id: "everlast-ai-mainzer-ki-neuromorphe-chips-quantencomputer-2026-06-03",
     date: "2026-06-03",
