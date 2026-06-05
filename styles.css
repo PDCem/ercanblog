@@ -125,6 +125,12 @@ button { font-family: inherit; cursor: pointer; }
 .agent-notice-card p {
   margin: 0; color: var(--fg); font-size: var(--fs-sm); line-height: var(--lh-normal);
 }
+.agent-notice-card a {
+  color: var(--electric-700);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 /* Section eyebrow line */
 .feed-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-4); margin-bottom: var(--space-6); padding-bottom: var(--space-4); border-bottom: 2px solid var(--fg-strong); }
