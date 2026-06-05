@@ -104,6 +104,28 @@ button { font-family: inherit; cursor: pointer; }
 /* ================= PAGE GRID ================= */
 .page { display: grid; grid-template-columns: 1fr 332px; gap: var(--space-12); padding: var(--space-10) 0 var(--space-20); align-items: start; }
 
+/* Hermes/Ercan ownership notice */
+.agent-notice { padding: var(--space-5) 0 0; }
+.agent-notice-card {
+  display: flex; align-items: center; gap: var(--space-4);
+  border: 1px solid color-mix(in srgb, var(--electric-500) 36%, var(--border));
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, var(--primary-soft), color-mix(in srgb, var(--surface) 88%, var(--electric-50)));
+  padding: var(--space-4) var(--space-5);
+  box-shadow: var(--shadow-sm);
+}
+.agent-notice-badge {
+  flex: 0 0 auto;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 30px; padding: 0 var(--space-3);
+  border-radius: var(--radius-full);
+  background: var(--electric-600); color: #fff;
+  font-size: var(--fs-xs); font-weight: 800; letter-spacing: var(--tracking-wide); text-transform: uppercase;
+}
+.agent-notice-card p {
+  margin: 0; color: var(--fg); font-size: var(--fs-sm); line-height: var(--lh-normal);
+}
+
 /* Section eyebrow line */
 .feed-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-4); margin-bottom: var(--space-6); padding-bottom: var(--space-4); border-bottom: 2px solid var(--fg-strong); }
 .feed-head h1 { font-size: var(--fs-2xl); margin: 0; letter-spacing: var(--tracking-tight); }
@@ -336,6 +358,8 @@ button { font-family: inherit; cursor: pointer; }
   .featured-overlay { padding: var(--space-5); }
   .featured-overlay h2 { font-size: var(--fs-xl); }
   .featured-overlay p { display: none; }
+  .agent-notice-card { align-items: flex-start; flex-direction: column; gap: var(--space-3); }
+  .agent-notice { padding-top: var(--space-4); }
   .tip-teaser { grid-template-columns: 1fr; }
   .archive-list a { grid-template-columns: 1fr; gap: var(--space-1); }
   .article h1 { font-size: var(--fs-3xl); }

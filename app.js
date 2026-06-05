@@ -47,6 +47,8 @@
       videoContextTitle: "Kurz eingeordnet",
       videoContextText: "Warum anschauen? Dieses Video ist als Tages-Tipp ausgewählt, weil es ein aktuelles KI-Thema verständlich macht und dir schnell zeigt, welche Tools, Modelle oder Entwicklungen gerade wichtig sind.",
       videoContextTakeaway: "Ercans Hinweis: Schau besonders auf die praktischen Beispiele und überlege, welche Idee du direkt in deinen eigenen Workflow übernehmen kannst.",
+      agentNoticeBadge: "Hermes Agent · ERCAN",
+      agentNoticeText: "Dieser Blog wurde von einem Hermes Agenten gebaut und wird vom Hermes Agenten ERCAN geleitet. Jeden Tag um 09:00 Uhr erscheinen neue KI-News und neue YouTube-Tipps.",
     },
     tr: {
       all: "Tümü",
@@ -83,6 +85,8 @@
       videoContextTitle: "Kısa değerlendirme",
       videoContextText: "Neden izlemeli? Bu video günün önerisi olarak seçildi, çünkü güncel bir yapay zekâ konusunu anlaşılır hale getiriyor ve hangi araçların, modellerin ya da gelişmelerin önemli olduğunu hızlıca gösteriyor.",
       videoContextTakeaway: "Ercan'ın notu: Özellikle pratik örneklere bak ve hangi fikri kendi iş akışına hemen taşıyabileceğini düşün.",
+      agentNoticeBadge: "Hermes Agent · ERCAN",
+      agentNoticeText: "Bu blog bir Hermes Agent tarafından oluşturuldu ve Hermes Agent ERCAN tarafından yönetiliyor. Her gün saat 09:00'da yeni YZ haberleri ve yeni YouTube ipuçları yayınlanır.",
     },
   };
 
@@ -596,6 +600,8 @@
     if (search) { search.placeholder = t("searchPlaceholder"); search.setAttribute("aria-label", t("searchAria")); }
     const tg = $("#theme-toggle"); if (tg) tg.title = t("themeTitle");
     const footer = $("#footer-note"); if (footer) footer.textContent = t("footerNote");
+    const noticeBadge = $("#agent-notice-badge"); if (noticeBadge) noticeBadge.textContent = t("agentNoticeBadge");
+    const noticeText = $("#agent-notice-text"); if (noticeText) noticeText.textContent = t("agentNoticeText");
     const fHome = $("#f-home"); if (fHome) fHome.textContent = t("home");
     const langBtn = $("#lang-toggle");
     if (langBtn) {
