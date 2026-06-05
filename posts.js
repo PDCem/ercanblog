@@ -43,6 +43,296 @@ const POSTS = [
 
   /* ---------------------------------------------------------- */
   {
+    id: "heise-vscode-agent-sessions-2026-06-05",
+    cat: "agentic",
+    author: "Ercan Yıldız",
+    date: "2026-06-05",
+    image: "images/2026-06-05-vscode-agent-sessions.jpg",
+    featured: true,
+    views: 6860,
+    de: {
+      title: "VS Code synchronisiert Agenten-Sessions über Geräte hinweg",
+      teaser: "heise berichtet über Visual Studio Code 1.123: begonnene KI-Chats lassen sich auf anderen Geräten fortsetzen, dazu wachsen Kontextfenster für OpenAI- und Anthropic-Modelle.",
+      body: `heise meldet für Visual Studio Code 1.123 eine Funktion, die gut zeigt, wohin Entwicklerwerkzeuge gehen: KI- und Agenten-Sessions sollen nicht mehr an ein einzelnes Gerät gebunden sein. Begonnene Chats können auf anderen Rechnern weitergeführt werden; zugleich erhalten OpenAI- und Anthropic-Modelle größere Kontextfenster.
+
+## Warum das wichtig ist
+
+Für Agentic-AI-Workflows ist Kontinuität zentral. Wer Codeanalyse, Debugging oder Refactoring mit einem Assistenten startet, will den Arbeitsstand nicht verlieren, nur weil das Gerät oder die Umgebung wechselt.
+
+- Quelle: heise online, 05.06.2026.
+- Thema: Visual Studio Code 1.123, Entwickler-KI, Agenten-Sessions.
+- Signal: IDEs werden stärker zu dauerhaften KI-Arbeitsräumen.
+
+## Ercans Einordnung
+
+> Der nächste Produktivitätssprung kommt nicht nur vom besseren Modell, sondern vom besseren Gedächtnis im Werkzeug.
+
+Teams sollten jetzt prüfen, welche Daten in solchen Sessions landen, wie sie synchronisiert werden und welche Regeln für Projektgeheimnisse, Code-Kontext und Compliance gelten.`,
+    },
+    tr: {
+      title: "VS Code ajan oturumlarını cihazlar arasında senkronize ediyor",
+      teaser: "heise'ye göre Visual Studio Code 1.123, başlatılan YZ sohbetlerini başka cihazlarda sürdürmeyi sağlıyor; OpenAI ve Anthropic modelleri için bağlam pencereleri de büyüyor.",
+      body: `heise, Visual Studio Code 1.123 ile geliştirici araçlarının nereye gittiğini gösteren bir yeniliği aktarıyor: YZ ve ajan oturumları artık tek bir cihaza bağlı kalmıyor. Başlatılan sohbetler başka bilgisayarlarda sürdürülebiliyor; OpenAI ve Anthropic modelleri için bağlam pencereleri de genişliyor.
+
+## Neden önemli
+
+Agentic AI iş akışlarında süreklilik kritik. Kod analizi, hata ayıklama ya da refactoring sürecini bir asistanla başlatan ekipler, cihaz değişti diye çalışma bağlamını kaybetmek istemiyor.
+
+- Kaynak: heise online, 05.06.2026.
+- Konu: Visual Studio Code 1.123, geliştirici YZ'si, ajan oturumları.
+- Sinyal: IDE'ler kalıcı YZ çalışma alanlarına dönüşüyor.
+
+## Ercan'ın yorumu
+
+> Bir sonraki verimlilik sıçraması yalnızca daha iyi modelden değil, aracın daha iyi hafızasından gelecek.
+
+Ekipler bu oturumlarda hangi verilerin yer aldığını, nasıl senkronize edildiğini ve proje sırları, kod bağlamı ile uyumluluk için hangi kuralların geçerli olduğunu şimdiden gözden geçirmeli.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "heise-mythos-anthropic-nsa-ki-einsatz-2026-06-05",
+    cat: "sicherheit",
+    author: "Ercan Yıldız",
+    date: "2026-06-05",
+    image: "images/2026-06-05-nsa-ai-security.jpg",
+    views: 6710,
+    de: {
+      title: "Bericht: Anthropic hilft NSA bei offensivem Mythos-Einsatz",
+      teaser: "heise greift einen Bericht auf, nach dem Anthropic-Angestellte bei der NSA am Einsatz der mächtigen Mythos-KI arbeiten – ein heikler Sicherheits- und Governance-Fall.",
+      body: `heise berichtet über Vorwürfe rund um Anthropic und die US-Behörde NSA: Mehrere Beschäftigte sollen einem Zeitungsbericht zufolge direkt daran mitarbeiten, die Mythos-KI für offensive Einsätze nutzbar zu machen. Bestätigt sich das, wäre es ein deutliches Signal für die Nähe von Frontier-Modellen und staatlicher Sicherheitsinfrastruktur.
+
+## Frontier-KI trifft Geheimdienstpraxis
+
+Die Debatte um KI-Sicherheit dreht sich oft um hypothetische Risiken. Dieser Fall macht sie konkreter: Wer darf leistungsfähige Modelle für offensive Operationen einsetzen, und welche Kontrollmechanismen greifen dabei?
+
+- Quelle: heise online, 05.06.2026.
+- Thema: Anthropic, NSA, Mythos Preview, offensive KI-Nutzung.
+- Risiko: Sicherheitsforschung, Militär- und Geheimdienstnutzung rücken näher zusammen.
+
+## Ercans Einordnung
+
+> Bei Frontier-Modellen ist Governance kein PR-Anhang, sondern Kernprodukt.
+
+Anbieter brauchen transparente Grenzen, unabhängige Audits und klare Eskalationsregeln. Für Unternehmen ist der Fall ein Reminder: Modellanbieter sollten nicht nur nach Benchmarks, sondern auch nach Sicherheits- und Governance-Praxis bewertet werden.`,
+    },
+    tr: {
+      title: "İddia: Anthropic, NSA'nın Mythos'u saldırı amaçlı kullanmasına destek oluyor",
+      teaser: "heise'nin aktardığı habere göre Anthropic çalışanları, güçlü Mythos YZ modelinin NSA tarafından operasyonel kullanımı üzerinde çalışıyor olabilir.",
+      body: `heise, Anthropic ve ABD istihbarat kurumu NSA etrafındaki iddiaları aktarıyor: Bir gazete haberine göre bazı çalışanlar, Mythos adlı güçlü YZ modelinin saldırı amaçlı kullanımına hazırlanması için doğrudan destek veriyor. Bu doğrulanırsa, frontier modeller ile devlet güvenlik altyapısı arasındaki yakınlığı gösteren önemli bir işaret olur.
+
+## Frontier YZ istihbarat pratiğiyle buluşuyor
+
+YZ güvenliği tartışmaları çoğu zaman varsayımsal riskler üzerinden ilerliyor. Bu örnek soruyu somutlaştırıyor: Güçlü modelleri saldırı operasyonlarında kim kullanabilir ve hangi denetim mekanizmaları devreye girer?
+
+- Kaynak: heise online, 05.06.2026.
+- Konu: Anthropic, NSA, Mythos Preview, saldırı amaçlı YZ kullanımı.
+- Risk: güvenlik araştırması, askeri ve istihbarat kullanımı birbirine yaklaşıyor.
+
+## Ercan'ın yorumu
+
+> Frontier modellerde yönetişim bir PR eki değil, ürünün çekirdeğidir.
+
+Sağlayıcıların şeffaf sınırlar, bağımsız denetimler ve net eskalasyon kuralları sunması gerekir. Şirketler için de ders açık: model sağlayıcıları yalnızca benchmark skorlarıyla değil, güvenlik ve yönetişim pratikleriyle de değerlendirilmeli.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "t3n-agenten-protokolle-internet-2026-06-05",
+    cat: "agentic",
+    author: "Ercan Yıldız",
+    date: "2026-06-05",
+    image: "images/2026-06-05-agent-protocols-network.jpg",
+    views: 6540,
+    de: {
+      title: "Fünf neue Protokolle sollen KI-Agenten im Internet vernetzen",
+      teaser: "t3n ordnet Protokolle ein, mit denen Agenten bezahlen, verhandeln und miteinander kommunizieren können – wichtig für die nächste Stufe automatisierter Workflows.",
+      body: `t3n beleuchtet fünf neue Internet-Protokolle, die KI-Agenten besser miteinander und mit Diensten im Netz verbinden sollen. Im Mittelpunkt stehen Fähigkeiten wie bezahlen, verhandeln, Identität nachweisen und Aufgaben über Systemgrenzen hinweg koordinieren.
+
+## Agenten brauchen Infrastruktur
+
+Heute sind viele KI-Agenten noch Demo-Workflows: ein Chat, ein Tool-Aufruf, ein Skript. Wirklich nützlich werden sie, wenn sie zuverlässig mit anderen Agenten, APIs, Zahlungsdiensten und Unternehmenssystemen sprechen können.
+
+- Quelle: t3n, 05.06.2026.
+- Thema: Agenten-Protokolle, Kommunikation, Zahlungen, Automatisierung.
+- Signal: Das offene Agenten-Ökosystem wird zur Infrastrukturfrage.
+
+## Ercans Einordnung
+
+> Der Agentenmarkt entscheidet sich nicht nur im Modell, sondern in Standards, Identität und Rechten.
+
+Wer Agenten produktiv einsetzt, sollte früh auf Protokolle, Audit-Logs und Berechtigungsmodelle achten. Ohne klare Identität und Grenzen wird aus Automatisierung schnell ein Sicherheitsproblem.`,
+    },
+    tr: {
+      title: "Beş yeni protokol YZ ajanlarını internette birbirine bağlamayı hedefliyor",
+      teaser: "t3n, ajanların ödeme yapması, pazarlık etmesi ve iletişim kurması için geliştirilen protokolleri ele alıyor; otomasyonun bir sonraki aşaması için önemli.",
+      body: `t3n, YZ ajanlarını internet üzerindeki servislerle ve birbirleriyle daha iyi bağlamayı amaçlayan beş yeni protokolü inceliyor. Odakta ödeme yapmak, pazarlık etmek, kimlik kanıtlamak ve görevleri sistem sınırları boyunca koordine etmek var.
+
+## Ajanların altyapıya ihtiyacı var
+
+Bugün birçok YZ ajanı hâlâ demo iş akışı seviyesinde: bir sohbet, bir araç çağrısı, bir betik. Gerçek fayda, bu ajanların diğer ajanlarla, API'lerle, ödeme servisleriyle ve şirket sistemleriyle güvenilir biçimde konuşabilmesiyle gelecek.
+
+- Kaynak: t3n, 05.06.2026.
+- Konu: ajan protokolleri, iletişim, ödemeler, otomasyon.
+- Sinyal: açık ajan ekosistemi bir altyapı meselesine dönüşüyor.
+
+## Ercan'ın yorumu
+
+> Ajan pazarını yalnızca model kalitesi değil, standartlar, kimlik ve yetkiler belirleyecek.
+
+Ajanları üretimde kullanan ekipler protokollere, denetim kayıtlarına ve izin modellerine erken dikkat etmeli. Net kimlik ve sınırlar olmadan otomasyon hızla güvenlik sorununa dönüşür.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "donanimhaber-bm-ai-su-tuketimi-2030-2026-06-05",
+    cat: "forschung",
+    author: "Ercan Yıldız",
+    date: "2026-06-05",
+    image: "images/2026-06-05-ai-water-consumption.jpg",
+    views: 6390,
+    de: {
+      title: "UN-Warnung: KI könnte bis 2030 Wasser wie 1,3 Milliarden Menschen verbrauchen",
+      teaser: "DonanımHaber berichtet über eine UN-Warnung zum Wasserbedarf von KI-Rechenzentren. Nachhaltigkeit wird damit zur Infrastrukturfrage.",
+      body: `Aus dem türkischen Quellenpool: DonanımHaber greift eine Warnung der Vereinten Nationen auf. Wenn der Ausbau von KI-Rechenzentren unverändert weiterläuft, könnte der Wasserbedarf bis 2030 eine Größenordnung erreichen, die mit dem Verbrauch von 1,3 Milliarden Menschen verglichen wird.
+
+## KI braucht nicht nur Strom
+
+In der Debatte stehen meist Chips und Energie im Vordergrund. Doch Rechenzentren benötigen auch Kühlung, Standorte, Netze und Wasser. Gerade in trockenen Regionen wird das zu einem politischen und wirtschaftlichen Konfliktpunkt.
+
+- Quelle: DonanımHaber, 05.06.2026.
+- Thema: KI-Rechenzentren, Wasserverbrauch, Nachhaltigkeit.
+- Kontext: Infrastrukturkosten werden Teil der KI-Bilanz.
+
+## Ercans Einordnung
+
+> Wer KI skaliert, muss Wasser, Strom und Standortwahl gemeinsam bilanzieren.
+
+Für Unternehmen heißt das: Modellwahl, Caching, kleinere Modelle und regionale Infrastruktur sind nicht nur Kostenfragen, sondern auch Nachhaltigkeitshebel.`,
+    },
+    tr: {
+      title: "BM uyarısı: YZ 2030'da 1,3 milyar insan kadar su tüketebilir",
+      teaser: "DonanımHaber, YZ veri merkezlerinin su ihtiyacına dair BM uyarısını aktarıyor. Sürdürülebilirlik artık doğrudan altyapı meselesi.",
+      body: `Türkçe kaynak havuzundan DonanımHaber, Birleşmiş Milletler'in yapay zekâ veri merkezlerine ilişkin su tüketimi uyarısını aktarıyor. YZ altyapısının büyümesi aynı hızla sürerse, 2030'a kadar su ihtiyacının 1,3 milyar insanın tüketimiyle karşılaştırılabilecek seviyeye çıkabileceği belirtiliyor.
+
+## YZ yalnızca elektrik tüketmiyor
+
+Tartışmada çoğu zaman çipler ve enerji öne çıkıyor. Oysa veri merkezleri soğutma, konum, şebeke ve suya da ihtiyaç duyuyor. Özellikle kurak bölgelerde bu durum politik ve ekonomik bir gerilim başlığına dönüşebilir.
+
+- Kaynak: DonanımHaber, 05.06.2026.
+- Konu: YZ veri merkezleri, su tüketimi, sürdürülebilirlik.
+- Bağlam: altyapı maliyetleri YZ bilançosunun parçası oluyor.
+
+## Ercan'ın yorumu
+
+> YZ'yi ölçekleyenler suyu, elektriği ve lokasyon seçimini birlikte hesaplamak zorunda.
+
+Şirketler için model seçimi, önbellekleme, daha küçük modeller ve bölgesel altyapı yalnızca maliyet değil, sürdürülebilirlik kaldıracı anlamına geliyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "donanimhaber-tsmc-ai-chip-talebi-2026-06-05",
+    cat: "business",
+    author: "Ercan Yıldız",
+    date: "2026-06-05",
+    image: "images/2026-06-05-tsmc-chip-demand.jpg",
+    views: 6260,
+    de: {
+      title: "TSMC: KI-Chipnachfrage bleibt auf Jahre schwer zu bedienen",
+      teaser: "DonanımHaber meldet Aussagen von TSMC: Die Nachfrage nach KI-Chips dürfte länger hoch bleiben als die Produktionskapazität.",
+      body: `DonanımHaber berichtet über Aussagen von TSMC zur anhaltend hohen Nachfrage nach KI-Chips. Der wichtigste Punkt: Die Industrie rechnet nicht mit einer schnellen Entspannung. Neue Kapazitäten aufzubauen dauert Jahre, während Modelle, Cloud-Anbieter und Gerätehersteller weiter skalieren.
+
+## Der Engpass sitzt in der Lieferkette
+
+KI-Wachstum hängt nicht nur an Software. Wafer, Packaging, HBM-Speicher, Energie und Fertigungskapazitäten bestimmen, welche Produkte überhaupt ausgeliefert werden können.
+
+- Quelle: DonanımHaber, 05.06.2026.
+- Thema: TSMC, KI-Chips, Halbleiter-Lieferkette.
+- Signal: Rechenleistung bleibt knapp und strategisch wertvoll.
+
+## Ercans Einordnung
+
+> KI-Roadmaps sollten nicht nur Modellfeatures planen, sondern Chip- und Cloud-Verfügbarkeit.
+
+Für Firmen lohnt sich ein realistischer Blick auf Kosten, Anbieterbindung und Alternativen: kleinere Modelle, lokale Inferenz, mehrere Cloud-Optionen und effiziente Architektur werden wichtiger.`,
+    },
+    tr: {
+      title: "TSMC: YZ çip talebini karşılamak yıllarca zor kalacak",
+      teaser: "DonanımHaber'in aktardığı TSMC açıklamaları, yapay zekâ çiplerinde talebin üretim kapasitesinden uzun süre daha hızlı büyüyebileceğini gösteriyor.",
+      body: `DonanımHaber, TSMC'nin yapay zekâ çiplerine yönelik yüksek talep hakkındaki değerlendirmelerini aktarıyor. Ana mesaj: Sektör hızlı bir rahatlama beklemiyor. Yeni kapasite kurmak yıllar alırken modeller, bulut sağlayıcıları ve cihaz üreticileri büyümeyi sürdürüyor.
+
+## Darboğaz tedarik zincirinde
+
+YZ büyümesi yalnızca yazılıma bağlı değil. Wafer üretimi, paketleme, HBM bellek, enerji ve üretim kapasitesi hangi ürünlerin gerçekten piyasaya çıkabileceğini belirliyor.
+
+- Kaynak: DonanımHaber, 05.06.2026.
+- Konu: TSMC, YZ çipleri, yarı iletken tedarik zinciri.
+- Sinyal: hesaplama gücü kıt ve stratejik kalmaya devam ediyor.
+
+## Ercan'ın yorumu
+
+> YZ yol haritaları yalnızca model özelliklerini değil, çip ve bulut erişimini de planlamalı.
+
+Şirketler için maliyet, sağlayıcı bağımlılığı ve alternatiflere gerçekçi bakmak önemli: daha küçük modeller, yerel çıkarım, çoklu bulut seçenekleri ve verimli mimari daha değerli hale geliyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "shiftdelete-google-turkiye-kamu-ai-hamlesi-2026-06-05",
+    cat: "business",
+    author: "Ercan Yıldız",
+    date: "2026-06-05",
+    image: "images/2026-06-05-google-turkiye-public-ai.jpg",
+    views: 6120,
+    de: {
+      title: "Google Türkiye startet 2-Millionen-Dollar-KI-Initiative für den öffentlichen Sektor",
+      teaser: "ShiftDelete berichtet über eine KI-Initiative von Google Türkiye für öffentliche Institutionen – relevant für digitale Verwaltung und lokale KI-Kompetenz.",
+      body: `Aus dem türkischen Quellenpool: ShiftDelete meldet eine neue KI-Initiative von Google Türkiye für den öffentlichen Bereich. Das Programm soll mit einem Volumen von 2 Millionen Dollar Kompetenzen, Anwendungen und Projekte rund um künstliche Intelligenz in öffentlichen Institutionen unterstützen.
+
+## Öffentliche Verwaltung als KI-Lernfeld
+
+Für Staaten ist KI nicht nur ein Produktivitätsthema, sondern auch eine Frage von Ausbildung, Datenqualität, Beschaffung und Vertrauen. Gerade im öffentlichen Sektor müssen Nutzen, Datenschutz und Transparenz zusammen gedacht werden.
+
+- Quelle: ShiftDelete.Net, 05.06.2026.
+- Thema: Google Türkiye, öffentlicher Sektor, KI-Förderung.
+- Türkei-Bezug: lokale KI-Kompetenz und Verwaltungsdigitalisierung.
+
+## Ercans Einordnung
+
+> Gute öffentliche KI-Projekte beginnen nicht mit dem Tool, sondern mit Daten, Regeln und messbarem Nutzen.
+
+Wenn solche Programme offen dokumentiert, evaluiert und mit lokalen Partnern umgesetzt werden, können sie mehr bewirken als einzelne Pilotdemos. Entscheidend ist, dass Know-how im Land bleibt.`,
+    },
+    tr: {
+      title: "Google Türkiye'den kamu için 2 milyon dolarlık YZ hamlesi",
+      teaser: "ShiftDelete, Google Türkiye'nin kamu kurumlarına yönelik yeni YZ girişimini aktarıyor; dijital kamu hizmetleri ve yerel YZ yetkinliği için önemli.",
+      body: `Türkçe kaynak havuzundan ShiftDelete, Google Türkiye'nin kamu alanına yönelik yeni bir yapay zekâ girişimini duyurduğunu yazıyor. 2 milyon dolarlık programın kamu kurumlarında YZ yetkinliği, uygulamalar ve projeleri desteklemesi hedefleniyor.
+
+## Kamu yönetimi YZ için öğrenme alanı
+
+Devletler için YZ yalnızca verimlilik konusu değil; eğitim, veri kalitesi, satın alma ve güven meselesi. Özellikle kamuda fayda, mahremiyet ve şeffaflık birlikte düşünülmeli.
+
+- Kaynak: ShiftDelete.Net, 05.06.2026.
+- Konu: Google Türkiye, kamu sektörü, YZ desteği.
+- Türkiye bağlantısı: yerel YZ yetkinliği ve kamu dijitalleşmesi.
+
+## Ercan'ın yorumu
+
+> İyi kamu YZ projeleri araçla değil, veriyle, kurallarla ve ölçülebilir faydayla başlar.
+
+Bu tür programlar açık biçimde belgelenir, değerlendirilir ve yerel paydaşlarla yürütülürse tekil pilot demoların ötesine geçebilir. Kritik nokta, bilgi birikiminin ülkede kalmasıdır.`,
+    },
+  },
+
+
+  /* ---------------------------------------------------------- */
+  {
     id: "heise-ki-lebenslaeufe-bias-chatbots-2026-06-04",
     cat: "sicherheit",
     author: "Ercan Yıldız",
@@ -1166,6 +1456,62 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+  {
+    id: "everlast-ai-juergen-kocka-ki-kapitalismus-2026-06-05",
+    date: "2026-06-05",
+    youtube: "Egp_xk9fX0M",
+    lang: "de",
+    de: {
+      title: "Everlast AI: Historiker Jürgen Kocka über KI, Arbeit und Kapitalismus",
+      desc: "Aktueller deutscher Video-Tipp: ein historisch eingeordneter Blick darauf, ob KI die Arbeitswelt diesmal grundlegend anders verändert.",
+    },
+    tr: {
+      title: "Everlast AI: Tarihçi Jürgen Kocka ile YZ, iş ve kapitalizm",
+      desc: "Güncel Almanca video önerisi: YZ'nin çalışma dünyasını bu kez gerçekten farklı değiştirip değiştirmeyeceğine tarihsel bir bakış.",
+    },
+  },
+  {
+    id: "digitale-profis-gemini-omni-videomodell-2026-06-05",
+    date: "2026-06-05",
+    youtube: "r9Vo-38VKB0",
+    lang: "de",
+    de: {
+      title: "Digitale Profis: Gemini Omni-Videomodell richtig einordnen",
+      desc: "Praktischer deutscher Tipp zu Googles Video-KI: Was an Gemini Omni realistisch ist und wo Nutzer die Demos falsch verstehen.",
+    },
+    tr: {
+      title: "Digitale Profis: Gemini Omni video modelini doğru okumak",
+      desc: "Google'ın video YZ'sine dair pratik Almanca değerlendirme: Gemini Omni'de ne gerçekçi, kullanıcılar demoları nerede yanlış anlıyor?",
+    },
+  },
+  {
+    id: "mesut-cevik-rtx-spark-tak-calistir-2026-06-05",
+    date: "2026-06-05",
+    youtube: "1qawYhwFi7Q",
+    lang: "tr",
+    de: {
+      title: "Mesut Çevik: NVIDIA RTX Spark im Praxischeck",
+      desc: "Türkischer Technik-Tipp zu lokaler KI-Hardware: Was RTX Spark leisten soll und warum Plug-and-play bei KI nicht automatisch einfach ist.",
+    },
+    tr: {
+      title: "Mesut Çevik: NVIDIA RTX Spark pratikte ne vaat ediyor?",
+      desc: "Yerel YZ donanımı üzerine güncel Türkçe teknoloji yorumu: RTX Spark ne sunuyor, tak-çalıştır fikri YZ tarafında neden bu kadar basit değil?",
+    },
+  },
+  {
+    id: "baris-ozcan-wifi-ile-goruntuleme-2026-06-05",
+    date: "2026-06-05",
+    youtube: "wJWta2lO0Lw",
+    lang: "tr",
+    de: {
+      title: "Barış Özcan: Bildgebung nur mit WLAN-Signalen",
+      desc: "Türkischer Wissenschafts- und KI-naher Tipp: Wie Wi-Fi-Signale zur Umgebungswahrnehmung genutzt werden können und warum das für smarte Systeme spannend ist.",
+    },
+    tr: {
+      title: "Barış Özcan: Sadece Wi‑Fi modemle görüntüleme yapılabiliyor",
+      desc: "Bilim ve YZ'ye yakın güncel Türkçe öneri: Wi‑Fi sinyalleriyle ortam algılamanın nasıl mümkün olabildiği ve akıllı sistemler için neden önemli olduğu.",
+    },
+  },
   {
     id: "everlast-ai-claude-opus-48-weltmodell-2026-06-04",
     date: "2026-06-04",

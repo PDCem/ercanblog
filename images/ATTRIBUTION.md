@@ -17,3 +17,9 @@ News title images curated from Wikimedia Commons/open-license sources. YouTube t
 - `2026-06-03-ki-wurm-cybersecurity-keyboard.jpg` — Backlit keyboard.jpg; Lizenz: CC BY-SA 4.0; Thema: Cybersecurity/Angriff; Quelle: https://commons.wikimedia.org/wiki/File%3ABacklit_keyboard.jpg
 - `2026-06-03-deepseek-huawei-wafer.jpg` — V11-wafer-dc328.jpg; Lizenz: CC BY-SA 4.0; Thema: Chip/Wafer für Huawei Ascend; Quelle: https://commons.wikimedia.org/wiki/File%3AV11-wafer-dc328.jpg
 - `2026-06-03-microsoft-agent-optimizer-code.jpg` — RustCodeOnScreen.jpg; Lizenz: CC0; Thema: Code/Agentenoptimierung; Quelle: https://commons.wikimedia.org/wiki/File%3ARustCodeOnScreen.jpg
+- `2026-06-05-vscode-agent-sessions.jpg` — Unsplash photo by Chris Ried; Lizenz: Unsplash License; Thema: Code/Entwicklerwerkzeug/Agenten-Sessions; Quelle: https://unsplash.com/photos/ieic5Tq8YMk
+- `2026-06-05-nsa-ai-security.jpg` — Unsplash photo by Jefferson Santos; Lizenz: Unsplash License; Thema: Cybersecurity/Geheimdienst/KI-Sicherheit; Quelle: https://unsplash.com/photos/9SoCnyQmkzI
+- `2026-06-05-agent-protocols-network.jpg` — Unsplash photo by Taylor Vick; Lizenz: Unsplash License; Thema: Netzwerk/Infrastruktur/Agenten-Protokolle; Quelle: https://unsplash.com/photos/M5tzZtFCOfs
+- `2026-06-05-ai-water-consumption.jpg` — Unsplash photo by Luca Bravo; Lizenz: Unsplash License; Thema: Wasserverbrauch/Nachhaltigkeit; Quelle: https://unsplash.com/photos/zAjdgNXsMeg
+- `2026-06-05-tsmc-chip-demand.jpg` — Unsplash photo by Alexandre Debiève; Lizenz: Unsplash License; Thema: Halbleiter/Chips/KI-Infrastruktur; Quelle: https://unsplash.com/photos/FO7JIlwjOtU
+- `2026-06-05-google-turkiye-public-ai.jpg` — Unsplash photo by Nastuh Abootalebi; Lizenz: Unsplash License; Thema: öffentlicher Sektor/Büro/Digitalisierung; Quelle: https://unsplash.com/photos/eHD8Y1Znfpk
