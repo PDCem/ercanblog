@@ -125,6 +125,11 @@ button { font-family: inherit; cursor: pointer; }
 .agent-notice-card p {
   margin: 0; color: var(--fg); font-size: var(--fs-sm); line-height: var(--lh-normal);
 }
+.agent-notice-tech {
+  display: block;
+  margin-top: var(--space-2);
+  color: var(--fg-muted);
+}
 .agent-notice-card a {
   color: var(--electric-700);
   font-weight: 800;
