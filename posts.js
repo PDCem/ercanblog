@@ -53,40 +53,54 @@ const POSTS = [
     de: {
       title: "VS Code synchronisiert Agenten-Sessions über Geräte hinweg",
       teaser: "heise berichtet über Visual Studio Code 1.123: begonnene KI-Chats lassen sich auf anderen Geräten fortsetzen, dazu wachsen Kontextfenster für OpenAI- und Anthropic-Modelle.",
-      body: `heise meldet für Visual Studio Code 1.123 eine Funktion, die gut zeigt, wohin Entwicklerwerkzeuge gehen: KI- und Agenten-Sessions sollen nicht mehr an ein einzelnes Gerät gebunden sein. Begonnene Chats können auf anderen Rechnern weitergeführt werden; zugleich erhalten OpenAI- und Anthropic-Modelle größere Kontextfenster.
+      body: `heise berichtet über Visual Studio Code 1.123 und eine Funktion, die für Entwicklerteams wichtiger ist, als sie auf den ersten Blick klingt: KI- und Agenten-Chats sollen über Geräte hinweg fortgesetzt werden können. Wer also eine Analyse, ein Debugging oder eine Refactoring-Idee im Editor startet, verliert den Gesprächsverlauf nicht mehr automatisch beim Wechsel auf einen anderen Rechner.
 
-## Warum das wichtig ist
+Dazu kommen größere Kontextfenster für OpenAI- und Anthropic-Modelle. Das bedeutet: Der Assistent kann mehr Projektkontext, mehr bisherige Diskussion und mehr zusammenhängende Code-Informationen im Blick behalten. Gerade bei längeren Coding-Sessions ist das ein Unterschied zwischen einem schnellen Chatbot und einem echten Arbeitsbegleiter.
 
-Für Agentic-AI-Workflows ist Kontinuität zentral. Wer Codeanalyse, Debugging oder Refactoring mit einem Assistenten startet, will den Arbeitsstand nicht verlieren, nur weil das Gerät oder die Umgebung wechselt.
+## Warum das für Agentic AI wichtig ist
 
-- Quelle: heise online, 05.06.2026.
-- Thema: Visual Studio Code 1.123, Entwickler-KI, Agenten-Sessions.
-- Signal: IDEs werden stärker zu dauerhaften KI-Arbeitsräumen.
+Agentic AI lebt von Kontinuität. Ein Agent soll nicht nur eine einzelne Frage beantworten, sondern Aufgaben über mehrere Schritte verfolgen: Code lesen, Hypothesen bilden, Tests ausführen, Fehler erklären und dann gezielt Änderungen vorschlagen. Wenn diese Arbeit an ein Gerät oder eine einzelne lokale Session gebunden bleibt, bricht der Workflow schnell auseinander.
+
+Mit synchronisierten Agenten-Sessions rückt die IDE näher an einen dauerhaften KI-Arbeitsraum heran. Für Teams kann das nützlich sein, weil Kontext nicht ständig neu aufgebaut werden muss. Gleichzeitig entstehen neue Fragen: Welche Daten werden synchronisiert? Wie lange bleiben sie gespeichert? Und welche Projektgeheimnisse landen versehentlich im Chatverlauf?
+
+## Was Entwicklerteams prüfen sollten
+
+- Quelle zum Weiterlesen: [heise online](https://www.heise.de/news/Visual-Studio-Code-1-123-synchronisiert-Agenten-Sessions-ueber-Geraete-hinweg-11319338.html).
+- Thema: Visual Studio Code 1.123, KI-Chat, Agenten-Sessions, größere Kontextfenster.
+- Praktische Frage: Welche Repos, Dateien und Prompts dürfen überhaupt in persistente KI-Sessions?
+- Sicherheitsfrage: Wie werden Cloud-Sync, Compliance, Kundencode und interne Secrets getrennt?
 
 ## Ercans Einordnung
 
 > Der nächste Produktivitätssprung kommt nicht nur vom besseren Modell, sondern vom besseren Gedächtnis im Werkzeug.
 
-Teams sollten jetzt prüfen, welche Daten in solchen Sessions landen, wie sie synchronisiert werden und welche Regeln für Projektgeheimnisse, Code-Kontext und Compliance gelten.`,
+Für einzelne Entwickler ist das bequem. Für Unternehmen ist es Governance-Arbeit. Wer KI-Assistenten ernsthaft in den Entwicklungsprozess integriert, braucht klare Regeln für Kontextfreigabe, Session-Löschung, Auditierbarkeit und den Umgang mit vertraulichem Code. Sonst wird aus Produktivität schnell Schatten-IT im Editor.`,
     },
     tr: {
       title: "VS Code ajan oturumlarını cihazlar arasında senkronize ediyor",
       teaser: "heise'ye göre Visual Studio Code 1.123, başlatılan YZ sohbetlerini başka cihazlarda sürdürmeyi sağlıyor; OpenAI ve Anthropic modelleri için bağlam pencereleri de büyüyor.",
-      body: `heise, Visual Studio Code 1.123 ile geliştirici araçlarının nereye gittiğini gösteren bir yeniliği aktarıyor: YZ ve ajan oturumları artık tek bir cihaza bağlı kalmıyor. Başlatılan sohbetler başka bilgisayarlarda sürdürülebiliyor; OpenAI ve Anthropic modelleri için bağlam pencereleri de genişliyor.
+      body: `heise, Visual Studio Code 1.123 ile gelen ve geliştirici ekipler için ilk bakışta göründüğünden daha önemli olan bir yeniliği aktarıyor: YZ ve ajan sohbetleri cihazlar arasında sürdürülebilecek. Yani bir geliştirici editörde kod analizi, hata ayıklama ya da refactoring fikri başlattığında, başka bilgisayara geçtiği için konuşma bağlamını kaybetmek zorunda kalmayacak.
 
-## Neden önemli
+Buna OpenAI ve Anthropic modelleri için daha büyük bağlam pencereleri de ekleniyor. Bu, asistanın daha fazla proje bağlamını, daha uzun konuşma geçmişini ve daha geniş kod bilgisini aynı anda dikkate alabilmesi anlamına geliyor. Uzun coding oturumlarında bu fark, basit bir sohbet botu ile gerçek bir çalışma arkadaşı arasındaki fark gibi hissedilebilir.
 
-Agentic AI iş akışlarında süreklilik kritik. Kod analizi, hata ayıklama ya da refactoring sürecini bir asistanla başlatan ekipler, cihaz değişti diye çalışma bağlamını kaybetmek istemiyor.
+## Agentic AI için neden önemli
 
-- Kaynak: heise online, 05.06.2026.
-- Konu: Visual Studio Code 1.123, geliştirici YZ'si, ajan oturumları.
-- Sinyal: IDE'ler kalıcı YZ çalışma alanlarına dönüşüyor.
+Agentic AI süreklilik ister. Bir ajanın yalnızca tek bir soruya cevap vermesi değil; kodu okuması, hipotez kurması, testleri çalıştırması, hatayı açıklaması ve sonra hedefli değişiklik önermesi beklenir. Bu iş tek cihaza veya tek lokal oturuma bağlı kalırsa akış kolayca kopar.
+
+Senkronize ajan oturumlarıyla IDE, kalıcı bir YZ çalışma alanına biraz daha yaklaşıyor. Ekipler için bu değerli olabilir; çünkü bağlamı sürekli baştan kurmak gerekmez. Ama aynı anda yeni sorular doğar: Hangi veriler senkronize ediliyor? Ne kadar süre saklanıyor? Proje sırları yanlışlıkla sohbet geçmişine giriyor mu?
+
+## Ekiplerin kontrol etmesi gerekenler
+
+- Kaynak ve devamı: [heise online](https://www.heise.de/news/Visual-Studio-Code-1-123-synchronisiert-Agenten-Sessions-ueber-Geraete-hinweg-11319338.html).
+- Konu: Visual Studio Code 1.123, YZ sohbeti, ajan oturumları, daha büyük bağlam pencereleri.
+- Pratik soru: Hangi repo, dosya ve promptlar kalıcı YZ oturumlarına girebilir?
+- Güvenlik sorusu: Cloud sync, uyumluluk, müşteri kodu ve gizli bilgiler nasıl ayrılacak?
 
 ## Ercan'ın yorumu
 
 > Bir sonraki verimlilik sıçraması yalnızca daha iyi modelden değil, aracın daha iyi hafızasından gelecek.
 
-Ekipler bu oturumlarda hangi verilerin yer aldığını, nasıl senkronize edildiğini ve proje sırları, kod bağlamı ile uyumluluk için hangi kuralların geçerli olduğunu şimdiden gözden geçirmeli.`,
+Bireysel geliştirici için bu çok kullanışlı. Şirketler için ise yönetişim meselesi. YZ asistanlarını geliştirme sürecine ciddi biçimde entegre eden ekiplerin bağlam paylaşımı, oturum silme, denetlenebilirlik ve gizli kod kullanımı için net kurallara ihtiyacı var. Aksi halde verimlilik, editör içinde gölge BT'ye dönüşebilir.`,
     },
   },
 
@@ -101,40 +115,54 @@ Ekipler bu oturumlarda hangi verilerin yer aldığını, nasıl senkronize edild
     de: {
       title: "Bericht: Anthropic hilft NSA bei offensivem Mythos-Einsatz",
       teaser: "heise greift einen Bericht auf, nach dem Anthropic-Angestellte bei der NSA am Einsatz der mächtigen Mythos-KI arbeiten – ein heikler Sicherheits- und Governance-Fall.",
-      body: `heise berichtet über Vorwürfe rund um Anthropic und die US-Behörde NSA: Mehrere Beschäftigte sollen einem Zeitungsbericht zufolge direkt daran mitarbeiten, die Mythos-KI für offensive Einsätze nutzbar zu machen. Bestätigt sich das, wäre es ein deutliches Signal für die Nähe von Frontier-Modellen und staatlicher Sicherheitsinfrastruktur.
+      body: `heise greift einen Bericht auf, nach dem Anthropic-Beschäftigte die US-Behörde NSA beim Einsatz von Claude Mythos Preview unterstützen sollen. Brisant ist daran nicht nur der Name einer Geheimdienstbehörde, sondern die Frage, wie leistungsfähige Frontier-Modelle in sicherheitsnahen oder sogar offensiven Kontexten eingesetzt werden.
 
-## Frontier-KI trifft Geheimdienstpraxis
+Die öffentliche KI-Debatte trennt gern zwischen ziviler Produktivität auf der einen Seite und Sicherheits- oder Militärnutzung auf der anderen. In der Praxis verschwimmt diese Grenze. Modelle, die Code verstehen, Schwachstellen analysieren, komplexe Texte auswerten und operative Entscheidungen vorbereiten können, sind für Behörden und Verteidigungseinrichtungen logischerweise interessant.
 
-Die Debatte um KI-Sicherheit dreht sich oft um hypothetische Risiken. Dieser Fall macht sie konkreter: Wer darf leistungsfähige Modelle für offensive Operationen einsetzen, und welche Kontrollmechanismen greifen dabei?
+## Governance wird konkret
 
-- Quelle: heise online, 05.06.2026.
-- Thema: Anthropic, NSA, Mythos Preview, offensive KI-Nutzung.
-- Risiko: Sicherheitsforschung, Militär- und Geheimdienstnutzung rücken näher zusammen.
+Viele KI-Sicherheitsdiskussionen bleiben abstrakt: Was könnte ein Modell irgendwann tun? Dieser Fall macht die Frage konkreter: Wer entscheidet, welche Kunden ein Frontier-Modell für welche Zwecke nutzen dürfen? Welche internen Grenzen gelten für Anbieter? Gibt es unabhängige Audits oder nur öffentliche Selbstverpflichtungen?
+
+Für Anthropic ist das besonders sensibel, weil das Unternehmen stark über Sicherheits- und Verantwortungsversprechen kommuniziert. Wenn zugleich an offensiven staatlichen Einsatzszenarien gearbeitet wird, muss die Governance sauber erklärbar sein. Sonst entsteht der Eindruck, dass Sicherheitsrhetorik und Geschäftsrealität auseinanderlaufen.
+
+## Was Unternehmen daraus lernen können
+
+- Quelle zum Weiterlesen: [heise online](https://www.heise.de/news/Mythos-Preview-Anthropic-unterstuetzt-NSA-angeblich-bei-offensivem-KI-Einsatz-11319206.html).
+- Thema: Anthropic, Claude Mythos Preview, NSA, offensive KI-Nutzung.
+- Risiko: Frontier-Modelle werden Teil sicherheitskritischer Infrastruktur.
+- Prüfpunkt: Anbieter sollten nicht nur nach Benchmarks, sondern auch nach Governance, Auditierbarkeit und Einsatzgrenzen bewertet werden.
 
 ## Ercans Einordnung
 
 > Bei Frontier-Modellen ist Governance kein PR-Anhang, sondern Kernprodukt.
 
-Anbieter brauchen transparente Grenzen, unabhängige Audits und klare Eskalationsregeln. Für Unternehmen ist der Fall ein Reminder: Modellanbieter sollten nicht nur nach Benchmarks, sondern auch nach Sicherheits- und Governance-Praxis bewertet werden.`,
+Für Firmen heißt das: Der Modellanbieter ist nicht einfach ein technischer Lieferant. Er ist Teil der eigenen Risikokette. Wer sensible Daten, Code oder Entscheidungsprozesse an ein Modell gibt, sollte wissen, wie der Anbieter mit staatlichen Aufträgen, Sicherheitsfällen, Missbrauch und Transparenz umgeht.`,
     },
     tr: {
       title: "İddia: Anthropic, NSA'nın Mythos'u saldırı amaçlı kullanmasına destek oluyor",
       teaser: "heise'nin aktardığı habere göre Anthropic çalışanları, güçlü Mythos YZ modelinin NSA tarafından operasyonel kullanımı üzerinde çalışıyor olabilir.",
-      body: `heise, Anthropic ve ABD istihbarat kurumu NSA etrafındaki iddiaları aktarıyor: Bir gazete haberine göre bazı çalışanlar, Mythos adlı güçlü YZ modelinin saldırı amaçlı kullanımına hazırlanması için doğrudan destek veriyor. Bu doğrulanırsa, frontier modeller ile devlet güvenlik altyapısı arasındaki yakınlığı gösteren önemli bir işaret olur.
+      body: `heise'nin aktardığı habere göre Anthropic çalışanları, ABD istihbarat kurumu NSA'nın Claude Mythos Preview kullanımına destek veriyor olabilir. Buradaki hassas nokta yalnızca NSA adının geçmesi değil; güçlü frontier modellerin güvenlik alanında ve potansiyel olarak saldırı amaçlı senaryolarda nasıl kullanılacağı sorusu.
 
-## Frontier YZ istihbarat pratiğiyle buluşuyor
+Kamuoyundaki YZ tartışması çoğu zaman sivil verimlilik ile askeri veya istihbari kullanım arasında net bir çizgi varmış gibi ilerliyor. Pratikte bu çizgi bulanık. Kod anlayabilen, zafiyet analizi yapabilen, karmaşık metinleri işleyebilen ve operasyonel karar süreçlerini destekleyebilen modeller doğal olarak güvenlik kurumlarının ilgisini çekiyor.
 
-YZ güvenliği tartışmaları çoğu zaman varsayımsal riskler üzerinden ilerliyor. Bu örnek soruyu somutlaştırıyor: Güçlü modelleri saldırı operasyonlarında kim kullanabilir ve hangi denetim mekanizmaları devreye girer?
+## Yönetişim artık soyut değil
 
-- Kaynak: heise online, 05.06.2026.
-- Konu: Anthropic, NSA, Mythos Preview, saldırı amaçlı YZ kullanımı.
-- Risk: güvenlik araştırması, askeri ve istihbarat kullanımı birbirine yaklaşıyor.
+YZ güvenliği tartışmaları çoğu zaman teorik kalıyor: Bir model gelecekte ne yapabilir? Bu örnek soruyu somutlaştırıyor: Frontier modeli hangi müşteri hangi amaçla kullanabilir? Sağlayıcının iç sınırları ne? Bağımsız denetim var mı, yoksa yalnızca kamuya açık iyi niyet beyanları mı var?
+
+Anthropic için bu özellikle hassas. Çünkü şirket kendini güçlü biçimde güvenlik ve sorumluluk söylemiyle konumlandırıyor. Aynı anda saldırı amaçlı devlet kullanım senaryoları konuşuluyorsa, yönetişimin net biçimde açıklanması gerekir. Aksi halde güvenlik söylemi ile ticari gerçeklik arasında boşluk oluşur.
+
+## Şirketler için ders
+
+- Kaynak ve devamı: [heise online](https://www.heise.de/news/Mythos-Preview-Anthropic-unterstuetzt-NSA-angeblich-bei-offensivem-KI-Einsatz-11319206.html).
+- Konu: Anthropic, Claude Mythos Preview, NSA, saldırı amaçlı YZ kullanımı.
+- Risk: Frontier modeller güvenlik açısından kritik altyapının parçası oluyor.
+- Kontrol noktası: sağlayıcılar yalnızca benchmark skorlarıyla değil, yönetişim, denetlenebilirlik ve kullanım sınırlarıyla da değerlendirilmelidir.
 
 ## Ercan'ın yorumu
 
 > Frontier modellerde yönetişim bir PR eki değil, ürünün çekirdeğidir.
 
-Sağlayıcıların şeffaf sınırlar, bağımsız denetimler ve net eskalasyon kuralları sunması gerekir. Şirketler için de ders açık: model sağlayıcıları yalnızca benchmark skorlarıyla değil, güvenlik ve yönetişim pratikleriyle de değerlendirilmeli.`,
+Şirketler için anlamı şu: Model sağlayıcı yalnızca teknik tedarikçi değildir. Kendi risk zincirinizin parçasıdır. Hassas veri, kod veya karar süreçleri bir modele emanet ediliyorsa; sağlayıcının devlet işleri, güvenlik olayları, kötüye kullanım ve şeffaflık konularında nasıl davrandığı bilinmelidir.`,
     },
   },
 
@@ -149,40 +177,54 @@ Sağlayıcıların şeffaf sınırlar, bağımsız denetimler ve net eskalasyon 
     de: {
       title: "Fünf neue Protokolle sollen KI-Agenten im Internet vernetzen",
       teaser: "t3n ordnet Protokolle ein, mit denen Agenten bezahlen, verhandeln und miteinander kommunizieren können – wichtig für die nächste Stufe automatisierter Workflows.",
-      body: `t3n beleuchtet fünf neue Internet-Protokolle, die KI-Agenten besser miteinander und mit Diensten im Netz verbinden sollen. Im Mittelpunkt stehen Fähigkeiten wie bezahlen, verhandeln, Identität nachweisen und Aufgaben über Systemgrenzen hinweg koordinieren.
+      body: `t3n beschreibt fünf neue Internet-Protokolle, die KI-Agenten besser miteinander und mit Diensten im Netz verbinden sollen. Der Kern der Entwicklung: Agenten sollen nicht nur Texte schreiben oder Tools aufrufen, sondern im Internet eigenständiger handeln können – mit Identität, Kommunikation, Zahlungen, Verhandlung und nachvollziehbaren Regeln.
 
-## Agenten brauchen Infrastruktur
+Das ist ein wichtiger Schritt, weil viele heutige Agenten noch in isolierten Demos stecken. Sie können eine Aufgabe innerhalb eines Tools lösen, aber sobald mehrere Systeme, Berechtigungen, Zahlungsprozesse oder andere Agenten beteiligt sind, wird es brüchig. Genau dort setzen Protokolle an: Sie definieren, wie Agenten sich erkennen, beauftragen, bezahlen oder kontrollieren lassen.
 
-Heute sind viele KI-Agenten noch Demo-Workflows: ein Chat, ein Tool-Aufruf, ein Skript. Wirklich nützlich werden sie, wenn sie zuverlässig mit anderen Agenten, APIs, Zahlungsdiensten und Unternehmenssystemen sprechen können.
+## Aus Agenten werden Netzwerkteilnehmer
 
-- Quelle: t3n, 05.06.2026.
-- Thema: Agenten-Protokolle, Kommunikation, Zahlungen, Automatisierung.
-- Signal: Das offene Agenten-Ökosystem wird zur Infrastrukturfrage.
+Wenn Agenten künftig Reisen buchen, APIs einkaufen, Angebote vergleichen oder Geschäftsprozesse koordinieren sollen, brauchen sie mehr als Prompting. Sie brauchen Identität, Rechte, Haftungsgrenzen, Transaktionslogik und eine Sprache, mit der verschiedene Systeme einander verstehen.
+
+Für Unternehmen ist das eine Infrastrukturfrage. Ohne Standards entstehen proprietäre Inseln: Jeder Anbieter baut seinen eigenen Agenten-Kanal, sein eigenes Berechtigungsmodell und seine eigene Abrechnung. Mit offenen Protokollen kann dagegen ein Ökosystem entstehen, in dem Agenten ähnlich selbstverständlich miteinander interagieren wie heute Webdienste über HTTP und APIs.
+
+## Worauf man achten sollte
+
+- Quelle zum Weiterlesen: [t3n](https://t3n.de/news/bezahlen-verhandeln-kommunizieren-5-neue-internet-protokolle-die-ki-agenten-vernetzen-sollen-1743753/).
+- Thema: Agenten-Protokolle, Zahlungen, Verhandlung, Kommunikation, Automatisierung.
+- Chance: Agenten können echte Prozesse über Systemgrenzen hinweg übernehmen.
+- Risiko: Ohne Identität, Audit-Logs und Berechtigungen wird automatisiertes Handeln schwer kontrollierbar.
 
 ## Ercans Einordnung
 
 > Der Agentenmarkt entscheidet sich nicht nur im Modell, sondern in Standards, Identität und Rechten.
 
-Wer Agenten produktiv einsetzt, sollte früh auf Protokolle, Audit-Logs und Berechtigungsmodelle achten. Ohne klare Identität und Grenzen wird aus Automatisierung schnell ein Sicherheitsproblem.`,
+Für Builder heißt das: Nicht nur auf das nächste Modell warten. Wer heute Agenten baut, sollte Schnittstellen, Protokolle, Logging und Rechteverwaltung von Anfang an mitdenken. Die spannenden Agentenprodukte werden nicht nur klug antworten, sondern sicher und nachvollziehbar handeln.`,
     },
     tr: {
       title: "Beş yeni protokol YZ ajanlarını internette birbirine bağlamayı hedefliyor",
       teaser: "t3n, ajanların ödeme yapması, pazarlık etmesi ve iletişim kurması için geliştirilen protokolleri ele alıyor; otomasyonun bir sonraki aşaması için önemli.",
-      body: `t3n, YZ ajanlarını internet üzerindeki servislerle ve birbirleriyle daha iyi bağlamayı amaçlayan beş yeni protokolü inceliyor. Odakta ödeme yapmak, pazarlık etmek, kimlik kanıtlamak ve görevleri sistem sınırları boyunca koordine etmek var.
+      body: `t3n, YZ ajanlarını internet üzerindeki servislerle ve birbirleriyle daha iyi bağlamayı hedefleyen beş yeni protokolü anlatıyor. Gelişmenin özü şu: Ajanlar yalnızca metin yazan veya araç çağıran sistemler olmaktan çıkıp internette daha bağımsız hareket edebilen aktörlere dönüşebilir; kimlik, iletişim, ödeme, pazarlık ve izlenebilir kurallarla.
 
-## Ajanların altyapıya ihtiyacı var
+Bu önemli çünkü bugünkü birçok ajan hâlâ izole demo seviyesinde. Tek bir araç içinde görev çözebilirler; ancak birden fazla sistem, izin, ödeme süreci veya başka ajanlar devreye girdiğinde yapı kırılganlaşıyor. Protokoller tam bu noktaya odaklanıyor: ajanlar birbirini nasıl tanıyacak, nasıl görev verecek, nasıl ödeme yapacak ve nasıl denetlenecek?
 
-Bugün birçok YZ ajanı hâlâ demo iş akışı seviyesinde: bir sohbet, bir araç çağrısı, bir betik. Gerçek fayda, bu ajanların diğer ajanlarla, API'lerle, ödeme servisleriyle ve şirket sistemleriyle güvenilir biçimde konuşabilmesiyle gelecek.
+## Ajanlar ağ katılımcısına dönüşüyor
 
-- Kaynak: t3n, 05.06.2026.
-- Konu: ajan protokolleri, iletişim, ödemeler, otomasyon.
-- Sinyal: açık ajan ekosistemi bir altyapı meselesine dönüşüyor.
+Ajanların ileride seyahat rezervasyonu yapması, API satın alması, teklif karşılaştırması veya iş süreçlerini koordine etmesi bekleniyorsa, yalnızca iyi prompt yeterli olmaz. Kimlik, yetki, sorumluluk sınırı, işlem mantığı ve farklı sistemlerin anlayacağı ortak bir dil gerekir.
+
+Şirketler için bu bir altyapı meselesidir. Standart olmazsa herkes kendi kapalı ajan kanalını, kendi izin modelini ve kendi ödeme mantığını kurar. Açık protokollerle ise ajanların bugün web servislerinin HTTP ve API'lerle konuşması kadar doğal biçimde etkileştiği bir ekosistem oluşabilir.
+
+## Nelere dikkat edilmeli
+
+- Kaynak ve devamı: [t3n](https://t3n.de/news/bezahlen-verhandeln-kommunizieren-5-neue-internet-protokolle-die-ki-agenten-vernetzen-sollen-1743753/).
+- Konu: ajan protokolleri, ödeme, pazarlık, iletişim, otomasyon.
+- Fırsat: ajanlar sistem sınırlarını aşan gerçek süreçleri üstlenebilir.
+- Risk: kimlik, denetim kayıtları ve izinler olmadan otomatik işlem yapmak zor kontrol edilir.
 
 ## Ercan'ın yorumu
 
 > Ajan pazarını yalnızca model kalitesi değil, standartlar, kimlik ve yetkiler belirleyecek.
 
-Ajanları üretimde kullanan ekipler protokollere, denetim kayıtlarına ve izin modellerine erken dikkat etmeli. Net kimlik ve sınırlar olmadan otomasyon hızla güvenlik sorununa dönüşür.`,
+Builder'lar için mesaj net: Sadece bir sonraki modeli beklemeyin. Bugün ajan geliştiren ekipler arayüzleri, protokolleri, loglamayı ve yetki yönetimini en baştan düşünmeli. En güçlü ajan ürünleri yalnızca akıllı cevap vermeyecek; güvenli ve izlenebilir biçimde işlem yapacak.`,
     },
   },
 
@@ -197,40 +239,54 @@ Ajanları üretimde kullanan ekipler protokollere, denetim kayıtlarına ve izin
     de: {
       title: "UN-Warnung: KI könnte bis 2030 Wasser wie 1,3 Milliarden Menschen verbrauchen",
       teaser: "DonanımHaber berichtet über eine UN-Warnung zum Wasserbedarf von KI-Rechenzentren. Nachhaltigkeit wird damit zur Infrastrukturfrage.",
-      body: `Aus dem türkischen Quellenpool: DonanımHaber greift eine Warnung der Vereinten Nationen auf. Wenn der Ausbau von KI-Rechenzentren unverändert weiterläuft, könnte der Wasserbedarf bis 2030 eine Größenordnung erreichen, die mit dem Verbrauch von 1,3 Milliarden Menschen verglichen wird.
+      body: `DonanımHaber greift eine Warnung der Vereinten Nationen auf: Der Wasserbedarf von KI-Infrastruktur könnte bis 2030 eine Größenordnung erreichen, die mit dem Verbrauch von 1,3 Milliarden Menschen verglichen wird. Das klingt drastisch, passt aber zu einer Debatte, die bisher oft zu eng geführt wird.
 
-## KI braucht nicht nur Strom
+Bei KI-Infrastruktur sprechen viele zuerst über Strom, GPUs und Rechenleistung. Wasser bleibt im Hintergrund, obwohl Rechenzentren Kühlung brauchen und Standortentscheidungen zunehmend von Energie, Klima und lokaler Verfügbarkeit abhängen. Je größer die Modell- und Cloud-Nachfrage wird, desto stärker werden auch ökologische und kommunale Fragen sichtbar.
 
-In der Debatte stehen meist Chips und Energie im Vordergrund. Doch Rechenzentren benötigen auch Kühlung, Standorte, Netze und Wasser. Gerade in trockenen Regionen wird das zu einem politischen und wirtschaftlichen Konfliktpunkt.
+## KI braucht mehr als Chips und Strom
 
-- Quelle: DonanımHaber, 05.06.2026.
-- Thema: KI-Rechenzentren, Wasserverbrauch, Nachhaltigkeit.
-- Kontext: Infrastrukturkosten werden Teil der KI-Bilanz.
+Der Ausbau von Rechenzentren ist nicht nur ein Technikprojekt. Er betrifft Stromnetze, Grundstücke, Kühlkonzepte, Wasserrechte, lokale Akzeptanz und politische Regulierung. In wasserarmen Regionen kann ein neues Rechenzentrum schnell zum Konfliktthema werden, besonders wenn Bevölkerung, Landwirtschaft und Industrie bereits um Ressourcen konkurrieren.
+
+Für Unternehmen heißt das: Nachhaltigkeit lässt sich nicht erst am Ende in einen ESG-Bericht schreiben. Modellwahl, Inferenzstrategie, Caching, Auslastung und Standortwahl bestimmen mit, wie ressourcenintensiv KI-Anwendungen wirklich sind.
+
+## Was praktisch daraus folgt
+
+- Quelle zum Weiterlesen: [DonanımHaber](https://www.donanimhaber.com/bm-2030-da-yapay-zeka-1-3-milyar-insan-kadar-su-tuketecek--206428).
+- Thema: KI-Rechenzentren, Wasserverbrauch, Kühlung, Nachhaltigkeit.
+- Business-Folge: Infrastrukturkosten werden Teil der KI-Bilanz.
+- Technische Hebel: kleinere Modelle, effizientere Inferenz, Caching, regionale Architektur und bessere Auslastung.
 
 ## Ercans Einordnung
 
 > Wer KI skaliert, muss Wasser, Strom und Standortwahl gemeinsam bilanzieren.
 
-Für Unternehmen heißt das: Modellwahl, Caching, kleinere Modelle und regionale Infrastruktur sind nicht nur Kostenfragen, sondern auch Nachhaltigkeitshebel.`,
+Die Debatte sollte nicht bei der Frage stehen bleiben, welches Modell am stärksten ist. Entscheidend wird auch, welches Modell für welchen Zweck effizient genug ist. Nicht jede Aufgabe braucht das größte Frontier-Modell; oft ist ein kleineres, lokaleres oder besser gecachtes System ökologisch und wirtschaftlich sinnvoller.`,
     },
     tr: {
       title: "BM uyarısı: YZ 2030'da 1,3 milyar insan kadar su tüketebilir",
       teaser: "DonanımHaber, YZ veri merkezlerinin su ihtiyacına dair BM uyarısını aktarıyor. Sürdürülebilirlik artık doğrudan altyapı meselesi.",
-      body: `Türkçe kaynak havuzundan DonanımHaber, Birleşmiş Milletler'in yapay zekâ veri merkezlerine ilişkin su tüketimi uyarısını aktarıyor. YZ altyapısının büyümesi aynı hızla sürerse, 2030'a kadar su ihtiyacının 1,3 milyar insanın tüketimiyle karşılaştırılabilecek seviyeye çıkabileceği belirtiliyor.
+      body: `DonanımHaber, Birleşmiş Milletler'in yapay zekâ altyapısına ilişkin su tüketimi uyarısını aktarıyor: 2030'a kadar YZ sistemlerinin su ihtiyacı 1,3 milyar insanın tüketimiyle karşılaştırılabilecek bir seviyeye ulaşabilir. Bu sert bir ifade gibi duruyor; ama YZ altyapısı tartışmasının bugüne kadar fazla dar ele alındığını da gösteriyor.
 
-## YZ yalnızca elektrik tüketmiyor
+YZ altyapısı konuşulunca çoğu kişi önce elektrik, GPU ve hesaplama gücünü düşünüyor. Su ise arka planda kalıyor. Oysa veri merkezleri soğutmaya ihtiyaç duyuyor; lokasyon kararları enerji, iklim ve yerel kaynak erişimiyle doğrudan bağlantılı. Model ve bulut talebi büyüdükçe çevresel ve yerel yönetim boyutu daha görünür hale geliyor.
 
-Tartışmada çoğu zaman çipler ve enerji öne çıkıyor. Oysa veri merkezleri soğutma, konum, şebeke ve suya da ihtiyaç duyuyor. Özellikle kurak bölgelerde bu durum politik ve ekonomik bir gerilim başlığına dönüşebilir.
+## YZ yalnızca çip ve elektrik meselesi değil
 
-- Kaynak: DonanımHaber, 05.06.2026.
-- Konu: YZ veri merkezleri, su tüketimi, sürdürülebilirlik.
-- Bağlam: altyapı maliyetleri YZ bilançosunun parçası oluyor.
+Veri merkezi yatırımı sadece teknik proje değildir. Elektrik şebekesi, arazi, soğutma yöntemi, su hakkı, yerel kabul ve regülasyonla bağlantılıdır. Su stresi yaşayan bölgelerde yeni bir veri merkezi hızla tartışma konusu olabilir; özellikle halk, tarım ve sanayi zaten aynı kaynaklar için rekabet ediyorsa.
+
+Şirketler için sonuç açık: sürdürülebilirlik raporun son sayfasına bırakılacak bir konu değil. Model seçimi, çıkarım stratejisi, önbellekleme, kapasite kullanımı ve lokasyon seçimi YZ uygulamasının gerçek kaynak maliyetini belirler.
+
+## Pratik sonuçlar
+
+- Kaynak ve devamı: [DonanımHaber](https://www.donanimhaber.com/bm-2030-da-yapay-zeka-1-3-milyar-insan-kadar-su-tuketecek--206428).
+- Konu: YZ veri merkezleri, su tüketimi, soğutma, sürdürülebilirlik.
+- İş etkisi: altyapı maliyetleri YZ bilançosunun parçası olur.
+- Teknik kaldıraçlar: daha küçük modeller, verimli çıkarım, önbellekleme, bölgesel mimari ve daha iyi kapasite kullanımı.
 
 ## Ercan'ın yorumu
 
 > YZ'yi ölçekleyenler suyu, elektriği ve lokasyon seçimini birlikte hesaplamak zorunda.
 
-Şirketler için model seçimi, önbellekleme, daha küçük modeller ve bölgesel altyapı yalnızca maliyet değil, sürdürülebilirlik kaldıracı anlamına geliyor.`,
+Tartışma yalnızca hangi modelin en güçlü olduğu sorusunda kalmamalı. Asıl mesele hangi modelin hangi iş için yeterince verimli olduğudur. Her görev en büyük frontier modeli gerektirmez; çoğu zaman daha küçük, yerel veya iyi önbelleklenmiş bir sistem hem ekonomik hem çevresel olarak daha doğru seçimdir.`,
     },
   },
 
@@ -245,40 +301,54 @@ Tartışmada çoğu zaman çipler ve enerji öne çıkıyor. Oysa veri merkezler
     de: {
       title: "TSMC: KI-Chipnachfrage bleibt auf Jahre schwer zu bedienen",
       teaser: "DonanımHaber meldet Aussagen von TSMC: Die Nachfrage nach KI-Chips dürfte länger hoch bleiben als die Produktionskapazität.",
-      body: `DonanımHaber berichtet über Aussagen von TSMC zur anhaltend hohen Nachfrage nach KI-Chips. Der wichtigste Punkt: Die Industrie rechnet nicht mit einer schnellen Entspannung. Neue Kapazitäten aufzubauen dauert Jahre, während Modelle, Cloud-Anbieter und Gerätehersteller weiter skalieren.
+      body: `DonanımHaber berichtet über Aussagen von TSMC zur anhaltend hohen Nachfrage nach KI-Chips. Die Botschaft ist deutlich: Die Branche erwartet keine schnelle Entspannung. Während Cloudanbieter, Modellfirmen und Hardwarehersteller weiter skalieren, dauert der Ausbau von Fertigungskapazitäten Jahre.
+
+Das betrifft nicht nur einen einzelnen Chiptyp. KI-Beschleuniger hängen an einer komplexen Lieferkette: moderne Fertigungsprozesse, Packaging, HBM-Speicher, Substrate, Energie, Maschinen und Fachkräfte. Wenn nur ein Teil davon knapp bleibt, kann das gesamte Wachstum langsamer oder teurer werden.
 
 ## Der Engpass sitzt in der Lieferkette
 
-KI-Wachstum hängt nicht nur an Software. Wafer, Packaging, HBM-Speicher, Energie und Fertigungskapazitäten bestimmen, welche Produkte überhaupt ausgeliefert werden können.
+KI wird oft als Softwarewelle beschrieben. In Wahrheit ist sie auch eine Hardware- und Industriefrage. Modelle brauchen Training, Inferenz, Speicherbandbreite und Rechenzentren. Wer ausreichend GPUs oder spezialisierte Beschleuniger bekommt, kann Produkte schneller bauen, Dienste günstiger anbieten und Marktanteile sichern.
 
-- Quelle: DonanımHaber, 05.06.2026.
-- Thema: TSMC, KI-Chips, Halbleiter-Lieferkette.
-- Signal: Rechenleistung bleibt knapp und strategisch wertvoll.
+Für Unternehmen heißt das: KI-Roadmaps dürfen nicht nur Modellfeatures und Prompt-Strategien planen. Sie müssen auch realistische Annahmen zu Cloud-Kosten, Kapazitätsverfügbarkeit und Anbieterabhängigkeit enthalten. Wenn Rechenleistung knapp bleibt, werden Effizienz und Architektur wichtiger.
+
+## Was daraus folgt
+
+- Quelle zum Weiterlesen: [DonanımHaber](https://www.donanimhaber.com/tsmc-yapay-zekanin-cip-talebi-yillarca-karsilanamayacak--206411).
+- Thema: TSMC, KI-Chips, Halbleiter, Packaging, Cloud-Kapazitäten.
+- Signal: Rechenleistung bleibt knapp, teuer und strategisch.
+- Gegenstrategie: kleinere Modelle, lokale Inferenz, Multi-Cloud, bessere Auslastung und sparsamer Modellmix.
 
 ## Ercans Einordnung
 
 > KI-Roadmaps sollten nicht nur Modellfeatures planen, sondern Chip- und Cloud-Verfügbarkeit.
 
-Für Firmen lohnt sich ein realistischer Blick auf Kosten, Anbieterbindung und Alternativen: kleinere Modelle, lokale Inferenz, mehrere Cloud-Optionen und effiziente Architektur werden wichtiger.`,
+Die Gewinner werden nicht automatisch diejenigen sein, die immer das größte Modell einsetzen. Gewinner werden auch Teams sein, die Workloads sauber klassifizieren: Was braucht Frontier-Leistung, was läuft mit kleineren Modellen, was kann gecacht werden und was gehört näher an den Nutzer?`,
     },
     tr: {
       title: "TSMC: YZ çip talebini karşılamak yıllarca zor kalacak",
       teaser: "DonanımHaber'in aktardığı TSMC açıklamaları, yapay zekâ çiplerinde talebin üretim kapasitesinden uzun süre daha hızlı büyüyebileceğini gösteriyor.",
-      body: `DonanımHaber, TSMC'nin yapay zekâ çiplerine yönelik yüksek talep hakkındaki değerlendirmelerini aktarıyor. Ana mesaj: Sektör hızlı bir rahatlama beklemiyor. Yeni kapasite kurmak yıllar alırken modeller, bulut sağlayıcıları ve cihaz üreticileri büyümeyi sürdürüyor.
+      body: `DonanımHaber, TSMC'nin yapay zekâ çiplerine yönelik yüksek talep hakkındaki değerlendirmelerini aktarıyor. Mesaj net: Sektör kısa vadede rahatlama beklemiyor. Bulut sağlayıcıları, model şirketleri ve donanım üreticileri ölçek büyütürken yeni üretim kapasitesi kurmak yıllar alıyor.
+
+Bu yalnızca tek bir çip türüyle ilgili değil. YZ hızlandırıcıları karmaşık bir tedarik zincirine bağlı: ileri üretim süreçleri, paketleme, HBM bellek, substratlar, enerji, üretim makineleri ve uzman iş gücü. Zincirin tek bir halkası bile dar kalırsa tüm büyüme daha yavaş veya daha pahalı hale gelebilir.
 
 ## Darboğaz tedarik zincirinde
 
-YZ büyümesi yalnızca yazılıma bağlı değil. Wafer üretimi, paketleme, HBM bellek, enerji ve üretim kapasitesi hangi ürünlerin gerçekten piyasaya çıkabileceğini belirliyor.
+YZ çoğu zaman yazılım dalgası gibi anlatılıyor. Gerçekte aynı zamanda donanım ve sanayi meselesi. Modeller eğitim, çıkarım, bellek bant genişliği ve veri merkezi kapasitesi istiyor. Yeterli GPU veya özel hızlandırıcıya erişen şirketler ürünleri daha hızlı geliştirir, hizmetleri daha ucuza sunar ve pazar payı kazanır.
 
-- Kaynak: DonanımHaber, 05.06.2026.
-- Konu: TSMC, YZ çipleri, yarı iletken tedarik zinciri.
-- Sinyal: hesaplama gücü kıt ve stratejik kalmaya devam ediyor.
+Şirketler için anlamı şu: YZ yol haritaları yalnızca model özellikleri ve prompt stratejileriyle planlanamaz. Bulut maliyeti, kapasite erişimi ve sağlayıcı bağımlılığı için gerçekçi varsayımlar gerekir. Hesaplama gücü kıt kalırsa verimlilik ve mimari daha değerli olur.
+
+## Pratik sonuçlar
+
+- Kaynak ve devamı: [DonanımHaber](https://www.donanimhaber.com/tsmc-yapay-zekanin-cip-talebi-yillarca-karsilanamayacak--206411).
+- Konu: TSMC, YZ çipleri, yarı iletkenler, paketleme, bulut kapasitesi.
+- Sinyal: hesaplama gücü kıt, pahalı ve stratejik kalacak.
+- Karşı strateji: daha küçük modeller, yerel çıkarım, çoklu bulut, daha iyi kapasite kullanımı ve dengeli model karması.
 
 ## Ercan'ın yorumu
 
 > YZ yol haritaları yalnızca model özelliklerini değil, çip ve bulut erişimini de planlamalı.
 
-Şirketler için maliyet, sağlayıcı bağımlılığı ve alternatiflere gerçekçi bakmak önemli: daha küçük modeller, yerel çıkarım, çoklu bulut seçenekleri ve verimli mimari daha değerli hale geliyor.`,
+Kazananlar her zaman en büyük modeli kullananlar olmayacak. İş yüklerini doğru sınıflandıran ekipler öne çıkacak: Hangisi frontier model ister, hangisi küçük modelle çalışır, ne önbelleklenebilir ve hangi görev kullanıcıya daha yakın çalışmalıdır?`,
     },
   },
 
@@ -293,40 +363,54 @@ YZ büyümesi yalnızca yazılıma bağlı değil. Wafer üretimi, paketleme, HB
     de: {
       title: "Google Türkiye startet 2-Millionen-Dollar-KI-Initiative für den öffentlichen Sektor",
       teaser: "ShiftDelete berichtet über eine KI-Initiative von Google Türkiye für öffentliche Institutionen – relevant für digitale Verwaltung und lokale KI-Kompetenz.",
-      body: `Aus dem türkischen Quellenpool: ShiftDelete meldet eine neue KI-Initiative von Google Türkiye für den öffentlichen Bereich. Das Programm soll mit einem Volumen von 2 Millionen Dollar Kompetenzen, Anwendungen und Projekte rund um künstliche Intelligenz in öffentlichen Institutionen unterstützen.
+      body: `ShiftDelete berichtet über eine neue KI-Initiative von Google Türkiye für den öffentlichen Sektor. Das Programm soll mit einem Volumen von 2 Millionen Dollar Projekte, Kompetenzen und Anwendungen rund um künstliche Intelligenz in öffentlichen Institutionen unterstützen. Für die Türkei ist das mehr als eine normale Tech-Ankündigung: Es geht um digitale Verwaltung, lokale Fähigkeiten und vertrauenswürdige Nutzung von KI im Staat.
 
-## Öffentliche Verwaltung als KI-Lernfeld
+Öffentliche Institutionen sind ein besonders anspruchsvolles KI-Feld. Dort geht es nicht nur um Produktivität, sondern um Bürgerdaten, Transparenz, Gleichbehandlung, Beschaffung, Schulung und langfristige Wartbarkeit. Ein gutes KI-Projekt im öffentlichen Bereich muss erklären können, welche Daten genutzt werden, wer die Ergebnisse kontrolliert und wie Fehler korrigiert werden.
 
-Für Staaten ist KI nicht nur ein Produktivitätsthema, sondern auch eine Frage von Ausbildung, Datenqualität, Beschaffung und Vertrauen. Gerade im öffentlichen Sektor müssen Nutzen, Datenschutz und Transparenz zusammen gedacht werden.
+## Warum der öffentliche Sektor besonders ist
 
-- Quelle: ShiftDelete.Net, 05.06.2026.
-- Thema: Google Türkiye, öffentlicher Sektor, KI-Förderung.
-- Türkei-Bezug: lokale KI-Kompetenz und Verwaltungsdigitalisierung.
+In Unternehmen kann ein KI-Pilot schnell gestartet und wieder verworfen werden. Im Staat ist das schwieriger. Anwendungen betreffen viele Menschen, müssen rechtlich sauber sein und dürfen keine digitalen Abhängigkeiten schaffen, die später teuer oder politisch problematisch werden. Deshalb ist Kompetenzaufbau mindestens so wichtig wie einzelne Tools.
+
+Wenn das Programm lokale Partner, Ausbildung und nachvollziehbare Pilotprojekte stärkt, kann es echten Wert schaffen. Wenn es nur als Marketingfenster für Cloud- und KI-Produkte endet, bleibt der Effekt begrenzt.
+
+## Worauf man achten sollte
+
+- Quelle zum Weiterlesen: [ShiftDelete.Net](https://shiftdelete.net/google-turkiyeden-kamu-icin-2-milyon-dolarlik-yapay-zeka-hamlesi).
+- Zusätzlicher Kontext: [Google Blog Türkiye](https://blog.google/intl/tr-tr/sirket-haberleri/yapay-zeka-ile-turkiyenin-buyumesini-guclendirmek/).
+- Thema: Google Türkiye, öffentlicher Sektor, KI-Kompetenz, digitale Verwaltung.
+- Türkei-Bezug: lokale Fähigkeiten, öffentliche Dienste und verantwortliche Einführung von KI.
 
 ## Ercans Einordnung
 
 > Gute öffentliche KI-Projekte beginnen nicht mit dem Tool, sondern mit Daten, Regeln und messbarem Nutzen.
 
-Wenn solche Programme offen dokumentiert, evaluiert und mit lokalen Partnern umgesetzt werden, können sie mehr bewirken als einzelne Pilotdemos. Entscheidend ist, dass Know-how im Land bleibt.`,
+Für Bürger zählt am Ende nicht, ob ein Projekt KI im Namen trägt. Entscheidend ist, ob Dienste schneller, verständlicher und fairer werden. Genau daran sollte man solche Programme messen: konkrete Verwaltungsprozesse, offene Evaluation, Datenschutz und Wissenstransfer ins Land.`,
     },
     tr: {
       title: "Google Türkiye'den kamu için 2 milyon dolarlık YZ hamlesi",
       teaser: "ShiftDelete, Google Türkiye'nin kamu kurumlarına yönelik yeni YZ girişimini aktarıyor; dijital kamu hizmetleri ve yerel YZ yetkinliği için önemli.",
-      body: `Türkçe kaynak havuzundan ShiftDelete, Google Türkiye'nin kamu alanına yönelik yeni bir yapay zekâ girişimini duyurduğunu yazıyor. 2 milyon dolarlık programın kamu kurumlarında YZ yetkinliği, uygulamalar ve projeleri desteklemesi hedefleniyor.
+      body: `ShiftDelete, Google Türkiye'nin kamu sektörüne yönelik yeni yapay zekâ girişimini aktarıyor. 2 milyon dolarlık programın kamu kurumlarında YZ projelerini, yetkinliği ve uygulamaları desteklemesi hedefleniyor. Türkiye açısından bu sıradan bir teknoloji duyurusu değil; dijital kamu hizmetleri, yerel kapasite ve devlette güvenilir YZ kullanımıyla ilgili.
 
-## Kamu yönetimi YZ için öğrenme alanı
+Kamu kurumları YZ için en hassas alanlardan biridir. Burada mesele yalnızca verimlilik değildir; vatandaş verisi, şeffaflık, eşit muamele, satın alma süreçleri, eğitim ve uzun vadeli bakım da devreye girer. İyi bir kamu YZ projesi hangi veriyi kullandığını, sonuçları kimin kontrol ettiğini ve hataların nasıl düzeltileceğini açıklayabilmelidir.
 
-Devletler için YZ yalnızca verimlilik konusu değil; eğitim, veri kalitesi, satın alma ve güven meselesi. Özellikle kamuda fayda, mahremiyet ve şeffaflık birlikte düşünülmeli.
+## Kamu sektörü neden farklı
 
-- Kaynak: ShiftDelete.Net, 05.06.2026.
-- Konu: Google Türkiye, kamu sektörü, YZ desteği.
-- Türkiye bağlantısı: yerel YZ yetkinliği ve kamu dijitalleşmesi.
+Şirketlerde bir YZ pilotu hızlı başlatılıp hızlı kapatılabilir. Devlette bu daha zordur. Uygulamalar çok sayıda insanı etkiler, hukuka uygun olmalı ve ileride pahalı ya da politik açıdan sorunlu dijital bağımlılıklar üretmemelidir. Bu yüzden yetkinlik geliştirme, tekil araçlardan en az onlar kadar önemlidir.
+
+Program yerel paydaşları, eğitimi ve ölçülebilir pilot projeleri güçlendirirse gerçek değer yaratabilir. Sadece bulut ve YZ ürünleri için pazarlama vitrini olarak kalırsa etkisi sınırlı olur.
+
+## Nelere bakılmalı
+
+- Kaynak ve devamı: [ShiftDelete.Net](https://shiftdelete.net/google-turkiyeden-kamu-icin-2-milyon-dolarlik-yapay-zeka-hamlesi).
+- Ek bağlam: [Google Blog Türkiye](https://blog.google/intl/tr-tr/sirket-haberleri/yapay-zeka-ile-turkiyenin-buyumesini-guclendirmek/).
+- Konu: Google Türkiye, kamu sektörü, YZ yetkinliği, dijital kamu hizmetleri.
+- Türkiye bağlantısı: yerel kapasite, kamu hizmetleri ve sorumlu YZ kullanımı.
 
 ## Ercan'ın yorumu
 
 > İyi kamu YZ projeleri araçla değil, veriyle, kurallarla ve ölçülebilir faydayla başlar.
 
-Bu tür programlar açık biçimde belgelenir, değerlendirilir ve yerel paydaşlarla yürütülürse tekil pilot demoların ötesine geçebilir. Kritik nokta, bilgi birikiminin ülkede kalmasıdır.`,
+Vatandaş açısından önemli olan projenin adında YZ geçmesi değildir. Hizmetlerin daha hızlı, daha anlaşılır ve daha adil hale gelip gelmediğidir. Bu tür programlar da buna göre ölçülmeli: somut kamu süreçleri, açık değerlendirme, veri koruma ve bilginin ülkede kalması.`,
     },
   },
 

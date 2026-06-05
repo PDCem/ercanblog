@@ -170,6 +170,23 @@
   const TIPS_PAGE_SIZE = 8;
 
   /* ---------- Markdown-lite -> HTML ---------- */
+  function renderInline(text) {
+    const input = String(text || "");
+    const linkRe = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
+    let html = "";
+    let last = 0;
+    let match;
+    while ((match = linkRe.exec(input)) !== null) {
+      html += esc(input.slice(last, match.index));
+      const label = match[1];
+      const url = match[2].replace(/"/g, "%22");
+      html += `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`;
+      last = match.index + match[0].length;
+    }
+    html += esc(input.slice(last));
+    return html;
+  }
+
   function renderBody(text) {
     const blocks = text.trim().split(/\n\s*\n/);
     let html = "";
@@ -178,13 +195,13 @@
       if (block.startsWith("## ")) {
         html += `<h2>${esc(block.slice(3))}</h2>`;
       } else if (block.startsWith("> ")) {
-        html += `<blockquote><p>${esc(block.slice(2))}</p></blockquote>`;
+        html += `<blockquote><p>${renderInline(block.slice(2))}</p></blockquote>`;
       } else if (/^- /.test(block)) {
         const items = block.split("\n").map((l) => l.replace(/^- /, "").trim())
-          .filter(Boolean).map((x) => `<li>${esc(x)}</li>`).join("");
+          .filter(Boolean).map((x) => `<li>${renderInline(x)}</li>`).join("");
         html += `<ul>${items}</ul>`;
       } else {
-        html += `<p>${esc(block.replace(/\n/g, " "))}</p>`;
+        html += `<p>${renderInline(block.replace(/\n/g, " "))}</p>`;
       }
     }
     return html;
@@ -355,8 +372,8 @@
 
     const c = L(p);
     updateMeta({
-      title: esc(c.title) + " — Ercan Blog",
-      description: esc(c.teaser),
+      title: c.title + " — Ercan Blog",
+      description: c.teaser,
       url: "https://ercanblog.vercel.app/#/beitrag/" + encodeURIComponent(p.id),
       jsonLd: {
         "@context": "https://schema.org",

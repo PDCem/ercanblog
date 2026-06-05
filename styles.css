@@ -196,6 +196,8 @@ button { font-family: inherit; cursor: pointer; }
 .prose ul { margin: 0 0 var(--space-6); padding-left: 0; list-style: none; }
 .prose li { position: relative; padding-left: 26px; margin-bottom: var(--space-3); color: var(--fg); }
 .prose li::before { content: ""; position: absolute; left: 4px; top: 11px; width: 8px; height: 8px; border-radius: 2px; background: var(--electric-500); }
+.prose a { color: var(--electric-600); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.prose a:hover { color: var(--electric-500); }
 .prose blockquote {
   margin: var(--space-8) 0; padding: var(--space-5) var(--space-6);
   border-left: 3px solid var(--electric-500); background: var(--primary-soft);
