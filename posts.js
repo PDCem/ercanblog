@@ -16,6 +16,9 @@
      id        – eindeutiger Kürzel ohne Leerzeichen (für den Link)
       cat       – Kategorie-Schlüssel: "agentic" | "modelle" |
                   "sicherheit" | "business" | "forschung"
+     lang      – Sichtbarkeit/Quellsprache: "de" | "tr" | "all"
+                  WICHTIG: News werden pro Sprache getrennt recherchiert.
+                  Deutsche Quellen => lang: "de", türkische Quellen => lang: "tr".
      author    – Name (in beiden Sprachen gleich)
      date      – "JJJJ-MM-TT"
      image     – Pfad zum Titelbild (z. B. "images/mein-bild.jpg")
@@ -45,6 +48,7 @@ const POSTS = [
   {
     id: "heise-vscode-agent-sessions-2026-06-05",
     cat: "agentic",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-05",
     image: "images/2026-06-05-vscode-agent-sessions.jpg",
@@ -108,6 +112,7 @@ Bireysel geliştirici için bu çok kullanışlı. Şirketler için ise yöneti�
   {
     id: "heise-mythos-anthropic-nsa-ki-einsatz-2026-06-05",
     cat: "sicherheit",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-05",
     image: "images/2026-06-05-nsa-ai-security.jpg",
@@ -170,6 +175,7 @@ Anthropic için bu özellikle hassas. Çünkü şirket kendini güçlü biçimde
   {
     id: "t3n-agenten-protokolle-internet-2026-06-05",
     cat: "agentic",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-05",
     image: "images/2026-06-05-agent-protocols-network.jpg",
@@ -232,6 +238,7 @@ Builder'lar için mesaj net: Sadece bir sonraki modeli beklemeyin. Bugün ajan g
   {
     id: "donanimhaber-bm-ai-su-tuketimi-2030-2026-06-05",
     cat: "forschung",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-05",
     image: "images/2026-06-05-ai-water-consumption.jpg",
@@ -294,6 +301,7 @@ Tartışma yalnızca hangi modelin en güçlü olduğu sorusunda kalmamalı. As�
   {
     id: "donanimhaber-tsmc-ai-chip-talebi-2026-06-05",
     cat: "business",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-05",
     image: "images/2026-06-05-tsmc-chip-demand.jpg",
@@ -356,6 +364,7 @@ Kazananlar her zaman en büyük modeli kullananlar olmayacak. İş yüklerini do
   {
     id: "shiftdelete-google-turkiye-kamu-ai-hamlesi-2026-06-05",
     cat: "business",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-05",
     image: "images/2026-06-05-google-turkiye-public-ai.jpg",
@@ -419,6 +428,7 @@ Vatandaş açısından önemli olan projenin adında YZ geçmesi değildir. Hizm
   {
     id: "heise-ki-lebenslaeufe-bias-chatbots-2026-06-04",
     cat: "sicherheit",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-04",
     image: "images/2026-06-04-ki-recruiting-cv.jpg",
@@ -468,6 +478,7 @@ Unternehmen sollten Chatbots hier nicht als neutrale Richter einsetzen. Sinnvoll
   {
     id: "t3n-ki-wurm-dynamische-angriffe-2026-06-04",
     cat: "sicherheit",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-04",
     image: "images/2026-06-04-ki-wurm-malware-laptop.jpg",
@@ -516,6 +527,7 @@ Bu yalnızca kötü amaçlı yazılım araştırması değil. Otonom sistemler s
   {
     id: "techinside-alphabet-ki-yatirimlari-80-milyar-2026-06-04",
     cat: "business",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-04",
     image: "images/2026-06-04-alphabet-data-center.jpg",
@@ -564,6 +576,7 @@ Kullanıcılar için bu daha iyi ürünler anlamına gelebilir, ama platform ba�
   {
     id: "webrazzi-suno-400-milyon-yatirim-2026-06-04",
     cat: "business",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-04",
     image: "images/2026-06-04-suno-music-studio.jpg",
@@ -612,6 +625,7 @@ Belirleyici konu; eğitim verisi, haklar, etiketleme ve gelir paylaşımının n
   {
     id: "shiftdelete-meta-isletmeler-icin-ai-ajanlari-2026-06-04",
     cat: "agentic",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-04",
     image: "images/2026-06-04-meta-enterprise-agents.jpg",
@@ -660,6 +674,7 @@ Wichtig wird, dass Unternehmen nicht einfach alles automatisieren. Gute Agenten 
   {
     id: "t3n-eu-souveraene-chips-cloud-ki-2026-06-04",
     cat: "business",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-04",
     image: "images/2026-06-04-eu-cloud-data-center.jpg",
@@ -708,6 +723,7 @@ Egemen YZ yalnızca yerli model demek değil. Veri merkezleri, veri alanları, �
   {
     id: "amazon-ki-produkte-shopping-2026-06-03",
     cat: "business",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-amazon-shopping-locker-hijo.jpg",
@@ -757,6 +773,7 @@ Platformlar gerçek ürünlere yönlendirmek için ürün fikri üretiyorsa şef
   {
     id: "microsoft-mai-modelle-frontier-tuning-2026-06-03",
     cat: "modelle",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-microsoft-mai-modelle.jpg",
@@ -805,6 +822,7 @@ Kullanıcılar için bu, YZ özelliklerinin Windows, Office ve geliştirici ara�
   {
     id: "duckduckgo-ki-freie-suche-standard-2026-06-03",
     cat: "sicherheit",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-duckduckgo-search.jpg",
@@ -853,6 +871,7 @@ Günlük kullanımda YZ arama faydalı kalır, ama klasik sonuç listelerinin de
   {
     id: "abd-en-yeni-ai-modellerine-erken-erisim-2026-06-03",
     cat: "sicherheit",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-us-ai-model-access.jpg",
@@ -901,6 +920,7 @@ Sağlayıcılar için bu güven oluşturabilir, ama politik baskıyı da artıra
   {
     id: "anthropic-halka-arz-yolunda-2026-06-03",
     cat: "business",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-anthropic-ipo-exchange.jpg",
@@ -949,6 +969,7 @@ Yatırımcılar için konu hype'tan ibaret değil: müşteri bağlılığı, alt
   {
     id: "invisix-20-milyon-euro-yatirim-2026-06-03",
     cat: "forschung",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-invisix-chip-metrology.jpg",
@@ -997,6 +1018,7 @@ Avrupa için bu özellikle önemli: YZ'de daha bağımsız olmak isteyenler yaln
   {
     id: "ki-wurm-individuelle-angriffe-2026-06-03",
     cat: "sicherheit",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-ki-wurm-cybersecurity-keyboard.jpg",
@@ -1046,6 +1068,7 @@ Klasik zararlı yazılımlar çoğu zaman sabit kalıplara dayanır. Bir YZ solu
   {
     id: "deepseek-v4-huawei-ascend-nvidia-abkehr-2026-06-03",
     cat: "modelle",
+    lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-deepseek-huawei-wafer.jpg",
@@ -1094,6 +1117,7 @@ Avrupalı şirketler için bu bir uyarı: Bağımlılıklar yalnızca bulut sağ
   {
     id: "microsoft-agent-optimizer-repariert-agenten-2026-06-03",
     cat: "agentic",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/2026-06-03-microsoft-agent-optimizer-code.jpg",
@@ -1143,6 +1167,7 @@ Birçok ajan demoda iyi görünür, fakat günlük kullanımda yanlış prompt, 
   {
     id: "microsoft-build-2026-windows-agenten",
     cat: "agentic",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/microsoft-build.jpg",
@@ -1200,6 +1225,7 @@ Mevcut yazılımların yeni arayüzlerle ne kadar sorunsuz çalışacağı ve va
   {
     id: "github-copilot-nutzungsabrechnung",
     cat: "business",
+    lang: "de",
     author: "Lena Brandt",
     date: "2026-06-02",
     image: "images/github-copilot.jpg",
@@ -1248,6 +1274,7 @@ Copilot'u yoğun kullananlar – örneğin otomatik kod incelemeleri veya uzun, 
   {
     id: "eu-digitale-souveraenitaet-paket",
     cat: "business",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-03",
     image: "images/eu-souveraenitaet.jpg",
@@ -1296,6 +1323,7 @@ Ob aus den Vorschlägen wirksame Gesetze werden, hängt nun von den Verhandlunge
   {
     id: "google-suche-informations-agenten",
     cat: "agentic",
+    lang: "de",
     author: "Lena Brandt",
     date: "2026-06-01",
     image: "images/google-agents.jpg",
@@ -1344,6 +1372,7 @@ Klasik aramanın aksine ajanlar arka planda çalışmaya devam ediyor – günü
   {
     id: "microsoft-agent-365-kontrolle",
     cat: "business",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-02",
     image: "images/microsoft-agent365.jpg",
@@ -1392,6 +1421,7 @@ BT departmanı için görev değişiyor: Artık yalnızca insanlar ve cihazlar d
   {
     id: "softbank-ki-rechenzentren-frankreich",
     cat: "forschung",
+    lang: "de",
     author: "Lena Brandt",
     date: "2026-06-02",
     image: "images/softbank-rz.jpg",
@@ -1440,6 +1470,7 @@ Sektör için bu adım, artık yalnızca çiplerin değil, giderek enerji ve ala
   {
     id: "qualcomm-server-cpus-edge-ki",
     cat: "forschung",
+    lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-01",
     image: "images/qualcomm-chips.jpg",
@@ -1488,6 +1519,7 @@ Somut ürünler ve çıkış tarihleri şimdilik belirsiz kaldı. Ancak yön net
   {
     id: "ki-stromverbrauch-studie",
     cat: "forschung",
+    lang: "de",
     author: "Lena Brandt",
     date: "2026-05-31",
     image: "images/ki-energie.jpg",

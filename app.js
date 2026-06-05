@@ -152,6 +152,7 @@
   const CATEGORY_REDIRECT = { llm: "modelle", hardware: "forschung" };
   const catObj = (key) => CATEGORIES.find((c) => c.key === key);
   const catLabel = (key) => { const c = catObj(key); return c ? c[LANG] : key; };
+  const postMatchesLang = (p) => !p.lang || p.lang === "all" || p.lang === LANG;
   const langTips = () => TIPS.filter((t) => !t.lang || t.lang === "all" || t.lang === LANG);
 
   // German + Turkish month names
@@ -173,7 +174,10 @@
 
   // Sort newest first
   const byDate = (a, b) => (a.date === b.date ? 0 : (a.date < b.date ? 1 : -1));
-  const allPosts = [...POSTS].sort(byDate);
+  let allPosts = [];
+  function refreshVisiblePosts() {
+    allPosts = POSTS.filter(postMatchesLang).sort(byDate);
+  }
   const HOME_NEWS_LIMIT = 6;
   const HOME_TIPS_LIMIT = 4;
   const NEWS_PAGE_SIZE = 10;
@@ -268,7 +272,7 @@
   }
 
   function sidebarTpl() {
-    const top = [...POSTS].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 5);
+    const top = [...allPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 5);
     const ranks = top.map((p, i) => `
       <a class="rank-item" href="#/beitrag/${p.id}">
         <div class="rank-num">${i + 1}</div>
@@ -374,7 +378,7 @@
   }
 
   function renderArticle(id) {
-    const p = POSTS.find((x) => x.id === id);
+    const p = allPosts.find((x) => x.id === id);
     if (!p) {
       updateMeta({ title: "Beitrag nicht gefunden — Ercan Blog" });
       return `<div class="wrap"><div class="empty"><h2>${esc(t("notFoundTitle"))}</h2><p><a class="back-link" href="#/">← ${esc(t("back"))}</a></p></div></div>`;
@@ -505,6 +509,7 @@
   }
 
   function render() {
+    refreshVisiblePosts();
     const route = parseHash();
     const app = $("#app");
     const search = $("#search-input");
