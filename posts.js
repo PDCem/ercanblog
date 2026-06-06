@@ -44,6 +44,260 @@ const CATEGORIES = [
 
 const POSTS = [
 
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "heise-apple-siri-beta-warteliste-2026-06-06",
+    cat: "agentic",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-06",
+    image: "images/2026-06-06-apple-siri-beta-warteliste.svg",
+    featured: true,
+    views: 7040,
+    de: {
+      title: "Apple plant für die neue Siri offenbar eine Warteliste",
+      teaser: "heise berichtet: Apple will die neue Siri-Beta offenbar dosiert ausrollen, um Serverlast und Nutzererwartungen besser kontrollieren zu können.",
+      body: `heise berichtet über einen für Apple ungewöhnlich vorsichtigen Schritt: Für die neue Siri-Beta soll es offenbar eine Warteliste geben. Das klingt zunächst nach einem organisatorischen Detail, sagt aber viel über den Zustand moderner KI-Produkte aus. Sprachassistenten sind nicht mehr nur lokale Komfortfunktionen, sondern cloudnahe, rechenintensive Systeme mit hohen Erwartungen an Latenz, Datenschutz und Verlässlichkeit.
+
+Wenn Apple den Zugang begrenzt, geht es wahrscheinlich nicht nur um Marketing-Verknappung. Generative Assistenzfunktionen müssen in Spitzenzeiten stabil laufen, dürfen keine falschen Erwartungen erzeugen und müssen gleichzeitig mit sensiblen persönlichen Daten umgehen. Ein zu schneller Rollout kann gerade bei einem Alltagsprodukt wie Siri mehr Schaden anrichten als ein langsamer Start.
+
+## Warum der Wartelisten-Ansatz relevant ist
+
+Der KI-Markt hat sich daran gewöhnt, dass neue Funktionen sofort für Millionen Nutzer ausgerollt werden. Bei persönlichen Assistenten ist die Lage anders: Sie greifen tief in Kalender, Nachrichten, Apps und Gerätekontext ein. Jede Fehlinterpretation kann nicht nur peinlich, sondern praktisch störend sein. Eine kontrollierte Beta hilft, Last, Qualität und Sicherheitsgrenzen Schritt für Schritt zu testen.
+
+Für Entwickler und Produktteams ist das ein wichtiges Signal. Die nächste Generation von Agenten wird nicht allein über Modellbenchmarks entschieden, sondern über Betriebsqualität: Warteschlangen, Rollback-Fähigkeit, Monitoring, Datenschutzpfade und klare Grenzen für Aktionen im Namen des Nutzers.
+
+## Worauf Leser achten sollten
+
+- Quelle zum Weiterlesen: [heise online](https://www.heise.de/news/Bericht-Apple-erwaegt-Warteliste-fuer-neue-Siri-Beta-11320164.html).
+- Thema: Apple, Siri, Beta-Rollout, Serverlast und KI-Assistenten.
+- Praktischer Punkt: KI-Assistenten brauchen Produkt- und Betriebsdisziplin, nicht nur bessere Sprachmodelle.
+- Offene Frage: Wie transparent erklärt Apple, welche Daten verarbeitet werden und welche Aktionen Siri wirklich selbst ausführen darf?
+
+## Ercans Einordnung
+
+> Bei persönlichen KI-Assistenten ist Zuverlässigkeit wichtiger als ein lauter Start.
+
+Apple steht unter Druck, bei KI sichtbarer zu werden. Trotzdem wäre ein kontrollierter Rollout vernünftig. Gerade Agentenfunktionen müssen erst beweisen, dass sie im Alltag sicher, nachvollziehbar und belastbar arbeiten. Eine Warteliste ist deshalb kein Rückschritt, sondern möglicherweise der realistischere Weg vom Demo-Video zum Massenprodukt.`,
+    },
+    tr: {
+      title: "Apple yeni Siri betası için bekleme listesi planlıyor olabilir",
+      teaser: "Almanca kaynaklı kısa özet: Apple'ın yeni Siri betasını kontrollü açması, YZ asistanlarında sunucu yükü ve güvenilirlik meselesini öne çıkarıyor.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: Apple'ın yeni Siri betası için bekleme listesi planladığı iddiası, kişisel YZ asistanlarında yalnızca model kalitesinin değil; sunucu kapasitesi, güvenilirlik, veri koruma ve kontrollü ürün yayılımının da belirleyici olduğunu gösteriyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "heise-ifo-deutsche-unternehmen-ki-nutzung-2026-06-06",
+    cat: "business",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-06",
+    image: "images/2026-06-06-deutsche-firmen-ki-nutzung.svg",
+    views: 6920,
+    de: {
+      title: "Ifo: Mehr als die Hälfte der deutschen Unternehmen nutzt KI",
+      teaser: "heise greift Ifo-Zahlen auf: KI ist in deutschen Unternehmen angekommen, doch der Abstand zwischen großen Firmen und kleineren Betrieben bleibt entscheidend.",
+      body: `heise berichtet über Ifo-Zahlen, nach denen mehr als die Hälfte der deutschen Unternehmen KI nutzt. Damit ist künstliche Intelligenz in der Breite angekommen: nicht mehr nur als Forschungsprojekt großer Konzerne, sondern als Werkzeug für Texte, Analysen, Kundenkontakt, Software, Planung und interne Automatisierung.
+
+Die wichtigste Botschaft liegt aber nicht allein in der Prozentzahl. Entscheidend ist, wie unterschiedlich Unternehmen KI einsetzen. Große Firmen können Pilotprojekte, Datenplattformen, Compliance und Schulungen leichter finanzieren. Kleinere Betriebe profitieren zwar ebenfalls von günstigen Tools, kämpfen aber häufiger mit Zeit, Know-how, Datenschutzfragen und der Frage, welche Prozesse sich wirklich lohnen.
+
+## Vom Tool-Test zur Prozessfrage
+
+Viele Organisationen starten mit ChatGPT, Copilot oder Bildgeneratoren. Das ist sinnvoll, bleibt aber oft auf der Oberfläche. Der wirtschaftliche Effekt entsteht erst, wenn KI in echte Abläufe eingebaut wird: Angebotsvorbereitung, Support-Triage, Wissenssuche, Dokumentation, Controlling, Qualitätsprüfung oder Softwarewartung.
+
+Für Deutschland ist diese Phase besonders wichtig. Wenn KI nur in einzelnen Abteilungen experimentell genutzt wird, entsteht wenig Produktivitätsgewinn. Wenn sie dagegen mit sauberer Datenbasis, klaren Verantwortlichkeiten und messbaren Zielen eingeführt wird, kann sie gerade im Mittelstand Routinearbeit reduzieren und Fachkräfte entlasten.
+
+## Was Unternehmen jetzt prüfen sollten
+
+- Quelle zum Weiterlesen: [heise online](https://www.heise.de/news/Ifo-Ueber-die-Haelfte-der-deutschen-Unternehmen-nutzt-KI-11319898.html).
+- Zusätzlicher Kontext: [t3n zur deutschen KI-Nutzung](https://t3n.de/news/deutschland-54-prozent-der-firmen-nutzen-ki-doch-kleine-betriebe-hinken-hinterher-1746120/).
+- Thema: KI-Adoption, Ifo, Unternehmen, Mittelstand und Produktivität.
+- Prüfpunkt: Gibt es pro KI-Einsatz einen klaren Prozess, eine verantwortliche Person und eine messbare Verbesserung?
+
+## Ercans Einordnung
+
+> Die Frage ist nicht mehr, ob Firmen KI testen. Die Frage ist, ob sie daraus belastbare Arbeitsabläufe bauen.
+
+Für Leser aus Agenten-, Tool- und Automationsprojekten ist das eine Chance. Firmen brauchen keine weitere Demo, sondern robuste Umsetzung: Datenzugriff, Rollen, Freigaben, Audit-Logs und Schulung. Wer genau diese Lücke schließt, baut nützlichere KI-Produkte als der nächste reine Chatbot.`,
+    },
+    tr: {
+      title: "Ifo: Alman şirketlerinin yarısından fazlası YZ kullanıyor",
+      teaser: "Almanca kaynaklı kısa özet: Almanya'da şirketler YZ'yi yaygın biçimde kullanmaya başladı; asıl fark uygulama kalitesi ve KOBİ'lerin yetişmesinde.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: Ifo verilerine göre Almanya'da şirketlerin yarısından fazlası YZ kullanıyor. Asıl mesele artık deneme yapmak değil; YZ'yi ölçülebilir, güvenli ve sürdürülebilir iş süreçlerine dönüştürmek.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "golem-ki-server-128tb-speicher-2026-06-06",
+    cat: "modelle",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-06",
+    image: "images/2026-06-06-ki-server-128tb-speicher.svg",
+    views: 6810,
+    de: {
+      title: "Start-up plant KI-Server mit 128 TByte Speicher",
+      teaser: "Golem berichtet über einen Serveransatz, der viele GPUs ersetzen soll: Für große KI-Workloads rückt Speicherarchitektur stärker in den Fokus.",
+      body: `Golem berichtet über ein Start-up, das einen KI-Server mit 128 TByte Speicher plant und damit viele GPUs ersetzen will. Solche Meldungen sind wichtig, weil sie zeigen: Die KI-Infrastrukturdebatte dreht sich nicht nur um immer mehr Beschleuniger, sondern auch um Speicher, Datenbewegung und Systemarchitektur.
+
+Bei großen Modellen ist Rechenleistung nur ein Teil des Problems. Ebenso kritisch ist, wo Gewichte, Aktivierungen, Kontextdaten und Zwischenergebnisse liegen. Wenn Daten ständig zwischen Speicherhierarchien verschoben werden müssen, entstehen Latenz, Energieverbrauch und Kosten. Deshalb werden neue Architekturen interessant, die sehr viel Speicher nahe an die Verarbeitung bringen.
+
+## Warum Speicher zum Engpass wird
+
+Agentische Systeme, lange Kontextfenster, Retrieval, multimodale Daten und größere Batch-Verarbeitung erhöhen den Druck auf die Infrastruktur. Ein Modell muss nicht nur schnell rechnen, sondern große Mengen Zustand halten können. Für Unternehmen kann genau das entscheidend sein, wenn sie lokale oder private KI-Workloads betreiben wollen.
+
+Der Ansatz muss sich allerdings in der Praxis beweisen. Versprechen wie GPU-Ersatz klingen stark, doch entscheidend sind reale Benchmarks, Softwarekompatibilität, Energiebedarf, Preis und Integration in bestehende Frameworks. KI-Infrastruktur gewinnt man selten mit einer einzelnen Hardwareidee, sondern mit dem Zusammenspiel aus Chips, Speicher, Netzwerk und Software.
+
+## Was Builder daraus lernen
+
+- Quelle zum Weiterlesen: [Golem.de](https://www.golem.de/news/soll-viele-gpus-ersetzen-start-up-plant-ki-server-mit-128-tbyte-speicher-2606-209460.html).
+- Thema: KI-Server, Speicherarchitektur, GPU-Kosten, lokale Inferenz und große Modelle.
+- Chance: Mehr Speicher kann lange Kontexte und größere Workloads wirtschaftlicher machen.
+- Risiko: Ohne breite Softwareunterstützung bleibt selbst interessante Hardware eine Nischenlösung.
+
+## Ercans Einordnung
+
+> Die nächste KI-Infrastrukturwelle entscheidet sich auch daran, wie billig und schnell Daten bewegt werden.
+
+Für Teams, die Agenten oder interne LLM-Systeme bauen, lohnt der Blick über Modellnamen hinaus. Wer Kosten senken will, muss Kontextlängen, Speicherbedarf, Caching, Quantisierung und Hardwarepfade gemeinsam planen. Genau dort entstehen die echten Effizienzgewinne.`,
+    },
+    tr: {
+      title: "128 TB belleğe sahip YZ sunucusu planlanıyor",
+      teaser: "Almanca kaynaklı kısa özet: Büyük YZ iş yüklerinde yalnızca GPU sayısı değil, bellek mimarisi ve veri hareketi de kritik hale geliyor.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: Golem'in aktardığı yeni sunucu yaklaşımı, büyük YZ iş yüklerinde bellek kapasitesi, veri hareketi ve yazılım uyumluluğunun GPU sayısı kadar önemli olduğunu hatırlatıyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "donanimhaber-openai-modeli-yapay-zeka-tasarliyor-2026-06-06",
+    cat: "modelle",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-06",
+    image: "images/2026-06-06-openai-modell-von-ki-designt.svg",
+    views: 6990,
+    de: {
+      title: "OpenAIs nächstes Modell soll von KI mitentworfen werden",
+      teaser: "Türkische Quelle, kurzer Fallback: DonanımHaber berichtet über KI-gestützten Modellentwurf bei OpenAI und die Frage rekursiver Optimierung.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: DonanımHaber berichtet, dass OpenAI beim Entwurf kommender Modelle stärker auf KI selbst setzt. Relevant ist daran die Frage, wie weit automatisiertes Modell-Design Forschung, Kosten und Sicherheitsprüfungen verändert.`,
+    },
+    tr: {
+      title: "OpenAI'in bir sonraki modeli yapay zeka tarafından tasarlanıyor",
+      teaser: "DonanımHaber'in aktardığı gelişme, model geliştirme yarışında yeni bir aşamaya işaret ediyor: YZ artık yalnızca ürün değil, araştırma sürecinin de aracı.",
+      body: `DonanımHaber, OpenAI'in bir sonraki modelinin tasarım sürecinde yapay zekadan yararlanıldığını aktarıyor. Bu haber, YZ yarışında önemli bir eşiği gösteriyor: Modeller artık yalnızca kullanıcıların işini otomatikleştirmiyor; yeni modellerin nasıl tasarlanacağına dair araştırma sürecinin içinde de aktif rol alıyor.
+
+Bu yaklaşımın arkasındaki mantık anlaşılır. Model mimarisi, veri karışımı, eğitim stratejisi, değerlendirme setleri ve güvenlik testleri giderek daha karmaşık hale geliyor. İnsan araştırmacılar hâlâ yönü belirliyor; fakat arama alanı büyüdükçe YZ destekli öneri, simülasyon ve optimizasyon araçları geliştirme hızını artırabilir.
+
+## Rekürsif gelişim neden hassas?
+
+Bir YZ sisteminin daha iyi YZ sistemleri tasarlamaya yardım etmesi, teknoloji dünyasında uzun süredir tartışılan rekürsif iyileştirme fikrine yaklaşıyor. Bu hemen bilim kurgu senaryosu anlamına gelmez. Ama denetim, ölçüm ve güvenlik açısından çıtayı yükseltir: Hangi öneriler neden seçiliyor? Hatalı optimizasyon nasıl yakalanıyor? Güvenlik testleri modelin kendi önerileriyle zayıflatılabilir mi?
+
+Şirketler açısından pratik sonuç şu: Model sağlayıcıların yalnızca sonuç modelini değil, geliştirme sürecini de daha şeffaf anlatması gerekecek. Eğer tasarımın bir kısmı otomatikleşiyorsa, değerlendirme ve red-team süreçlerinin de daha güçlü olması şart.
+
+## Okurun takip etmesi gereken noktalar
+
+- Kaynak ve devamı: [DonanımHaber](https://www.donanimhaber.com/openai-in-bir-sonraki-modeli-yapay-zeka-tarafindan-tasarlaniyor--206488).
+- Konu: OpenAI, model tasarımı, otomatik araştırma, rekürsif optimizasyon.
+- Fırsat: Eğitim denemeleri daha hızlı planlanabilir, maliyetli hatalar daha erken görülebilir.
+- Risk: Güvenlik, açıklanabilirlik ve değerlendirme süreçleri model geliştirme hızının gerisinde kalabilir.
+
+## Ercan'ın yorumu
+
+> YZ'nin model tasarımına girmesi, hız kadar yönetişim meselesidir.
+
+Bu gelişme, ajanlar ve otomasyonla ilgilenen herkes için önemli. Çünkü aynı mantık yazılım geliştirme, veri bilimi ve ürün tasarımına da yayılıyor: YZ yalnızca cevap veren araç olmaktan çıkıp karar seçenekleri üreten bir araştırma ortağına dönüşüyor. Bu ortak güçlü olabilir; ama kontrol mekanizması olmadan tek başına bırakılmamalı.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "webrazzi-allable-yapay-zeka-pazarlama-workspace-2026-06-06",
+    cat: "business",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-06",
+    image: "images/2026-06-06-allable-marketing-workspace.svg",
+    views: 6870,
+    de: {
+      title: "AllAble: KI-gestützter Marketing-Workspace aus der Türkei-Perspektive",
+      teaser: "Türkische Quelle, kurzer Fallback: Webrazzi stellt AllAble als integrierten KI-Arbeitsraum für Marketingprozesse vor.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: Webrazzi berichtet über AllAble, einen KI-gestützten integrierten Marketing-Arbeitsraum. Spannend ist weniger der einzelne Toolname als der Trend zu Workflow-Plattformen statt isolierter KI-Generatoren.`,
+    },
+    tr: {
+      title: "AllAble: Yapay zeka destekli entegre pazarlama çalışma alanı",
+      teaser: "Webrazzi'nin gündeme aldığı AllAble, pazarlama ekipleri için tekil içerik üretiminden uçtan uca iş akışına geçişi temsil ediyor.",
+      body: `Webrazzi, yapay zeka destekli entegre pazarlama çalışma alanı AllAble'ı konu alıyor. Bu tür ürünlerde asıl dikkat çekici nokta, yapay zekanın tek başına metin veya görsel üretmesinden ziyade kampanya sürecinin tamamına yerleşmesi: fikir, brief, içerik, kanal uyarlaması, onay, yayın ve performans takibi aynı akış içinde düşünülüyor.
+
+Pazarlama ekipleri uzun süredir çok sayıda aracı birlikte kullanıyor. Metin için ayrı, tasarım için ayrı, sosyal medya planı için ayrı, raporlama için ayrı sistemler var. YZ destekli workspace yaklaşımı, bu parçaları birleştirerek hem hız hem tutarlılık sağlamayı hedefliyor.
+
+## Neden yalnızca içerik üretimi değil?
+
+YZ araçlarının ilk dalgası çoğunlukla çıktı üretmeye odaklandı: başlık yaz, görsel oluştur, e-posta taslağı çıkar. Ancak kurumsal pazarlamada sorun çoğu zaman yalnızca üretim değildir. Marka dili, kampanya hedefi, hedef kitle, hukuki onay, lokalizasyon ve performans ölçümü aynı anda yönetilmelidir. Entegre çalışma alanları bu yüzden daha değerli hale geliyor.
+
+Türkiye girişim ekosistemi açısından da bu alan önemli. Pazarlama otomasyonu, ajans işleri, e-ticaret ve KOBİ dijitalleşmesi YZ'nin hızlı karşılık bulabileceği alanlar. Başarılı ürünler, yalnızca iyi model kullananlar değil; gerçek ekip alışkanlıklarına uyum sağlayanlar olacak.
+
+## Takip edilmesi gerekenler
+
+- Kaynak ve devamı: [Webrazzi](https://webrazzi.com/2026/06/05/yapay-zeka-destekli-entegre-pazarlama-calisma-alani-allable/).
+- Konu: AllAble, pazarlama otomasyonu, üretken YZ, workflow platformları.
+- Fırsat: Kampanya üretimi daha hızlı, daha tutarlı ve daha ölçülebilir hale gelebilir.
+- Risk: Marka dili, telif, veri gizliliği ve onay süreçleri iyi kurulmazsa hız kaliteyi düşürebilir.
+
+## Ercan'ın yorumu
+
+> Pazarlamada YZ'nin asıl değeri tek bir metin üretmek değil, dağınık iş akışını toparlamaktır.
+
+Bu yüzden AllAble gibi ürünleri araç listesi olarak değil, iş modeli sinyali olarak okumak gerekir. YZ'nin kurumsal pazarda kalıcı olması için ekiplerin zaten yaptığı işleri daha az sürtünmeyle, daha iyi kontrolle ve ölçülebilir sonuçla yürütmesi gerekiyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "techinside-meta-kurumsal-yapay-zeka-yarisi-2026-06-06",
+    cat: "agentic",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-06",
+    image: "images/2026-06-06-meta-kurumsal-ai.svg",
+    views: 6740,
+    de: {
+      title: "Meta steigt stärker in den Enterprise-KI-Wettbewerb ein",
+      teaser: "Türkische Quelle, kurzer Fallback: TechInside ordnet Metas Vorstoß bei Unternehmens-KI ein, inklusive Agenten- und Business-Kommunikation.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: TechInside berichtet, dass Meta stärker in den Wettbewerb um Unternehmens-KI einsteigt. Relevant ist vor allem die Verbindung aus Business-Kommunikation, Agenten und bestehenden Plattformen.`,
+    },
+    tr: {
+      title: "Meta kurumsal yapay zeka yarışına giriyor",
+      teaser: "TechInside'ın aktardığı gelişme, Meta'nın YZ'yi yalnızca tüketici ürünlerinde değil, işletme süreçlerinde de büyütmek istediğini gösteriyor.",
+      body: `TechInside, Meta'nın kurumsal yapay zeka yarışına daha güçlü biçimde girdiğini aktarıyor. Bu hamle, şirketin YZ'yi yalnızca sosyal medya akışları, içerik önerileri veya bireysel asistanlarla sınırlı görmediğini; işletmelerin müşteri iletişimi, destek, satış ve iç operasyon süreçlerine taşımak istediğini gösteriyor.
+
+Meta'nın avantajı geniş platform erişimi. WhatsApp, Instagram, Facebook ve reklam altyapısı, işletmelerin zaten kullandığı temas noktaları. Eğer YZ ajanları bu kanallarda güvenilir biçimde çalışırsa, küçük işletmelerden büyük markalara kadar birçok aktör için destek ve satış otomasyonu daha erişilebilir hale gelebilir.
+
+## Kurumsal YZ'de yarış neden sertleşiyor?
+
+Microsoft, Google, OpenAI, Salesforce ve birçok startup aynı alanda hareket ediyor. Kurumsal müşteriler yalnızca sohbet botu istemiyor; CRM ile konuşan, sipariş durumunu bilen, kampanya bilgisini anlayan, gerektiğinde insan temsilciye devreden ve denetlenebilir çalışan sistemler istiyor.
+
+Meta için zorluk da burada. Tüketici ölçeğinde başarılı olmak, kurumsal güven kazanmakla aynı şey değil. Veri gizliliği, rol bazlı yetki, kayıt tutma, hata yönetimi ve regülasyon uyumu işletmeler için temel şart. Agentic AI burada ancak kontrollü çalışırsa değer üretir.
+
+## İşletmeler neye bakmalı?
+
+- Kaynak ve devamı: [TechInside](https://www.techinside.com/meta-kurumsal-yapay-zeka-yarisina-giriyor/).
+- Ek bağlam: [ShiftDelete.Net'in WhatsApp işletme YZ ajanı haberi](https://shiftdelete.net/meta-tum-dunyada-whatsapp-isletme-yapay-zeka-ajanini-baslatti).
+- Konu: Meta, kurumsal YZ, WhatsApp Business, müşteri destek ajanları.
+- Kontrol noktası: Ajan hangi veriye erişiyor, neyi otomatik yapabiliyor, ne zaman insana devrediyor?
+
+## Ercan'ın yorumu
+
+> Kurumsal YZ'de kazanan, en konuşkan bot değil; en güvenilir devir teslim yapan ajan olacak.
+
+Meta'nın hamlesi özellikle Türkiye'deki KOBİ'ler için önemli olabilir. WhatsApp üzerinden satış ve destek zaten yaygın. Ancak otomasyonun gerçekten faydalı olması için işletmelerin süreçlerini, cevap sınırlarını ve müşteri verisi kurallarını netleştirmesi gerekiyor. Aksi halde hızlı cevap veren ama yanlış işlem yapan bot, faydadan çok risk üretir.`,
+    },
+  },
+
   /* ---------------------------------------------------------- */
   {
     id: "heise-vscode-agent-sessions-2026-06-05",
@@ -1572,6 +1826,63 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: "ct3003-ki-wurm-neue-angriffe-2026-06-06",
+    date: "2026-06-06",
+    youtube: "WZg06gFXaRA",
+    lang: "de",
+    de: {
+      title: "c't 3003: Dieser KI-Wurm entwickelt für jedes Ziel neue Angriffe",
+      desc: "Aktueller deutscher Security-Tipp: Warum KI-gestützte Angriffe nicht nur schneller, sondern adaptiver werden und was Verteidiger daraus lernen sollten.",
+    },
+    tr: {
+      title: "c't 3003: Her hedef için yeni saldırı geliştiren YZ solucanı",
+      desc: "Güncel Almanca güvenlik önerisi: YZ destekli saldırıların neden yalnızca hızlanmadığını, aynı zamanda hedefe göre uyarlanabildiğini anlatıyor.",
+    },
+  },
+  {
+    id: "ct3003-ki-chat-instagram-accounts-2026-06-06",
+    date: "2026-06-06",
+    youtube: "-XBb9V9Hq6E",
+    lang: "de",
+    de: {
+      title: "c't 3003: Ein KI-Chat genügte – Instagram-Accounts gekapert",
+      desc: "Kurzer deutscher Video-Tipp zu Social Engineering, Account-Sicherheit und der Frage, wie KI-Dialoge Angriffe glaubwürdiger machen.",
+    },
+    tr: {
+      title: "c't 3003: Tek bir YZ sohbetiyle Instagram hesapları ele geçirildi",
+      desc: "Sosyal mühendislik, hesap güvenliği ve YZ sohbetlerinin saldırıları nasıl daha inandırıcı hale getirdiğine dair Almanca kısa öneri.",
+    },
+  },
+  {
+    id: "webrazzi-yapay-zeka-gundemi-53-2026-06-06",
+    date: "2026-06-06",
+    youtube: "7Iglh8nBCXw",
+    lang: "tr",
+    de: {
+      title: "Webrazzi: Yapay Zeka Gündemi #53",
+      desc: "Türkischer Wochenüberblick aus dem Webrazzi-Umfeld: kompakte Einordnung aktueller KI-Produkt-, Startup- und Plattformthemen.",
+    },
+    tr: {
+      title: "Webrazzi: Yapay Zeka Gündemi #53",
+      desc: "Webrazzi'den güncel Türkçe haftalık öneri: YZ ürünleri, girişimler ve platform hamleleri için derli toplu gündem özeti.",
+    },
+  },
+  {
+    id: "mesut-cevik-gg-rtx-spark-yapay-zeka-2026-06-06",
+    date: "2026-06-06",
+    youtube: "Enolh5nvEZ4",
+    lang: "tr",
+    de: {
+      title: "Mesut Çevik: RTX Spark ve haftanın teknoloji gündemi",
+      desc: "Türkischer Technik-Tipp mit KI-Hardware-Kontext: RTX Spark beklentileri, cihaz hype'ı ve pratik kullanım soruları.",
+    },
+    tr: {
+      title: "Mesut Çevik: RTX Spark ve haftanın teknoloji gündemi",
+      desc: "YZ donanımı bağlamıyla güncel Türkçe teknoloji önerisi: RTX Spark beklentileri, cihaz hype'ı ve pratik kullanım soruları.",
+    },
+  },
   {
     id: "everlast-ai-juergen-kocka-ki-kapitalismus-2026-06-05",
     date: "2026-06-05",

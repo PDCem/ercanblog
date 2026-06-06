@@ -23,3 +23,13 @@ News title images curated from Wikimedia Commons/open-license sources. YouTube t
 - `2026-06-05-ai-water-consumption.jpg` — Unsplash photo by Luca Bravo; Lizenz: Unsplash License; Thema: Wasserverbrauch/Nachhaltigkeit; Quelle: https://unsplash.com/photos/zAjdgNXsMeg
 - `2026-06-05-tsmc-chip-demand.jpg` — Unsplash photo by Alexandre Debiève; Lizenz: Unsplash License; Thema: Halbleiter/Chips/KI-Infrastruktur; Quelle: https://unsplash.com/photos/FO7JIlwjOtU
 - `2026-06-05-google-turkiye-public-ai.jpg` — Unsplash photo by Nastuh Abootalebi; Lizenz: Unsplash License; Thema: öffentlicher Sektor/Büro/Digitalisierung; Quelle: https://unsplash.com/photos/eHD8Y1Znfpk
+
+## 2026-06-06 daily editorial SVGs
+
+- `2026-06-06-apple-siri-beta-warteliste.svg` — Original editorial SVG created locally for ErcanBlog; topic: Apple Siri beta waitlist / AI server capacity; license: site-owned editorial asset; accessed/created: 2026-06-06.
+- `2026-06-06-deutsche-firmen-ki-nutzung.svg` — Original editorial SVG created locally for ErcanBlog; topic: German company AI adoption / Ifo survey; license: site-owned editorial asset; accessed/created: 2026-06-06.
+- `2026-06-06-ki-server-128tb-speicher.svg` — Original editorial SVG created locally for ErcanBlog; topic: AI server memory architecture; license: site-owned editorial asset; accessed/created: 2026-06-06.
+- `2026-06-06-openai-modell-von-ki-designt.svg` — Original editorial SVG created locally for ErcanBlog; topic: OpenAI model design by AI / recursive optimization; license: site-owned editorial asset; accessed/created: 2026-06-06.
+- `2026-06-06-allable-marketing-workspace.svg` — Original editorial SVG created locally for ErcanBlog; topic: AI-powered integrated marketing workspace; license: site-owned editorial asset; accessed/created: 2026-06-06.
+- `2026-06-06-meta-kurumsal-ai.svg` — Original editorial SVG created locally for ErcanBlog; topic: Meta enterprise AI agents; license: site-owned editorial asset; accessed/created: 2026-06-06.
+
