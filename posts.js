@@ -47,6 +47,260 @@ const POSTS = [
 
   /* ---------------------------------------------------------- */
   {
+    id: "handelsblatt-openai-chatgpt-superapp-2026-06-07",
+    cat: "business",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-07",
+    image: "images/2026-06-07-openai-chatgpt-superapp.jpg",
+    featured: true,
+    views: 7160,
+    de: {
+      title: "OpenAI will ChatGPT offenbar zur Super-App umbauen",
+      teaser: "Handelsblatt berichtet über OpenAIs Pläne, ChatGPT vor einem möglichen Börsengang stärker zur Plattform für Alltag, Arbeit und Dienste auszubauen.",
+      body: `Das Handelsblatt berichtet, dass OpenAI ChatGPT laut Medieninformationen massiv ausbauen will: weg vom reinen Chatfenster, hin zu einer Art Super-App. Der Schritt passt zur aktuellen Phase des KI-Marktes. Nach dem ersten Wachstum über Modellqualität, Abos und API-Nutzung geht es jetzt stärker darum, wo Nutzer ihren digitalen Alltag tatsächlich erledigen.
+
+Wenn ChatGPT mehr Aufgaben, Integrationen, Dienste und Transaktionen bündelt, verändert sich die Rolle des Assistenten. Er ist dann nicht mehr nur Antwortmaschine, sondern Startpunkt für Suche, Planung, Schreiben, Kaufen, Buchen, Programmieren und interne Unternehmensabläufe. Genau an dieser Stelle konkurriert OpenAI nicht nur mit Anthropic oder Google, sondern auch mit Browsern, Office-Suiten, App-Stores und klassischen Suchmaschinen.
+
+## Warum die Super-App-Idee wichtig ist
+
+Für OpenAI wäre eine breitere ChatGPT-Plattform wirtschaftlich naheliegend. Mehr Funktionen können die Nutzungsdauer erhöhen, neue Umsatzquellen öffnen und ChatGPT stärker an Arbeitsprozesse binden. Gleichzeitig steigt aber die Verantwortung: Je mehr ein Assistent im Namen des Nutzers tut, desto wichtiger werden Rechteverwaltung, Datenschutz, Protokollierung, Fehlerkorrektur und klare Grenzen.
+
+Für Unternehmen und Builder ist die Meldung deshalb mehr als Big-Tech-Strategie. Sie zeigt, dass Agenten nicht isoliert gedacht werden dürfen. Ein guter KI-Agent braucht Verbindungen zu Kalendern, Dateien, CRM, Browser, Code, Kommunikation und Zahlungswegen. Aber jede Integration ist auch ein Sicherheits- und Vertrauensproblem.
+
+## Worauf Leser achten sollten
+
+- Quelle zum Weiterlesen: [Handelsblatt](https://www.handelsblatt.com/technik/ki/ki-openai-plant-wohl-massiven-umbau-von-chatgpt-zur-super-app/100230899.html).
+- Thema: OpenAI, ChatGPT, Plattformstrategie, Super-App und möglicher Börsengang.
+- Praktische Frage: Welche Aufgaben dürfen KI-Assistenten selbst ausführen, und wo braucht es menschliche Freigaben?
+- Wettbewerbsfrage: Wird ChatGPT zur Oberfläche für viele Dienste oder bleibt es ein Werkzeug neben Browser, Suche und Office?
+
+## Ercans Einordnung
+
+> Die nächste KI-Schlacht wird nicht nur über Modelle entschieden, sondern über die Oberfläche, in der Arbeit passiert.
+
+Wenn ChatGPT zur Super-App wird, verschiebt sich Macht Richtung Assistenten-Oberfläche. Für Nutzer kann das bequem sein. Für Unternehmen bedeutet es aber, Abhängigkeiten, Datenflüsse und Governance früh mitzudenken. Wer eigene Agenten baut, sollte deshalb nicht nur Prompts optimieren, sondern Integrationsrechte, Audit-Logs und Exit-Strategien planen.`,
+    },
+    tr: {
+      title: "OpenAI, ChatGPT'yi süper uygulamaya dönüştürmeyi planlıyor olabilir",
+      teaser: "Almanca kaynaklı kısa özet: OpenAI'nin ChatGPT'yi daha geniş bir platforma dönüştürme planı, asistan arayüzlerinin önemini gösteriyor.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: OpenAI'nin ChatGPT'yi daha geniş bir platforma dönüştürme planı, YZ asistanlarının yalnızca model kalitesiyle değil; entegrasyon, güvenlik, izin yönetimi ve kullanıcı arayüzüyle de rekabet edeceğini gösteriyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "t3n-privatemode-ai-verschluesselter-chatbot-2026-06-07",
+    cat: "sicherheit",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-07",
+    image: "images/2026-06-07-privatemode-ai-secure-chat.jpg",
+    views: 7040,
+    de: {
+      title: "Privatemode AI zeigt, wie wichtig verschlüsselte KI-Chats werden",
+      teaser: "t3n testet einen verschlüsselten KI-Chatbot und macht damit ein Kernproblem sichtbar: sensible Daten gehören nicht unkontrolliert in Modellplattformen.",
+      body: `t3n hat Privatemode AI getestet, einen KI-Chatbot, der sensible Informationen auch bei Cloud-Nutzung stärker schützen will. Der Anlass ist klar: Viele Menschen kopieren inzwischen Verträge, interne Mails, Kundendaten, Code, medizinische Notizen oder Strategieentwürfe in Chatbots. Was praktisch ist, kann schnell zum Datenschutz- und Compliance-Problem werden.
+
+Der Test ist deshalb relevant, weil er eine größere Verschiebung zeigt. KI wird im Alltag nur dann wirklich produktiv, wenn Nutzer mit echten Daten arbeiten. Gleichzeitig sind genau diese Daten der Grund, warum Unternehmen, Behörden und Selbstständige nicht einfach jedes Tool verwenden können. Verschlüsselung, Datenminimierung und klare Zusagen zur Nichtverwertung werden zu Produktmerkmalen, nicht zu Nebensätzen in AGB.
+
+## Datenschutz wird zur Funktionsfrage
+
+Viele KI-Tools verkaufen Produktivität, lösen aber die Vertrauensfrage nur oberflächlich. Für private Notizen mag das manchmal reichen. In professionellen Workflows braucht es mehr: nachvollziehbare Datenwege, Mandantentrennung, Löschbarkeit, EU-Hosting-Optionen, Modellzugriffskontrolle und technische Schutzmechanismen gegen unbeabsichtigtes Training oder Logging.
+
+Privatemode AI steht damit exemplarisch für einen Markt, der wachsen dürfte. Je stärker KI in Recht, Medizin, Finanzen, Personalwesen, Support und Management genutzt wird, desto weniger reicht ein hübsches Chatfenster. Entscheidend ist, ob ein Tool die Datenrealität der Nutzer ernst nimmt.
+
+## Was Teams jetzt prüfen sollten
+
+- Quelle zum Weiterlesen: [t3n](https://t3n.de/news/ki-aber-sicher-verschluesselter-ki-chatbot-privatemode-ai-im-test-1746234/).
+- Thema: verschlüsselte KI-Chats, Datenschutz, sensible Unternehmensdaten und Tool-Auswahl.
+- Prüffrage: Welche Daten dürfen überhaupt in ein externes KI-System, und wer kann sie später sehen?
+- Praxispunkt: Für produktive KI braucht jedes Team eine einfache Ampel: erlaubt, nur anonymisiert, verboten.
+
+## Ercans Einordnung
+
+> KI-Sicherheit beginnt nicht beim Red-Team, sondern bei der Frage, welche Daten wir dem Tool anvertrauen.
+
+Für Agenten- und Automationsprojekte ist das besonders wichtig. Agenten lesen Dateien, schreiben Tickets, durchsuchen Postfächer und verbinden Systeme. Ohne Datenschutzarchitektur wird aus Produktivität schnell ein Risiko. Gute KI-Produkte der nächsten Phase werden deshalb nicht nur klüger, sondern nachweisbar kontrollierbarer sein.`,
+    },
+    tr: {
+      title: "Şifreli YZ sohbetleri neden daha önemli hale geliyor?",
+      teaser: "Almanca kaynaklı kısa özet: Privatemode AI testi, hassas verilerle çalışan YZ araçlarında güvenlik ve veri korumanın ürün özelliği haline geldiğini gösteriyor.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: Şifreli YZ sohbetleri, şirketlerin ve kullanıcıların hassas verileri rastgele model platformlarına göndermeden üretkenlik kazanabilmesi için giderek daha kritik hale geliyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "allai-anthropic-ki-pause-kontrollverlust-2026-06-07",
+    cat: "sicherheit",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-07",
+    image: "images/2026-06-07-anthropic-ki-pause-notaus.jpg",
+    views: 6960,
+    de: {
+      title: "Anthropic-Warnung: Warum der Ruf nach einer KI-Pause wieder lauter wird",
+      teaser: "All-AI greift Anthropics Warnung auf, dass sich fortgeschrittene Modelle zunehmend selbstständig verbessern könnten – und stellt die Governance-Frage neu.",
+      body: `All-AI berichtet über eine Warnung aus dem Anthropic-Umfeld: Fortgeschrittene KI-Modelle könnten sich in bestimmten Bereichen zunehmend selbstständig weiterentwickeln, weshalb eine weltweite Pause oder stärkere Bremse diskutiert wird. Solche Meldungen klingen schnell dramatisch. Trotzdem lohnt sich ein nüchterner Blick, denn sie berühren die zentrale Frage moderner KI-Governance: Wie bleibt Kontrolle praktisch möglich, wenn Systeme schneller, autonomer und schwerer durchschaubar werden?
+
+Wichtig ist die Unterscheidung zwischen Panik und Risikomanagement. Eine KI-Pause ist politisch, wirtschaftlich und technisch schwer umzusetzen. Aber die zugrunde liegende Sorge ist real: Wenn Modelle Forschung unterstützen, Code schreiben, Experimente planen und Schwachstellen finden, reicht klassische Produktfreigabe nicht mehr aus. Dann müssen Tests, Monitoring und Abschaltmechanismen mitwachsen.
+
+## Der Not-Aus ist nicht nur ein Symbol
+
+In Industrieanlagen ist ein Not-Aus selbstverständlich. Bei KI-Systemen ist die Analogie komplizierter, aber hilfreich. Ein wirksamer Stoppknopf bedeutet nicht nur, einen Server abzuschalten. Er bedeutet: Aktionen begrenzen, Berechtigungen entziehen, Datenzugriff stoppen, Agentenketten unterbrechen, Modelle zurückrollen und Vorfälle nachvollziehbar analysieren können.
+
+Gerade agentische Systeme verschärfen das Thema. Ein Chatbot gibt eine Antwort. Ein Agent kann Dateien verändern, Tickets anlegen, Code deployen oder externe Dienste aufrufen. Je mehr Handlungsmacht ein System bekommt, desto wichtiger werden Freigaben, Sandboxes und rote Linien.
+
+## Was an der Debatte praktisch ist
+
+- Quelle zum Weiterlesen: [All-AI.de](https://www.all-ai.de/news/beitrage2026/anthropic-ki-pause-1).
+- Thema: Anthropic, KI-Sicherheit, Kontrollverlust, Governance und mögliche Pausen.
+- Praktischer Punkt: Unternehmen sollten nicht auf globale Regeln warten, sondern eigene Einsatzgrenzen definieren.
+- Technische Frage: Gibt es für jeden Agenten klare Rechte, Logs, Rollback-Möglichkeiten und menschliche Freigaben?
+
+## Ercans Einordnung
+
+> Die beste Antwort auf KI-Risiken ist weder Hype noch Stillstand, sondern kontrollierbare Architektur.
+
+Für ErcanBlog-Leser ist die Debatte relevant, weil viele gerade Agenten, Automationen und LLM-Tools produktiv machen wollen. Genau dort entscheidet sich Sicherheit im Detail: Welche Tools darf ein Agent nutzen? Welche Daten sieht er? Was passiert bei falschen Zwischenschritten? Wer diese Fragen früh beantwortet, baut robustere Systeme als Teams, die erst nach dem ersten Vorfall reagieren.`,
+    },
+    tr: {
+      title: "Anthropic uyarısı: YZ için fren tartışması yeniden güçleniyor",
+      teaser: "Almanca kaynaklı kısa özet: Gelişmiş modellerin daha otonom hale gelmesi, YZ yönetişimi ve durdurma mekanizmalarını yeniden gündeme taşıyor.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: Anthropic çevresinden gelen uyarılar, YZ sistemlerinde durdurma mekanizması, yetki sınırları, izleme ve insan onayının pratik güvenlik mimarisinin parçası olması gerektiğini hatırlatıyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "donanimhaber-chatgpt-sahte-icerik-manipulasyon-2026-06-07",
+    cat: "sicherheit",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-07",
+    image: "images/2026-06-07-chatgpt-sahte-icerik-manipulasyon.png",
+    views: 7110,
+    de: {
+      title: "ChatGPT-Antworten werden offenbar mit Fake-Inhalten beeinflusst",
+      teaser: "Türkische Quelle, kurzer Fallback: DonanımHaber berichtet über Spam-Inhalte, die KI-Antworten statt klassischer Suchergebnisse manipulieren sollen.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: DonanımHaber berichtet über eine neue Manipulationslogik: Unternehmen und Akteure optimieren nicht mehr nur für Google, sondern versuchen, die Antwortbasis von Chatbots mit künstlichen Inhalten zu beeinflussen.`,
+    },
+    tr: {
+      title: "ChatGPT cevapları sahte içeriklerle manipüle ediliyor",
+      teaser: "DonanımHaber'in aktardığı yeni spam dalgası, arama motoru optimizasyonunun YZ cevaplarını hedefleyen yeni bir biçime dönüştüğünü gösteriyor.",
+      body: `DonanımHaber, şirketlerin ve bazı aktörlerin ChatGPT gibi sistemlerin cevaplarını etkilemek için internette sahte içerikler oluşturduğunu aktarıyor. Bu gelişme, arama motoru optimizasyonunun yeni bir evreye geçtiğini gösteriyor. Hedef artık yalnızca Google'da üst sıraya çıkmak değil; YZ sistemlerinin eğitim, arama veya bağlam kaynaklarında "güvenilir bilgi" gibi görünmek.
+
+Bu tür manipülasyon özellikle Reddit, forumlar, yorum alanları ve düşük kaliteli içerik ağları üzerinden büyüyebilir. Çünkü birçok YZ aracı, kullanıcının sorusuna cevap verirken web'deki sinyalleri, alıntıları veya özetlenmiş içerikleri kullanıyor. Eğer bu bilgi ortamı kasıtlı şekilde kirletilirse, model doğru cümleler kuruyor gibi görünse bile yanlış yönlendirilmiş sonuçlar üretebilir.
+
+## SEO'dan AEO'ya: cevap motoru optimizasyonu
+
+Klasik SEO'da amaç bir sayfayı arama sonucunda görünür kılmaktı. Yeni dönemde amaç, YZ asistanının cevabının içine girmek. Bu yüzden bazı uzmanlar "Answer Engine Optimization" kavramını tartışıyor. Meşru biçimiyle bu, kaliteli ve yapılandırılmış bilgi üretmek olabilir. Kötüye kullanıldığında ise sahte inceleme, yapay yorum, sponsorlu ama gizlenmiş içerik ve koordineli spam anlamına gelir.
+
+Okurlar için pratik sonuç net: YZ cevabı tek başına kaynak değildir. Özellikle ürün karşılaştırması, sağlık, finans, güvenlik, hukuk ve yatırım konularında modelin verdiği yanıtın hangi kaynaklara dayandığını görmek gerekir. Kaynak göstermeyen veya tek bir iddiayı çok emin sunan cevaplara temkinli yaklaşılmalı.
+
+## Takip edilmesi gereken noktalar
+
+- Kaynak ve devamı: [DonanımHaber](https://www.donanimhaber.com/chatgpt-cevaplari-sahte-iceriklerle-manipule-ediliyor--206516).
+- Konu: ChatGPT, sahte içerik, spam, cevap motoru optimizasyonu ve bilgi güvenliği.
+- Risk: YZ sistemleri, internette organize biçimde üretilen düşük kaliteli içerikleri gerçek sinyal sanabilir.
+- Çözüm: Kaynak şeffaflığı, alıntı kontrolü, güvenilir yayınlara ağırlık verme ve kullanıcı tarafında doğrulama alışkanlığı.
+
+## Ercan'ın yorumu
+
+> YZ çağında bilgi kirliliği daha tehlikeli, çünkü model yanlış bilgiyi çok düzgün cümlelerle sunabiliyor.
+
+Bu haber, ajan ve otomasyon geliştirenler için de önemli. Bir ajan web'den bilgi toplayıp karar veriyorsa, yalnızca model kalitesi yetmez. Kaynak puanlama, çapraz kontrol, güvenilir alan listeleri ve insan onayı gibi katmanlar gerekir. Aksi halde otomasyon, spam ekonomisinin yeni dağıtım kanalı haline gelebilir.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "webrazzi-poke-apple-messages-yapay-zeka-ajani-2026-06-07",
+    cat: "agentic",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-07",
+    image: "images/2026-06-07-poke-apple-messages-agent.png",
+    views: 7020,
+    de: {
+      title: "Poke bringt KI-Agenten in Apples Nachrichtenumgebung",
+      teaser: "Türkische Quelle, kurzer Fallback: Webrazzi berichtet über Poke, einen KI-Agentendienst, der über Apples Messages for Business nutzbar wird.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: Webrazzi berichtet über Poke, das KI-Agenten über Apples Messages for Business einfacher zugänglich machen will. Relevant ist die Idee, Agenten so niedrigschwellig wie eine normale Nachricht zu bedienen.`,
+    },
+    tr: {
+      title: "YZ ajanı Poke, Apple'ın Mesajlar uygulamasına eklendi",
+      teaser: "Webrazzi'nin haberine göre Poke, yapay zeka ajanlarını kısa mesaj göndermek kadar basit bir kullanım deneyimine taşımayı hedefliyor.",
+      body: `Webrazzi, yapay zeka ajanı hizmeti Poke'un Apple'ın Messages for Business platformuna eklendiğini aktarıyor. Haberin önemi, tek bir ürün duyurusundan daha büyük: YZ ajanları yalnızca ayrı uygulamalarda değil, insanların zaten kullandığı mesajlaşma arayüzlerinde çalışmaya başlıyor.
+
+Bu yaklaşım kullanıcı deneyimi açısından güçlü. Bir görev için yeni panel açmak, hesap bağlamak veya karmaşık komut yazmak yerine mesaj atmak yeterli olabilir. Randevu, rezervasyon, araştırma, alışveriş, müşteri hizmetleri veya kişisel organizasyon gibi işler konuşma akışı içinde ilerleyebilir. Ajan fikri ancak bu kadar düşük sürtünmeyle kitleselleşebilir.
+
+## Mesajlaşma arayüzü neden kritik?
+
+Chatbotlar uzun süredir var, fakat ajanlar farklıdır. Bir ajan yalnızca cevap vermez; bağlamı takip eder, seçenek üretir, bazen dış sistemlerle işlem yapar. Mesajlaşma uygulaması ise doğal bir kontrol noktası sunar: kullanıcı her adımı görebilir, onay verebilir ve gerektiğinde konuşmayı durdurabilir.
+
+Buna rağmen riskler de açık. Bir ajan mesajlaşma üzerinden işlem yapacaksa kimlik doğrulama, yetki sınırı, yanlış işlem iptali, kayıt tutma ve veri paylaşımı net olmalı. Kullanıcı "tamam" dediğinde hangi eylemin gerçekleştiğini anlamalı. Aksi halde kolaylık, belirsiz otomasyona dönüşür.
+
+## Okurun takip etmesi gereken noktalar
+
+- Kaynak ve devamı: [Webrazzi](https://webrazzi.com/2026/06/05/yapay-zeka-ajani-hizmeti-poke-apple-in-mesajlar-uygulamasina-eklendi/).
+- Konu: Poke, Apple Messages for Business, YZ ajanları ve mesajlaşma tabanlı otomasyon.
+- Fırsat: Ajanların kullanım eşiği düşer; teknik olmayan kullanıcılar daha rahat otomasyon kurabilir.
+- Risk: Yanlış yetkilendirme, belirsiz onay akışları ve veri paylaşımı hataları güven sorununa yol açabilir.
+
+## Ercan'ın yorumu
+
+> Ajanların geleceği ayrı bir uygulamada değil, günlük iletişim akışının içinde olabilir.
+
+Bu haber, ürün geliştirenler için net bir ders veriyor: En iyi ajan deneyimi bazen en karmaşık arayüz değil, kullanıcının zaten bildiği kanal olabilir. Fakat kanal basitleştikçe arka taraftaki güvenlik daha da ciddileşir. Mesajla çalışan ajanlar, izin ve onay tasarımını mükemmel yapmak zorunda.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "trthaber-turkiye-yapay-zeka-vizyonu-13-haziran-2026-06-07",
+    cat: "business",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-07",
+    image: "images/2026-06-07-turkiye-yapay-zeka-vizyonu.jpg",
+    views: 6940,
+    de: {
+      title: "Türkei will ihre KI-Vision am 13. Juni vorstellen",
+      teaser: "Türkische Quelle, kurzer Fallback: TRT Haber berichtet, dass die türkische KI-Vision und der Aktionsplan am 13. Juni vorgestellt werden sollen.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: TRT Haber berichtet, dass die Türkei ihre Yapay Zeka Vizyonu ve Eylem Planı am 13. Juni vorstellen will. Für das türkische KI-Ökosystem ist das ein wichtiger politischer und wirtschaftlicher Orientierungspunkt.`,
+    },
+    tr: {
+      title: "Türkiye'nin Yapay Zeka Vizyonu 13 Haziran'da açıklanacak",
+      teaser: "TRT Haber'e göre Yapay Zeka Vizyonu ve Eylem Planı 13 Haziran'da kamuoyuyla paylaşılacak; bu, ekosistem için yön belirleyici bir adım olabilir.",
+      body: `TRT Haber, Cumhurbaşkanı Yardımcısı Cevdet Yılmaz'ın açıklamasına göre Türkiye'nin Yapay Zeka Vizyonu ve Eylem Planı'nın 13 Haziran'da kamuoyuyla paylaşılacağını aktarıyor. Bu tür belgeler tek başına teknolojik dönüşüm yaratmaz; fakat kamu, özel sektör, üniversiteler ve girişimler için ortak öncelikleri görünür kılar.
+
+Türkiye açısından mesele yalnızca büyük dil modeli geliştirmek değil. Veri altyapısı, kamu hizmetlerinde verimlilik, eğitim, sağlık, sanayi, savunma, girişim finansmanı, etik ilkeler ve insan kaynağı birlikte düşünülmeli. Başarılı bir vizyon belgesi, soyut hedeflerden çok uygulanabilir programlar, ölçülebilir takvimler ve kurumlar arası koordinasyon sunar.
+
+## Ekosistem için neden önemli?
+
+Türkiye'de YZ girişimleri, üniversite laboratuvarları, teknoparklar ve kurumsal dönüşüm ekipleri son yıllarda hızlandı. Ancak parçalı ilerleme çoğu zaman ölçek sorununa takılıyor. Kamu stratejisi doğru kurulursa veri erişimi, destek programları, standartlar, eğitim içerikleri ve pilot projeler daha tutarlı hale gelebilir.
+
+Özellikle KOBİ'ler ve yerel yazılım firmaları için net yön önemlidir. Hangi sektörlerde öncelikli destek olacak? Kamu alımları YZ çözümlerine nasıl açılacak? Veri güvenliği ve kişisel verilerin korunması nasıl ele alınacak? Yerli girişimler global modellerle nasıl rekabet edecek veya onların üzerine nasıl ürün inşa edecek?
+
+## Takip edilmesi gereken sorular
+
+- Kaynak ve devamı: [TRT Haber](https://www.trthaber.com/haber/gundem/turkiyenin-yapay-zeka-vizyonu-13-haziranda-aciklanacak-947272.html).
+- Konu: Türkiye, yapay zeka vizyonu, eylem planı, kamu politikası ve ekosistem.
+- Kritik nokta: Vizyonun bütçe, takvim, ölçüm ve sorumlu kurumlarla desteklenip desteklenmeyeceği.
+- Fırsat: Kamu projeleri, eğitim programları ve girişim destekleri aynı hedeflere bağlanabilir.
+
+## Ercan'ın yorumu
+
+> Türkiye için iyi bir YZ planı, sadece model değil; veri, insan kaynağı ve uygulama kapasitesi planı olmalı.
+
+13 Haziran açıklaması bu yüzden yakından izlenmeli. Eğer belge somut programlar ve açık öncelikler içerirse, Türkiye'deki YZ girişimleri ve kurum içi otomasyon projeleri için güçlü bir referans noktası doğabilir. Eğer yalnızca genel hedeflerde kalırsa, ekosistemin beklediği hızlanma sınırlı olur.`,
+    },
+  },
+
+
+  /* ---------------------------------------------------------- */
+  {
     id: "heise-apple-siri-beta-warteliste-2026-06-06",
     cat: "agentic",
     lang: "de",
@@ -1827,6 +2081,63 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
 
+
+  {
+    id: "heise-android-gefaelschte-anrufe-erkennen-2026-06-07",
+    date: "2026-06-07",
+    youtube: "rA0O4CCKYH8",
+    lang: "de",
+    de: {
+      title: "heise & c't: Android erkennt gefälschte Anrufe",
+      desc: "Aktueller deutscher Security-Tipp: Wie Android KI-gestützte Betrugs- und Fake-Anrufe erkennen will – und warum Schutzfunktionen oft an Bedingungen hängen.",
+    },
+    tr: {
+      title: "heise & c't: Android sahte aramaları tanıyor",
+      desc: "Güncel Almanca güvenlik önerisi: Android'in YZ destekli dolandırıcılık ve sahte aramaları nasıl tanımaya çalıştığını anlatıyor.",
+    },
+  },
+  {
+    id: "ct3003-nvidia-not-for-humans-2026-06-07",
+    date: "2026-06-07",
+    youtube: "JnNBnRzxrYY",
+    lang: "de",
+    de: {
+      title: "c't 3003: Nvidia – Not for humans anymore?",
+      desc: "Deutscher Infrastruktur-Tipp: Ein kritischer Blick auf Nvidias KI-Hardware-Welt, Preise, Plattformmacht und die Frage, wem der KI-Boom tatsächlich dient.",
+    },
+    tr: {
+      title: "c't 3003: Nvidia artık insanlar için değil mi?",
+      desc: "Almanca altyapı önerisi: Nvidia'nın YZ donanım dünyasına, fiyatlara, platform gücüne ve YZ patlamasının kime yaradığına eleştirel bakış.",
+    },
+  },
+  {
+    id: "harun-seyhan-bu-hafta-yapay-zekada-her-sey-degisti-2026-06-07",
+    date: "2026-06-07",
+    youtube: "Yhupo65tHUc",
+    lang: "tr",
+    de: {
+      title: "Harun Seyhan: Diese Woche hat sich in KI alles verändert",
+      desc: "Frischer türkischer Wochenüberblick zu OpenAI, Google, Anthropic und Microsoft – als Zusatzquelle, weil mehrere Kernkanäle keine neuen nicht-duplizierten KI-Videos hatten.",
+    },
+    tr: {
+      title: "Harun Seyhan: Bu hafta yapay zekâda her şey değişti",
+      desc: "OpenAI, Google, Anthropic ve Microsoft gündemini derleyen güncel Türkçe haftalık YZ özeti; pratik gelişmeleri tek videoda takip etmek için iyi bir öneri.",
+    },
+  },
+  {
+    id: "ozan-sihay-gemini-omni-yapay-zeka-2026-06-07",
+    date: "2026-06-07",
+    youtube: "C6pMM0k0uRw",
+    lang: "tr",
+    de: {
+      title: "Ozan Sihay: Gemini Omni verändert die Video-KI-Debatte",
+      desc: "Türkischer Video-Tipp zu Googles Gemini-Omni-Demos und der Frage, was multimodale Video-KI für Creator, Tools und Automatisierung bedeutet.",
+    },
+    tr: {
+      title: "Ozan Sihay: Gemini Omni yapay zekada neyi değiştirecek?",
+      desc: "Google'ın Gemini Omni demosunu ve multimodal video YZ'nin üreticiler, araçlar ve otomasyon açısından ne anlama geldiğini anlatan güncel Türkçe öneri.",
+    },
+  },
   {
     id: "ct3003-ki-wurm-neue-angriffe-2026-06-06",
     date: "2026-06-06",

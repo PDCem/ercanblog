@@ -32,3 +32,12 @@ News title images curated from Wikimedia Commons/open-license sources. YouTube t
 - `2026-06-06-openai-modell-von-ki-designt.png` — Artificial Neural Network with Chip; Lizenz: Wikimedia Commons/open-license metadata; Thema: KI-Modellarchitektur/Optimierung; Quelle: https://commons.wikimedia.org/wiki/File:Artificial_Neural_Network_with_Chip.png
 - `2026-06-06-allable-marketing-workspace.jpg` — Unsplash photo by Nastuh Abootalebi; Lizenz: Unsplash License; Thema: integrierter Marketing-Workspace/Büro-Digitalisierung; Quelle: https://unsplash.com/photos/eHD8Y1Znfpk (temporär als besserer Realfoto-Ersatz für die entfernte SVG-Karte)
 - `2026-06-06-meta-kurumsal-ai.jpg` — Meta Headquarters Sign; Lizenz: CC BY-SA 4.0; Thema: Meta/Enterprise AI; Quelle: https://commons.wikimedia.org/wiki/File:Meta_Headquarters_Sign.jpg
+
+## 2026-06-07 title images
+
+- `2026-06-07-openai-chatgpt-superapp.jpg` — Pioneer Building, San Francisco (2019) -1; Lizenz: CC BY-SA 4.0; Thema: OpenAI/ChatGPT-Plattformstrategie; Quelle: https://commons.wikimedia.org/wiki/File:Pioneer_Building,_San_Francisco_(2019)_-1.jpg
+- `2026-06-07-privatemode-ai-secure-chat.jpg` — Secured laptop; Lizenz: CC BY-SA 4.0; Thema: verschlüsselte KI-Chats/Datenschutz; Quelle: https://commons.wikimedia.org/wiki/File:Secured_laptop.jpg
+- `2026-06-07-anthropic-ki-pause-notaus.jpg` — Big red emergency stop button (2972000481); Lizenz: CC BY 2.0; Thema: KI-Sicherheit/Not-Aus/Governance; Quelle: https://commons.wikimedia.org/wiki/File:Big_red_emergency_stop_button_(2972000481).jpg
+- `2026-06-07-chatgpt-sahte-icerik-manipulasyon.png` — Wikipedia text in ChatGPT UI; Lizenz: CC BY-SA 4.0; Thema: ChatGPT-Antworten/Informationsqualität; Quelle: https://commons.wikimedia.org/wiki/File:Wikipedia_text_in_ChatGPT_UI_(Figure_1a_from_%27Do_You_Trust_ChatGPT_--_Perceived_Credibility_of_Human_and_AI-Generated_Content_2309.02524).png
+- `2026-06-07-poke-apple-messages-agent.png` — Modern Smart-phone Text Message; Lizenz: CC BY-SA 3.0; Thema: Messaging/Agenten-Interface; Quelle: https://commons.wikimedia.org/wiki/File:Modern_Smart-phone_Text_Message.png
+- `2026-06-07-turkiye-yapay-zeka-vizyonu.jpg` — Presidential Complex Ankara; Lizenz: CC BY-SA 4.0; Thema: Türkei/Yapay Zeka Vizyonu/öffentliche Strategie; Quelle: https://commons.wikimedia.org/wiki/File:Presidential_Complex_Ankara.jpg
