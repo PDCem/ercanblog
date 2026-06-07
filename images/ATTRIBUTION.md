@@ -24,12 +24,11 @@ News title images curated from Wikimedia Commons/open-license sources. YouTube t
 - `2026-06-05-tsmc-chip-demand.jpg` — Unsplash photo by Alexandre Debiève; Lizenz: Unsplash License; Thema: Halbleiter/Chips/KI-Infrastruktur; Quelle: https://unsplash.com/photos/FO7JIlwjOtU
 - `2026-06-05-google-turkiye-public-ai.jpg` — Unsplash photo by Nastuh Abootalebi; Lizenz: Unsplash License; Thema: öffentlicher Sektor/Büro/Digitalisierung; Quelle: https://unsplash.com/photos/eHD8Y1Znfpk
 
-## 2026-06-06 daily editorial SVGs
+## 2026-06-06 corrected title images
 
-- `2026-06-06-apple-siri-beta-warteliste.svg` — Original editorial SVG created locally for ErcanBlog; topic: Apple Siri beta waitlist / AI server capacity; license: site-owned editorial asset; accessed/created: 2026-06-06.
-- `2026-06-06-deutsche-firmen-ki-nutzung.svg` — Original editorial SVG created locally for ErcanBlog; topic: German company AI adoption / Ifo survey; license: site-owned editorial asset; accessed/created: 2026-06-06.
-- `2026-06-06-ki-server-128tb-speicher.svg` — Original editorial SVG created locally for ErcanBlog; topic: AI server memory architecture; license: site-owned editorial asset; accessed/created: 2026-06-06.
-- `2026-06-06-openai-modell-von-ki-designt.svg` — Original editorial SVG created locally for ErcanBlog; topic: OpenAI model design by AI / recursive optimization; license: site-owned editorial asset; accessed/created: 2026-06-06.
-- `2026-06-06-allable-marketing-workspace.svg` — Original editorial SVG created locally for ErcanBlog; topic: AI-powered integrated marketing workspace; license: site-owned editorial asset; accessed/created: 2026-06-06.
-- `2026-06-06-meta-kurumsal-ai.svg` — Original editorial SVG created locally for ErcanBlog; topic: Meta enterprise AI agents; license: site-owned editorial asset; accessed/created: 2026-06-06.
-
+- `2026-06-06-apple-siri-beta-warteliste.jpg` — Compare iPhone 16 Pro with the iPhone 15 Pro; Lizenz: CC BY-SA (Wikimedia Commons metadata); Thema: Apple/Siri-Smartphone; Quelle: https://commons.wikimedia.org/wiki/File:Compare_iPhone_16_Pro_with_the_iPhone_15_Pro.jpg
+- `2026-06-06-deutsche-firmen-ki-nutzung.jpg` — WMUK office - meeting room; Lizenz: Wikimedia Commons/open-license metadata; Thema: Unternehmen/Büro/KI-Nutzung; Quelle: https://commons.wikimedia.org/wiki/File:WMUK_office_-_meeting_room.jpg
+- `2026-06-06-ki-server-128tb-speicher.jpg` — Rear of rack at NERSC data center - closeup; Lizenz: CC0 Waiver; Thema: Server/Rack/KI-Infrastruktur; Quelle: https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg
+- `2026-06-06-openai-modell-von-ki-designt.png` — Artificial Neural Network with Chip; Lizenz: Wikimedia Commons/open-license metadata; Thema: KI-Modellarchitektur/Optimierung; Quelle: https://commons.wikimedia.org/wiki/File:Artificial_Neural_Network_with_Chip.png
+- `2026-06-06-allable-marketing-workspace.jpg` — Unsplash photo by Nastuh Abootalebi; Lizenz: Unsplash License; Thema: integrierter Marketing-Workspace/Büro-Digitalisierung; Quelle: https://unsplash.com/photos/eHD8Y1Znfpk (temporär als besserer Realfoto-Ersatz für die entfernte SVG-Karte)
+- `2026-06-06-meta-kurumsal-ai.jpg` — Meta Headquarters Sign; Lizenz: CC BY-SA 4.0; Thema: Meta/Enterprise AI; Quelle: https://commons.wikimedia.org/wiki/File:Meta_Headquarters_Sign.jpg

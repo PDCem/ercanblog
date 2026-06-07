@@ -52,7 +52,7 @@ const POSTS = [
     lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-06",
-    image: "images/2026-06-06-apple-siri-beta-warteliste.svg",
+    image: "images/2026-06-06-apple-siri-beta-warteliste.jpg",
     featured: true,
     views: 7040,
     de: {
@@ -95,7 +95,7 @@ Apple steht unter Druck, bei KI sichtbarer zu werden. Trotzdem wäre ein kontrol
     lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-06",
-    image: "images/2026-06-06-deutsche-firmen-ki-nutzung.svg",
+    image: "images/2026-06-06-deutsche-firmen-ki-nutzung.jpg",
     views: 6920,
     de: {
       title: "Ifo: Mehr als die Hälfte der deutschen Unternehmen nutzt KI",
@@ -137,7 +137,7 @@ Für Leser aus Agenten-, Tool- und Automationsprojekten ist das eine Chance. Fir
     lang: "de",
     author: "Ercan Yıldız",
     date: "2026-06-06",
-    image: "images/2026-06-06-ki-server-128tb-speicher.svg",
+    image: "images/2026-06-06-ki-server-128tb-speicher.jpg",
     views: 6810,
     de: {
       title: "Start-up plant KI-Server mit 128 TByte Speicher",
@@ -179,7 +179,7 @@ Für Teams, die Agenten oder interne LLM-Systeme bauen, lohnt der Blick über Mo
     lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-06",
-    image: "images/2026-06-06-openai-modell-von-ki-designt.svg",
+    image: "images/2026-06-06-openai-modell-von-ki-designt.png",
     views: 6990,
     de: {
       title: "OpenAIs nächstes Modell soll von KI mitentworfen werden",
@@ -221,7 +221,7 @@ Bu gelişme, ajanlar ve otomasyonla ilgilenen herkes için önemli. Çünkü ayn
     lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-06",
-    image: "images/2026-06-06-allable-marketing-workspace.svg",
+    image: "images/2026-06-06-allable-marketing-workspace.jpg",
     views: 6870,
     de: {
       title: "AllAble: KI-gestützter Marketing-Workspace aus der Türkei-Perspektive",
@@ -263,7 +263,7 @@ Bu yüzden AllAble gibi ürünleri araç listesi olarak değil, iş modeli sinya
     lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-06",
-    image: "images/2026-06-06-meta-kurumsal-ai.svg",
+    image: "images/2026-06-06-meta-kurumsal-ai.jpg",
     views: 6740,
     de: {
       title: "Meta steigt stärker in den Enterprise-KI-Wettbewerb ein",
