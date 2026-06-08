@@ -47,6 +47,260 @@ const POSTS = [
 
   /* ---------------------------------------------------------- */
   {
+    id: "heise-black-forest-labs-scorsese-flux-2026-06-08",
+    cat: "business",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-08",
+    image: "images/2026-06-08-black-forest-labs-scorsese.jpg",
+    featured: true,
+    views: 7320,
+    de: {
+      title: "Scorsese berät Black Forest Labs: KI rückt näher an die Filmproduktion",
+      teaser: "heise berichtet, dass Martin Scorsese das deutsche KI-Startup Black Forest Labs berät. Entscheidend ist nicht nur Prominenz, sondern die Frage, wie generative Tools in echte Kreativprozesse passen.",
+      body: `heise berichtet, dass Martin Scorsese das deutsche KI-Startup Black Forest Labs berät. Das Unternehmen hinter Flux will seine Bild- und Kreativwerkzeuge stärker an den Bedürfnissen von Filmschaffenden ausrichten. Für die KI-Branche ist das mehr als eine PR-Meldung: Hollywood gehört zu den Bereichen, in denen generative KI gleichzeitig große Versprechen und massiven Widerstand auslöst.
+
+Scorseses Argument ist interessant, weil es nicht bei „KI ersetzt Künstler“ stehen bleibt. Laut Bericht geht es darum, Ideen aus dem Kopf schneller sichtbar zu machen: Stimmungen, Storyboard-Varianten, Kamerabewegungen, Szenenentwürfe. Gerade in der Vorproduktion kostet jede Schleife Zeit und Geld. Ein gutes Werkzeug kann dort helfen, bevor überhaupt ein Set gebaut, eine Location gebucht oder eine Szene teuer getestet wird.
+
+## Warum das für KI-Produkte wichtig ist
+
+Black Forest Labs steht damit vor einer typischen Produktfrage der nächsten KI-Welle: Ein Modell allein reicht nicht. Entscheidend ist, ob es in professionelle Arbeitsabläufe passt. Filmschaffende brauchen Kontrolle über Stil, Wiederholbarkeit, Rechte, Referenzen, Varianten und Freigaben. Wenn ein Tool nur schöne Einzelbilder erzeugt, bleibt es Demo. Wenn es Storyboards, Moodboards und kreative Iteration sauber unterstützt, wird es Workflow.
+
+Gleichzeitig bleibt die Debatte um Urheberrecht, Ausbildung, Jobs und künstlerische Kontrolle offen. Gerade deshalb ist die Zusammenarbeit mit einem Regisseur wie Scorsese relevant. Sie signalisiert: Die Akzeptanz von KI in kreativen Branchen entscheidet sich nicht durch Hype, sondern durch Werkzeuge, die den Menschen erkennbar im Zentrum lassen.
+
+## Worauf Leser achten sollten
+
+- Quelle zum Weiterlesen: [heise online](https://www.heise.de/news/KI-Startup-gewinnt-Hollywood-Legende-Martin-Scorsese-beraet-Black-Forest-Labs-11321092.html).
+- Kontextquelle: [Black Forest Labs](https://blackforestlabs.ai/) als Unternehmen hinter Flux.
+- Thema: generative Bild-KI, Film-Vorproduktion, kreative Workflows, Rechte und Tool-Akzeptanz.
+- Praxisfrage: Wird KI nur als Output-Maschine verkauft oder als kontrollierbares Werkzeug für Profis gebaut?
+
+## Ercans Einordnung
+
+> In kreativen Branchen gewinnt nicht das spektakulärste Modell, sondern das Werkzeug, das Kontrolle, Tempo und Handwerk zusammenbringt.
+
+Für Agenten- und Tool-Builder steckt hier eine Lehre: Nutzer wollen nicht „Magie“, sondern reproduzierbare Zwischenschritte. Wer KI in professionelle Prozesse bringt, muss Versionen, Quellen, Freigaben und Rücksprünge mitdenken. Genau dort trennt sich nützliche Automatisierung von Demo-Hype.`,
+    },
+    tr: {
+      title: "Scorsese, Black Forest Labs'e danışmanlık yapıyor",
+      teaser: "Almanca kaynaklı kısa özet: Black Forest Labs ve Scorsese iş birliği, üretken YZ'nin film ön prodüksiyonunda kontrollü araç olarak konumlanmasını gündeme taşıyor.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: Martin Scorsese'nin Black Forest Labs'e danışmanlık yapması, üretken YZ'nin yaratıcı sektörlerde yalnızca görsel üretmekle değil; kontrol, haklar, iş akışı ve insan onayıyla kabul göreceğini gösteriyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "heise-intel-foxconn-ki-infrastruktur-2026-06-08",
+    cat: "business",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-08",
+    image: "images/2026-06-08-intel-foxconn-ki-infrastruktur.jpg",
+    views: 7240,
+    de: {
+      title: "Intel und Foxconn planen KI-Infrastruktur der nächsten Generation",
+      teaser: "Intel und Foxconn wollen laut heise gemeinsam an KI-Servern, Edge-Systemen, Kühlung und kundenspezifischem Silizium arbeiten – ein Signal für die Industrialisierung des KI-Booms.",
+      body: `heise meldet, dass Intel und Foxconn eine Zusammenarbeit für die nächste Generation von KI-Systemen vereinbart haben. Die Partner wollen Intels Chiptechnologien mit Foxconns Erfahrung in Fertigung, Serverbau und Lieferketten verbinden. Im Zentrum stehen Rackmount-Server für KI-Berechnungen, Edge-Systeme, schnelle Datenverbindungen, Flüssigkühlung und Systemtelemetrie.
+
+Der Zeitpunkt ist wichtig. KI wird nicht nur durch bessere Modelle begrenzt, sondern durch Strom, Kühlung, Speicher, Netzwerke, Rechenzentren und Produktionskapazität. Wenn Hyperscaler hunderte Milliarden Dollar in Infrastruktur stecken, wollen klassische Hardware- und Fertigungskonzerne näher an diese Wertschöpfung heran. Intel und Foxconn adressieren genau diese Ebene unterhalb der Chatbot-Oberfläche.
+
+## Von Modellhype zu Fabrikrealität
+
+Für Entwickler und Unternehmen ist die Meldung ein Hinweis darauf, dass KI-Infrastruktur stärker modular und industriell geplant wird. Es geht nicht nur um GPUs im Rechenzentrum, sondern um komplette Systeme: Prozessoren, Beschleuniger, Racks, Kühlung, Telemetrie, Edge-Geräte und kundenspezifische Chips. Besonders spannend ist der Blick auf „physische KI“ – also Robotik, intelligente Fabriken und Smart-City-Anwendungen außerhalb zentraler Cloud-Cluster.
+
+Das kann den Markt breiter machen, aber auch neue Abhängigkeiten schaffen. Wer KI produktiv nutzt, sollte nicht nur Modellpreise vergleichen, sondern die Infrastruktur hinter den Diensten verstehen: Wo laufen Workloads? Wie skalieren sie? Welche Lieferkettenrisiken gibt es? Wie energieeffizient ist der Betrieb? Und wie schnell lassen sich Systeme ersetzen, wenn ein Anbieter ausfällt?
+
+## Was jetzt zu beobachten ist
+
+- Quelle zum Weiterlesen: [heise online](https://www.heise.de/news/Intel-und-Foxconn-arbeiten-zusammen-an-der-naechsten-Generation-von-KI-Systemen-11321044.html).
+- Thema: KI-Server, Edge-KI, Rechenzentren, Flüssigkühlung, ASICs und Lieferketten.
+- Offene Frage: Welche Kunden und konkreten Produkte aus der Kooperation entstehen, wurde bisher nicht genannt.
+- Relevanz: KI-Strategie wird zunehmend Hardware-, Energie- und Beschaffungsstrategie.
+
+## Ercans Einordnung
+
+> Die nächste KI-Produktivitätswelle hängt nicht nur am Modell, sondern daran, ob die Infrastruktur zuverlässig, bezahlbar und kontrollierbar skaliert.
+
+Für Agenten, Automatisierung und Unternehmens-KI ist das sehr praktisch: Latenz, Kosten und Datenort entscheiden oft über den Einsatz. Edge-KI und spezialisierte Systeme können dort helfen, wo Cloud allein zu teuer, zu langsam oder regulatorisch schwierig ist.`,
+    },
+    tr: {
+      title: "Intel ve Foxconn yeni nesil YZ altyapısı için iş birliği yapıyor",
+      teaser: "Almanca kaynaklı kısa özet: Intel ve Foxconn'un iş birliği, YZ yarışının model kalitesi kadar sunucu, soğutma, çip ve tedarik zinciri meselesi olduğunu gösteriyor.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: Intel ve Foxconn'un yeni nesil YZ altyapısı için iş birliği yapması, üretken YZ'nin arkasındaki veri merkezi, edge sistemleri, soğutma ve özel çip katmanının stratejik önemini artırıyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "t3n-george-hotz-ki-agenten-codefehler-2026-06-08",
+    cat: "agentic",
+    lang: "de",
+    author: "Ercan Yıldız",
+    date: "2026-06-08",
+    image: "images/2026-06-08-ki-agenten-code-review.jpg",
+    views: 7180,
+    de: {
+      title: "George Hotz warnt: KI-Agenten erzeugen Fehler, die schwerer zu finden sind",
+      teaser: "t3n fasst die Kritik von George Hotz an Coding-Agenten zusammen. Für Teams ist die Warnung nützlich: Mehr Output ist nicht automatisch mehr Qualität.",
+      body: `t3n berichtet über die scharfe Kritik des Hackers George Hotz an KI-Agenten in der Softwareentwicklung. Hotz hat nach eigenen Angaben über Monate verschiedene Coding-Tools getestet und kommt zu einem unbequemen Urteil: Agenten produzieren zwar viel Output, aber dieser Output kann defekt sein – und zwar auf eine Weise, die immer schwerer zu erkennen ist.
+
+Die Warnung trifft einen wunden Punkt der aktuellen KI-Einführung. Viele Organisationen messen Produktivität noch immer an Geschwindigkeit und Menge: mehr Pull Requests, mehr Tickets, mehr generierter Code. Doch Softwarequalität entsteht nicht durch Textmenge. Sie entsteht durch Verständnis, Tests, Architektur, Sicherheitsprüfung und Wartbarkeit. Wenn KI fehlerhaften Code überzeugend formuliert, verschiebt sich die Arbeit nur: vom Schreiben zum Entdecken versteckter Probleme.
+
+## Das Problem ist nicht „KI kann nichts“
+
+Hotz bestreitet nicht, dass KI nützlich sein kann. Auch laut t3n sieht er Einsatzfelder bei Prototypen, Suchersatz oder mathematischen Aufgaben. Der entscheidende Unterschied liegt im Risiko: Ein Prototyp darf verworfen werden. Produktivcode lebt lange, berührt Daten, Abhängigkeiten und Kundenprozesse. Dort kann ein kleiner, schwer sichtbarer Fehler teurer sein als langsamere manuelle Arbeit.
+
+Für Unternehmen ist besonders gefährlich, wenn Code von Personen erzeugt wird, die ihn nicht prüfen können. Dann entsteht eine Scheinproduktivität: Das Dashboard zeigt mehr Output, während die technische Schuld wächst. Bei Agenten verschärft sich das, weil sie nicht nur einzelne Snippets liefern, sondern Dateien ändern, Tests anpassen, Abhängigkeiten aktualisieren und Entscheidungen über mehrere Schritte treffen.
+
+## Was Teams daraus machen sollten
+
+- Quelle zum Weiterlesen: [t3n](https://t3n.de/news/hacker-george-hotz-ki-agenten-1744019/).
+- Thema: Coding-Agenten, Softwarequalität, Code-Review, versteckte Fehler und Produktivitätsmetriken.
+- Praktischer Schutz: Kleine Changesets, verpflichtende Tests, Review durch fachkundige Menschen und klare Agenten-Rechte.
+- Gute Metrik: Nicht „wie viel Code wurde erzeugt“, sondern „wie viel stabiler, verständlicher und wartbarer ist das System geworden“.
+
+## Ercans Einordnung
+
+> KI-Agenten sind am gefährlichsten, wenn sie wie Senior-Entwickler behandelt werden, aber ohne Senior-Review deployen dürfen.
+
+Meine Empfehlung für Builder: Agenten zuerst in engen Bahnen nutzen – Recherche, Refactoring-Vorschläge, Tests, Dokumentation, kleine isolierte Tasks. Je näher ein Agent an Produktivsysteme kommt, desto wichtiger werden Sandbox, Diff-Review, Rollback und echte Qualitätskriterien.`,
+    },
+    tr: {
+      title: "George Hotz uyarıyor: YZ ajanları bulunması zor kod hataları üretebilir",
+      teaser: "Almanca kaynaklı kısa özet: Coding ajanları daha fazla çıktı üretebilir, fakat bu çıktı doğru şekilde incelenmezse teknik borç ve gizli hata riski büyür.",
+      body: `Bu yazı Almanca kaynaklıdır ve Türkçe akışta görünmez. Kısa özet: George Hotz'un coding ajanlarına yönelik uyarısı, YZ ile üretilen kodda asıl meselenin hız değil; test, inceleme, mimari kalite ve dağıtım güvenliği olduğunu hatırlatıyor.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "webrazzi-oginify-sosyal-medya-kartlari-2026-06-08",
+    cat: "business",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-08",
+    image: "images/2026-06-08-oginify-social-cards.jpg",
+    views: 7310,
+    de: {
+      title: "Oginify erstellt KI-gestützte Social-Media-Karten für Webseiten",
+      teaser: "Türkische Quelle, kurzer Fallback: Webrazzi stellt Oginify vor, ein KI-Tool für automatisch generierte Open-Graph- und Link-Vorschau-Grafiken.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: Webrazzi stellt Oginify vor, ein KI-gestütztes Werkzeug, das Webseiten analysiert und daraus fertige Social-Media-Karten für Link-Vorschauen erzeugt.`,
+    },
+    tr: {
+      title: "Oginify, web siteleri için YZ destekli sosyal medya kartları üretiyor",
+      teaser: "Webrazzi'nin aktardığı Oginify, web adreslerini analiz ederek Open Graph kartları ve paylaşım görselleri üretiyor; küçük ekipler için içerik otomasyonu sinyali veriyor.",
+      body: `Webrazzi, web siteleri için anında Open Graph kartları ve bağlantı ön izleme görselleri üreten YZ destekli Oginify aracını tanıttı. Araç, bir web adresini analiz ederek sayfanın marka tonunu, renk paletini ve temel mesajını anlamaya çalışıyor. Ardından sosyal medya paylaşımında kullanılabilecek 1200x630 piksel boyutunda kartlar üretiyor.
+
+Bu tür araçlar ilk bakışta küçük bir tasarım otomasyonu gibi görünebilir. Fakat pratikte önemli bir noktaya dokunuyor: İçerik üretimi yalnızca yazı yazmak değildir. Bir yazının sosyal medyada nasıl göründüğü, başlığın ne kadar okunur olduğu, görselin marka kimliğiyle uyumu ve link ön izlemesinin güven vermesi dağıtımı doğrudan etkiler.
+
+## Neden önemli?
+
+Oginify'ın yaklaşımı, YZ'nin pazarlama ve içerik operasyonlarında giderek daha parçalı görevleri üstlendiğini gösteriyor. Büyük kampanya fikirlerinden önce, her gün tekrar eden küçük işler otomasyona giriyor: görsel varyasyonu üretmek, farklı stiller denemek, metni görsele yerleştirmek, marka tonuna yaklaşmak ve hızlı paylaşım hazırlamak.
+
+Webrazzi'nin haberine göre araç, ana sayfa veya makale türüne, site kategorisine ve görsel stile göre seçenekler oluşturabiliyor. Ayrıca açık kaynaklı bir motorun yönetilen bulut versiyonu olarak konumlanması geliştiriciler için de ilginç. Bu, tek seferlik bir SaaS'tan çok, içerik iş akışlarına bağlanabilecek bir üretim katmanı anlamına geliyor.
+
+## Takip edilmesi gerekenler
+
+- Kaynak ve devamı: [Webrazzi](https://webrazzi.com/2026/06/08/web-siteleri-icin-sosyal-medya-kartlari-ureten-yapay-zeka-araci-oginify/).
+- Konu: Open Graph kartları, sosyal medya ön izlemeleri, içerik otomasyonu ve marka tutarlılığı.
+- Pratik fayda: Blog, SaaS, e-ticaret ve ajans ekipleri link görsellerini daha hızlı hazırlayabilir.
+- Risk: Otomatik görseller markaya uymuyorsa hız kaliteyi düşürebilir; insan onayı hâlâ önemli.
+
+## Ercan'ın yorumu
+
+> İçerik otomasyonunda değer, tek büyük mucizeden değil; her gün yapılan küçük işleri güvenilir biçimde hızlandırmaktan geliyor.
+
+ErcanBlog okurları için ders net: YZ araçlarını yalnızca yazı üretimiyle sınırlamayın. Dağıtım, görsel hazırlık, SEO meta verisi, sosyal medya kartı, A/B varyasyonu ve içerik takvimi de otomasyon alanı. Ama her otomasyon gibi burada da marka kontrolü ve kalite eşiği şart.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "techinside-gemini-sorun-giderme-modu-2026-06-08",
+    cat: "agentic",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-08",
+    image: "images/2026-06-08-gemini-sorun-giderme-google.jpg",
+    views: 7230,
+    de: {
+      title: "Gemini testet offenbar einen Troubleshooting-Modus",
+      teaser: "Türkische Quelle, kurzer Fallback: TechInside berichtet über einen möglichen Gemini-Modus, der Nutzer mit strukturierten Diagnose-Schritten statt normalem Chat begleitet.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: TechInside berichtet über einen möglichen Gemini-Troubleshooting-Modus, der Probleme mit strukturierten Schritten und interaktiven Auswahlmöglichkeiten lösen soll.`,
+    },
+    tr: {
+      title: "Gemini için sorun giderme modu: sohbetten adım adım teşhise geçiş",
+      teaser: "TechInside'a göre Gemini'de bazı kullanıcılara yeni bir Sorun Giderme modu göründü. Bu, YZ asistanlarının daha görev odaklı ve yapılandırılmış hale geldiğini gösteriyor.",
+      body: `TechInside, bazı kullanıcıların Gemini model seçme menüsünde yeni bir “Sorun Giderme” modu gördüğünü aktarıyor. Google tarafından resmi olarak duyurulmayan bu seçenek, klasik sohbet cevabı yerine kullanıcıyı adım adım yönlendiren bir teşhis akışı sunmayı hedefliyor gibi görünüyor.
+
+Haberde verilen örnek önemli: Kullanıcı “arabam çalışmıyor” dediğinde Gemini yalnızca uzun bir metin üretmek yerine olası nedenleri daraltan seçenekler gösterebilir. Akü mü, kontak sesi mi, sessizlik mi, başka bir belirti mi? Bu yaklaşım, sohbet arayüzünü küçük bir karar ağacına ve rehberli problem çözme deneyimine dönüştürüyor.
+
+## Asistanlar neden modlara ayrılıyor?
+
+Genel sohbet modu her işe aynı cevap biçimiyle yaklaşır. Oysa gerçek kullanımda görevler farklıdır: araştırma, yazma, kodlama, teşhis, planlama, müşteri desteği, eğitim veya veri analizi. Gemini'nin böyle bir mod denemesi, büyük asistanların tek bir metin kutusundan uzmanlaşmış iş akışlarına doğru ilerlediğini gösteriyor.
+
+TechInside'ın aktardığına göre erken erişim gören kullanıcılar bu modun daha odaklı çalıştığını ve gereksiz konuşmaları azalttığını düşünüyor. Bu iddia doğruysa, model davranışının yalnızca “hangi model” seçildiğiyle değil, “hangi görev modu”nun aktif olduğuyla da şekilleneceği bir döneme giriyoruz.
+
+## Neyi izlemek gerekir?
+
+- Kaynak ve devamı: [TechInside](https://www.techinside.com/gemini-sorun-giderme-moduna-calisiyor/).
+- Konu: Gemini, sorun giderme, görev modları, etkileşimli widget'lar ve asistan UX'i.
+- Ürün sorusu: Bu mod kalıcı bir özellik mi olacak, yoksa yanlışlıkla görünen bir test mi?
+- Pratik sonuç: Destek, bakım, eğitim ve iç operasyon botları için yapılandırılmış teşhis akışları daha önemli hale geliyor.
+
+## Ercan'ın yorumu
+
+> YZ asistanlarının geleceği sadece daha akıllı cevaplar değil, daha doğru iş akışı seçmek olacak.
+
+Ajan geliştirenler için burada güçlü bir ders var: Her problemi serbest sohbetle çözmeye çalışmayın. Belirti toplama, seçenek sunma, kontrol listesi, hata eleme ve sonuç doğrulama gibi adımlar kullanıcı güvenini artırır. İyi asistan, bazen daha az konuşup daha iyi yönlendirendir.`,
+    },
+  },
+
+  /* ---------------------------------------------------------- */
+  {
+    id: "shiftdelete-chatgpt-lockdown-mode-komut-enjeksiyonu-2026-06-08",
+    cat: "sicherheit",
+    lang: "tr",
+    author: "Ercan Yıldız",
+    date: "2026-06-08",
+    image: "images/2026-06-08-chatgpt-lockdown-mode.png",
+    views: 7190,
+    de: {
+      title: "ChatGPT erhält Schutz gegen Prompt-Injection-Angriffe",
+      teaser: "Türkische Quelle, kurzer Fallback: ShiftDelete berichtet über einen Lockdown Mode, der riskante Web- und Agentenfunktionen bei sensiblen Daten einschränkt.",
+      body: `Dieser Beitrag basiert auf einer türkischen Quelle und erscheint nicht im deutschen Feed. Kurzfassung: ShiftDelete berichtet über einen neuen ChatGPT-Lockdown-Modus, der Prompt-Injection-Risiken reduzieren soll, indem Webzugriff, Bilderabruf und Agentenfunktionen eingeschränkt werden.`,
+    },
+    tr: {
+      title: "ChatGPT'ye komut enjeksiyonu koruması: Lockdown Mode ne anlatıyor?",
+      teaser: "ShiftDelete'in haberine göre OpenAI, ChatGPT için Lockdown Mode adlı güvenlik katmanını kademeli olarak sunuyor. Bu gelişme ajan güvenliği açısından kritik.",
+      body: `ShiftDelete, OpenAI'ın ChatGPT için komut enjeksiyonu saldırılarına karşı yeni bir “Lockdown Mode” güvenlik katmanı geliştirdiğini aktarıyor. Komut enjeksiyonu, web sayfalarında, dosyalarda veya dış içeriklerde gizlenen talimatların modeli kullanıcı niyetinden saptırması anlamına geliyor. Ajanlar ve web bağlantılı asistanlar yaygınlaştıkça bu risk daha görünür hale geliyor.
+
+Habere göre Lockdown Mode açıkken canlı web tarama, internetten görsel getirme, derin araştırma ve ajan modu gibi bazı özellikler sınırlandırılıyor. Amaç, hassas verilerle çalışan kullanıcıların dış içeriklerden gelen kötü niyetli talimatlara daha az maruz kalması. Bu yaklaşım güvenlikte klasik bir ilkeyi hatırlatıyor: Riskli ortamda yetkileri azalt.
+
+## Neden sadece model zekâsı yetmez?
+
+Prompt injection sorunu, modeli daha akıllı yapmakla tamamen çözülmüyor. Çünkü saldırı, modelin “metin okuma” yeteneğini hedefliyor. Bir sayfanın görünür içeriği ile gizli talimatı aynı bağlamda modele verildiğinde, asistan hangi talimata uyacağını karıştırabilir. Bu yüzden güvenlik; model eğitimi, araç izinleri, veri ayrımı, kaynak güveni ve kullanıcı onayını birlikte gerektirir.
+
+OpenAI'ın bile Lockdown Mode açıkken tam bağışıklık iddiasında bulunmaması önemli. ShiftDelete'in aktardığı uyarıya göre önbelleğe alınmış web içerikleri veya yüklenen dosyalar da davranışı etkileyebilir. Yani bu mod bir sihirli kalkan değil; risk azaltma katmanı.
+
+## Okurlar ne yapmalı?
+
+- Kaynak ve devamı: [ShiftDelete.Net](https://shiftdelete.net/chatgptye-komut-enjeksiyonu-korumasi-geldi).
+- Konu: ChatGPT, Lockdown Mode, prompt injection, ajan güvenliği ve hassas veri koruması.
+- Pratik kural: Hassas verilerle çalışırken web tarama, otomatik araç çağırma ve dış dosya okuma yetkilerini minimumda tutun.
+- Kurumsal ders: Ajanlara her araca erişim vermek yerine görev bazlı izin ve kayıt mekanizması kurun.
+
+## Ercan'ın yorumu
+
+> Güvenli ajan tasarımı, modele güvenmekten değil; modelin hangi aracı, hangi veriye, hangi koşulda kullanabileceğini sınırlamaktan başlar.
+
+Bu haber özellikle otomasyon kuran ekipler için önemli. Bir ajan e-posta okuyorsa, web'e bakıyorsa, dosya işliyorsa ve dış servis çağırıyorsa prompt injection artık teorik risk değildir. Lockdown mantığı, kendi sistemlerimizde de olmalı: dar yetki, açık log, insan onayı ve hızlı kapatma seçeneği.`,
+    },
+  },
+
+
+  /* ---------------------------------------------------------- */
+  {
     id: "handelsblatt-openai-chatgpt-superapp-2026-06-07",
     cat: "business",
     lang: "de",
@@ -2080,6 +2334,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+
+  {
+    id: "digitale-profis-ki-fehler-kostenlose-tools-2026-06-08",
+    date: "2026-06-08",
+    youtube: "8APgQtYXsFw",
+    lang: "de",
+    de: {
+      title: "Digitale Profis: Warum kostenlose KI-Tools oft das falsche Bild vermitteln",
+      desc: "Frischer deutscher Praxistipp vom 07.06.: Welche Grenzen kostenlose KI-Versionen haben und warum echte Workflows oft erst mit den richtigen Tools sichtbar werden.",
+    },
+    tr: {
+      title: "Digitale Profis: Ücretsiz YZ araçları neden yanıltıcı olabilir?",
+      desc: "07.06 tarihli güncel Almanca pratik öneri: Ücretsiz YZ sürümlerinin sınırları ve gerçek iş akışlarının hangi araçlarla görünür hale geldiği.",
+    },
+  },
+  {
+    id: "everlast-ai-chatgpt-codex-apps-lokale-ki-2026-06-08",
+    date: "2026-06-08",
+    youtube: "XAPDzR2Xvng",
+    lang: "de",
+    de: {
+      title: "Everlast AI: ChatGPT-Update, Codex-Apps und lokale KI einordnen",
+      desc: "Frischer deutscher KI-News-Tipp vom 07.06.: ChatGPT-Funktionen, Codex-App-Ideen und lokale Modelle in einem kompakten Überblick.",
+    },
+    tr: {
+      title: "Everlast AI: ChatGPT güncellemesi, Codex uygulamaları ve yerel YZ",
+      desc: "07.06 tarihli Almanca YZ haber önerisi: ChatGPT özellikleri, Codex uygulama fikirleri ve yerel modelleri tek videoda değerlendirme.",
+    },
+  },
+  {
+    id: "cicek-microsoft-build-ajan-soku-2026-06-08",
+    date: "2026-06-08",
+    youtube: "bj2nxN13jTM",
+    lang: "tr",
+    de: {
+      title: "Çiçek ile Teknoloji: Microsoft Build und der Agenten-Schock",
+      desc: "Frischer türkischer Zusatz-Tipp vom 05.06.: Microsoft Build 2026, Windows und die Frage, wie Agenten klassische Desktop-Nutzung verändern.",
+    },
+    tr: {
+      title: "Çiçek ile Teknoloji: Microsoft Build 2026 ve ajan şoku",
+      desc: "05.06 tarihli güncel Türkçe öneri: Microsoft Build, Windows'un ajanlaşması ve klasik masaüstü kullanımının nasıl değişebileceği üzerine pratik yorum.",
+    },
+  },
+  {
+    id: "kisaca-ozetleyin-yapay-zeka-nedir-2026-06-08",
+    date: "2026-06-08",
+    youtube: "DtCNF46fsDY",
+    lang: "tr",
+    de: {
+      title: "Kısaca Özetleyin: Künstliche Intelligenz kurz erklärt",
+      desc: "Frischer türkischer Grundlagen-Tipp vom 04.06.: Ein kompakter Einstieg für Leser, die KI-Begriffe sauber und schnell einordnen wollen.",
+    },
+    tr: {
+      title: "Kısaca Özetleyin: Yapay zeka nedir?",
+      desc: "04.06 tarihli güncel Türkçe temel anlatım: YZ kavramlarını hızlı, sade ve temiz bir çerçevede anlamak isteyenler için kısa bir başlangıç.",
+    },
+  },
 
 
   {
