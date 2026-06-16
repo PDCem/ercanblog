@@ -257,165 +257,7 @@ Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Ya
 
   
 
-  {
-    id: `2026-06-16-de-1-kuenstliche-intelligenz-soll-b`,
-    cat: `agentic`,
-    lang: `de`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-16`,
-    image: `images/2026-06-16-de-1-kuenstliche-intelligenz-soll-b.jpg`,
-    de: {
-      title: `Künstliche Intelligenz soll Bairisch lernen | heise online`,
-      teaser: `vor 1 Tag ... Mit Hilfe von Künstlicher Intelligenz wollen Sprachpfleger in Bayern den Dialekt stärken und erhalten. Dafür muss die KI die Varianten des Dialekts ...`,
-      body: `vor 1 Tag ... Mit Hilfe von Künstlicher Intelligenz wollen Sprachpfleger in Bayern den Dialekt stärken und erhalten. Dafür muss die KI die Varianten des Dialekts ...
-
-## Quelle und Kontext
-
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Künstliche Intelligenz soll Bairisch lernen | heise online](https://www.heise.de/news/Kuenstliche-Intelligenz-soll-Bairisch-lernen-11332176.html).
-
-## Ercans Einordnung
-
-> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
-    },
-    tr: {
-      title: `[TR-Fallback] Künstliche Intelligenz soll Bairisch lernen | heise online`,
-      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Künstliche Intelligenz soll Bairisch lernen | heis](https://www.heise.de/news/Kuenstliche-Intelligenz-soll-Bairisch-lernen-11332176.html).`,
-    },
-  },
-  {
-    id: `2026-06-16-de-2-mythos-modell-claude-fable-5-a`,
-    cat: `modelle`,
-    lang: `de`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-16`,
-    image: `images/2026-06-16-de-2-mythos-modell-claude-fable-5-a.jpg`,
-    de: {
-      title: `Mythos-Modell Claude Fable 5: Anthropic veröffentlicht bisher ... - t3n`,
-      teaser: `vor 7 Tagen ... Unter dem Namen Claude Fable 5 macht Anthropic sein bisher mächtigstes KI-Modell Mythos jetzt einer breiteren Öffentlichkeit zugänglich.`,
-      body: `vor 7 Tagen ... Unter dem Namen Claude Fable 5 macht Anthropic sein bisher mächtigstes KI-Modell Mythos jetzt einer breiteren Öffentlichkeit zugänglich.
-
-## Quelle und Kontext
-
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Mythos-Modell Claude Fable 5: Anthropic veröffentlicht bishe](https://t3n.de/news/mythos-claude-fable-5-anthropic-1746783/).
-
-## Ercans Einordnung
-
-> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
-    },
-    tr: {
-      title: `[TR-Fallback] Mythos-Modell Claude Fable 5: Anthropic veröffentlicht bishe`,
-      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Mythos-Modell Claude Fable 5: Anthropic veröffentl](https://t3n.de/news/mythos-claude-fable-5-anthropic-1746783/).`,
-    },
-  },
-  {
-    id: `2026-06-16-de-3-spacex-will-ki-startup-anysphe`,
-    cat: `agentic`,
-    lang: `de`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-16`,
-    image: `images/2026-06-16-de-3-spacex-will-ki-startup-anysphe.jpg`,
-    de: {
-      title: `SpaceX will KI-Startup Anysphere für 60 Milliarden Dollar kaufen`,
-      teaser: `vor 3 Stunden ... Das Raumfahrt- und KI-Unternehmen SpaceX will kurz nach seinem Sprung an die Börse eine milliardenschwere Übernahme stemmen. Der US-Konzern von Unternehmer Elon ...`,
-      body: `vor 3 Stunden ... Das Raumfahrt- und KI-Unternehmen SpaceX will kurz nach seinem Sprung an die Börse eine milliardenschwere Übernahme stemmen. Der US-Konzern von Unternehmer Elon ...
-
-## Quelle und Kontext
-
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [SpaceX will KI-Startup Anysphere für 60 Milliarden Dollar ka](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-spacex-will-ki-startup-anysphere-fuer-60-milliarden-dollar-kaufen/100233413.html).
-
-## Ercans Einordnung
-
-> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
-    },
-    tr: {
-      title: `[TR-Fallback] SpaceX will KI-Startup Anysphere für 60 Milliarden Dollar ka`,
-      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [SpaceX will KI-Startup Anysphere für 60 Milliarden](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-spacex-will-ki-startup-anysphere-fuer-60-milliarden-dollar-kaufen/100233413.html).`,
-    },
-  },
-  {
-    id: `2026-06-16-tr-1-yapay-zeka-destekli-siber-guev`,
-    cat: `agentic`,
-    lang: `tr`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-16`,
-    image: `images/2026-06-16-tr-1-yapay-zeka-destekli-siber-guev.jpg`,
-    de: {
-      title: `[DE-Fallback] Yapay zeka destekli siber güvenlik şirketi NewCore, 66 milyo`,
-      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli siber güvenlik şirketi NewCore](https://webrazzi.com/2026/06/16/yapay-zeka-destekli-siber-guvenlik-sirketi-newcore-66-milyon-dolar-yatirim-aldi/).`,
-    },
-    tr: {
-      title: `Yapay zeka destekli siber güvenlik şirketi NewCore, 66 milyon dolar ...`,
-      teaser: `vor 4 Stunden ... Newcore'un 66 milyon dolarlık yatırım turuna Cyberstarts liderlik etti. Şirketin yatırım turunda Index Ventures ve Evolution Equity Partners yer aldı.`,
-      body: `vor 4 Stunden ... Newcore'un 66 milyon dolarlık yatırım turuna Cyberstarts liderlik etti. Şirketin yatırım turunda Index Ventures ve Evolution Equity Partners yer aldı.
-
-## Kaynak ve baglam
-
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli siber güvenlik şirketi NewCore, 66 milyo](https://webrazzi.com/2026/06/16/yapay-zeka-destekli-siber-guvenlik-sirketi-newcore-66-milyon-dolar-yatirim-aldi/).
-
-## Ercan'in yorumu
-
-> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
-    },
-  },
-  {
-    id: `2026-06-16-tr-2-google-tuerkiye-de-e-itim-yapa`,
-    cat: `agentic`,
-    lang: `tr`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-16`,
-    image: `images/2026-06-16-tr-2-google-tuerkiye-de-e-itim-yapa.jpg`,
-    de: {
-      title: `[DE-Fallback] Google, Türkiye'de eğitim yapay zeka eğitimlerini başlattı`,
-      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Google, Türkiye'de eğitim yapay zeka eğitimlerini ](https://www.donanimhaber.com/google-turkiye-de-egitim-yapay-zeka-egitimlerini-baslatti--206869).`,
-    },
-    tr: {
-      title: `Google, Türkiye'de eğitim yapay zeka eğitimlerini başlattı`,
-      teaser: `vor 20 Stunden ... Google ve Sanayi ve Teknoloji Bakanlığı iş birliğiyle hayata geçirilen 'Herkes İçin Yapay Zeka' platformu, 7 bin dakikayı aşan ücretsiz eğitim içerikleri ...`,
-      body: `vor 20 Stunden ... Google ve Sanayi ve Teknoloji Bakanlığı iş birliğiyle hayata geçirilen 'Herkes İçin Yapay Zeka' platformu, 7 bin dakikayı aşan ücretsiz eğitim içerikleri ...
-
-## Kaynak ve baglam
-
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Google, Türkiye'de eğitim yapay zeka eğitimlerini başlattı](https://www.donanimhaber.com/google-turkiye-de-egitim-yapay-zeka-egitimlerini-baslatti--206869).
-
-## Ercan'in yorumu
-
-> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
-    },
-  },
-  {
-    id: `2026-06-16-tr-3-google-ile-t-c-sanayi-ve-tekno`,
-    cat: `agentic`,
-    lang: `tr`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-16`,
-    image: `images/2026-06-16-tr-3-google-ile-t-c-sanayi-ve-tekno.jpg`,
-    de: {
-      title: `[DE-Fallback] Google ile T.C. Sanayi ve Teknoloji Bakanlığı'ndan yeni plat`,
-      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Google ile T.C. Sanayi ve Teknoloji Bakanlığı'ndan](https://egirisim.com/2026/06/14/google-ile-t-c-sanayi-ve-teknoloji-bakanligindan-yeni-platform-herkes-icin-yapay-zeka/).`,
-    },
-    tr: {
-      title: `Google ile T.C. Sanayi ve Teknoloji Bakanlığı'ndan yeni platform`,
-      teaser: `vor 2 Tagen ... "Herkes için Yapay Zeka" platformu, hem evrensel yapay zeka okuryazarlığını oluşturmayı hem de gelişmiş eğitimlerle ulusal yapay zeka vizyonuna katkıda.`,
-      body: `vor 2 Tagen ... "Herkes için Yapay Zeka" platformu, hem evrensel yapay zeka okuryazarlığını oluşturmayı hem de gelişmiş eğitimlerle ulusal yapay zeka vizyonuna katkıda.
-
-## Kaynak ve baglam
-
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Google ile T.C. Sanayi ve Teknoloji Bakanlığı'ndan yeni plat](https://egirisim.com/2026/06/14/google-ile-t-c-sanayi-ve-teknoloji-bakanligindan-yeni-platform-herkes-icin-yapay-zeka/).
-
-## Ercan'in yorumu
-
-> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
-    },
-  },
-
   
-
 
   /* ---------------------------------------------------------- */
   {
@@ -671,7 +513,6 @@ Bu haber özellikle otomasyon kuran ekipler için önemli. Bir ajan e-posta okuy
     },
   },
 
-
   /* ---------------------------------------------------------- */
   {
     id: "handelsblatt-openai-chatgpt-superapp-2026-06-07",
@@ -924,7 +765,6 @@ Türkiye'de YZ girişimleri, üniversite laboratuvarları, teknoparklar ve kurum
 13 Haziran açıklaması bu yüzden yakından izlenmeli. Eğer belge somut programlar ve açık öncelikler içerirse, Türkiye'deki YZ girişimleri ve kurum içi otomasyon projeleri için güçlü bir referans noktası doğabilir. Eğer yalnızca genel hedeflerde kalırsa, ekosistemin beklediği hızlanma sınırlı olur.`,
     },
   },
-
 
   /* ---------------------------------------------------------- */
   {
@@ -1557,7 +1397,6 @@ Program yerel paydaşları, eğitimi ve ölçülebilir pilot projeleri güçlend
 Vatandaş açısından önemli olan projenin adında YZ geçmesi değildir. Hizmetlerin daha hızlı, daha anlaşılır ve daha adil hale gelip gelmediğidir. Bu tür programlar da buna göre ölçülmeli: somut kamu süreçleri, açık değerlendirme, veri koruma ve bilginin ülkede kalması.`,
     },
   },
-
 
   /* ---------------------------------------------------------- */
   {
@@ -2297,7 +2136,6 @@ Birçok ajan demoda iyi görünür, fakat günlük kullanımda yanlış prompt, 
     },
   },
 
-
   /* ---------------------------------------------------------- */
   {
     id: "microsoft-build-2026-windows-agenten",
@@ -2354,7 +2192,6 @@ Merkezde, bellek, planlama, araç çağırma ve standart çıktılar gibi tekrar
 Mevcut yazılımların yeni arayüzlerle ne kadar sorunsuz çalışacağı ve vaat edilen hızın günlük kullanımda tutup tutmayacağı henüz belirsiz. Küçük ve orta ölçekli işletmeler için asıl belirleyici olan, kurulumun gerçekte ne kadar zahmetli olacağı.`,
     },
   },
-
 
   /* ---------------------------------------------------------- */
   {
@@ -2765,66 +2602,6 @@ const TIPS = [
     },
   },
 
-
-  {
-    id: `2026-06-16-de-tip-1-20-ki-tools-die-99-noch-nie-ge`,
-    date: `2026-06-16`,
-    youtube: `w2fVxiUPTv4`,
-    lang: `de`,
-    de: {
-      title: `20 KI-Tools, die 99% noch nie gehört haben (und dich allen voraus ...`,
-      desc: `vor 7 Tagen ... Umsatz durch AI Voice Agents: https://www.kiberatung.de/ki-telefonassistent/?utm_source=kiberatung.de/ki ... Go to channel Digitale Profis · AI agents in everyday ...`,
-    },
-    tr: {
-      title: `[TR] 20 KI-Tools, die 99% noch nie gehört haben (und dich allen v`,
-      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
-    },
-  },
-  {
-    id: `2026-06-16-de-tip-2-ai-agents-in-everyday-life-aut`,
-    date: `2026-06-16`,
-    youtube: `MKz7gcscmq0`,
-    lang: `de`,
-    de: {
-      title: `AI agents in everyday life: Automate research, coding ... - YouTube`,
-      desc: `vor 7 Tagen ... ... [Werbung] AI Agents Cheatsheet: https://clickhubspot.com/f90066 KI-Agenten sind nicht einfach nur ChatGPT mit besseren Prompts ... Digitale Profis•21K views · 38: ...`,
-    },
-    tr: {
-      title: `[TR] AI agents in everyday life: Automate research, coding ... - `,
-      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
-    },
-  },
-  {
-    id: `2026-06-16-tr-tip-1-2027-de-i-nsanl-ne-bekliyor-ya`,
-    date: `2026-06-16`,
-    youtube: `tBx3PvI36mc`,
-    lang: `tr`,
-    de: {
-      title: `[DE] 2027'de İnsanlığı Ne Bekliyor? Yapay Zekâ Bizi Kurtaracak mı`,
-      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
-    },
-    tr: {
-      title: `2027'de İnsanlığı Ne Bekliyor? Yapay Zekâ Bizi Kurtaracak mı ...`,
-      desc: `vor 24 Stunden ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan•741K views · 25:17 · Go to channel Evrim Ağacı · Yapay Zeka Balonu Ne Zaman ...`,
-    },
-  },
-  {
-    id: `2026-06-16-tr-tip-2-can-machines-think-a-brief-his`,
-    date: `2026-06-16`,
-    youtube: `S9_v1sMD5F0`,
-    lang: `tr`,
-    de: {
-      title: `[DE] Can Machines Think? A Brief History of Artificial Intelligen`,
-      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
-    },
-    tr: {
-      title: `Can Machines Think? A Brief History of Artificial Intelligence`,
-      desc: `vor 4 Tagen ... ... ? Evrim Ağacı•864K views · 26:33. Go to channel Barış Özcan · Sen mi Yapay Zeka Kullanıyorsun? Yoksa O mu Seni? Barış Özcan•294K views · 41:20. Go to ...`,
-    },
-  },
-
-
-
   {
     id: "digitale-profis-ki-fehler-kostenlose-tools-2026-06-08",
     date: "2026-06-08",
@@ -2881,7 +2658,6 @@ const TIPS = [
       desc: "04.06 tarihli güncel Türkçe temel anlatım: YZ kavramlarını hızlı, sade ve temiz bir çerçevede anlamak isteyenler için kısa bir başlangıç.",
     },
   },
-
 
   {
     id: "heise-android-gefaelschte-anrufe-erkennen-2026-06-07",
