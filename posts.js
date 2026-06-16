@@ -338,6 +338,7 @@ Meine Empfehlung für Builder: Agenten zuerst in engen Bahnen nutzen – Recherc
     lang: "tr",
     author: "Ercan Yıldız",
     date: "2026-06-08",
+    featured: true,
     image: "images/2026-06-08-oginify-social-cards.jpg",
     views: 7310,
     de: {
