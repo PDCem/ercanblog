@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-16-de-1-bundestag-beschliesst-ki-geset`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-16`,
+    image: `images/2026-06-16-de-1-bundestag-beschliesst-ki-geset.jpg`,
+    featured: true,
+    de: {
+      title: `Bundestag beschließt KI-Gesetz: Bundesnetzagentur wird zentrale ...`,
+      teaser: `vor 4 Tagen ... ... Künstliche Intelligenz in Deutschland bestimmt. Wirtschaftsverbände begrüßen die gewonnene Rechtssicherheit. Opposition und Zivilgesellschaft beklagen ...`,
+      body: `vor 4 Tagen ... ... Künstliche Intelligenz in Deutschland bestimmt. Wirtschaftsverbände begrüßen die gewonnene Rechtssicherheit. Opposition und Zivilgesellschaft beklagen ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Bundestag beschließt KI-Gesetz: Bundesnetzagentur wird zentr](https://www.heise.de/news/Bundestag-beschliesst-KI-Gesetz-Bundesnetzagentur-wird-zentrale-Aufsicht-11330801.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Bundestag beschließt KI-Gesetz: Bundesnetzagentur wird zentr`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Bundestag beschließt KI-Gesetz: Bundesnetzagentur ](https://www.heise.de/news/Bundestag-beschliesst-KI-Gesetz-Bundesnetzagentur-wird-zentrale-Aufsicht-11330801.html).`,
+    },
+  },
+  {
+    id: `2026-06-16-de-2-anthropic-muss-neue-ki-modelle`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-16`,
+    image: `images/2026-06-16-de-2-anthropic-muss-neue-ki-modelle.jpg`,
+    de: {
+      title: `Anthropic muss neue KI-Modelle abrupt abschalten - t3n`,
+      teaser: `vor 2 Tagen ... Die Trump-Regierung zwang ein führendes KI-Unternehmen über Nacht dazu, seine neuesten Modelle global für alle abzuschalten. Von Dieter Petereit. 14.06.2026, 11 ...`,
+      body: `vor 2 Tagen ... Die Trump-Regierung zwang ein führendes KI-Unternehmen über Nacht dazu, seine neuesten Modelle global für alle abzuschalten. Von Dieter Petereit. 14.06.2026, 11 ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Anthropic muss neue KI-Modelle abrupt abschalten - t3n](https://t3n.de/news/anthropic-exportkontrollen-usa-ki-modelle-abgeschaltet-1747559/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Anthropic muss neue KI-Modelle abrupt abschalten - t3n`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Anthropic muss neue KI-Modelle abrupt abschalten -](https://t3n.de/news/anthropic-exportkontrollen-usa-ki-modelle-abgeschaltet-1747559/).`,
+    },
+  },
+  {
+    id: `2026-06-16-de-3-ki-in-vielen-unternehmen-herrs`,
+    cat: `business`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-16`,
+    image: `images/2026-06-16-de-3-ki-in-vielen-unternehmen-herrs.jpg`,
+    de: {
+      title: `KI: „In vielen Unternehmen herrscht eine Kultur der ... - Handelsblatt`,
+      teaser: `vor 3 Stunden ... Unternehmen hoffen auf Produktivitätsgewinne durch KI. Der Bestsellerautor Cal Newport sieht vor allem die Gefahr, dass Beschäftigte noch stärker unter ...`,
+      body: `vor 3 Stunden ... Unternehmen hoffen auf Produktivitätsgewinne durch KI. Der Bestsellerautor Cal Newport sieht vor allem die Gefahr, dass Beschäftigte noch stärker unter ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI: „In vielen Unternehmen herrscht eine Kultur der ... - Ha](https://www.handelsblatt.com/karriere/ki-in-vielen-unternehmen-herrscht-eine-kultur-der-pseudoproduktivitaet/100228391.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI: „In vielen Unternehmen herrscht eine Kultur der ... - Ha`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI: „In vielen Unternehmen herrscht eine Kultur de](https://www.handelsblatt.com/karriere/ki-in-vielen-unternehmen-herrscht-eine-kultur-der-pseudoproduktivitaet/100228391.html).`,
+    },
+  },
+  {
+    id: `2026-06-16-de-4-reaktion-auf-claude-mythos-bun`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-16`,
+    image: `images/2026-06-16-de-4-reaktion-auf-claude-mythos-bun.jpg`,
+    de: {
+      title: `Reaktion auf Claude Mythos? Bundesregierung gründet KI ... - Heise`,
+      teaser: `vor 7 Tagen ... In den Blick nehmen soll das Institut klassische Fragen der KI-Cybersicherheit wie den Schutz vor Angriffen, aber auch KI-Safety – hier geht es um sichere KI- ...`,
+      body: `vor 7 Tagen ... In den Blick nehmen soll das Institut klassische Fragen der KI-Cybersicherheit wie den Schutz vor Angriffen, aber auch KI-Safety – hier geht es um sichere KI- ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Reaktion auf Claude Mythos? Bundesregierung gründet KI ... -](https://www.heise.de/news/Bundesregierung-will-KI-Sicherheitsinstitut-gruenden-11326247.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Reaktion auf Claude Mythos? Bundesregierung gründet KI ... -`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Reaktion auf Claude Mythos? Bundesregierung gründe](https://www.heise.de/news/Bundesregierung-will-KI-Sicherheitsinstitut-gruenden-11326247.html).`,
+    },
+  },
+  {
+    id: `2026-06-16-tr-1-meta-dan-facebook-ta-yay-na-al`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-16`,
+    image: `images/2026-06-16-tr-1-meta-dan-facebook-ta-yay-na-al.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Meta'dan Facebook'ta yayına alınan yapay zeka destekli arama`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Meta'dan Facebook'ta yayına alınan yapay zeka dest](https://webrazzi.com/2026/06/16/meta-dan-facebook-ta-yayina-alinan-yapay-zeka-destekli-arama-ozelligi-ai-mode/).`,
+    },
+    tr: {
+      title: `Meta'dan Facebook'ta yayına alınan yapay zeka destekli arama ...`,
+      teaser: `vor 5 Stunden ... AI Mode ise Google, OpenAI ve Perplexity'nin yapay zeka arama ürünlerinin bilgileri sunma şekline benzer şekilde özetlenmiş bir yanıt oluşturuyor. Meta ...`,
+      body: `vor 5 Stunden ... AI Mode ise Google, OpenAI ve Perplexity'nin yapay zeka arama ürünlerinin bilgileri sunma şekline benzer şekilde özetlenmiş bir yanıt oluşturuyor. Meta ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Meta'dan Facebook'ta yayına alınan yapay zeka destekli arama](https://webrazzi.com/2026/06/16/meta-dan-facebook-ta-yayina-alinan-yapay-zeka-destekli-arama-ozelligi-ai-mode/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-16-tr-2-yapay-zeka-evrenin-nas-l-al-t-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-16`,
+    image: `images/2026-06-16-tr-2-yapay-zeka-evrenin-nas-l-al-t-.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka evrenin nasıl çalıştığını öğrendi: Fizikçileri şa`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka evrenin nasıl çalıştığını öğrendi: Fizi](https://www.donanimhaber.com/yapay-zeka-evrenin-nasil-calistigini-ogrendi-fizikcileri-sasirtt--206814).`,
+    },
+    tr: {
+      title: `Yapay zeka evrenin nasıl çalıştığını öğrendi: Fizikçileri şaşırtt`,
+      teaser: `vor 2 Tagen ... Yeni araştırma, kozmoloji alanında kullanılan yapay zekanın hesaplamaları hızlandırabildiğini ancak önceden öğrendiği kalıplar nedeniyle yeni fiziksel ...`,
+      body: `vor 2 Tagen ... Yeni araştırma, kozmoloji alanında kullanılan yapay zekanın hesaplamaları hızlandırabildiğini ancak önceden öğrendiği kalıplar nedeniyle yeni fiziksel ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka evrenin nasıl çalıştığını öğrendi: Fizikçileri şa](https://www.donanimhaber.com/yapay-zeka-evrenin-nasil-calistigini-ogrendi-fizikcileri-sasirtt--206814).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-16-tr-3-e-itim-teknolojilerinde-yapay-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-16`,
+    image: `images/2026-06-16-tr-3-e-itim-teknolojilerinde-yapay-.jpg`,
+    de: {
+      title: `[DE-Fallback] Eğitim Teknolojilerinde Yapay Zeka Etkisi`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Eğitim Teknolojilerinde Yapay Zeka Etkisi](https://turkiye.ai/egitim-teknolojilerinde-yapay-zeka-etkisi/).`,
+    },
+    tr: {
+      title: `Eğitim Teknolojilerinde Yapay Zeka Etkisi`,
+      teaser: `vor 1 Tag ... Eğitim teknolojileri (EDTech) artık yalnızca ders içeriklerinin dijital ortama taşınmasıyla sınırlı değil. Bugün EdTech; öğrenme deneyimini kişiselleştiren,`,
+      body: `vor 1 Tag ... Eğitim teknolojileri (EDTech) artık yalnızca ders içeriklerinin dijital ortama taşınmasıyla sınırlı değil. Bugün EdTech; öğrenme deneyimini kişiselleştiren,
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Eğitim Teknolojilerinde Yapay Zeka Etkisi](https://turkiye.ai/egitim-teknolojilerinde-yapay-zeka-etkisi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-16-tr-4-yapay-zeka-destekli-insan-kayn`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-16`,
+    image: `images/2026-06-16-tr-4-yapay-zeka-destekli-insan-kayn.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli insan kaynakları platformu Orbio, 21 mil`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli insan kaynakları platformu Orb](https://webrazzi.com/2026/06/15/yapay-zeka-destekli-insan-kaynaklari-platformu-orbio-21-milyon-dolar-yatirim-aldi//).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli insan kaynakları platformu Orbio, 21 milyon ...`,
+      teaser: `vor 1 Tag ... Orbio'nun 21 milyon dolarlık A serisi yatırım turunda Dawn Capital liderlik etti. Şirketin yatırım turunda Visionaries ve 2100 Ventures yer aldı.`,
+      body: `vor 1 Tag ... Orbio'nun 21 milyon dolarlık A serisi yatırım turunda Dawn Capital liderlik etti. Şirketin yatırım turunda Visionaries ve 2100 Ventures yer aldı.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli insan kaynakları platformu Orbio, 21 mil](https://webrazzi.com/2026/06/15/yapay-zeka-destekli-insan-kaynaklari-platformu-orbio-21-milyon-dolar-yatirim-aldi//).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-16-de-1-kuenstliche-intelligenz-soll-b`,
     cat: `agentic`,
     lang: `de`,
@@ -2494,6 +2707,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-16-de-tip-1-ai-agents-in-everyday-life-aut`,
+    date: `2026-06-16`,
+    youtube: `MKz7gcscmq0`,
+    lang: `de`,
+    de: {
+      title: `AI agents in everyday life: Automate research, coding ... - YouTube`,
+      desc: `vor 7 Tagen ... ... [Werbung] AI Agents Cheatsheet: https://clickhubspot.com/f90066 KI-Agenten sind nicht einfach nur ChatGPT mit besseren Prompts ... Digitale Profis•21K views · 38: ...`,
+    },
+    tr: {
+      title: `[TR] AI agents in everyday life: Automate research, coding ... - `,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-16-de-tip-2-20-ki-tools-die-99-noch-nie-ge`,
+    date: `2026-06-16`,
+    youtube: `w2fVxiUPTv4`,
+    lang: `de`,
+    de: {
+      title: `20 KI-Tools, die 99% noch nie gehört haben (und dich allen voraus ...`,
+      desc: `vor 7 Tagen ... Umsatz durch AI Voice Agents: https://www.kiberatung.de/ki-telefonassistent/?utm_source=kiberatung.de/ki ... Go to channel Digitale Profis · AI agents in everyday ...`,
+    },
+    tr: {
+      title: `[TR] 20 KI-Tools, die 99% noch nie gehört haben (und dich allen v`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-16-tr-tip-1-can-machines-think-a-brief-his`,
+    date: `2026-06-16`,
+    youtube: `S9_v1sMD5F0`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Can Machines Think? A Brief History of Artificial Intelligen`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Can Machines Think? A Brief History of Artificial Intelligence`,
+      desc: `vor 4 Tagen ... ... ? Evrim Ağacı•864K views · 26:33. Go to channel Barış Özcan · Sen mi Yapay Zeka Kullanıyorsun? Yoksa O mu Seni? Barış Özcan•294K views · 41:20. Go to ...`,
+    },
+  },
+  {
+    id: `2026-06-16-tr-tip-2-2027-de-i-nsanl-ne-bekliyor-ya`,
+    date: `2026-06-16`,
+    youtube: `tBx3PvI36mc`,
+    lang: `tr`,
+    de: {
+      title: `[DE] 2027'de İnsanlığı Ne Bekliyor? Yapay Zekâ Bizi Kurtaracak mı`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `2027'de İnsanlığı Ne Bekliyor? Yapay Zekâ Bizi Kurtaracak mı ...`,
+      desc: `vor 1 Tag ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan•741K views · 25:17 · Go to channel Evrim Ağacı · Yapay Zeka Balonu Ne Zaman ...`,
+    },
+  },
+
 
   {
     id: `2026-06-16-de-tip-1-20-ki-tools-die-99-noch-nie-ge`,
