@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-17-de-1-kuenstliche-intelligenz-soll-b`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-17`,
+    image: `images/2026-06-17-de-1-kuenstliche-intelligenz-soll-b.jpg`,
+    featured: true,
+    de: {
+      title: `Künstliche Intelligenz soll Bairisch lernen | heise online`,
+      teaser: `„Mithilfe von KI können wir die Vielfalt der Dialekte systematisch erschließen und für unterschiedliche Anwendungskontexte nutzbar machen – etwa für die automatische Erkennung, Verarbeitung und Überse`,
+      body: `„Mithilfe von KI können wir die Vielfalt der Dialekte systematisch erschließen und für unterschiedliche Anwendungskontexte nutzbar machen – etwa für die automatische Erkennung, Verarbeitung und Übersetzung regionaler Sprachformen“, teilten Barbara Plank, Inhaberin des Lehrstuhls für Künstliche Intelligenz und Computerlinguistik, und Lars Bülow, Inhaber des Lehrstuhls für Germanistische Linguistik, mit.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Künstliche Intelligenz soll Bairisch lernen | heise online](https://www.heise.de/news/Kuenstliche-Intelligenz-soll-Bairisch-lernen-11332176.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Künstliche Intelligenz soll Bairisch lernen | heise online`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Künstliche Intelligenz soll Bairisch lernen | heis](https://www.heise.de/news/Kuenstliche-Intelligenz-soll-Bairisch-lernen-11332176.html).`,
+    },
+  },
+  {
+    id: `2026-06-17-de-2-generative-ki-open-source-mode`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-17`,
+    image: `images/2026-06-17-de-2-generative-ki-open-source-mode.jpg`,
+    de: {
+      title: `Generative KI: Open-Source-Modelle anfällig für Desinformation - Golem.de`,
+      teaser: `vor 1 Tag ... Eine estnische Untersuchung bescheinigt quelloffenen KI-Modellen wie Mistral Defizite beim Erkennen von russischer Propaganda.`,
+      body: `vor 1 Tag ... Eine estnische Untersuchung bescheinigt quelloffenen KI-Modellen wie Mistral Defizite beim Erkennen von russischer Propaganda.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Generative KI: Open-Source-Modelle anfällig für Desinformati](https://www.golem.de/news/generative-ki-open-source-modelle-anfaellig-fuer-desinformation-2606-209806.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Generative KI: Open-Source-Modelle anfällig für Desinformati`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Generative KI: Open-Source-Modelle anfällig für De](https://www.golem.de/news/generative-ki-open-source-modelle-anfaellig-fuer-desinformation-2606-209806.html).`,
+    },
+  },
+  {
+    id: `2026-06-17-de-3-spacex-will-ki-startup-anysphe`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-17`,
+    image: `images/2026-06-17-de-3-spacex-will-ki-startup-anysphe.jpg`,
+    de: {
+      title: `SpaceX will KI-Startup Anysphere für 60 Milliarden Dollar kaufen`,
+      teaser: `vor 19 Stunden ... Das Raumfahrt- und KI-Unternehmen SpaceX will kurz nach seinem Sprung an die Börse eine milliardenschwere Übernahme stemmen. Der US-Konzern von Unternehmer Elon ...`,
+      body: `vor 19 Stunden ... Das Raumfahrt- und KI-Unternehmen SpaceX will kurz nach seinem Sprung an die Börse eine milliardenschwere Übernahme stemmen. Der US-Konzern von Unternehmer Elon ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [SpaceX will KI-Startup Anysphere für 60 Milliarden Dollar ka](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-spacex-will-ki-startup-anysphere-fuer-60-milliarden-dollar-kaufen/100233413.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] SpaceX will KI-Startup Anysphere für 60 Milliarden Dollar ka`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [SpaceX will KI-Startup Anysphere für 60 Milliarden](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-spacex-will-ki-startup-anysphere-fuer-60-milliarden-dollar-kaufen/100233413.html).`,
+    },
+  },
+  {
+    id: `2026-06-17-de-4-ki-update-wwdc-google-soll-haf`,
+    cat: `sicherheit`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-17`,
+    image: `images/2026-06-17-de-4-ki-update-wwdc-google-soll-haf.jpg`,
+    de: {
+      title: `KI-Update: WWDC, Google soll haften, KI-Sicherheit, Mythos ist da ...`,
+      teaser: `vor 7 Tagen ... Die Bundesregierung gründet ein neues KI-Sicherheitsinstitut. Auslöser dürfte Anthropics Modell Claude Mythos sein, das laut Hersteller so gut Sicherheitslücken ...`,
+      body: `vor 7 Tagen ... Die Bundesregierung gründet ein neues KI-Sicherheitsinstitut. Auslöser dürfte Anthropics Modell Claude Mythos sein, das laut Hersteller so gut Sicherheitslücken ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Update: WWDC, Google soll haften, KI-Sicherheit, Mythos i](https://www.heise.de/news/KI-Update-WWDC-Google-soll-haften-KI-Sicherheit-Mythos-ist-da-KI-Airhockey-11322960.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Update: WWDC, Google soll haften, KI-Sicherheit, Mythos i`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Update: WWDC, Google soll haften, KI-Sicherheit](https://www.heise.de/news/KI-Update-WWDC-Google-soll-haften-KI-Sicherheit-Mythos-ist-da-KI-Airhockey-11322960.html).`,
+    },
+  },
+  {
+    id: `2026-06-17-tr-1-yapay-zeka-uygulamalar-nda-ge-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-17`,
+    image: `images/2026-06-17-tr-1-yapay-zeka-uygulamalar-nda-ge-.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Yapay zeka uygulamalarında geçirilen süre üç yılda 100 katın`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka uygulamalarında geçirilen süre üç yılda](https://webrazzi.com/2026/06/16/yapay-zeka-uygulamalarinda-gecirilen-sure-uc-yilda-100-katin-uzerinde-artti/).`,
+    },
+    tr: {
+      title: `Yapay zeka uygulamalarında geçirilen süre üç yılda 100 katın üzerinde arttı`,
+      teaser: `17 saat önce · Buna göre yapay zeka uygulamalarının uygulama içi gelirlerinin 2026'nın ilk yarısında 1,87 milyar dolara ulaşması bekleniyor. Bu rakam, geçen yılın aynı ...`,
+      body: `17 saat önce · Buna göre yapay zeka uygulamalarının uygulama içi gelirlerinin 2026'nın ilk yarısında 1,87 milyar dolara ulaşması bekleniyor. Bu rakam, geçen yılın aynı ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka uygulamalarında geçirilen süre üç yılda 100 katın](https://webrazzi.com/2026/06/16/yapay-zeka-uygulamalarinda-gecirilen-sure-uc-yilda-100-katin-uzerinde-artti/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-17-tr-2-google-tuerkiye-de-e-itim-yapa`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-17`,
+    image: `images/2026-06-17-tr-2-google-tuerkiye-de-e-itim-yapa.jpg`,
+    de: {
+      title: `[DE-Fallback] Google, Türkiye'de eğitim yapay zeka eğitimlerini başlattı -`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Google, Türkiye'de eğitim yapay zeka eğitimlerini ](https://www.donanimhaber.com/google-turkiye-de-egitim-yapay-zeka-egitimlerini-baslatti--206869).`,
+    },
+    tr: {
+      title: `Google, Türkiye'de eğitim yapay zeka eğitimlerini başlattı - DonanımHaber`,
+      teaser: `vor 1 Tag ... Google ve Sanayi ve Teknoloji Bakanlığı iş birliğiyle hayata geçirilen 'Herkes İçin Yapay Zeka' platformu, 7 bin dakikayı aşan ücretsiz eğitim içerikleri ...`,
+      body: `vor 1 Tag ... Google ve Sanayi ve Teknoloji Bakanlığı iş birliğiyle hayata geçirilen 'Herkes İçin Yapay Zeka' platformu, 7 bin dakikayı aşan ücretsiz eğitim içerikleri ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Google, Türkiye'de eğitim yapay zeka eğitimlerini başlattı -](https://www.donanimhaber.com/google-turkiye-de-egitim-yapay-zeka-egitimlerini-baslatti--206869).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-17-tr-3-google-ile-t-c-sanayi-ve-tekno`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-17`,
+    image: `images/2026-06-17-tr-3-google-ile-t-c-sanayi-ve-tekno.jpg`,
+    de: {
+      title: `[DE-Fallback] Google ile T.C. Sanayi ve Teknoloji Bakanlığı'ndan yeni plat`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Google ile T.C. Sanayi ve Teknoloji Bakanlığı'ndan](https://egirisim.com/2026/06/14/google-ile-t-c-sanayi-ve-teknoloji-bakanligindan-yeni-platform-herkes-icin-yapay-zeka/).`,
+    },
+    tr: {
+      title: `Google ile T.C. Sanayi ve Teknoloji Bakanlığı'ndan yeni platform - egirişim`,
+      teaser: `vor 3 Tagen ... "Herkes için Yapay Zeka" platformu, hem evrensel yapay zeka okuryazarlığını oluşturmayı hem de gelişmiş eğitimlerle ulusal yapay zeka vizyonuna katkıda.`,
+      body: `vor 3 Tagen ... "Herkes için Yapay Zeka" platformu, hem evrensel yapay zeka okuryazarlığını oluşturmayı hem de gelişmiş eğitimlerle ulusal yapay zeka vizyonuna katkıda.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Google ile T.C. Sanayi ve Teknoloji Bakanlığı'ndan yeni plat](https://egirisim.com/2026/06/14/google-ile-t-c-sanayi-ve-teknoloji-bakanligindan-yeni-platform-herkes-icin-yapay-zeka/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-17-tr-4-yapay-zeka-destekli-siber-guev`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-17`,
+    image: `images/2026-06-17-tr-4-yapay-zeka-destekli-siber-guev.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli siber güvenlik şirketi NewCore, 66 milyo`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli siber güvenlik şirketi NewCore](https://webrazzi.com/2026/06/16/yapay-zeka-destekli-siber-guvenlik-sirketi-newcore-66-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli siber güvenlik şirketi NewCore, 66 milyon dolar ...`,
+      teaser: `20 saat önce · NewCore, yeni aldığı yatırımı yapay zeka ajanlarını güvenli şekilde kimliklendirme, yetkilendirme ve yönetme platformunu ölçeklendirmek ve daha fazla kurumsal ...`,
+      body: `20 saat önce · NewCore, yeni aldığı yatırımı yapay zeka ajanlarını güvenli şekilde kimliklendirme, yetkilendirme ve yönetme platformunu ölçeklendirmek ve daha fazla kurumsal ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli siber güvenlik şirketi NewCore, 66 milyo](https://webrazzi.com/2026/06/16/yapay-zeka-destekli-siber-guvenlik-sirketi-newcore-66-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-16-de-1-bundestag-beschliesst-ki-geset`,
     cat: `agentic`,
     lang: `de`,
@@ -2544,6 +2757,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-17-de-tip-1-can-ai-take-over-our-jobs-we-h`,
+    date: `2026-06-17`,
+    youtube: `tG36rNSK_z0`,
+    lang: `de`,
+    de: {
+      title: `Can AI Take Over Our Jobs? We Hired an OpenClaw Agent | 2-Week Test`,
+      desc: `vor 3 Tagen ... ... KI-Agenten gebaut und ihn „Newton“ genannt — quasi unseren neuen KI ... Als "digitale Profis" hättet ihr aber auch darüber aufklären müssen, welche ...`,
+    },
+    tr: {
+      title: `[TR] Can AI Take Over Our Jobs? We Hired an OpenClaw Agent | 2-We`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-17-de-tip-2-claude-3-5-sonnet-so-good-it-h`,
+    date: `2026-06-17`,
+    youtube: `PfI40H--Afg`,
+    lang: `de`,
+    de: {
+      title: `Claude 3.5 Sonnet: So good it has to be censored? Gemini ... - YouTube`,
+      desc: `vor 6 Tagen ... Artikel & Newsletter: https://digitaleprofis.de/kuenstliche-intelligenz/ki ... Go to channel Digitale Profis · An overview of all Google AI tools: Gemini ...`,
+    },
+    tr: {
+      title: `[TR] Claude 3.5 Sonnet: So good it has to be censored? Gemini ...`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-17-tr-tip-1-geride-kalmad-n-henuez-yapay-z`,
+    date: `2026-06-17`,
+    youtube: `HhF1tIDOYKo`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Geride Kalmadın (henüz): Yapay Zekayı Asıl Böyle Kullanmalıs`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Geride Kalmadın (henüz): Yapay Zekayı Asıl Böyle Kullanmalısın`,
+      desc: `vor 2 Tagen ... *Hakkında:* Yapay zeka, yapay zeka gelir sistemleri, girişimcilik ve teknoloji üzerine içerikler paylaşıyorum. ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ ...`,
+    },
+  },
+  {
+    id: `2026-06-17-tr-tip-2-2027-de-i-nsanl-ne-bekliyor-ya`,
+    date: `2026-06-17`,
+    youtube: `tBx3PvI36mc`,
+    lang: `tr`,
+    de: {
+      title: `[DE] 2027'de İnsanlığı Ne Bekliyor? Yapay Zekâ Bizi Kurtaracak mı`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `2027'de İnsanlığı Ne Bekliyor? Yapay Zekâ Bizi Kurtaracak mı ... - YouTube`,
+      desc: `2 gün önce · Yapay Zekâ Bizi Kurtaracak mı, Kontrol Altına mı Alacak? 1 ... Barış Özcan•741K views · 25:17 · Go to channel Evrim Ağacı · Yapay Zeka Balonu Ne Zaman Patlayacak?`,
+    },
+  },
+
 
   {
     id: `2026-06-16-de-tip-1-ai-agents-in-everyday-life-aut`,
