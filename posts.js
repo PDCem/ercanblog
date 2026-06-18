@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-18-de-1-kuenstliche-intelligenz-news-r`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-18`,
+    image: `images/2026-06-18-de-1-kuenstliche-intelligenz-news-r.jpg`,
+    featured: true,
+    de: {
+      title: `Künstliche Intelligenz: News, Ratgeber und Tipps | heise online`,
+      teaser: `heise KI PRO liefert, was Management und Teams in Unternehmen benötigen, um im unübersichtlichen und hochdynamischen KI-Umfeld Handlungssicherheit sowie eine langfristig tragfähige Strategie zu entwic`,
+      body: `heise KI PRO liefert, was Management und Teams in Unternehmen benötigen, um im unübersichtlichen und hochdynamischen KI-Umfeld Handlungssicherheit sowie eine langfristig tragfähige Strategie zu entwickeln.Jetzt informieren ... Der Begriff Künstliche Intelligenz (KI) wurde bereits in den 50er Jahren geschaffen, ein Marketingkniff von John McCarthy, der seine Forschung damit auch von dem Gebiet der Cybernetics abgrenzen wollte.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Künstliche Intelligenz: News, Ratgeber und Tipps | heise onl](https://www.heise.de/thema/Kuenstliche-Intelligenz).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Künstliche Intelligenz: News, Ratgeber und Tipps | heise onl`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Künstliche Intelligenz: News, Ratgeber und Tipps |](https://www.heise.de/thema/Kuenstliche-Intelligenz).`,
+    },
+  },
+  {
+    id: `2026-06-18-de-2-5-dinge-die-du-diese-woche-wis`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-18`,
+    image: `images/2026-06-18-de-2-5-dinge-die-du-diese-woche-wis.jpg`,
+    de: {
+      title: `5 Dinge, die du diese Woche wissen musst: Das Hin und Her um Claude ...`,
+      teaser: `Jeden Montagmorgen berichten wir über fünf Dinge, die zum Wochenstart wichtig sind. Diesmal geht es um das neueste Modell von Anthropic, die Auswirkungen von KI auf unsere mentale Gesundheit ...`,
+      body: `Jeden Montagmorgen berichten wir über fünf Dinge, die zum Wochenstart wichtig sind. Diesmal geht es um das neueste Modell von Anthropic, die Auswirkungen von KI auf unsere mentale Gesundheit ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [5 Dinge, die du diese Woche wissen musst: Das Hin und Her um](https://t3n.de/news/5-dinge-die-du-diese-woche-wissen-musst-das-hin-und-her-um-claude-mythos-1747315/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] 5 Dinge, die du diese Woche wissen musst: Das Hin und Her um`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [5 Dinge, die du diese Woche wissen musst: Das Hin ](https://t3n.de/news/5-dinge-die-du-diese-woche-wissen-musst-das-hin-und-her-um-claude-mythos-1747315/).`,
+    },
+  },
+  {
+    id: `2026-06-18-de-3-ki-werden-manager-bald-von-kue`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-18`,
+    image: `images/2026-06-18-de-3-ki-werden-manager-bald-von-kue.jpg`,
+    de: {
+      title: `KI: Werden Manager bald von Künstlicher Intelligenz ersetzt?`,
+      teaser: `vor 19 Stunden ... Welche Regeln würden Sie verpflichtend für KI-Firmen auf dem Weg zur Entwicklung von Superintelligenz oder AGI aufstellen? ... Heißt das, Unternehmen müssen um ...`,
+      body: `vor 19 Stunden ... Welche Regeln würden Sie verpflichtend für KI-Firmen auf dem Weg zur Entwicklung von Superintelligenz oder AGI aufstellen? ... Heißt das, Unternehmen müssen um ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI: Werden Manager bald von Künstlicher Intelligenz ersetzt?](https://app.handelsblatt.com/technik/ki/ki-werden-manager-bald-von-kuenstlicher-intelligenz-ersetzt/100189694.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI: Werden Manager bald von Künstlicher Intelligenz ersetzt?`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI: Werden Manager bald von Künstlicher Intelligen](https://app.handelsblatt.com/technik/ki/ki-werden-manager-bald-von-kuenstlicher-intelligenz-ersetzt/100189694.html).`,
+    },
+  },
+  {
+    id: `2026-06-18-de-4-ki-update-deep-dive-vibecoding`,
+    cat: `sicherheit`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-18`,
+    image: `images/2026-06-18-de-4-ki-update-deep-dive-vibecoding.jpg`,
+    de: {
+      title: `KI-Update Deep-Dive: Vibecoding als Sicherheitsrisiko - feat. TTT - Heise`,
+      teaser: `vor 6 Tagen ... Die Erstellung von Webseiten und Apps mittels KI, oft als „Vibecoding“ oder „Webcoding“ bezeichnet, birgt erhebliche Sicherheitsrisiken. Das ergab eine ...`,
+      body: `vor 6 Tagen ... Die Erstellung von Webseiten und Apps mittels KI, oft als „Vibecoding“ oder „Webcoding“ bezeichnet, birgt erhebliche Sicherheitsrisiken. Das ergab eine ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Update Deep-Dive: Vibecoding als Sicherheitsrisiko - feat](https://www.heise.de/news/KI-Update-Deep-Dive-Vibecoding-als-Sicherheitsrisiko-feat-TTT-11298728.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Update Deep-Dive: Vibecoding als Sicherheitsrisiko - feat`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Update Deep-Dive: Vibecoding als Sicherheitsris](https://www.heise.de/news/KI-Update-Deep-Dive-Vibecoding-als-Sicherheitsrisiko-feat-TTT-11298728.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag).`,
+    },
+  },
+  {
+    id: `2026-06-18-tr-1-yapay-zeka-destekli-sesli-otom`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-18`,
+    image: `images/2026-06-18-tr-1-yapay-zeka-destekli-sesli-otom.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli sesli otomasyon girişimi Bland, 50 milyo`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli sesli otomasyon girişimi Bland](https://webrazzi.com/2026/06/17/yapay-zeka-destekli-sesli-otomasyon-girisimi-bland-50-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli sesli otomasyon girişimi Bland, 50 milyon ... - Webrazzi`,
+      teaser: `20 saat önce · Bland, yeni yatırımı yapay zeka mühendislik ekibini büyütmek, araştırma çalışmalarını hızlandırmak ve platformunu özellikle regüle sektörlerde daha geniş ...`,
+      body: `20 saat önce · Bland, yeni yatırımı yapay zeka mühendislik ekibini büyütmek, araştırma çalışmalarını hızlandırmak ve platformunu özellikle regüle sektörlerde daha geniş ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli sesli otomasyon girişimi Bland, 50 milyo](https://webrazzi.com/2026/06/17/yapay-zeka-destekli-sesli-otomasyon-girisimi-bland-50-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-18-tr-2-en-iyi-yapay-zeka-uygulamalar-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-18`,
+    image: `images/2026-06-18-tr-2-en-iyi-yapay-zeka-uygulamalar-.jpg`,
+    de: {
+      title: `[DE-Fallback] En iyi yapay zeka uygulamaları ve siteleri | DonanımHaber`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [En iyi yapay zeka uygulamaları ve siteleri | Donan](https://www.donanimhaber.com/en-iyi-yapay-zeka-uygulamalari-ve-siteleri--166149).`,
+    },
+    tr: {
+      title: `En iyi yapay zeka uygulamaları ve siteleri | DonanımHaber`,
+      teaser: `Puan 5,0(5.495) 3 gün önce · ChatGPT, Gemini ve Claude gibi bilinen ve yetenekleriyle şaşırtan en iyi yapay zeka uygulamaları listesi burada! İşte tek komutla harikalar çıkartan yapay ...`,
+      body: `Puan 5,0(5.495) 3 gün önce · ChatGPT, Gemini ve Claude gibi bilinen ve yetenekleriyle şaşırtan en iyi yapay zeka uygulamaları listesi burada! İşte tek komutla harikalar çıkartan yapay ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [En iyi yapay zeka uygulamaları ve siteleri | DonanımHaber](https://www.donanimhaber.com/en-iyi-yapay-zeka-uygulamalari-ve-siteleri--166149).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-18-tr-3-sa-l-k-verileri-art-k-daha-ak-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-18`,
+    image: `images/2026-06-18-tr-3-sa-l-k-verileri-art-k-daha-ak-.jpg`,
+    de: {
+      title: `[DE-Fallback] Sağlık verileri artık daha akıllı: Yerli girişim HaloScape'i`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Sağlık verileri artık daha akıllı: Yerli girişim H](https://egirisim.com/2026/06/17/saglik-verileri-artik-daha-akilli-yerli-girisim-haloscapein-ai-destekli-platformu-ces-2026da/).`,
+    },
+    tr: {
+      title: `Sağlık verileri artık daha akıllı: Yerli girişim HaloScape'in AI destekli ...`,
+      teaser: `19 saat önce · Bu bölümde, HaloScape'in bireysel kullanıcılar ve sağlık profesyonelleri için geliştirdiği yapay zeka tabanlı sağlık çözümlerini konuşuyoruz. Biyobelirteçler, ...`,
+      body: `19 saat önce · Bu bölümde, HaloScape'in bireysel kullanıcılar ve sağlık profesyonelleri için geliştirdiği yapay zeka tabanlı sağlık çözümlerini konuşuyoruz. Biyobelirteçler, ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Sağlık verileri artık daha akıllı: Yerli girişim HaloScape'i](https://egirisim.com/2026/06/17/saglik-verileri-artik-daha-akilli-yerli-girisim-haloscapein-ai-destekli-platformu-ces-2026da/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-18-tr-4-jeff-bezos-un-yapay-zeka-giri-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-18`,
+    image: `images/2026-06-18-tr-4-jeff-bezos-un-yapay-zeka-giri-.jpg`,
+    de: {
+      title: `[DE-Fallback] Jeff Bezos'un yapay zeka girişimi Prometheus, 12 milyar dola`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Jeff Bezos'un yapay zeka girişimi Prometheus, 12 m](https://webrazzi.com/2026/06/12/jeff-bezosun-yapay-zeka-girisimi-prometheus-12-milyar-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Jeff Bezos'un yapay zeka girişimi Prometheus, 12 milyar dolar yatırım ...`,
+      teaser: `6 gün önce · Jeff Bezos'un yapay zeka girişimi Prometheus, 12 milyar dolar yatırım aldı. Prometheus, fiziksel ürünlerin tasarım ve üretim süreçlerini dönüştürmeyi hedefleyen ...`,
+      body: `6 gün önce · Jeff Bezos'un yapay zeka girişimi Prometheus, 12 milyar dolar yatırım aldı. Prometheus, fiziksel ürünlerin tasarım ve üretim süreçlerini dönüştürmeyi hedefleyen ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Jeff Bezos'un yapay zeka girişimi Prometheus, 12 milyar dola](https://webrazzi.com/2026/06/12/jeff-bezosun-yapay-zeka-girisimi-prometheus-12-milyar-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-17-de-1-kuenstliche-intelligenz-soll-b`,
     cat: `agentic`,
     lang: `de`,
@@ -2757,6 +2970,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-18-de-tip-1-can-ai-take-over-our-jobs-we-h`,
+    date: `2026-06-18`,
+    youtube: `tG36rNSK_z0`,
+    lang: `de`,
+    de: {
+      title: `Can AI Take Over Our Jobs? We Hired an OpenClaw Agent | 2-Week Test`,
+      desc: `vor 4 Tagen ... ... KI-Agenten gebaut und ihn „Newton“ genannt — quasi unseren neuen KI ... Als "digitale Profis" hättet ihr aber auch darüber aufklären müssen, welche ...`,
+    },
+    tr: {
+      title: `[TR] Can AI Take Over Our Jobs? We Hired an OpenClaw Agent | 2-We`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-18-de-tip-2-claude-3-5-sonnet-so-good-it-h`,
+    date: `2026-06-18`,
+    youtube: `PfI40H--Afg`,
+    lang: `de`,
+    de: {
+      title: `Claude 3.5 Sonnet: So good it has to be censored? Gemini ... - YouTube`,
+      desc: `vor 7 Tagen ... Artikel & Newsletter: https://digitaleprofis.de/kuenstliche-intelligenz/ki ... Go to channel Digitale Profis · An overview of all Google AI tools: Gemini ...`,
+    },
+    tr: {
+      title: `[TR] Claude 3.5 Sonnet: So good it has to be censored? Gemini ...`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-18-tr-tip-1-her-y-l-123-000-kelime-daha-az`,
+    date: `2026-06-18`,
+    youtube: `s4I_3carH04`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Her Yıl 123.000 Kelime Daha Az Konuşuyoruz! - YouTube`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Her Yıl 123.000 Kelime Daha Az Konuşuyoruz! - YouTube`,
+      desc: `vor 5 Tagen ... ... (Güldür Güldür Show). Güldür Güldür•578K. New. Auto-dubbed · 26:33 · Go to channel Barış Özcan · Sen mi Yapay Zeka Kullanıyorsun? Yoksa O mu Seni? Barış Özcan• ...`,
+    },
+  },
+  {
+    id: `2026-06-18-tr-tip-2-yapay-zeka-ruezgar-da-de-i-tir`,
+    date: `2026-06-18`,
+    youtube: `c0vDt7Y_u8E`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay zeka rüzgarı da değiştirecek - YouTube`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay zeka rüzgarı da değiştirecek - YouTube`,
+      desc: `vor 3 Stunden ... Yapay zeka pek çok alanda iş yapma biçimlerini değiştirdi ve değiştirmeye devam ediyor ... Go to channel Barış Özcan · Sadece Wi-Fi modemle görüntüleme ...`,
+    },
+  },
+
 
   {
     id: `2026-06-17-de-tip-1-can-ai-take-over-our-jobs-we-h`,
