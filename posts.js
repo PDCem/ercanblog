@@ -45,131 +45,131 @@ const CATEGORIES = [
 const POSTS = [
 
   {
-    id: `2026-06-19-de-1-agentic-qa-wie-ki-agenten-die-`,
+    id: `2026-06-19-de-1-ki-einsatz-warum-menschliche-e`,
     cat: `agentic`,
     lang: `de`,
     author: `Ercan Yıldız`,
     date: `2026-06-19`,
-    image: `images/2026-06-19-de-1-agentic-qa-wie-ki-agenten-die-.jpg`,
+    image: `images/2026-06-19-de-1-ki-einsatz-warum-menschliche-e.jpg`,
     featured: true,
     de: {
-      title: `Agentic QA: Wie KI-Agenten die Qualitätssicherung transformieren`,
-      teaser: `vor 1 Tag ... Forum bei heise online: Künstliche Intelligenz & Digitale Assistenten. Teile diesen Beitrag. Bitte geben Sie die URL Ihrer Mastodon-Instanz an. Beispiel: https ...`,
-      body: `vor 1 Tag ... Forum bei heise online: Künstliche Intelligenz & Digitale Assistenten. Teile diesen Beitrag. Bitte geben Sie die URL Ihrer Mastodon-Instanz an. Beispiel: https ...
+      title: `KI-Einsatz: Warum menschliche Expertise wichtiger ist als ... - Heise`,
+      teaser: `vor 1 Tag ... Don't show this again . Aus Arbeitnehmersicht ist es eine Erkenntnis, die aufatmen lässt: Firmen, die Künstliche Intelligenz nutzen, um durch Automatisierung ...`,
+      body: `vor 1 Tag ... Don't show this again . Aus Arbeitnehmersicht ist es eine Erkenntnis, die aufatmen lässt: Firmen, die Künstliche Intelligenz nutzen, um durch Automatisierung ...
 
 ## Quelle und Kontext
 
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Agentic QA: Wie KI-Agenten die Qualitätssicherung transformi](https://www.heise.de/hintergrund/Agentic-QA-Wie-KI-Agenten-die-Qualitaetssicherung-transformieren-11312179.html).
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Einsatz: Warum menschliche Expertise wichtiger ist als ..](https://www.heise.de/news/KI-Einsatz-Warum-menschliche-Expertise-wichtiger-ist-als-Automatisierung-11336805.html).
 
 ## Ercans Einordnung
 
 > Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
     },
     tr: {
-      title: `[TR-Fallback] Agentic QA: Wie KI-Agenten die Qualitätssicherung transformi`,
+      title: `[TR-Fallback] KI-Einsatz: Warum menschliche Expertise wichtiger ist als ..`,
       teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Agentic QA: Wie KI-Agenten die Qualitätssicherung ](https://www.heise.de/hintergrund/Agentic-QA-Wie-KI-Agenten-die-Qualitaetssicherung-transformieren-11312179.html).`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Einsatz: Warum menschliche Expertise wichtiger ](https://www.heise.de/news/KI-Einsatz-Warum-menschliche-Expertise-wichtiger-ist-als-Automatisierung-11336805.html).`,
     },
   },
   {
-    id: `2026-06-19-de-2-qwen-robot-suite-alibabas-neue`,
+    id: `2026-06-19-de-2-open-source-ki-soll-genehmigun`,
     cat: `agentic`,
     lang: `de`,
     author: `Ercan Yıldız`,
     date: `2026-06-19`,
-    image: `images/2026-06-19-de-2-qwen-robot-suite-alibabas-neue.jpg`,
+    image: `images/2026-06-19-de-2-open-source-ki-soll-genehmigun.jpg`,
     de: {
-      title: `Qwen-Robot Suite: Alibabas neue KI lässt Roboter simulieren, bevor sie ...`,
-      teaser: `vor 2 Tagen · Dieses KI-Modell soll dafür sorgen, dass unterschiedliche Arten von Robotern Greif- oder Manipulationsaufgaben, etwa Sortieren, Transportieren oder ...`,
-      body: `vor 2 Tagen · Dieses KI-Modell soll dafür sorgen, dass unterschiedliche Arten von Robotern Greif- oder Manipulationsaufgaben, etwa Sortieren, Transportieren oder ...
+      title: `Open Source: KI soll Genehmigungszeiten bei Infrastrukturprojekten ...`,
+      teaser: `vor 23 Stunden ... Der Bund veröffentlicht ein Open-Source-KI-Modell, das geltendes Recht automatisiert abruft und mit konkreten Sachverhalten verknüpft.`,
+      body: `vor 23 Stunden ... Der Bund veröffentlicht ein Open-Source-KI-Modell, das geltendes Recht automatisiert abruft und mit konkreten Sachverhalten verknüpft.
 
 ## Quelle und Kontext
 
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Qwen-Robot Suite: Alibabas neue KI lässt Roboter simulieren,](https://t3n.de/news/alibaba-qwen-robot-suite-ki-agenten-fuer-roboter-foundation-modelle-1747947/).
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Open Source: KI soll Genehmigungszeiten bei Infrastrukturpro](https://www.golem.de/news/open-source-ki-soll-genehmigungszeiten-bei-infrastrukturprojekten-halbieren-2606-209935.html).
 
 ## Ercans Einordnung
 
 > Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
     },
     tr: {
-      title: `[TR-Fallback] Qwen-Robot Suite: Alibabas neue KI lässt Roboter simulieren,`,
+      title: `[TR-Fallback] Open Source: KI soll Genehmigungszeiten bei Infrastrukturpro`,
       teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Qwen-Robot Suite: Alibabas neue KI lässt Roboter s](https://t3n.de/news/alibaba-qwen-robot-suite-ki-agenten-fuer-roboter-foundation-modelle-1747947/).`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Open Source: KI soll Genehmigungszeiten bei Infras](https://www.golem.de/news/open-source-ki-soll-genehmigungszeiten-bei-infrastrukturprojekten-halbieren-2606-209935.html).`,
     },
   },
   {
-    id: `2026-06-19-de-3-kuenstliche-intelligenz-ki-fir`,
+    id: `2026-06-19-de-3-token-panik-wie-unternehmen-mi`,
     cat: `business`,
     lang: `de`,
     author: `Ercan Yıldız`,
     date: `2026-06-19`,
-    image: `images/2026-06-19-de-3-kuenstliche-intelligenz-ki-fir.jpg`,
+    image: `images/2026-06-19-de-3-token-panik-wie-unternehmen-mi.jpg`,
     de: {
-      title: `Künstliche Intelligenz: KI-Firma Cohere profitiert von Anthropic-Verbot`,
-      teaser: `vor 3 Stunden ... Nach der Sperre der KI-Modelle von Anthropic prüfen Firmen und Regierungen alternative KI-Anbieter. Cohere berichtet von sprunghaft gestiegener Nachfrage ...`,
-      body: `vor 3 Stunden ... Nach der Sperre der KI-Modelle von Anthropic prüfen Firmen und Regierungen alternative KI-Anbieter. Cohere berichtet von sprunghaft gestiegener Nachfrage ...
+      title: `„Token-Panik“ – wie Unternehmen mit der Kostenexplosion umgehen`,
+      teaser: `vor 11 Stunden ... KI-Nutzung: Token werden für Unternehmen zur zunehmend kostspieligen Ressource. Foto: Getty Images. München, Düsseldorf, Berlin. Für die IT-Abteilungen und ...`,
+      body: `vor 11 Stunden ... KI-Nutzung: Token werden für Unternehmen zur zunehmend kostspieligen Ressource. Foto: Getty Images. München, Düsseldorf, Berlin. Für die IT-Abteilungen und ...
 
 ## Quelle und Kontext
 
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Künstliche Intelligenz: KI-Firma Cohere profitiert von Anthr](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-ki-firma-cohere-profitiert-von-anthropic-verbot/100234138.html).
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [„Token-Panik“ – wie Unternehmen mit der Kostenexplosion umge](https://www.handelsblatt.com/technik/it-internet/technologie-token-panik-wie-unternehmen-mit-der-kostenexplosion-umgehen/100233464.html).
 
 ## Ercans Einordnung
 
 > Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
     },
     tr: {
-      title: `[TR-Fallback] Künstliche Intelligenz: KI-Firma Cohere profitiert von Anthr`,
+      title: `[TR-Fallback] „Token-Panik“ – wie Unternehmen mit der Kostenexplosion umge`,
       teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Künstliche Intelligenz: KI-Firma Cohere profitiert](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-ki-firma-cohere-profitiert-von-anthropic-verbot/100234138.html).`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [„Token-Panik“ – wie Unternehmen mit der Kostenexpl](https://www.handelsblatt.com/technik/it-internet/technologie-token-panik-wie-unternehmen-mit-der-kostenexplosion-umgehen/100233464.html).`,
     },
   },
   {
-    id: `2026-06-19-de-4-mehr-regulierung-weniger-zeit-`,
+    id: `2026-06-19-de-4-ki-infrastruktur-am-limit-wie-`,
     cat: `agentic`,
     lang: `de`,
     author: `Ercan Yıldız`,
     date: `2026-06-19`,
-    image: `images/2026-06-19-de-4-mehr-regulierung-weniger-zeit-.jpg`,
+    image: `images/2026-06-19-de-4-ki-infrastruktur-am-limit-wie-.jpg`,
     de: {
-      title: `Mehr Regulierung, weniger Zeit: Wie KI-gestütztes ... - Heise`,
-      teaser: `vor 1 Tag · Der KI-Assistent von caralegal soll keine juristische Instanz ersetzen. Sein Wert liegt darin, Datenschutzmanagement robuster zu machen und DSGVO-Anforderungen, ...`,
-      body: `vor 1 Tag · Der KI-Assistent von caralegal soll keine juristische Instanz ersetzen. Sein Wert liegt darin, Datenschutzmanagement robuster zu machen und DSGVO-Anforderungen, ...
+      title: `KI-Infrastruktur am Limit: Wie Sie die 200-kVA-Herausforderung ... - Heise`,
+      teaser: `vor 1 Tag · KI kann mehr – kann Ihre Infrastruktur das auch? Wer zukunftsfähige KI-Projekte realisieren möchte, benötigt ein physikalisches Fundament, das Skalierbarkeit, ...`,
+      body: `vor 1 Tag · KI kann mehr – kann Ihre Infrastruktur das auch? Wer zukunftsfähige KI-Projekte realisieren möchte, benötigt ein physikalisches Fundament, das Skalierbarkeit, ...
 
 ## Quelle und Kontext
 
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Mehr Regulierung, weniger Zeit: Wie KI-gestütztes ... - Heis](https://www.heise.de/solutions/caralegal/mehr-regulierung-weniger-zeit-wie-ki-gestuetztes-datenschutzmanagement-den-dokumentationsstau-loest/).
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Infrastruktur am Limit: Wie Sie die 200-kVA-Herausforderu](https://www.heise.de/solutions/noris-network/ki-infrastruktur-am-limit-wie-sie-die-200-kva-herausforderung-souveraen-meistern/).
 
 ## Ercans Einordnung
 
 > Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
     },
     tr: {
-      title: `[TR-Fallback] Mehr Regulierung, weniger Zeit: Wie KI-gestütztes ... - Heis`,
+      title: `[TR-Fallback] KI-Infrastruktur am Limit: Wie Sie die 200-kVA-Herausforderu`,
       teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Mehr Regulierung, weniger Zeit: Wie KI-gestütztes ](https://www.heise.de/solutions/caralegal/mehr-regulierung-weniger-zeit-wie-ki-gestuetztes-datenschutzmanagement-den-dokumentationsstau-loest/).`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Infrastruktur am Limit: Wie Sie die 200-kVA-Her](https://www.heise.de/solutions/noris-network/ki-infrastruktur-am-limit-wie-sie-die-200-kva-herausforderung-souveraen-meistern/).`,
     },
   },
   {
-    id: `2026-06-19-tr-1-apple-yapay-zeka-kaynakl-ip-ma`,
+    id: `2026-06-19-tr-1-pinterest-ten-yapay-zeka-deste`,
     cat: `agentic`,
     lang: `tr`,
     author: `Ercan Yıldız`,
     date: `2026-06-19`,
-    image: `images/2026-06-19-tr-1-apple-yapay-zeka-kaynakl-ip-ma.jpg`,
+    image: `images/2026-06-19-tr-1-pinterest-ten-yapay-zeka-deste.jpg`,
     featured: true,
     de: {
-      title: `[DE-Fallback] Apple, yapay zeka kaynaklı çip maliyetleri nedeniyle iPhone `,
+      title: `[DE-Fallback] Pinterest'ten yapay zeka destekli alışveriş uygulaması: Ask `,
       teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Apple, yapay zeka kaynaklı çip maliyetleri nedeniy](https://webrazzi.com/2026/06/18/apple-yapay-zeka-kaynakli-cip-maliyetleri-nedeniyle-iphone-fiyatlarini-artirabilir/).`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Pinterest'ten yapay zeka destekli alışveriş uygula](https://webrazzi.com/2026/06/17/pinterest-ten-yapay-zeka-destekli-alisveris-uygulamasi-ask-pinterest/).`,
     },
     tr: {
-      title: `Apple, yapay zeka kaynaklı çip maliyetleri nedeniyle iPhone ...`,
-      teaser: `vor 1 Tag ... Yapay zeka talebiyle artan bellek ve depolama maliyetleri nedeniyle iPhone başta olmak üzere Apple ürünlerinde fiyat artışı gerçekleşebilir.`,
-      body: `vor 1 Tag ... Yapay zeka talebiyle artan bellek ve depolama maliyetleri nedeniyle iPhone başta olmak üzere Apple ürünlerinde fiyat artışı gerçekleşebilir.
+      title: `Pinterest'ten yapay zeka destekli alışveriş uygulaması: Ask Pinterest`,
+      teaser: `vor 2 Tagen ... Pinterest, deneysel uygulaması Ask Pinterest ile yapay zeka destekli alışveriş deneyimini öne çıkarırken, reklamverenlere yönelik yeni yapay zeka araçlarını ...`,
+      body: `vor 2 Tagen ... Pinterest, deneysel uygulaması Ask Pinterest ile yapay zeka destekli alışveriş deneyimini öne çıkarırken, reklamverenlere yönelik yeni yapay zeka araçlarını ...
 
 ## Kaynak ve baglam
 
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Apple, yapay zeka kaynaklı çip maliyetleri nedeniyle iPhone ](https://webrazzi.com/2026/06/18/apple-yapay-zeka-kaynakli-cip-maliyetleri-nedeniyle-iphone-fiyatlarini-artirabilir/).
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Pinterest'ten yapay zeka destekli alışveriş uygulaması: Ask ](https://webrazzi.com/2026/06/17/pinterest-ten-yapay-zeka-destekli-alisveris-uygulamasi-ask-pinterest/).
 
 ## Ercan'in yorumu
 
@@ -177,25 +177,25 @@ Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Ap
     },
   },
   {
-    id: `2026-06-19-tr-2-google-n-y-ld-z-yapay-zeka-ara`,
+    id: `2026-06-19-tr-2-estonya-yapay-zeka-ajanlar-na-`,
     cat: `agentic`,
     lang: `tr`,
     author: `Ercan Yıldız`,
     date: `2026-06-19`,
-    image: `images/2026-06-19-tr-2-google-n-y-ld-z-yapay-zeka-ara.jpg`,
+    image: `images/2026-06-19-tr-2-estonya-yapay-zeka-ajanlar-na-.jpg`,
     de: {
-      title: `[DE-Fallback] Google'ın yıldız yapay zeka araştırmacısı OpenAI'a transfer `,
+      title: `[DE-Fallback] Estonya, yapay zeka ajanlarına resmi dijital kimlik verecek `,
       teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Google'ın yıldız yapay zeka araştırmacısı OpenAI'a](https://www.donanimhaber.com/google-in-yildiz-yapay-zeka-arastirmacisi-openai-a-transfer-oldu--207024).`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Estonya, yapay zeka ajanlarına resmi dijital kimli](https://www.donanimhaber.com/estonya-yapay-zeka-ajanlarina-resmi-dijital-kimlik-verecek--207025).`,
     },
     tr: {
-      title: `Google'ın yıldız yapay zeka araştırmacısı OpenAI'a transfer oldu`,
-      teaser: `vor 17 Stunden ... Google'ın üretken yapay zeka alanındaki en önemli isimlerinden Noam Shazeer, OpenAI'a katıldı. Shazeer, üretken yapay zekanın temellerini oluşturan ikonik ...`,
-      body: `vor 17 Stunden ... Google'ın üretken yapay zeka alanındaki en önemli isimlerinden Noam Shazeer, OpenAI'a katıldı. Shazeer, üretken yapay zekanın temellerini oluşturan ikonik ...
+      title: `Estonya, yapay zeka ajanlarına resmi dijital kimlik verecek - DonanımHaber`,
+      teaser: `vor 22 Stunden ... Estonya, yapay zekâ ajanlarına devlet destekli dijital kimlik vermeye hazırlanıyor. Yeni sistem, AI ajanlarının kullanıcı adına sınırlı ve denetlenebilir ...`,
+      body: `vor 22 Stunden ... Estonya, yapay zekâ ajanlarına devlet destekli dijital kimlik vermeye hazırlanıyor. Yeni sistem, AI ajanlarının kullanıcı adına sınırlı ve denetlenebilir ...
 
 ## Kaynak ve baglam
 
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Google'ın yıldız yapay zeka araştırmacısı OpenAI'a transfer ](https://www.donanimhaber.com/google-in-yildiz-yapay-zeka-arastirmacisi-openai-a-transfer-oldu--207024).
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Estonya, yapay zeka ajanlarına resmi dijital kimlik verecek ](https://www.donanimhaber.com/estonya-yapay-zeka-ajanlarina-resmi-dijital-kimlik-verecek--207025).
 
 ## Ercan'in yorumu
 
@@ -203,25 +203,25 @@ Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Go
     },
   },
   {
-    id: `2026-06-19-tr-3-yerli-giri-im-poltio-1-milyon-`,
+    id: `2026-06-19-tr-3-turbo-law-revo-capital-liderli`,
     cat: `agentic`,
     lang: `tr`,
     author: `Ercan Yıldız`,
     date: `2026-06-19`,
-    image: `images/2026-06-19-tr-3-yerli-giri-im-poltio-1-milyon-.jpg`,
+    image: `images/2026-06-19-tr-3-turbo-law-revo-capital-liderli.jpg`,
     de: {
-      title: `[DE-Fallback] Yerli girişim Poltio, 1 milyon dolar yatırım aldı - egirişim`,
+      title: `[DE-Fallback] Turbo Law, Revo Capital liderliğinde 3.8 milyon dolar yatırı`,
       teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yerli girişim Poltio, 1 milyon dolar yatırım aldı ](https://egirisim.com/2026/06/16/yerli-girisim-poltio-1-milyon-dolar-yatirim-aldi/).`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Turbo Law, Revo Capital liderliğinde 3.8 milyon do](https://egirisim.com/2026/06/18/turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/).`,
     },
     tr: {
-      title: `Yerli girişim Poltio, 1 milyon dolar yatırım aldı - egirişim`,
-      teaser: `3 gün önce · Poltio, kullanıcıları interaktif sorularla gerçek zamanlı olarak en doğru ürüne yönlendiren yapay zeka destekli alışveriş asistanları geliştiriyor. Platform, e- ...`,
-      body: `3 gün önce · Poltio, kullanıcıları interaktif sorularla gerçek zamanlı olarak en doğru ürüne yönlendiren yapay zeka destekli alışveriş asistanları geliştiriyor. Platform, e- ...
+      title: `Turbo Law, Revo Capital liderliğinde 3.8 milyon dolar yatırım aldı - egirişim`,
+      teaser: `vor 1 Tag ... Türkiye'nin en büyük teknoloji yatırım fonlarından Revo Capital, hukuk büroları ve sigorta şirketleri için geliştirilen yapay zekâ destekli birleşik dava.`,
+      body: `vor 1 Tag ... Türkiye'nin en büyük teknoloji yatırım fonlarından Revo Capital, hukuk büroları ve sigorta şirketleri için geliştirilen yapay zekâ destekli birleşik dava.
 
 ## Kaynak ve baglam
 
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yerli girişim Poltio, 1 milyon dolar yatırım aldı - egirişim](https://egirisim.com/2026/06/16/yerli-girisim-poltio-1-milyon-dolar-yatirim-aldi/).
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Turbo Law, Revo Capital liderliğinde 3.8 milyon dolar yatırı](https://egirisim.com/2026/06/18/turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/).
 
 ## Ercan'in yorumu
 
@@ -229,25 +229,25 @@ Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Ye
     },
   },
   {
-    id: `2026-06-19-tr-4-yapay-zeka-destekli-pazarlama-`,
+    id: `2026-06-19-tr-4-cande-er-murado-lu-webrazzi-ya`,
     cat: `agentic`,
     lang: `tr`,
     author: `Ercan Yıldız`,
     date: `2026-06-19`,
-    image: `images/2026-06-19-tr-4-yapay-zeka-destekli-pazarlama-.jpg`,
+    image: `images/2026-06-19-tr-4-cande-er-murado-lu-webrazzi-ya.jpg`,
     de: {
-      title: `[DE-Fallback] Yapay zeka destekli pazarlama yazılımları geliştiren Gradial`,
+      title: `[DE-Fallback] Candeğer Muradoğlu - Webrazzi Yazarı`,
       teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli pazarlama yazılımları geliştir](https://webrazzi.com/2026/06/19/yapay-zeka-destekli-pazarlama-yazilimlari-gelistiren-gradial-65-milyon-dolar-yatirim-aldi/).`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Candeğer Muradoğlu - Webrazzi Yazarı](https://webrazzi.com/yazar/candeger/).`,
     },
     tr: {
-      title: `Yapay zeka destekli pazarlama yazılımları geliştiren Gradial, 65 ...`,
-      teaser: `3 saat önce · Gradial, yeni gelen yatırımı yapay zeka ajan platformunu geliştirmek, mühendislik ve satış ekibini büyütmek ve pazarlama otomasyon sistemini daha fazla kurumsal ...`,
-      body: `3 saat önce · Gradial, yeni gelen yatırımı yapay zeka ajan platformunu geliştirmek, mühendislik ve satış ekibini büyütmek ve pazarlama otomasyon sistemini daha fazla kurumsal ...
+      title: `Candeğer Muradoğlu - Webrazzi Yazarı`,
+      teaser: `2 gün önce · Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım aldı · Candeğer ... Yapay zeka destekli sesli otomasyon girişimi Bland, 50 milyon dolar yatırım aldı.`,
+      body: `2 gün önce · Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım aldı · Candeğer ... Yapay zeka destekli sesli otomasyon girişimi Bland, 50 milyon dolar yatırım aldı.
 
 ## Kaynak ve baglam
 
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli pazarlama yazılımları geliştiren Gradial](https://webrazzi.com/2026/06/19/yapay-zeka-destekli-pazarlama-yazilimlari-gelistiren-gradial-65-milyon-dolar-yatirim-aldi/).
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Candeğer Muradoğlu - Webrazzi Yazarı](https://webrazzi.com/yazar/candeger/).
 
 ## Ercan'in yorumu
 
@@ -257,216 +257,7 @@ Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Ya
 
   
 
-  {
-    id: `2026-06-19-de-1-deutsche-bank-kuenstliche-inte`,
-    cat: `agentic`,
-    lang: `de`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-19`,
-    image: `images/2026-06-19-de-1-deutsche-bank-kuenstliche-inte.jpg`,
-    featured: true,
-    de: {
-      title: `Deutsche Bank: Künstliche Intelligenz steigert die Produktivität | heise online`,
-      teaser: `Das deutsche Geldinstitut setzt KI ein, um Aufgaben zu beschleunigen und interne Arbeitsstaus abzubauen, hat dabei aber auch immer die Kosten im Blick. ... Lesezeit: 2 Min. ... Künstliche Intelligenz `,
-      body: `Das deutsche Geldinstitut setzt KI ein, um Aufgaben zu beschleunigen und interne Arbeitsstaus abzubauen, hat dabei aber auch immer die Kosten im Blick. ... Lesezeit: 2 Min. ... Künstliche Intelligenz (KI) ermöglicht es der Deutschen Bank, Aufgaben, die früher Jahre in Anspruch nahmen, nun innerhalb von Monaten zu erledigen.
-
-## Quelle und Kontext
-
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Deutsche Bank: Künstliche Intelligenz steigert die Produktiv](https://www.heise.de/news/Deutsche-Bank-Kuenstliche-Intelligenz-steigert-die-Produktivitaet-11337846.html).
-
-## Ercans Einordnung
-
-> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
-    },
-    tr: {
-      title: `[TR-Fallback] Deutsche Bank: Künstliche Intelligenz steigert die Produktiv`,
-      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Deutsche Bank: Künstliche Intelligenz steigert die](https://www.heise.de/news/Deutsche-Bank-Kuenstliche-Intelligenz-steigert-die-Produktivitaet-11337846.html).`,
-    },
-  },
-  {
-    id: `2026-06-19-de-2-ki-guardrails-erklaert-warum-c`,
-    cat: `modelle`,
-    lang: `de`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-19`,
-    image: `images/2026-06-19-de-2-ki-guardrails-erklaert-warum-c.jpg`,
-    de: {
-      title: `KI-Guardrails erklärt: Warum ChatGPT keine Atombombe baut - t3n`,
-      teaser: `vor 6 Tagen ... Hier wird dem Modell schon beim Training beigebracht, bestimmte Ausgaben zu vermeiden. „Guardrails im Training sind wie eine Persönlichkeitsformung – sie ...`,
-      body: `vor 6 Tagen ... Hier wird dem Modell schon beim Training beigebracht, bestimmte Ausgaben zu vermeiden. „Guardrails im Training sind wie eine Persönlichkeitsformung – sie ...
-
-## Quelle und Kontext
-
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Guardrails erklärt: Warum ChatGPT keine Atombombe baut - ](https://t3n.de/news/ki-guardrails-erklaert-sicherheit-prompt-injectio-1744055/).
-
-## Ercans Einordnung
-
-> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
-    },
-    tr: {
-      title: `[TR-Fallback] KI-Guardrails erklärt: Warum ChatGPT keine Atombombe baut - `,
-      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Guardrails erklärt: Warum ChatGPT keine Atombom](https://t3n.de/news/ki-guardrails-erklaert-sicherheit-prompt-injectio-1744055/).`,
-    },
-  },
-  {
-    id: `2026-06-19-de-3-ki-was-die-anthropic-sperre-fu`,
-    cat: `agentic`,
-    lang: `de`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-19`,
-    image: `images/2026-06-19-de-3-ki-was-die-anthropic-sperre-fu.jpg`,
-    de: {
-      title: `KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handelsblatt`,
-      teaser: `vor 19 Stunden · Wenn der Zugriff auf die neuesten KI-Modelle dauerhaft blockiert wird, drohen Unternehmen erhebliche Nachteile, etwa bei der Softwareentwicklung und der IT- ...`,
-      body: `vor 19 Stunden · Wenn der Zugriff auf die neuesten KI-Modelle dauerhaft blockiert wird, drohen Unternehmen erhebliche Nachteile, etwa bei der Softwareentwicklung und der IT- ...
-
-## Quelle und Kontext
-
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handel](https://www.handelsblatt.com/technik/ki/ki-was-die-anthropic-sperre-fuer-eu-firmen-bedeutet-sieben-antworten/100233306.html).
-
-## Ercans Einordnung
-
-> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
-    },
-    tr: {
-      title: `[TR-Fallback] KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handel`,
-      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI: Was die Anthropic-Sperre für EU-Firmen bedeute](https://www.handelsblatt.com/technik/ki/ki-was-die-anthropic-sperre-fuer-eu-firmen-bedeutet-sieben-antworten/100233306.html).`,
-    },
-  },
-  {
-    id: `2026-06-19-de-4-ki-update-ein-heise-podcast`,
-    cat: `agentic`,
-    lang: `de`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-19`,
-    image: `images/2026-06-19-de-4-ki-update-ein-heise-podcast.jpg`,
-    de: {
-      title: `KI-Update – Ein Heise Podcast`,
-      teaser: `vor 22 Stunden ... Wie intelligent ist Künstliche Intelligenz eigentlich? Welche Folgen hat generative KI für unsere Arbeit, unsere Freizeit und die Gesellschaft?`,
-      body: `vor 22 Stunden ... Wie intelligent ist Künstliche Intelligenz eigentlich? Welche Folgen hat generative KI für unsere Arbeit, unsere Freizeit und die Gesellschaft?
-
-## Quelle und Kontext
-
-Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Update – Ein Heise Podcast](https://www.heise.de/thema/KI-Update).
-
-## Ercans Einordnung
-
-> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
-    },
-    tr: {
-      title: `[TR-Fallback] KI-Update – Ein Heise Podcast`,
-      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
-      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Update – Ein Heise Podcast](https://www.heise.de/thema/KI-Update).`,
-    },
-  },
-  {
-    id: `2026-06-19-tr-1-yapay-zeka-giri-imi-pramaana-l`,
-    cat: `agentic`,
-    lang: `tr`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-19`,
-    image: `images/2026-06-19-tr-1-yapay-zeka-giri-imi-pramaana-l.jpg`,
-    featured: true,
-    de: {
-      title: `[DE-Fallback] Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım a`,
-      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka girişimi Pramaana Labs, 27 milyon dolar](https://webrazzi.com/2026/06/18/yapay-zeka-girisimi-pramaana-labs-27-milyon-dolar-yatirim-aldi/).`,
-    },
-    tr: {
-      title: `Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım aldı - Webrazzi`,
-      teaser: `vor 17 Stunden ... ABD merkezli Pramaana Labs'in yatırım turunda Accel, BoldCap, Nexus Venture Partners, Premji Invest ve Unbound yer aldı. Şirket, yatırımı yapay zeka ...`,
-      body: `vor 17 Stunden ... ABD merkezli Pramaana Labs'in yatırım turunda Accel, BoldCap, Nexus Venture Partners, Premji Invest ve Unbound yer aldı. Şirket, yatırımı yapay zeka ...
-
-## Kaynak ve baglam
-
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım a](https://webrazzi.com/2026/06/18/yapay-zeka-girisimi-pramaana-labs-27-milyon-dolar-yatirim-aldi/).
-
-## Ercan'in yorumu
-
-> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
-    },
-  },
-  {
-    id: `2026-06-19-tr-2-qualcomm-ceo-su-yapay-zek-ajan`,
-    cat: `agentic`,
-    lang: `tr`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-19`,
-    image: `images/2026-06-19-tr-2-qualcomm-ceo-su-yapay-zek-ajan.jpg`,
-    de: {
-      title: `[DE-Fallback] Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini a`,
-      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaları](https://www.donanimhaber.com/qualcomm-ceo-su-yapay-zeka-ajanlari-uygulamalarin-yerini-alacak--206910).`,
-    },
-    tr: {
-      title: `Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini alacak”`,
-      teaser: `vor 3 Tagen ... Qualcomm CEO'su Cristiano Amon, yapay zekâ ajanlarının gelecekte uygulamaların yerini alacağına inanıyor. Şirket, bu yeni dönem için 40'tan fazla AI cihazı ...`,
-      body: `vor 3 Tagen ... Qualcomm CEO'su Cristiano Amon, yapay zekâ ajanlarının gelecekte uygulamaların yerini alacağına inanıyor. Şirket, bu yeni dönem için 40'tan fazla AI cihazı ...
-
-## Kaynak ve baglam
-
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini a](https://www.donanimhaber.com/qualcomm-ceo-su-yapay-zeka-ajanlari-uygulamalarin-yerini-alacak--206910).
-
-## Ercan'in yorumu
-
-> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
-    },
-  },
-  {
-    id: `2026-06-19-tr-3-bayer-vibe-coding-hackathon-da`,
-    cat: `agentic`,
-    lang: `tr`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-19`,
-    image: `images/2026-06-19-tr-3-bayer-vibe-coding-hackathon-da.jpg`,
-    de: {
-      title: `[DE-Fallback] Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözü`,
-      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Bayer, Vibe Coding Hackathon'da yapay zeka ve yeni](https://egirisim.com/2026/06/18/bayer-vibe-coding-hackathonda-yapay-zeka-ve-yenilikci-cozumleri-bir-araya-getirdi/).`,
-    },
-    tr: {
-      title: `Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözümleri ...`,
-      teaser: `vor 21 Stunden ... “Yapay zekâ, insan potansiyelini ortaya çıkaran önemli bir fırsat”. Etkinliğin açılışında konuşan Bayer İlaç Türkiye ve İran Ülke Grubu Başkanı Colin Tyrer, ...`,
-      body: `vor 21 Stunden ... “Yapay zekâ, insan potansiyelini ortaya çıkaran önemli bir fırsat”. Etkinliğin açılışında konuşan Bayer İlaç Türkiye ve İran Ülke Grubu Başkanı Colin Tyrer, ...
-
-## Kaynak ve baglam
-
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözü](https://egirisim.com/2026/06/18/bayer-vibe-coding-hackathonda-yapay-zeka-ve-yenilikci-cozumleri-bir-araya-getirdi/).
-
-## Ercan'in yorumu
-
-> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
-    },
-  },
-  {
-    id: `2026-06-19-tr-4-yapay-zeka-destekli-hukuk-giri`,
-    cat: `agentic`,
-    lang: `tr`,
-    author: `Ercan Yıldız`,
-    date: `2026-06-19`,
-    image: `images/2026-06-19-tr-4-yapay-zeka-destekli-hukuk-giri.jpg`,
-    de: {
-      title: `[DE-Fallback] Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital .`,
-      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
-      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli hukuk girişimi Turbo Law, Revo](https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/).`,
-    },
-    tr: {
-      title: `Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital ...`,
-      teaser: `24 saat önce · Yapay zeka destekli dava yönetim platformu Turbo Law, 3.8 milyon dolar yatırım aldı. Şirketin 3.8 milyon dolarlık yatırım turuna Revo Capital liderlik etti.`,
-      body: `24 saat önce · Yapay zeka destekli dava yönetim platformu Turbo Law, 3.8 milyon dolar yatırım aldı. Şirketin 3.8 milyon dolarlık yatırım turuna Revo Capital liderlik etti.
-
-## Kaynak ve baglam
-
-Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital .](https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/).
-
-## Ercan'in yorumu
-
-> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
-    },
-  },
+  
 
   
 
@@ -3455,62 +3246,6 @@ const TIPS = [
   },
 
 
-  {
-    id: `2026-06-19-de-tip-1-can-ai-take-over-our-jobs-we-h`,
-    date: `2026-06-19`,
-    youtube: `tG36rNSK_z0`,
-    lang: `de`,
-    de: {
-      title: `Can AI Take Over Our Jobs? We Hired an OpenClaw Agent | 2-Week Test`,
-      desc: `vor 5 Tagen ... ... KI-Agenten gebaut und ihn „Newton“ genannt — quasi unseren neuen KI ... Als "digitale Profis" hättet ihr aber auch darüber aufklären müssen, welche ...`,
-    },
-    tr: {
-      title: `[TR] Can AI Take Over Our Jobs? We Hired an OpenClaw Agent | 2-We`,
-      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
-    },
-  },
-  {
-    id: `2026-06-19-de-tip-2-gemma-4-12b-in-ollama-die-best`,
-    date: `2026-06-19`,
-    youtube: `MwaqUhGHu1M`,
-    lang: `de`,
-    de: {
-      title: `Gemma 4 12B in Ollama: Die beste lokale KI? Coding, Bilder & MLX-Test`,
-      desc: `vor 2 Tagen ... Go to channel Digitale Profis · AI Blocked by the US Government - Why the Fable 5 Incident Is the Most Important AI Story of the ... Digitale Profis•1.3K views.`,
-    },
-    tr: {
-      title: `[TR] Gemma 4 12B in Ollama: Die beste lokale KI? Coding, Bilder &`,
-      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
-    },
-  },
-  {
-    id: `2026-06-19-tr-tip-1-her-y-l-123-000-kelime-daha-az`,
-    date: `2026-06-19`,
-    youtube: `s4I_3carH04`,
-    lang: `tr`,
-    de: {
-      title: `[DE] Her Yıl 123.000 Kelime Daha Az Konuşuyoruz! - YouTube`,
-      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
-    },
-    tr: {
-      title: `Her Yıl 123.000 Kelime Daha Az Konuşuyoruz! - YouTube`,
-      desc: `vor 6 Tagen ... 20:31 · Go to channel Barış Özcan · Yapay Zeka Çağında Hayatta Kalma Rehberi! (Gelecek Korkusunu Bitir). Barış Özcan•644K views · 24:05 · Go to channel Barış ...`,
-    },
-  },
-  {
-    id: `2026-06-19-tr-tip-2-why-does-chatgpt-always-take-y`,
-    date: `2026-06-19`,
-    youtube: `7OLhJtTkFcs`,
-    lang: `tr`,
-    de: {
-      title: `[DE] Why Does ChatGPT Always Take Your Side? - YouTube`,
-      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
-    },
-    tr: {
-      title: `Why Does ChatGPT Always Take Your Side? - YouTube`,
-      desc: `vor 5 Tagen ... Kuzzat Altay. Auto-dubbed. 123K views · 26:33 · Go to channel Barış Özcan · Sen mi Yapay Zeka Kullanıyorsun? Yoksa O mu Seni? Barış Özcan•297K views · 13:01.`,
-    },
-  },
 
 
   {
