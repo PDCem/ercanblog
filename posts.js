@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-19-de-1-deutsche-bank-kuenstliche-inte`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-19`,
+    image: `images/2026-06-19-de-1-deutsche-bank-kuenstliche-inte.jpg`,
+    featured: true,
+    de: {
+      title: `Deutsche Bank: Künstliche Intelligenz steigert die Produktivität | heise online`,
+      teaser: `Das deutsche Geldinstitut setzt KI ein, um Aufgaben zu beschleunigen und interne Arbeitsstaus abzubauen, hat dabei aber auch immer die Kosten im Blick. ... Lesezeit: 2 Min. ... Künstliche Intelligenz `,
+      body: `Das deutsche Geldinstitut setzt KI ein, um Aufgaben zu beschleunigen und interne Arbeitsstaus abzubauen, hat dabei aber auch immer die Kosten im Blick. ... Lesezeit: 2 Min. ... Künstliche Intelligenz (KI) ermöglicht es der Deutschen Bank, Aufgaben, die früher Jahre in Anspruch nahmen, nun innerhalb von Monaten zu erledigen.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Deutsche Bank: Künstliche Intelligenz steigert die Produktiv](https://www.heise.de/news/Deutsche-Bank-Kuenstliche-Intelligenz-steigert-die-Produktivitaet-11337846.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Deutsche Bank: Künstliche Intelligenz steigert die Produktiv`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Deutsche Bank: Künstliche Intelligenz steigert die](https://www.heise.de/news/Deutsche-Bank-Kuenstliche-Intelligenz-steigert-die-Produktivitaet-11337846.html).`,
+    },
+  },
+  {
+    id: `2026-06-19-de-2-ki-guardrails-erklaert-warum-c`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-19`,
+    image: `images/2026-06-19-de-2-ki-guardrails-erklaert-warum-c.jpg`,
+    de: {
+      title: `KI-Guardrails erklärt: Warum ChatGPT keine Atombombe baut - t3n`,
+      teaser: `vor 6 Tagen ... Hier wird dem Modell schon beim Training beigebracht, bestimmte Ausgaben zu vermeiden. „Guardrails im Training sind wie eine Persönlichkeitsformung – sie ...`,
+      body: `vor 6 Tagen ... Hier wird dem Modell schon beim Training beigebracht, bestimmte Ausgaben zu vermeiden. „Guardrails im Training sind wie eine Persönlichkeitsformung – sie ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Guardrails erklärt: Warum ChatGPT keine Atombombe baut - ](https://t3n.de/news/ki-guardrails-erklaert-sicherheit-prompt-injectio-1744055/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Guardrails erklärt: Warum ChatGPT keine Atombombe baut - `,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Guardrails erklärt: Warum ChatGPT keine Atombom](https://t3n.de/news/ki-guardrails-erklaert-sicherheit-prompt-injectio-1744055/).`,
+    },
+  },
+  {
+    id: `2026-06-19-de-3-ki-was-die-anthropic-sperre-fu`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-19`,
+    image: `images/2026-06-19-de-3-ki-was-die-anthropic-sperre-fu.jpg`,
+    de: {
+      title: `KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handelsblatt`,
+      teaser: `vor 19 Stunden · Wenn der Zugriff auf die neuesten KI-Modelle dauerhaft blockiert wird, drohen Unternehmen erhebliche Nachteile, etwa bei der Softwareentwicklung und der IT- ...`,
+      body: `vor 19 Stunden · Wenn der Zugriff auf die neuesten KI-Modelle dauerhaft blockiert wird, drohen Unternehmen erhebliche Nachteile, etwa bei der Softwareentwicklung und der IT- ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handel](https://www.handelsblatt.com/technik/ki/ki-was-die-anthropic-sperre-fuer-eu-firmen-bedeutet-sieben-antworten/100233306.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handel`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI: Was die Anthropic-Sperre für EU-Firmen bedeute](https://www.handelsblatt.com/technik/ki/ki-was-die-anthropic-sperre-fuer-eu-firmen-bedeutet-sieben-antworten/100233306.html).`,
+    },
+  },
+  {
+    id: `2026-06-19-de-4-ki-update-ein-heise-podcast`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-19`,
+    image: `images/2026-06-19-de-4-ki-update-ein-heise-podcast.jpg`,
+    de: {
+      title: `KI-Update – Ein Heise Podcast`,
+      teaser: `vor 22 Stunden ... Wie intelligent ist Künstliche Intelligenz eigentlich? Welche Folgen hat generative KI für unsere Arbeit, unsere Freizeit und die Gesellschaft?`,
+      body: `vor 22 Stunden ... Wie intelligent ist Künstliche Intelligenz eigentlich? Welche Folgen hat generative KI für unsere Arbeit, unsere Freizeit und die Gesellschaft?
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Update – Ein Heise Podcast](https://www.heise.de/thema/KI-Update).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Update – Ein Heise Podcast`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Update – Ein Heise Podcast](https://www.heise.de/thema/KI-Update).`,
+    },
+  },
+  {
+    id: `2026-06-19-tr-1-yapay-zeka-giri-imi-pramaana-l`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-19`,
+    image: `images/2026-06-19-tr-1-yapay-zeka-giri-imi-pramaana-l.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım a`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka girişimi Pramaana Labs, 27 milyon dolar](https://webrazzi.com/2026/06/18/yapay-zeka-girisimi-pramaana-labs-27-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım aldı - Webrazzi`,
+      teaser: `vor 17 Stunden ... ABD merkezli Pramaana Labs'in yatırım turunda Accel, BoldCap, Nexus Venture Partners, Premji Invest ve Unbound yer aldı. Şirket, yatırımı yapay zeka ...`,
+      body: `vor 17 Stunden ... ABD merkezli Pramaana Labs'in yatırım turunda Accel, BoldCap, Nexus Venture Partners, Premji Invest ve Unbound yer aldı. Şirket, yatırımı yapay zeka ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım a](https://webrazzi.com/2026/06/18/yapay-zeka-girisimi-pramaana-labs-27-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-19-tr-2-qualcomm-ceo-su-yapay-zek-ajan`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-19`,
+    image: `images/2026-06-19-tr-2-qualcomm-ceo-su-yapay-zek-ajan.jpg`,
+    de: {
+      title: `[DE-Fallback] Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini a`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaları](https://www.donanimhaber.com/qualcomm-ceo-su-yapay-zeka-ajanlari-uygulamalarin-yerini-alacak--206910).`,
+    },
+    tr: {
+      title: `Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini alacak”`,
+      teaser: `vor 3 Tagen ... Qualcomm CEO'su Cristiano Amon, yapay zekâ ajanlarının gelecekte uygulamaların yerini alacağına inanıyor. Şirket, bu yeni dönem için 40'tan fazla AI cihazı ...`,
+      body: `vor 3 Tagen ... Qualcomm CEO'su Cristiano Amon, yapay zekâ ajanlarının gelecekte uygulamaların yerini alacağına inanıyor. Şirket, bu yeni dönem için 40'tan fazla AI cihazı ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini a](https://www.donanimhaber.com/qualcomm-ceo-su-yapay-zeka-ajanlari-uygulamalarin-yerini-alacak--206910).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-19-tr-3-bayer-vibe-coding-hackathon-da`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-19`,
+    image: `images/2026-06-19-tr-3-bayer-vibe-coding-hackathon-da.jpg`,
+    de: {
+      title: `[DE-Fallback] Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözü`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Bayer, Vibe Coding Hackathon'da yapay zeka ve yeni](https://egirisim.com/2026/06/18/bayer-vibe-coding-hackathonda-yapay-zeka-ve-yenilikci-cozumleri-bir-araya-getirdi/).`,
+    },
+    tr: {
+      title: `Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözümleri ...`,
+      teaser: `vor 21 Stunden ... “Yapay zekâ, insan potansiyelini ortaya çıkaran önemli bir fırsat”. Etkinliğin açılışında konuşan Bayer İlaç Türkiye ve İran Ülke Grubu Başkanı Colin Tyrer, ...`,
+      body: `vor 21 Stunden ... “Yapay zekâ, insan potansiyelini ortaya çıkaran önemli bir fırsat”. Etkinliğin açılışında konuşan Bayer İlaç Türkiye ve İran Ülke Grubu Başkanı Colin Tyrer, ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözü](https://egirisim.com/2026/06/18/bayer-vibe-coding-hackathonda-yapay-zeka-ve-yenilikci-cozumleri-bir-araya-getirdi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-19-tr-4-yapay-zeka-destekli-hukuk-giri`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-19`,
+    image: `images/2026-06-19-tr-4-yapay-zeka-destekli-hukuk-giri.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital .`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli hukuk girişimi Turbo Law, Revo](https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital ...`,
+      teaser: `24 saat önce · Yapay zeka destekli dava yönetim platformu Turbo Law, 3.8 milyon dolar yatırım aldı. Şirketin 3.8 milyon dolarlık yatırım turuna Revo Capital liderlik etti.`,
+      body: `24 saat önce · Yapay zeka destekli dava yönetim platformu Turbo Law, 3.8 milyon dolar yatırım aldı. Şirketin 3.8 milyon dolarlık yatırım turuna Revo Capital liderlik etti.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital .](https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-18-de-1-kuenstliche-intelligenz-news-r`,
     cat: `agentic`,
     lang: `de`,
@@ -2970,6 +3183,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-19-de-tip-1-can-ai-take-over-our-jobs-we-h`,
+    date: `2026-06-19`,
+    youtube: `tG36rNSK_z0`,
+    lang: `de`,
+    de: {
+      title: `Can AI Take Over Our Jobs? We Hired an OpenClaw Agent | 2-Week Test`,
+      desc: `vor 5 Tagen ... ... KI-Agenten gebaut und ihn „Newton“ genannt — quasi unseren neuen KI ... Als "digitale Profis" hättet ihr aber auch darüber aufklären müssen, welche ...`,
+    },
+    tr: {
+      title: `[TR] Can AI Take Over Our Jobs? We Hired an OpenClaw Agent | 2-We`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-19-de-tip-2-gemma-4-12b-in-ollama-die-best`,
+    date: `2026-06-19`,
+    youtube: `MwaqUhGHu1M`,
+    lang: `de`,
+    de: {
+      title: `Gemma 4 12B in Ollama: Die beste lokale KI? Coding, Bilder & MLX-Test`,
+      desc: `vor 2 Tagen ... Go to channel Digitale Profis · AI Blocked by the US Government - Why the Fable 5 Incident Is the Most Important AI Story of the ... Digitale Profis•1.3K views.`,
+    },
+    tr: {
+      title: `[TR] Gemma 4 12B in Ollama: Die beste lokale KI? Coding, Bilder &`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-19-tr-tip-1-her-y-l-123-000-kelime-daha-az`,
+    date: `2026-06-19`,
+    youtube: `s4I_3carH04`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Her Yıl 123.000 Kelime Daha Az Konuşuyoruz! - YouTube`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Her Yıl 123.000 Kelime Daha Az Konuşuyoruz! - YouTube`,
+      desc: `vor 6 Tagen ... 20:31 · Go to channel Barış Özcan · Yapay Zeka Çağında Hayatta Kalma Rehberi! (Gelecek Korkusunu Bitir). Barış Özcan•644K views · 24:05 · Go to channel Barış ...`,
+    },
+  },
+  {
+    id: `2026-06-19-tr-tip-2-why-does-chatgpt-always-take-y`,
+    date: `2026-06-19`,
+    youtube: `7OLhJtTkFcs`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Why Does ChatGPT Always Take Your Side? - YouTube`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Why Does ChatGPT Always Take Your Side? - YouTube`,
+      desc: `vor 5 Tagen ... Kuzzat Altay. Auto-dubbed. 123K views · 26:33 · Go to channel Barış Özcan · Sen mi Yapay Zeka Kullanıyorsun? Yoksa O mu Seni? Barış Özcan•297K views · 13:01.`,
+    },
+  },
+
 
   {
     id: `2026-06-18-de-tip-1-can-ai-take-over-our-jobs-we-h`,
