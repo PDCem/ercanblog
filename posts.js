@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-20-de-1-deutsche-bank-kuenstliche-inte`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-20`,
+    image: `images/2026-06-20-de-1-deutsche-bank-kuenstliche-inte.jpg`,
+    featured: true,
+    de: {
+      title: `Deutsche Bank: Künstliche Intelligenz steigert die Produktivität | heise online`,
+      teaser: `Das deutsche Geldinstitut setzt KI ein, um Aufgaben zu beschleunigen und interne Arbeitsstaus abzubauen, hat dabei aber auch immer die Kosten im Blick. ... Lesezeit: 2 Min. ... Künstliche Intelligenz `,
+      body: `Das deutsche Geldinstitut setzt KI ein, um Aufgaben zu beschleunigen und interne Arbeitsstaus abzubauen, hat dabei aber auch immer die Kosten im Blick. ... Lesezeit: 2 Min. ... Künstliche Intelligenz (KI) ermöglicht es der Deutschen Bank, Aufgaben, die früher Jahre in Anspruch nahmen, nun innerhalb von Monaten zu erledigen.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Deutsche Bank: Künstliche Intelligenz steigert die Produktiv](https://www.heise.de/news/Deutsche-Bank-Kuenstliche-Intelligenz-steigert-die-Produktivitaet-11337846.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Deutsche Bank: Künstliche Intelligenz steigert die Produktiv`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Deutsche Bank: Künstliche Intelligenz steigert die](https://www.heise.de/news/Deutsche-Bank-Kuenstliche-Intelligenz-steigert-die-Produktivitaet-11337846.html).`,
+    },
+  },
+  {
+    id: `2026-06-20-de-2-ki-modelle-finden-legale-schlu`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-20`,
+    image: `images/2026-06-20-de-2-ki-modelle-finden-legale-schlu.jpg`,
+    de: {
+      title: `KI-Modelle finden legale Schlupflöcher zur Steuervermeidung - t3n`,
+      teaser: `vor 18 Stunden ... Forscher alarmiert: KI-Modelle finden legale Schlupflöcher zur Steuervermeidung. Forschende haben ein Open-Source-Modell darauf trainiert, Regulierungslücken zu ...`,
+      body: `vor 18 Stunden ... Forscher alarmiert: KI-Modelle finden legale Schlupflöcher zur Steuervermeidung. Forschende haben ein Open-Source-Modell darauf trainiert, Regulierungslücken zu ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Modelle finden legale Schlupflöcher zur Steuervermeidung ](https://t3n.de/news/forscher-alarmiert-ki-modelle-finden-legale-schlupfloecher-zur-steuervermeidung-1748499/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Modelle finden legale Schlupflöcher zur Steuervermeidung `,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Modelle finden legale Schlupflöcher zur Steuerv](https://t3n.de/news/forscher-alarmiert-ki-modelle-finden-legale-schlupfloecher-zur-steuervermeidung-1748499/).`,
+    },
+  },
+  {
+    id: `2026-06-20-de-3-ki-was-die-anthropic-sperre-fu`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-20`,
+    image: `images/2026-06-20-de-3-ki-was-die-anthropic-sperre-fu.jpg`,
+    de: {
+      title: `KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handelsblatt`,
+      teaser: `vor 2 Tagen · Wenn der Zugriff auf die neuesten KI-Modelle dauerhaft blockiert wird, drohen Unternehmen erhebliche Nachteile, etwa bei der Softwareentwicklung und der IT- ...`,
+      body: `vor 2 Tagen · Wenn der Zugriff auf die neuesten KI-Modelle dauerhaft blockiert wird, drohen Unternehmen erhebliche Nachteile, etwa bei der Softwareentwicklung und der IT- ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handel](https://www.handelsblatt.com/technik/ki/ki-was-die-anthropic-sperre-fuer-eu-firmen-bedeutet-sieben-antworten/100233306.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI: Was die Anthropic-Sperre für EU-Firmen bedeutet - Handel`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI: Was die Anthropic-Sperre für EU-Firmen bedeute](https://www.handelsblatt.com/technik/ki/ki-was-die-anthropic-sperre-fuer-eu-firmen-bedeutet-sieben-antworten/100233306.html).`,
+    },
+  },
+  {
+    id: `2026-06-20-de-4-mehr-regulierung-weniger-zeit-`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-20`,
+    image: `images/2026-06-20-de-4-mehr-regulierung-weniger-zeit-.jpg`,
+    de: {
+      title: `Mehr Regulierung, weniger Zeit: Wie KI-gestütztes ... - Heise`,
+      teaser: `vor 2 Tagen · Der KI-Assistent von caralegal soll keine juristische Instanz ersetzen. Sein Wert liegt darin, Datenschutzmanagement robuster zu machen und DSGVO-Anforderungen, ...`,
+      body: `vor 2 Tagen · Der KI-Assistent von caralegal soll keine juristische Instanz ersetzen. Sein Wert liegt darin, Datenschutzmanagement robuster zu machen und DSGVO-Anforderungen, ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Mehr Regulierung, weniger Zeit: Wie KI-gestütztes ... - Heis](https://www.heise.de/solutions/caralegal/mehr-regulierung-weniger-zeit-wie-ki-gestuetztes-datenschutzmanagement-den-dokumentationsstau-loest/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Mehr Regulierung, weniger Zeit: Wie KI-gestütztes ... - Heis`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Mehr Regulierung, weniger Zeit: Wie KI-gestütztes ](https://www.heise.de/solutions/caralegal/mehr-regulierung-weniger-zeit-wie-ki-gestuetztes-datenschutzmanagement-den-dokumentationsstau-loest/).`,
+    },
+  },
+  {
+    id: `2026-06-20-tr-1-yapay-zeka-guendemi-54-webrazz`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-20`,
+    image: `images/2026-06-20-tr-1-yapay-zeka-guendemi-54-webrazz.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Yapay Zeka Gündemi #54 - Webrazzi`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay Zeka Gündemi #54 - Webrazzi](https://webrazzi.com/2026/06/19/yapay-zeka-gundemi-54/).`,
+    },
+    tr: {
+      title: `Yapay Zeka Gündemi #54 - Webrazzi`,
+      teaser: `vor 17 Stunden ... Yapay zeka gündemi bu hafta Meta, OpenAI, Anthropic, SpaceX ve Nvidia ekseninde; yeni ürünler, dev yatırımlar ve regülasyon tartışmalarıyla hareketlendi.`,
+      body: `vor 17 Stunden ... Yapay zeka gündemi bu hafta Meta, OpenAI, Anthropic, SpaceX ve Nvidia ekseninde; yeni ürünler, dev yatırımlar ve regülasyon tartışmalarıyla hareketlendi.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay Zeka Gündemi #54 - Webrazzi](https://webrazzi.com/2026/06/19/yapay-zeka-gundemi-54/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-20-tr-2-google-n-y-ld-z-yapay-zeka-ara`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-20`,
+    image: `images/2026-06-20-tr-2-google-n-y-ld-z-yapay-zeka-ara.jpg`,
+    de: {
+      title: `[DE-Fallback] Google'ın yıldız yapay zeka araştırmacısı OpenAI'a transfer `,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Google'ın yıldız yapay zeka araştırmacısı OpenAI'a](https://www.donanimhaber.com/google-in-yildiz-yapay-zeka-arastirmacisi-openai-a-transfer-oldu--207024).`,
+    },
+    tr: {
+      title: `Google'ın yıldız yapay zeka araştırmacısı OpenAI'a transfer oldu`,
+      teaser: `vor 1 Tag ... Google'ın üretken yapay zeka alanındaki en önemli isimlerinden Noam Shazeer, OpenAI'a katıldı. Shazeer, üretken yapay zekanın temellerini oluşturan ikonik ...`,
+      body: `vor 1 Tag ... Google'ın üretken yapay zeka alanındaki en önemli isimlerinden Noam Shazeer, OpenAI'a katıldı. Shazeer, üretken yapay zekanın temellerini oluşturan ikonik ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Google'ın yıldız yapay zeka araştırmacısı OpenAI'a transfer ](https://www.donanimhaber.com/google-in-yildiz-yapay-zeka-arastirmacisi-openai-a-transfer-oldu--207024).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-20-tr-3-tuerkiye-yapay-zeka-eylem-plan`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-20`,
+    image: `images/2026-06-20-tr-3-tuerkiye-yapay-zeka-eylem-plan.jpg`,
+    de: {
+      title: `[DE-Fallback] Türkiye Yapay Zeka Eylem Planı açıklandı`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Türkiye Yapay Zeka Eylem Planı açıklandı](https://turkiye.ai/turkiye-yapay-zeka-eylem-plani-aciklandi/).`,
+    },
+    tr: {
+      title: `Türkiye Yapay Zeka Eylem Planı açıklandı`,
+      teaser: `5 gün önce · Ulusal Yapay Zeka Okuryazarlığı Programı hayata geçirilecek. 81 ilde yapay zeka okuryazarlığı atölyeleri düzenlenecek. İki yıl içinde 5 milyon vatandaşa yapay ...`,
+      body: `5 gün önce · Ulusal Yapay Zeka Okuryazarlığı Programı hayata geçirilecek. 81 ilde yapay zeka okuryazarlığı atölyeleri düzenlenecek. İki yıl içinde 5 milyon vatandaşa yapay ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Türkiye Yapay Zeka Eylem Planı açıklandı](https://turkiye.ai/turkiye-yapay-zeka-eylem-plani-aciklandi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-20-tr-4-yapay-zeka-destekli-pazarlama-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-20`,
+    image: `images/2026-06-20-tr-4-yapay-zeka-destekli-pazarlama-.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli pazarlama yazılımları geliştiren Gradial`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli pazarlama yazılımları geliştir](https://webrazzi.com/2026/06/19/yapay-zeka-destekli-pazarlama-yazilimlari-gelistiren-gradial-65-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli pazarlama yazılımları geliştiren Gradial, 65 ...`,
+      teaser: `21 saat önce · Gradial, yeni gelen yatırımı yapay zeka ajan platformunu geliştirmek, mühendislik ve satış ekibini büyütmek ve pazarlama otomasyon sistemini daha fazla kurumsal ...`,
+      body: `21 saat önce · Gradial, yeni gelen yatırımı yapay zeka ajan platformunu geliştirmek, mühendislik ve satış ekibini büyütmek ve pazarlama otomasyon sistemini daha fazla kurumsal ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli pazarlama yazılımları geliştiren Gradial](https://webrazzi.com/2026/06/19/yapay-zeka-destekli-pazarlama-yazilimlari-gelistiren-gradial-65-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-19-de-1-ki-einsatz-warum-menschliche-e`,
     cat: `agentic`,
     lang: `de`,
@@ -3187,6 +3400,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-20-de-tip-1-ki-powerpoint-tutorial-perfekt`,
+    date: `2026-06-20`,
+    youtube: `GtgfIenr45s`,
+    lang: `de`,
+    de: {
+      title: `KI PowerPoint Tutorial: Perfekte Präsentationen im Handumdrehen #powerpoint`,
+      desc: `vor 15 Stunden ... Erfahre, wie du den KI-Assistenten effizient für deine Präsentation ... Go to channel Digitale Profis · Microsoft Powerpoint Grundlagen - Kompletter ...`,
+    },
+    tr: {
+      title: `[TR] KI PowerPoint Tutorial: Perfekte Präsentationen im Handumdre`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-20-de-tip-2-1-3-mio-in-30-tagen-so-sieht-k`,
+    date: `2026-06-20`,
+    youtube: `RNkOb9IbP9k`,
+    lang: `de`,
+    de: {
+      title: `1,3 Mio € in 30 Tagen: So sieht KI Coding ohne Limits aus`,
+      desc: `vor 3 Tagen ... ... KI-Agenten und eigenen Tools wie Claw Sweeper, Crabbox und Auto Review ... Go to channel Digitale Profis · AI Blocked by the US Government - Why the ...`,
+    },
+    tr: {
+      title: `[TR] 1,3 Mio € in 30 Tagen: So sieht KI Coding ohne Limits aus`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-20-tr-tip-1-palantir-yapay-zeka-hangi-siya`,
+    date: `2026-06-20`,
+    youtube: `FIknLuV3jNA`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Palantir: Yapay zeka hangi siyasi ve toplumsal amaçlarla kul`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Palantir: Yapay zeka hangi siyasi ve toplumsal amaçlarla kullanılıyor?`,
+      desc: `vor 2 Tagen ... Yapay zeka, savaş ve gözetim teknolojilerini nasıl değiştiriyor? ABD merkezli ... Go to channel Barış Özcan · Z Kuşağı Aptallaşıyor mu? IQ Testleri neden ...`,
+    },
+  },
+  {
+    id: `2026-06-20-tr-tip-2-openai-n-perde-arkas-ai-i-mpar`,
+    date: `2026-06-20`,
+    youtube: `mbB-eNbNy7g`,
+    lang: `tr`,
+    de: {
+      title: `[DE] OpenAI’ın Perde Arkası: AI İmparatorlukları Çağında Mıyız?`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `OpenAI’ın Perde Arkası: AI İmparatorlukları Çağında Mıyız?`,
+      desc: `vor 6 Tagen ... Yapay Zeka Çağında Emek ve Veri: Kim Zengin Olacak? 4 views · 14 minutes ... Go to channel Barış Özcan · Sen mi Yapay Zeka Kullanıyorsun? Yoksa O mu Seni ...`,
+    },
+  },
+
 
   {
     id: `2026-06-19-de-tip-1-kann-ki-unseren-job-uebernehme`,
