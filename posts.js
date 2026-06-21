@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-21-de-1-apples-ki-trick-wie-ein-20-mil`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-21`,
+    image: `images/2026-06-21-de-1-apples-ki-trick-wie-ein-20-mil.jpg`,
+    featured: true,
+    de: {
+      title: `Apples KI-Trick: Wie ein 20-Milliarden-Parameter-Modell aufs iPhone passt | heise online`,
+      teaser: `Rockwell ergänzte, was das architektonisch bedeutet: „Es ist, als hätten wir ein dediziertes Ein-bis-Drei-Milliarden-Parameter-Modell nur für die Stimme – gezogen aus einem viel größeren Ganzen.“ Und `,
+      body: `Rockwell ergänzte, was das architektonisch bedeutet: „Es ist, als hätten wir ein dediziertes Ein-bis-Drei-Milliarden-Parameter-Modell nur für die Stimme – gezogen aus einem viel größeren Ganzen.“ Und laut Softwarechef Craig Federighi seien die jetzigen Anwendungsfälle „erst der Anfang“. Für bestimmte KI-Funktionen, etwa die Bildgenerierung, plant Apple allerdings Nutzungslimits, die sich per iCloud+-Abo erweitern lassen.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Apples KI-Trick: Wie ein 20-Milliarden-Parameter-Modell aufs](https://www.heise.de/news/Apples-KI-Trick-Wie-ein-20-Milliarden-Parameter-Modell-aufs-iPhone-passt-11334385.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Apples KI-Trick: Wie ein 20-Milliarden-Parameter-Modell aufs`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Apples KI-Trick: Wie ein 20-Milliarden-Parameter-M](https://www.heise.de/news/Apples-KI-Trick-Wie-ein-20-Milliarden-Parameter-Modell-aufs-iPhone-passt-11334385.html).`,
+    },
+  },
+  {
+    id: `2026-06-21-de-2-qwen-robot-suite-alibabas-neue`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-21`,
+    image: `images/2026-06-21-de-2-qwen-robot-suite-alibabas-neue.jpg`,
+    de: {
+      title: `Qwen-Robot Suite: Alibabas neue KI lässt Roboter simulieren, bevor sie ...`,
+      teaser: `vor 4 Tagen · Dieses KI-Modell soll dafür sorgen, dass unterschiedliche Arten von Robotern Greif- oder Manipulationsaufgaben, etwa Sortieren, Transportieren oder ...`,
+      body: `vor 4 Tagen · Dieses KI-Modell soll dafür sorgen, dass unterschiedliche Arten von Robotern Greif- oder Manipulationsaufgaben, etwa Sortieren, Transportieren oder ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Qwen-Robot Suite: Alibabas neue KI lässt Roboter simulieren,](https://t3n.de/news/alibaba-qwen-robot-suite-ki-agenten-fuer-roboter-foundation-modelle-1747947/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Qwen-Robot Suite: Alibabas neue KI lässt Roboter simulieren,`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Qwen-Robot Suite: Alibabas neue KI lässt Roboter s](https://t3n.de/news/alibaba-qwen-robot-suite-ki-agenten-fuer-roboter-foundation-modelle-1747947/).`,
+    },
+  },
+  {
+    id: `2026-06-21-de-3-ki-wird-ploetzlich-teuer-wir-h`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-21`,
+    image: `images/2026-06-21-de-3-ki-wird-ploetzlich-teuer-wir-h.jpg`,
+    de: {
+      title: `KI wird plötzlich teuer – „Wir haben eine Kostenexplosion gesehen“`,
+      teaser: `vor 2 Tagen ... Der Exzess ist vorbei. Angesichts drastisch gestiegener Rechnungen für Künstliche Intelligenz müssen viele Unternehmen eine neue Ressource managen und ...`,
+      body: `vor 2 Tagen ... Der Exzess ist vorbei. Angesichts drastisch gestiegener Rechnungen für Künstliche Intelligenz müssen viele Unternehmen eine neue Ressource managen und ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI wird plötzlich teuer – „Wir haben eine Kostenexplosion ge](https://www.handelsblatt.com/technik/it-internet/technologie-ki-wird-ploetzlich-teuer-wir-haben-eine-kostenexplosion-gesehen/100233464.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI wird plötzlich teuer – „Wir haben eine Kostenexplosion ge`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI wird plötzlich teuer – „Wir haben eine Kostenex](https://www.handelsblatt.com/technik/it-internet/technologie-ki-wird-ploetzlich-teuer-wir-haben-eine-kostenexplosion-gesehen/100233464.html).`,
+    },
+  },
+  {
+    id: `2026-06-21-de-4-ki-update-ein-heise-podcast`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-21`,
+    image: `images/2026-06-21-de-4-ki-update-ein-heise-podcast.jpg`,
+    de: {
+      title: `KI-Update – Ein Heise Podcast`,
+      teaser: `vor 1 Tag ... Wie intelligent ist Künstliche Intelligenz eigentlich? Welche Folgen hat generative KI für unsere Arbeit, unsere Freizeit und die Gesellschaft?`,
+      body: `vor 1 Tag ... Wie intelligent ist Künstliche Intelligenz eigentlich? Welche Folgen hat generative KI für unsere Arbeit, unsere Freizeit und die Gesellschaft?
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Update – Ein Heise Podcast](https://www.heise.de/thema/KI-Update).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Update – Ein Heise Podcast`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Update – Ein Heise Podcast](https://www.heise.de/thema/KI-Update).`,
+    },
+  },
+  {
+    id: `2026-06-21-tr-1-yapay-zeka-giri-imi-pramaana-l`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-21`,
+    image: `images/2026-06-21-tr-1-yapay-zeka-giri-imi-pramaana-l.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım a`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka girişimi Pramaana Labs, 27 milyon dolar](https://webrazzi.com/2026/06/18/yapay-zeka-girisimi-pramaana-labs-27-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım aldı - Webrazzi`,
+      teaser: `vor 3 Tagen ... ABD merkezli Pramaana Labs'in yatırım turunda Accel, BoldCap, Nexus Venture Partners, Premji Invest ve Unbound yer aldı. Şirket, yatırımı yapay zeka ...`,
+      body: `vor 3 Tagen ... ABD merkezli Pramaana Labs'in yatırım turunda Accel, BoldCap, Nexus Venture Partners, Premji Invest ve Unbound yer aldı. Şirket, yatırımı yapay zeka ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka girişimi Pramaana Labs, 27 milyon dolar yatırım a](https://webrazzi.com/2026/06/18/yapay-zeka-girisimi-pramaana-labs-27-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-21-tr-2-google-n-yeni-hedefi-yapay-zek`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-21`,
+    image: `images/2026-06-21-tr-2-google-n-yeni-hedefi-yapay-zek.jpg`,
+    de: {
+      title: `[DE-Fallback] Google'ın yeni hedefi yapay zekâ çipi pazarında Nvidia'yı ya`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Google'ın yeni hedefi yapay zekâ çipi pazarında Nv](https://www.donanimhaber.com/google-in-yeni-hedefi-yapay-zek-cipi-pazarinda-nvidia-yi-yakalam--207079).`,
+    },
+    tr: {
+      title: `Google'ın yeni hedefi yapay zekâ çipi pazarında Nvidia'yı yakalam`,
+      teaser: `1 gün önce · Google, yapay zekâ çipi yarışında vites yükseltti. Şirket, Nvidia'ya rakip olmak ve TPU kullanımını artırmak için veri merkezi projelerine milyarlarca dolarlık ...`,
+      body: `1 gün önce · Google, yapay zekâ çipi yarışında vites yükseltti. Şirket, Nvidia'ya rakip olmak ve TPU kullanımını artırmak için veri merkezi projelerine milyarlarca dolarlık ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Google'ın yeni hedefi yapay zekâ çipi pazarında Nvidia'yı ya](https://www.donanimhaber.com/google-in-yeni-hedefi-yapay-zek-cipi-pazarinda-nvidia-yi-yakalam--207079).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-21-tr-3-bayer-vibe-coding-hackathon-da`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-21`,
+    image: `images/2026-06-21-tr-3-bayer-vibe-coding-hackathon-da.jpg`,
+    de: {
+      title: `[DE-Fallback] Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözü`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Bayer, Vibe Coding Hackathon'da yapay zeka ve yeni](https://egirisim.com/2026/06/18/bayer-vibe-coding-hackathonda-yapay-zeka-ve-yenilikci-cozumleri-bir-araya-getirdi/).`,
+    },
+    tr: {
+      title: `Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözümleri ...`,
+      teaser: `vor 3 Tagen ... “Yapay zekâ, insan potansiyelini ortaya çıkaran önemli bir fırsat”. Etkinliğin açılışında konuşan Bayer İlaç Türkiye ve İran Ülke Grubu Başkanı Colin Tyrer, ...`,
+      body: `vor 3 Tagen ... “Yapay zekâ, insan potansiyelini ortaya çıkaran önemli bir fırsat”. Etkinliğin açılışında konuşan Bayer İlaç Türkiye ve İran Ülke Grubu Başkanı Colin Tyrer, ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Bayer, Vibe Coding Hackathon'da yapay zeka ve yenilikçi çözü](https://egirisim.com/2026/06/18/bayer-vibe-coding-hackathonda-yapay-zeka-ve-yenilikci-cozumleri-bir-araya-getirdi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-21-tr-4-yapay-zeka-destekli-hukuk-giri`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-21`,
+    image: `images/2026-06-21-tr-4-yapay-zeka-destekli-hukuk-giri.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital .`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli hukuk girişimi Turbo Law, Revo](https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital ...`,
+      teaser: `vor 3 Tagen ... Turbo Law'un yatırım turunda Treeo VC, BridgeX Ventures ve Alchemist Accelerator ile birlikte Gokul Rajaram ve çok sayıda ABD'li teknoloji yöneticisi ile hukuk ...`,
+      body: `vor 3 Tagen ... Turbo Law'un yatırım turunda Treeo VC, BridgeX Ventures ve Alchemist Accelerator ile birlikte Gokul Rajaram ve çok sayıda ABD'li teknoloji yöneticisi ile hukuk ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital .](https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-20-de-1-deutsche-bank-kuenstliche-inte`,
     cat: `agentic`,
     lang: `de`,
@@ -3400,6 +3613,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-21-de-tip-1-auf-der-ueberholspur-ins-ki-ze`,
+    date: `2026-06-21`,
+    youtube: `8zLcLDfyveQ`,
+    lang: `de`,
+    de: {
+      title: `Auf der Überholspur ins KI-Zeitalter: Das HERO AI Launch-Aftermovie`,
+      desc: `vor 2 Tagen ... ... Profis und das HERO-Team aufeinander. Den ersten Platz sicherte sich Elektro ... digitalisierung #hero #handwerkersoftware ▻HERO Handwerkersoftware ...`,
+    },
+    tr: {
+      title: `[TR] Auf der Überholspur ins KI-Zeitalter: Das HERO AI Launch-Aft`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-21-de-tip-2-dieses-ki-modell-war-3-tage-on`,
+    date: `2026-06-21`,
+    youtube: `qlbFZJeEWAA`,
+    lang: `de`,
+    de: {
+      title: `Dieses KI-Modell war 3 Tage online – dann hat die US-Regierung es verboten (Claude Fable 5)`,
+      desc: `vor 3 Tagen ... ... KI-Modell, das wie ein Rüstungsgut behandelt wird. Anthropic hat es ... Go to channel Digitale Profis · AI Blocked by the US Government - Why the ...`,
+    },
+    tr: {
+      title: `[TR] Dieses KI-Modell war 3 Tage online – dann hat die US-Regieru`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-21-tr-tip-1-ai-her-eyi-de-i-ti-ri-yor`,
+    date: `2026-06-21`,
+    youtube: `FRE6ZJ0Twko`,
+    lang: `tr`,
+    de: {
+      title: `[DE] AI HER ŞEYİ DEĞİŞTİRİYOR!`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `AI HER ŞEYİ DEĞİŞTİRİYOR!`,
+      desc: `vor 14 Stunden ... ... yapay zekâ entegrasyonunu, AI Stack'in eğitimdeki rolünü ve Çin ile Türkiye'deki yenilikçi eğitim hamlelerini ele alıyoruz ... Barış Özcan•742K views.`,
+    },
+  },
+  {
+    id: `2026-06-21-tr-tip-2-chatgpt-neden-suerekli-seni-ha`,
+    date: `2026-06-21`,
+    youtube: `7OLhJtTkFcs`,
+    lang: `tr`,
+    de: {
+      title: `[DE] ChatGPT Neden Sürekli Seni Haklı Çıkarıyor?`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `ChatGPT Neden Sürekli Seni Haklı Çıkarıyor?`,
+      desc: `vor 7 Tagen ... Kuzzat Altay. Auto-dubbed. 123K views · 26:33 · Go to channel Barış Özcan · Sen mi Yapay Zeka Kullanıyorsun? Yoksa O mu Seni? Barış Özcan•297K views · 13:01.`,
+    },
+  },
+
 
   {
     id: `2026-06-20-de-tip-1-ki-powerpoint-tutorial-perfekt`,
