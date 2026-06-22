@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-22-de-1-kommentar-ki-es-wird-nicht-ohn`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-22`,
+    image: `images/2026-06-22-de-1-kommentar-ki-es-wird-nicht-ohn.jpg`,
+    featured: true,
+    de: {
+      title: `Kommentar KI – es wird nicht ohne gehen | heise online`,
+      teaser: `Vielleicht geht es Ihnen ja wie mir und Sie rollen bloß noch genervt mit den Augen, wenn das Stichwort KI fällt. Zwar haben die Chatbots, also ChatGPT, Claude, Gemini & Co. mit künstlicher Intelligenz`,
+      body: `Vielleicht geht es Ihnen ja wie mir und Sie rollen bloß noch genervt mit den Augen, wenn das Stichwort KI fällt. Zwar haben die Chatbots, also ChatGPT, Claude, Gemini & Co. mit künstlicher Intelligenz gar nicht so viel zu tun. Vielmehr sind sie sehr ausgefuchste Statistik im Hinblick auf Sprache, weshalb die Bezeichnung Large Language Model, kurz LLM, angemessener ist.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Kommentar KI – es wird nicht ohne gehen | heise online](https://www.heise.de/meinung/Kommentar-KI-warum-Ignorieren-und-Verbieten-nicht-helfen-11338636.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Kommentar KI – es wird nicht ohne gehen | heise online`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Kommentar KI – es wird nicht ohne gehen | heise on](https://www.heise.de/meinung/Kommentar-KI-warum-Ignorieren-und-Verbieten-nicht-helfen-11338636.html).`,
+    },
+  },
+  {
+    id: `2026-06-22-de-2-keine-atombombe-auf-bestellung`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-22`,
+    image: `images/2026-06-22-de-2-keine-atombombe-auf-bestellung.jpg`,
+    de: {
+      title: `Keine Atombombe auf Bestellung: Wie KI-Guardrails gefährliche Anfragen ...`,
+      teaser: `vor 21 Stunden ... Hier wird dem Modell schon beim Training beigebracht, bestimmte Ausgaben zu vermeiden. „Guardrails im Training sind wie eine Persönlichkeitsformung – sie ...`,
+      body: `vor 21 Stunden ... Hier wird dem Modell schon beim Training beigebracht, bestimmte Ausgaben zu vermeiden. „Guardrails im Training sind wie eine Persönlichkeitsformung – sie ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Keine Atombombe auf Bestellung: Wie KI-Guardrails gefährlich](https://t3n.de/news/wie-funktionieren-ki-guardrails-1744055/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Keine Atombombe auf Bestellung: Wie KI-Guardrails gefährlich`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Keine Atombombe auf Bestellung: Wie KI-Guardrails ](https://t3n.de/news/wie-funktionieren-ki-guardrails-1744055/).`,
+    },
+  },
+  {
+    id: `2026-06-22-de-3-europas-zweite-chance-milliard`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-22`,
+    image: `images/2026-06-22-de-3-europas-zweite-chance-milliard.jpg`,
+    de: {
+      title: `Europas zweite Chance – Milliardenwette auf neue KI-Labore`,
+      teaser: `vor 22 Stunden ... In Europa entsteht eine neue Generation von KI-Unternehmen, die Investoren Milliarden wert ist. Start-ups wie Mistral, Elevenlabs, Isomorphic Labs, Wayve, ...`,
+      body: `vor 22 Stunden ... In Europa entsteht eine neue Generation von KI-Unternehmen, die Investoren Milliarden wert ist. Start-ups wie Mistral, Elevenlabs, Isomorphic Labs, Wayve, ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Europas zweite Chance – Milliardenwette auf neue KI-Labore](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-europas-zweite-chance-milliardenwette-auf-neue-ki-labore/100231182.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Europas zweite Chance – Milliardenwette auf neue KI-Labore`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Europas zweite Chance – Milliardenwette auf neue K](https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-europas-zweite-chance-milliardenwette-auf-neue-ki-labore/100231182.html).`,
+    },
+  },
+  {
+    id: `2026-06-22-de-4-ki-code-fuehrt-vermehrt-zu-pro`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-22`,
+    image: `images/2026-06-22-de-4-ki-code-fuehrt-vermehrt-zu-pro.jpg`,
+    de: {
+      title: `KI-Code führt vermehrt zu Produktionsausfällen - Golem.de`,
+      teaser: `vor 6 Tagen ... Neben Sicherheitslücken berichten 63 Prozent der Technologieleiter, dass KI häufig auch Compliance-Verstöße verursache. Dass diese in das produktive Geschäft ...`,
+      body: `vor 6 Tagen ... Neben Sicherheitslücken berichten 63 Prozent der Technologieleiter, dass KI häufig auch Compliance-Verstöße verursache. Dass diese in das produktive Geschäft ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Code führt vermehrt zu Produktionsausfällen - Golem.de](https://www.golem.de/news/auch-fuehrungskraefte-unzufrieden-ki-code-fuehrt-vermehrt-zu-produktionsausfaellen-2606-209842.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Code führt vermehrt zu Produktionsausfällen - Golem.de`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Code führt vermehrt zu Produktionsausfällen - G](https://www.golem.de/news/auch-fuehrungskraefte-unzufrieden-ki-code-fuehrt-vermehrt-zu-produktionsausfaellen-2606-209842.html).`,
+    },
+  },
+  {
+    id: `2026-06-22-tr-1-nvidia-dan-fabrikalar-ve-sa-l-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-22`,
+    image: `images/2026-06-22-tr-1-nvidia-dan-fabrikalar-ve-sa-l-.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Nvidia'dan fabrikalar ve sağlık sektörü için yeni yapay zeka`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Nvidia'dan fabrikalar ve sağlık sektörü için yeni ](https://webrazzi.com/2026/06/17/nvidia-dan-fabrikalar-ve-saglik-sektoru-icin-yeni-yapay-zeka-platformu-xr-ai/).`,
+    },
+    tr: {
+      title: `Nvidia'dan fabrikalar ve sağlık sektörü için yeni yapay zeka platformu: XR AI`,
+      teaser: `vor 5 Tagen ... Nvidia'nın yeni platformu XR AI, yapay zekayı sahaya taşıyor. AR gözlükleri ve XR cihazlarıyla entegre edilen sistem, üretim ve sağlık sektörlerinde yapay zeka`,
+      body: `vor 5 Tagen ... Nvidia'nın yeni platformu XR AI, yapay zekayı sahaya taşıyor. AR gözlükleri ve XR cihazlarıyla entegre edilen sistem, üretim ve sağlık sektörlerinde yapay zeka
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Nvidia'dan fabrikalar ve sağlık sektörü için yeni yapay zeka](https://webrazzi.com/2026/06/17/nvidia-dan-fabrikalar-ve-saglik-sektoru-icin-yeni-yapay-zeka-platformu-xr-ai/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-22-tr-2-qualcomm-ceo-su-yapay-zek-ajan`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-22`,
+    image: `images/2026-06-22-tr-2-qualcomm-ceo-su-yapay-zek-ajan.jpg`,
+    de: {
+      title: `[DE-Fallback] Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini a`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaları](https://www.donanimhaber.com/qualcomm-ceo-su-yapay-zeka-ajanlari-uygulamalarin-yerini-alacak--206910).`,
+    },
+    tr: {
+      title: `Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini alacak”`,
+      teaser: `vor 6 Tagen ... Qualcomm CEO'su Cristiano Amon, yapay zekâ ajanlarının gelecekte uygulamaların yerini alacağına inanıyor. Şirket, bu yeni dönem için 40'tan fazla AI cihazı ...`,
+      body: `vor 6 Tagen ... Qualcomm CEO'su Cristiano Amon, yapay zekâ ajanlarının gelecekte uygulamaların yerini alacağına inanıyor. Şirket, bu yeni dönem için 40'tan fazla AI cihazı ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Qualcomm CEO'su: “Yapay zekâ ajanları uygulamaların yerini a](https://www.donanimhaber.com/qualcomm-ceo-su-yapay-zeka-ajanlari-uygulamalarin-yerini-alacak--206910).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-22-tr-3-yerli-giri-im-poltio-1-milyon-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-22`,
+    image: `images/2026-06-22-tr-3-yerli-giri-im-poltio-1-milyon-.jpg`,
+    de: {
+      title: `[DE-Fallback] Yerli girişim Poltio, 1 milyon dolar yatırım aldı - egirişim`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yerli girişim Poltio, 1 milyon dolar yatırım aldı ](https://egirisim.com/2026/06/16/yerli-girisim-poltio-1-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yerli girişim Poltio, 1 milyon dolar yatırım aldı - egirişim`,
+      teaser: `6 gün önce · Poltio, kullanıcıları interaktif sorularla gerçek zamanlı olarak en doğru ürüne yönlendiren yapay zeka destekli alışveriş asistanları geliştiriyor. Platform, e- ...`,
+      body: `6 gün önce · Poltio, kullanıcıları interaktif sorularla gerçek zamanlı olarak en doğru ürüne yönlendiren yapay zeka destekli alışveriş asistanları geliştiriyor. Platform, e- ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yerli girişim Poltio, 1 milyon dolar yatırım aldı - egirişim](https://egirisim.com/2026/06/16/yerli-girisim-poltio-1-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-22-tr-4-sarvam-1-5-milyar-dolar-de-erl`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-22`,
+    image: `images/2026-06-22-tr-4-sarvam-1-5-milyar-dolar-de-erl.jpg`,
+    de: {
+      title: `[DE-Fallback] Sarvam, 1.5 milyar dolar değerleme üzerinden 234 milyon dola`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Sarvam, 1.5 milyar dolar değerleme üzerinden 234 m](https://webrazzi.com/2026/06/16/sarvam-1-5-milyar-dolar-degerleme-uzerinden-234-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Sarvam, 1.5 milyar dolar değerleme üzerinden 234 milyon dolar yatırım ...`,
+      teaser: `vor 6 Tagen ... Uçtan uca yapay zeka çözümleri geliştiren Sarvam, 234 milyon dolar yatırım aldı. Şirketin 234 milyon dolarlık B serisi yatırım turunun 150 milyon dolarlık ...`,
+      body: `vor 6 Tagen ... Uçtan uca yapay zeka çözümleri geliştiren Sarvam, 234 milyon dolar yatırım aldı. Şirketin 234 milyon dolarlık B serisi yatırım turunun 150 milyon dolarlık ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Sarvam, 1.5 milyar dolar değerleme üzerinden 234 milyon dola](https://webrazzi.com/2026/06/16/sarvam-1-5-milyar-dolar-degerleme-uzerinden-234-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-21-de-1-apples-ki-trick-wie-ein-20-mil`,
     cat: `modelle`,
     lang: `de`,
@@ -3613,6 +3826,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-22-de-tip-1-diese-video-ki-von-google-ist-`,
+    date: `2026-06-22`,
+    youtube: `z4SjWkNuia4`,
+    lang: `de`,
+    de: {
+      title: `Diese Video-KI von Google ist fast schon unheimlich`,
+      desc: `vor 24 Stunden ... ... KI-Tools, die Google bisher vorgestellt hat. Mit Gemini Omni kannst du ... NotebookLM and Gemini are now working together. Digitale Profis•2.7K views.`,
+    },
+    tr: {
+      title: `[TR] Diese Video-KI von Google ist fast schon unheimlich`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-22-de-tip-2-die-beste-ki-tool-kombi-von-go`,
+    date: `2026-06-22`,
+    youtube: `aJ7Sb-iNgwY`,
+    lang: `de`,
+    de: {
+      title: `Die beste KI-Tool-Kombi von Google? NotebookLM und Gemini arbeiten jetzt zusammen`,
+      desc: `vor 15 Stunden ... Digitale Profis. 166K. Subscribe ... Go to channel Digitale Profis · AI Blocked by the US Government - Why the Fable 5 Incident Is the Most Important AI Story ...`,
+    },
+    tr: {
+      title: `[TR] Die beste KI-Tool-Kombi von Google? NotebookLM und Gemini ar`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-22-tr-tip-1-ka-ranlar-i-in-45-dakikada-yap`,
+    date: `2026-06-22`,
+    youtube: `nHfR_2mZoJQ`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Kaçıranlar İçin 45 Dakikada Yapay Zeka Özeti: Bilge AI (Türk`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Kaçıranlar İçin 45 Dakikada Yapay Zeka Özeti: Bilge AI (Türk Yapay Zekası) OpenAI, Claude, Gemini...`,
+      desc: `vor 2 Tagen ... Bu hafta yapay zeka dünyasında nefes kesen gelişmeler yaşandı. Anthropic ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan ...`,
+    },
+  },
+  {
+    id: `2026-06-22-tr-tip-2-yapay-zekay-koerue-koeruene-ku`,
+    date: `2026-06-22`,
+    youtube: `NoINF6RpOZU`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zekayı Körü Körüne Kullanmayı Bırakın!  Kişisel İkinci`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zekayı Körü Körüne Kullanmayı Bırakın!  Kişisel İkinci Beyin Nasıl Kurulur?`,
+      desc: `vor 14 Stunden ... Yapay zeka işimizi elimizden alacak mı? Necati Ergin. New. 1K views · 15:54 ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan ...`,
+    },
+  },
+
 
   {
     id: `2026-06-21-de-tip-1-auf-der-ueberholspur-ins-ki-ze`,
