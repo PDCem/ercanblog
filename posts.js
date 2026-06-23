@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-23-de-1-faire-ki-in-der-hautmedizin-we`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-23`,
+    image: `images/2026-06-23-de-1-faire-ki-in-der-hautmedizin-we.jpg`,
+    featured: true,
+    de: {
+      title: `Faire KI in der Hautmedizin: Wenn der Rechner Krebs erfindet | heise online`,
+      teaser: `Doch KI-Modelle sind voreingenommen – auch diejenigen, die das Rückgrat von intelligenten Diagnosetools in der Hautmedizin bilden. Sie erkennen Hautkrebs bei manchen Bevölkerungsgruppen wie dunkleren `,
+      body: `Doch KI-Modelle sind voreingenommen – auch diejenigen, die das Rückgrat von intelligenten Diagnosetools in der Hautmedizin bilden. Sie erkennen Hautkrebs bei manchen Bevölkerungsgruppen wie dunkleren Hauttypen oder jungen Menschen deutlich schlechter, weil die auf Bildern in den Trainingsdaten schlicht zu selten vorkommen. Hier setzt ein Projekt des Deutschen Forschungszentrums für Künstliche Intelligenz ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Faire KI in der Hautmedizin: Wenn der Rechner Krebs erfindet](https://www.heise.de/hintergrund/Faire-KI-in-der-Hautmedizin-Wenn-der-Rechner-Krebs-erfindet-11327176.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Faire KI in der Hautmedizin: Wenn der Rechner Krebs erfindet`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Faire KI in der Hautmedizin: Wenn der Rechner Kreb](https://www.heise.de/hintergrund/Faire-KI-in-der-Hautmedizin-Wenn-der-Rechner-Krebs-erfindet-11327176.html).`,
+    },
+  },
+  {
+    id: `2026-06-23-de-2-ki-findet-schlupfloecher-in-ge`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-23`,
+    image: `images/2026-06-23-de-2-ki-findet-schlupfloecher-in-ge.jpg`,
+    de: {
+      title: `KI findet Schlupflöcher in Gesetzen und Steuern – Society Hacking erklärt`,
+      teaser: `vor 1 Tag · „Society Hacking“: KI-Modell findet bisher unentdeckte Schlupflöcher zur Steuervermeidung. Forschende haben ein Open-Source-Modell darauf trainiert, ...`,
+      body: `vor 1 Tag · „Society Hacking“: KI-Modell findet bisher unentdeckte Schlupflöcher zur Steuervermeidung. Forschende haben ein Open-Source-Modell darauf trainiert, ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI findet Schlupflöcher in Gesetzen und Steuern – Society Ha](https://t3n.de/news/hacking-ki-modell-schlupfloecher-steuervermeidung-1748499/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI findet Schlupflöcher in Gesetzen und Steuern – Society Ha`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI findet Schlupflöcher in Gesetzen und Steuern – ](https://t3n.de/news/hacking-ki-modell-schlupfloecher-steuervermeidung-1748499/).`,
+    },
+  },
+  {
+    id: `2026-06-23-de-3-sk-hynix-loest-samsung-als-wer`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-23`,
+    image: `images/2026-06-23-de-3-sk-hynix-loest-samsung-als-wer.jpg`,
+    de: {
+      title: `SK Hynix löst Samsung als wertvollster koreanischer Konzern ab`,
+      teaser: `vor 23 Stunden ... Hynix ist einer der Profiteure des aktuellen KI-Booms. Das Unternehmen ist der weltweit führende Anbieter sogenannter HBM-Speicher (High Bandwidth Memory).`,
+      body: `vor 23 Stunden ... Hynix ist einer der Profiteure des aktuellen KI-Booms. Das Unternehmen ist der weltweit führende Anbieter sogenannter HBM-Speicher (High Bandwidth Memory).
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [SK Hynix löst Samsung als wertvollster koreanischer Konzern ](https://app.handelsblatt.com/unternehmen/industrie/kuenstliche-intelligenz-sk-hynix-loest-samsung-als-wertvollster-koreanischer-konzern-ab/100234846.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] SK Hynix löst Samsung als wertvollster koreanischer Konzern `,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [SK Hynix löst Samsung als wertvollster koreanische](https://app.handelsblatt.com/unternehmen/industrie/kuenstliche-intelligenz-sk-hynix-loest-samsung-als-wertvollster-koreanischer-konzern-ab/100234846.html).`,
+    },
+  },
+  {
+    id: `2026-06-23-de-4-geheimdienstbuendnis-warnt-vor`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-23`,
+    image: `images/2026-06-23-de-4-geheimdienstbuendnis-warnt-vor.jpg`,
+    de: {
+      title: `Geheimdienstbündnis warnt vor KI-gestützten Cyberangriffen - Heise`,
+      teaser: `vor 16 Stunden ... Die Cybersicherheitsbehörden der Five-Eyes-Staaten warnen vor neuen Cyberrisiken durch KI. Sie fordern Chefs auf, Sicherheit als Geschäftsrisiko zu begreifen.`,
+      body: `vor 16 Stunden ... Die Cybersicherheitsbehörden der Five-Eyes-Staaten warnen vor neuen Cyberrisiken durch KI. Sie fordern Chefs auf, Sicherheit als Geschäftsrisiko zu begreifen.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Geheimdienstbündnis warnt vor KI-gestützten Cyberangriffen -](https://www.heise.de/news/Five-Eyes-warnen-KI-veraendert-Cyberrisiken-rasant-11340599.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Geheimdienstbündnis warnt vor KI-gestützten Cyberangriffen -`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Geheimdienstbündnis warnt vor KI-gestützten Cybera](https://www.heise.de/news/Five-Eyes-warnen-KI-veraendert-Cyberrisiken-rasant-11340599.html).`,
+    },
+  },
+  {
+    id: `2026-06-23-tr-1-the-atlantic-yapay-zeka-e-itim`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-23`,
+    image: `images/2026-06-23-tr-1-the-atlantic-yapay-zeka-e-itim.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] The Atlantic, yapay zeka eğitiminde kullanılan 21 milyon şar`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [The Atlantic, yapay zeka eğitiminde kullanılan 21 ](https://webrazzi.com/2026/06/22/the-atlantic-yapay-zeka-egitiminde-kullanilan-21-milyon-sarkilik-veritabanini-yayinladi/).`,
+    },
+    tr: {
+      title: `The Atlantic, yapay zeka eğitiminde kullanılan 21 milyon şarkılık ...`,
+      teaser: `vor 18 Stunden ... Gazeteci Alex Reisner tarafından hazırlanan araç, yapay zeka geliştiricileri arasında dolaşan dört farklı veri kümesini bir araya getirerek 21 milyondan fazla ...`,
+      body: `vor 18 Stunden ... Gazeteci Alex Reisner tarafından hazırlanan araç, yapay zeka geliştiricileri arasında dolaşan dört farklı veri kümesini bir araya getirerek 21 milyondan fazla ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [The Atlantic, yapay zeka eğitiminde kullanılan 21 milyon şar](https://webrazzi.com/2026/06/22/the-atlantic-yapay-zeka-egitiminde-kullanilan-21-milyon-sarkilik-veritabanini-yayinladi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-23-tr-2-yapay-zeka-devi-yann-lecun-xai`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-23`,
+    image: `images/2026-06-23-tr-2-yapay-zeka-devi-yann-lecun-xai.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka devi Yann LeCun: "xAI projesi başarısız oldu"`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka devi Yann LeCun: "xAI projesi başarısız](https://www.donanimhaber.com/yapay-zeka-devi-yann-lecun-xai-projesi-basarisiz-oldu--207173).`,
+    },
+    tr: {
+      title: `Yapay zeka devi Yann LeCun: "xAI projesi başarısız oldu"`,
+      teaser: `vor 12 Stunden ... Yapay zekâ dünyasının önde gelen isimlerinden Yann LeCun, sektörün mevcut iş modelinin sürdürülemez olduğunu söylerken, özellikle Elon Musk'ın xAI ...`,
+      body: `vor 12 Stunden ... Yapay zekâ dünyasının önde gelen isimlerinden Yann LeCun, sektörün mevcut iş modelinin sürdürülemez olduğunu söylerken, özellikle Elon Musk'ın xAI ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka devi Yann LeCun: "xAI projesi başarısız oldu"](https://www.donanimhaber.com/yapay-zeka-devi-yann-lecun-xai-projesi-basarisiz-oldu--207173).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-23-tr-3-ticaret-bakanl-oi-b-ve-tkf-i-b`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-23`,
+    image: `images/2026-06-23-tr-3-ticaret-bakanl-oi-b-ve-tkf-i-b.jpg`,
+    de: {
+      title: `[DE-Fallback] Ticaret Bakanlığı, OİB ve TKF iş birliğiyle mobilite girişim`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Ticaret Bakanlığı, OİB ve TKF iş birliğiyle mobili](https://egirisim.com/2026/06/22/ticaret-bakanligi-oib-ve-tkf-is-birligiyle-mobilite-girisimleri-icin-yeni-fon-oibventure/).`,
+    },
+    tr: {
+      title: `Ticaret Bakanlığı, OİB ve TKF iş birliğiyle mobilite girişimleri için yeni ...`,
+      teaser: `vor 21 Stunden ... OİBventure'ın odak alanları. Robotik Teknolojileri; ADAS & Otonom Araç Sistemleri; Yapay Zeka Destekli Yazılımlar; İnsansız Hava Araçları (Dron); Endüstri 4.0 ...`,
+      body: `vor 21 Stunden ... OİBventure'ın odak alanları. Robotik Teknolojileri; ADAS & Otonom Araç Sistemleri; Yapay Zeka Destekli Yazılımlar; İnsansız Hava Araçları (Dron); Endüstri 4.0 ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Ticaret Bakanlığı, OİB ve TKF iş birliğiyle mobilite girişim](https://egirisim.com/2026/06/22/ticaret-bakanligi-oib-ve-tkf-is-birligiyle-mobilite-girisimleri-icin-yeni-fon-oibventure/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-23-tr-4-yapay-zeka-veri-ve-sa-l-k-sano`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-23`,
+    image: `images/2026-06-23-tr-4-yapay-zeka-veri-ve-sa-l-k-sano.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka, veri ve sağlık: Sanofi ve Cumhurbaşkanlığı Yatır`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka, veri ve sağlık: Sanofi ve Cumhurbaşkan](https://webrazzi.com/2026/06/22/yapay-zeka-veri-ve-saglik-sanofi-ve-cumhurbaskanligi-yatirim-ofisi-turkiye-nin-potansiyelini-vivatech-te-ele-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka, veri ve sağlık: Sanofi ve Cumhurbaşkanlığı Yatırım Ofisi ...`,
+      teaser: `vor 19 Stunden ... 165 ülkeden 200 bini aşkın ziyaretçiyle 10. yılını kutlayan VivaTech 2026'yı Sanofi'nin daveti ile yerinden takip ettik. Sanofi'nin PharmUp programından 6 ...`,
+      body: `vor 19 Stunden ... 165 ülkeden 200 bini aşkın ziyaretçiyle 10. yılını kutlayan VivaTech 2026'yı Sanofi'nin daveti ile yerinden takip ettik. Sanofi'nin PharmUp programından 6 ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka, veri ve sağlık: Sanofi ve Cumhurbaşkanlığı Yatır](https://webrazzi.com/2026/06/22/yapay-zeka-veri-ve-saglik-sanofi-ve-cumhurbaskanligi-yatirim-ofisi-turkiye-nin-potansiyelini-vivatech-te-ele-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-22-de-1-kommentar-ki-es-wird-nicht-ohn`,
     cat: `agentic`,
     lang: `de`,
@@ -3826,6 +4039,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-23-de-tip-1-gleichen-brief-an-mehrere-adre`,
+    date: `2026-06-23`,
+    youtube: `tgjP_IqcUV4`,
+    lang: `de`,
+    de: {
+      title: `Gleichen Brief an mehrere Adressen verschicken? Ganz einfach mit dem Serienbrief in Microsoft Word`,
+      desc: `vor 16 Stunden ... Anrufprüfung per KI jetzt mit Deinem Samsung-Smartphone. BILDNER TV•11K views ... Digitale Profis•118K views · 8:50 · Go to channel BILDNER TV · Dein iPhone ...`,
+    },
+    tr: {
+      title: `[TR] Gleichen Brief an mehrere Adressen verschicken? Ganz einfach`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-23-de-tip-2-excel-stunden-ueber-24-berechn`,
+    date: `2026-06-23`,
+    youtube: `jq5WV5ncI3M`,
+    lang: `de`,
+    de: {
+      title: `Excel Stunden über 24 berechnen, 3:30 statt 27:30 lösen`,
+      desc: `vor 16 Stunden ... Digitalopa Helmut Excel & KI•14 · 7:51 · Go to channel Legal Cannon · LAWYER: If ... Go to channel Digitale Profis · MICROSOFT EXCEL GRUNDLAGEN IN 30 MINUTEN ...`,
+    },
+    tr: {
+      title: `[TR] Excel Stunden über 24 berechnen, 3:30 statt 27:30 lösen`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-23-tr-tip-1-yapay-zeka-ile-tek-ki-ilik-irk`,
+    date: `2026-06-23`,
+    youtube: `sJbfCITMtKw`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zeka ile Tek Kişilik Şirket Kurmak Hakkındaki Gerçekle`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zeka ile Tek Kişilik Şirket Kurmak Hakkındaki Gerçekler`,
+      desc: `3 gün önce · Bu videoda yapay zeka ile ortaya çıkan “tek kişilik şirket” anlatısını inceliyorum ... Barış Özcan•905K views · 19:15 · Go to channel Seyir · He Set Out for ...`,
+    },
+  },
+  {
+    id: `2026-06-23-tr-tip-2-yapay-zekan-n-oklu-yuezleri-ot`,
+    date: `2026-06-23`,
+    youtube: `INkzyCDj0jY`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zekanın Çoklu Yüzleri Oturumu`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zekanın Çoklu Yüzleri Oturumu`,
+      desc: `vor 22 Stunden ... Yapay Zeka Politikaları Derneği (AIPA) tarafından düzenenlene, alanında ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan ...`,
+    },
+  },
+
 
   {
     id: `2026-06-22-de-tip-1-diese-video-ki-von-google-ist-`,
