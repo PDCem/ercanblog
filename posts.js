@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-24-de-1-schummeln-mit-ki-was-gegen-ein`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-24`,
+    image: `images/2026-06-24-de-1-schummeln-mit-ki-was-gegen-ein.jpg`,
+    featured: true,
+    de: {
+      title: `Schummeln mit KI: Was gegen ein Pauschalverbot spricht | heise online`,
+      teaser: `Die Klagen in den Lehrerzimmern wegen KI-gestützter Schummeleien mit Smartphones, Smartwatches oder Scan-Stiften werden lauter. Der Verband Bildung und Erziehung (VBE) Baden-Württemberg hält technisch`,
+      body: `Die Klagen in den Lehrerzimmern wegen KI-gestützter Schummeleien mit Smartphones, Smartwatches oder Scan-Stiften werden lauter. Der Verband Bildung und Erziehung (VBE) Baden-Württemberg hält technische Sperren – vor allem bei Abschlussprüfungen – jedoch für zu kurz gegriffen. ... Die Frage sei nicht, wie Künstliche Intelligenz (KI) aus dem Unterricht verbannt werden könne, sagte Landeschef Gerhard Brand.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Schummeln mit KI: Was gegen ein Pauschalverbot spricht | hei](https://www.heise.de/news/Schummeln-mit-KI-Was-gegen-ein-Pauschalverbot-spricht-11336781.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Schummeln mit KI: Was gegen ein Pauschalverbot spricht | hei`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Schummeln mit KI: Was gegen ein Pauschalverbot spr](https://www.heise.de/news/Schummeln-mit-KI-Was-gegen-ein-Pauschalverbot-spricht-11336781.html).`,
+    },
+  },
+  {
+    id: `2026-06-24-de-2-ki-agenten-als-ceos-die-meiste`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-24`,
+    image: `images/2026-06-24-de-2-ki-agenten-als-ceos-die-meiste.jpg`,
+    de: {
+      title: `KI-Agenten als CEOs: Die meisten Startups gehen schnell pleite - t3n`,
+      teaser: `vor 2 Tagen ... Die Modelle bekamen ein Startkapital von einer Million US-Dollar zur Verfügung und sollten über einen simulierten Zeitraum von 500 Tagen unter realistischen ...`,
+      body: `vor 2 Tagen ... Die Modelle bekamen ein Startkapital von einer Million US-Dollar zur Verfügung und sollten über einen simulierten Zeitraum von 500 Tagen unter realistischen ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Agenten als CEOs: Die meisten Startups gehen schnell plei](https://t3n.de/news/forscher-machen-ki-agenten-zu-ceos-welches-modell-ging-schon-nach-weniger-als-40-tagen-pleite-1748776/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Agenten als CEOs: Die meisten Startups gehen schnell plei`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Agenten als CEOs: Die meisten Startups gehen sc](https://t3n.de/news/forscher-machen-ki-agenten-zu-ceos-welches-modell-ging-schon-nach-weniger-als-40-tagen-pleite-1748776/).`,
+    },
+  },
+  {
+    id: `2026-06-24-de-3-wie-auch-schwellenlaender-vom-`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-24`,
+    image: `images/2026-06-24-de-3-wie-auch-schwellenlaender-vom-.jpg`,
+    de: {
+      title: `Wie auch Schwellenländer vom KI-Boom profitieren - Handelsblatt`,
+      teaser: `vor 5 Stunden ... Doch viele Unternehmen, die die nötigen Chips, Speicher und Infrastruktur liefern, sitzen außerhalb der USA. Dadurch entsteht ein großer Teil der Gewinne aus ...`,
+      body: `vor 5 Stunden ... Doch viele Unternehmen, die die nötigen Chips, Speicher und Infrastruktur liefern, sitzen außerhalb der USA. Dadurch entsteht ein großer Teil der Gewinne aus ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Wie auch Schwellenländer vom KI-Boom profitieren - Handelsbl](https://www.handelsblatt.com/finanzen/kuenstliche-intelligenz-wie-auch-schwellenlaender-vom-ki-boom-profitieren/100234140.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Wie auch Schwellenländer vom KI-Boom profitieren - Handelsbl`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Wie auch Schwellenländer vom KI-Boom profitieren -](https://www.handelsblatt.com/finanzen/kuenstliche-intelligenz-wie-auch-schwellenlaender-vom-ki-boom-profitieren/100234140.html).`,
+    },
+  },
+  {
+    id: `2026-06-24-de-4-ki-sicherheit-im-unternehmen-w`,
+    cat: `sicherheit`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-24`,
+    image: `images/2026-06-24-de-4-ki-sicherheit-im-unternehmen-w.jpg`,
+    de: {
+      title: `KI-Sicherheit im Unternehmen: Worauf Mitarbeitende im Alltag achten ...`,
+      teaser: `vor 1 Tag ... Inhaltlich geht es um typische Sicherheitsfragen rund um den Einsatz generativer KI: den Umgang mit vertraulichen Daten, Risiken durch unkontrollierte Tool- ...`,
+      body: `vor 1 Tag ... Inhaltlich geht es um typische Sicherheitsfragen rund um den Einsatz generativer KI: den Umgang mit vertraulichen Daten, Risiken durch unkontrollierte Tool- ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Sicherheit im Unternehmen: Worauf Mitarbeitende im Alltag](https://www.heise.de/news/KI-Sicherheit-im-Unternehmen-Worauf-Mitarbeitende-im-Alltag-achten-sollten-11340715.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Sicherheit im Unternehmen: Worauf Mitarbeitende im Alltag`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Sicherheit im Unternehmen: Worauf Mitarbeitende](https://www.heise.de/news/KI-Sicherheit-im-Unternehmen-Worauf-Mitarbeitende-im-Alltag-achten-sollten-11340715.html).`,
+    },
+  },
+  {
+    id: `2026-06-24-tr-1-sesli-yapay-zeka-ajanlar-geli-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-24`,
+    image: `images/2026-06-24-tr-1-sesli-yapay-zeka-ajanlar-geli-.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Sesli yapay zeka ajanları geliştiren Prosper, 30 milyon dola`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Sesli yapay zeka ajanları geliştiren Prosper, 30 m](https://webrazzi.com/2026/06/23/sesli-yapay-zeka-ajanlari-gelistiren-prosper-30-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Sesli yapay zeka ajanları geliştiren Prosper, 30 milyon dolar yatırım aldı`,
+      teaser: `18 saat önce · Şirket, sağlık sektörüne yönelik sesli yapay zeka ajanları geliştiriyor. Bu yapay zekâ ajanları, hastaneler ve sağlık kuruluşlarında insanların yaptığı birçok ...`,
+      body: `18 saat önce · Şirket, sağlık sektörüne yönelik sesli yapay zeka ajanları geliştiriyor. Bu yapay zekâ ajanları, hastaneler ve sağlık kuruluşlarında insanların yaptığı birçok ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Sesli yapay zeka ajanları geliştiren Prosper, 30 milyon dola](https://webrazzi.com/2026/06/23/sesli-yapay-zeka-ajanlari-gelistiren-prosper-30-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-24-tr-2-yapay-zeka-abart-l-yor-mu-nobe`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-24`,
+    image: `images/2026-06-24-tr-2-yapay-zeka-abart-l-yor-mu-nobe.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka abartılıyor mu? Nobel ödüllü Daron Acemoğlu konuş`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka abartılıyor mu? Nobel ödüllü Daron Acem](https://www.donanimhaber.com/yapay-zeka-abartiliyor-mu-nobel-odullu-daron-acemoglu-konustu--207170).`,
+    },
+    tr: {
+      title: `Yapay zeka abartılıyor mu? Nobel ödüllü Daron Acemoğlu konuştu`,
+      teaser: `2 gün önce · Nobel ödüllü ekonomist Daron Acemoğlu, yapay zekaya yönelik iyimser tahminlerin abartıldığını savundu. · Ekonomiye etkisi sınırlı olacak · Büyük verimlilik artışı ...`,
+      body: `2 gün önce · Nobel ödüllü ekonomist Daron Acemoğlu, yapay zekaya yönelik iyimser tahminlerin abartıldığını savundu. · Ekonomiye etkisi sınırlı olacak · Büyük verimlilik artışı ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka abartılıyor mu? Nobel ödüllü Daron Acemoğlu konuş](https://www.donanimhaber.com/yapay-zeka-abartiliyor-mu-nobel-odullu-daron-acemoglu-konustu--207170).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-24-tr-3-yerli-yapay-zeka-hukuk-giri-im`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-24`,
+    image: `images/2026-06-24-tr-3-yerli-yapay-zeka-hukuk-giri-im.jpg`,
+    de: {
+      title: `[DE-Fallback] Yerli yapay zeka hukuk girişimi Apilex, yayına alınışının 9.`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yerli yapay zeka hukuk girişimi Apilex, yayına alı](https://egirisim.com/2026/06/23/yerli-yapay-zeka-hukuk-girisimi-apilex-yayina-alinisinin-9-ayinda-8-milyon-dolar-arri-gecti/).`,
+    },
+    tr: {
+      title: `Yerli yapay zeka hukuk girişimi Apilex, yayına alınışının 9. ayında 8 ...`,
+      teaser: `vor 18 Stunden ... Yerli yapay zeka hukuk girişimi Apilex, yayına alınışının 9. ayında 8 milyon dolar ARR'ı geçti. Yatırım almadan büyüyen ve global olan yerli yapay zekâ hukuk ...`,
+      body: `vor 18 Stunden ... Yerli yapay zeka hukuk girişimi Apilex, yayına alınışının 9. ayında 8 milyon dolar ARR'ı geçti. Yatırım almadan büyüyen ve global olan yerli yapay zekâ hukuk ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yerli yapay zeka hukuk girişimi Apilex, yayına alınışının 9.](https://egirisim.com/2026/06/23/yerli-yapay-zeka-hukuk-girisimi-apilex-yayina-alinisinin-9-ayinda-8-milyon-dolar-arri-gecti/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-24-tr-4-yapay-zeka-ip-giri-imi-groq-65`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-24`,
+    image: `images/2026-06-24-tr-4-yapay-zeka-ip-giri-imi-groq-65.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka çip girişimi Groq, 650 milyon dolar yatırım aldı `,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka çip girişimi Groq, 650 milyon dolar yat](https://webrazzi.com/2026/06/23/yapay-zeka-cip-girisimi-groq-650-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka çip girişimi Groq, 650 milyon dolar yatırım aldı - Webrazzi`,
+      teaser: `vor 24 Stunden ... ABD merkezli şirketin 650 milyon dolarlık yatırımına Disruptive ve Infinitum ortaklaşa liderlik etti. Groq, aldığı yeni yatırımı yapay zeka çıkarım (inference) ...`,
+      body: `vor 24 Stunden ... ABD merkezli şirketin 650 milyon dolarlık yatırımına Disruptive ve Infinitum ortaklaşa liderlik etti. Groq, aldığı yeni yatırımı yapay zeka çıkarım (inference) ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka çip girişimi Groq, 650 milyon dolar yatırım aldı ](https://webrazzi.com/2026/06/23/yapay-zeka-cip-girisimi-groq-650-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-23-de-1-faire-ki-in-der-hautmedizin-we`,
     cat: `agentic`,
     lang: `de`,
@@ -4039,6 +4252,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-24-de-tip-1-so-haben-wir-mit-manus-eine-ki`,
+    date: `2026-06-24`,
+    youtube: `Co1LhdCtXEw`,
+    lang: `de`,
+    de: {
+      title: `So haben wir mit Manus eine KI-WM-Tippspiel-Website gebaut`,
+      desc: `vor 15 Stunden ... ... KI-Modelle die Spiele der Fußball-WM 2026 vorhersagen. Damit ihr die Tipps, Ergebnisse und die ... Digitale Profis•6.6K views. New. Auto-dubbed · 26:49.`,
+    },
+    tr: {
+      title: `[TR] So haben wir mit Manus eine KI-WM-Tippspiel-Website gebaut`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-24-de-tip-2-ki-von-der-us-regierung-blocki`,
+    date: `2026-06-24`,
+    youtube: `vLaagtTa5vQ`,
+    lang: `de`,
+    de: {
+      title: `KI von der US-Regierung blockiert - Warum der Fable 5 Vorfall die wichtigste KI-Story des Jahres ist`,
+      desc: `vor 6 Tagen ... ... KI-Dominanz jetzt wackeln könnte ): https ... Digitale Profis. 167K. Subscribe.`,
+    },
+    tr: {
+      title: `[TR] KI von der US-Regierung blockiert - Warum der Fable 5 Vorfal`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-24-tr-tip-1-yapay-zek-gue-lenirken-i-nsan-`,
+    date: `2026-06-24`,
+    youtube: `_E4jR7nheqo`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zekâ Güçlenirken İnsanı Vazgeçilmez Kılan Şey Ne Olaca`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zekâ Güçlenirken İnsanı Vazgeçilmez Kılan Şey Ne Olacak?`,
+      desc: `6 gün önce · Comments ; YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan•743K views ; Yapay Zekanın Yeni Kralı: Claude ve "Vibe Coding", Hayatınızı Nasıl Değiştirecek? Evrim ...`,
+    },
+  },
+  {
+    id: `2026-06-24-tr-tip-2-yapay-zek-ger-ekten-yeni-bir-s`,
+    date: `2026-06-24`,
+    youtube: `FXJ6Y2dR3nM`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zekâ Gerçekten Yeni Bir Sanayi Devrimi mi?`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zekâ Gerçekten Yeni Bir Sanayi Devrimi mi?`,
+      desc: `vor 3 Tagen ... Yapay zekâ gerçekten yeni bir sanayi devrimi mi, yoksa sahte verimlilik ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan ...`,
+    },
+  },
+
 
   {
     id: `2026-06-23-de-tip-1-gleichen-brief-an-mehrere-adre`,
