@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-25-de-1-bsi-warnt-vor-auswirkungen-von`,
+    cat: `sicherheit`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-25`,
+    image: `images/2026-06-25-de-1-bsi-warnt-vor-auswirkungen-von.jpg`,
+    featured: true,
+    de: {
+      title: `BSI warnt vor Auswirkungen von KI auf Cybersicherheit | heise online`,
+      teaser: `Die oberste IT-Sicherheitsbehörde Deutschlands sieht einen klaren Trend. Künstliche Intelligenz senke Aufwand, Zeitbedarf und Einstiegshürden für Cyberangriffe signifikant. Angreifer können mit gering`,
+      body: `Die oberste IT-Sicherheitsbehörde Deutschlands sieht einen klaren Trend. Künstliche Intelligenz senke Aufwand, Zeitbedarf und Einstiegshürden für Cyberangriffe signifikant. Angreifer können mit geringem Aufwand und höherer Geschwindigkeit ihre Kampagnen skalieren und automatisieren.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [BSI warnt vor Auswirkungen von KI auf Cybersicherheit | heis](https://www.heise.de/news/BSI-warnt-vor-Auswirkungen-von-KI-auf-Cybersicherheit-11342418.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] BSI warnt vor Auswirkungen von KI auf Cybersicherheit | heis`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [BSI warnt vor Auswirkungen von KI auf Cybersicherh](https://www.heise.de/news/BSI-warnt-vor-Auswirkungen-von-KI-auf-Cybersicherheit-11342418.html).`,
+    },
+  },
+  {
+    id: `2026-06-25-de-2-ki-statt-kamera-wie-werbefilme`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-25`,
+    image: `images/2026-06-25-de-2-ki-statt-kamera-wie-werbefilme.jpg`,
+    de: {
+      title: `KI statt Kamera: Wie Werbefilme ohne Schauspieler und Sets entstehen - t3n`,
+      teaser: `vor 21 Stunden ... Die Produktion läuft über modulare KI-Plattformen, die Generierungstools bündeln. Je nach Anforderung kommt ein anderes Modell zum Einsatz – für Porträts, ...`,
+      body: `vor 21 Stunden ... Die Produktion läuft über modulare KI-Plattformen, die Generierungstools bündeln. Je nach Anforderung kommt ein anderes Modell zum Einsatz – für Porträts, ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI statt Kamera: Wie Werbefilme ohne Schauspieler und Sets e](https://t3n.de/news/ki-statt-kamera-wie-werbefilme-ohne-schauspieler-und-sets-entstehen-1745895/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI statt Kamera: Wie Werbefilme ohne Schauspieler und Sets e`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI statt Kamera: Wie Werbefilme ohne Schauspieler ](https://t3n.de/news/ki-statt-kamera-wie-werbefilme-ohne-schauspieler-und-sets-entstehen-1745895/).`,
+    },
+  },
+  {
+    id: `2026-06-25-de-3-anthropic-wirft-chinesischem-k`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-25`,
+    image: `images/2026-06-25-de-3-anthropic-wirft-chinesischem-k.jpg`,
+    de: {
+      title: `Anthropic wirft chinesischem Konzern Kopier-Attacke vor - Handelsblatt`,
+      teaser: `vor 4 Stunden · Die KI-Firma Anthropic gilt als schärfster Rivale des ChatGPT-Entwicklers OpenAI. Jetzt könnten ihre Vorwürfe in Richtung China für neuen Zündstoff zwischen ...`,
+      body: `vor 4 Stunden · Die KI-Firma Anthropic gilt als schärfster Rivale des ChatGPT-Entwicklers OpenAI. Jetzt könnten ihre Vorwürfe in Richtung China für neuen Zündstoff zwischen ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Anthropic wirft chinesischem Konzern Kopier-Attacke vor - Ha](https://www.handelsblatt.com/technik/it-internet/ki-konzern-anthropic-wirft-chinesischem-konzern-kopier-attacke-vor/100235671.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Anthropic wirft chinesischem Konzern Kopier-Attacke vor - Ha`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Anthropic wirft chinesischem Konzern Kopier-Attack](https://www.handelsblatt.com/technik/it-internet/ki-konzern-anthropic-wirft-chinesischem-konzern-kopier-attacke-vor/100235671.html).`,
+    },
+  },
+  {
+    id: `2026-06-25-de-4-ki-coding-tools-geschwindigkei`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-25`,
+    image: `images/2026-06-25-de-4-ki-coding-tools-geschwindigkei.jpg`,
+    de: {
+      title: `KI-Coding-Tools: Geschwindigkeit ohne Kontrolle als Risiko - Heise`,
+      teaser: `vor 19 Stunden ... Im Report äußern 73 Prozent der Teilnehmerinnen und Teilnehmer Bedenken hinsichtlich der langfristigen Wartbarkeit von KI-generiertem Code; 80 Prozent meinen, ...`,
+      body: `vor 19 Stunden ... Im Report äußern 73 Prozent der Teilnehmerinnen und Teilnehmer Bedenken hinsichtlich der langfristigen Wartbarkeit von KI-generiertem Code; 80 Prozent meinen, ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Coding-Tools: Geschwindigkeit ohne Kontrolle als Risiko -](https://www.heise.de/news/GitLab-Umfrage-KI-beschleunigtes-Coding-erzeugt-Sicherheitsprobleme-11342894.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Coding-Tools: Geschwindigkeit ohne Kontrolle als Risiko -`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Coding-Tools: Geschwindigkeit ohne Kontrolle al](https://www.heise.de/news/GitLab-Umfrage-KI-beschleunigtes-Coding-erzeugt-Sicherheitsprobleme-11342894.html).`,
+    },
+  },
+  {
+    id: `2026-06-25-tr-1-spacex-reflection-ai-ile-6-3-m`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-25`,
+    image: `images/2026-06-25-tr-1-spacex-reflection-ai-ile-6-3-m.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] SpaceX, Reflection AI ile 6,3 milyar dolarlık yapay zeka işl`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [SpaceX, Reflection AI ile 6,3 milyar dolarlık yapa](https://webrazzi.com/2026/06/23/spacex-reflection-ai-ile-6-3-milyar-dolarlik-yapay-zeka-islem-gucu-anlasmasi-yapti/).`,
+    },
+    tr: {
+      title: `SpaceX, Reflection AI ile 6,3 milyar dolarlık yapay zeka işlem gücü ...`,
+      teaser: `2024 yılında eski Google DeepMind araştırmacıları tarafından kurulan Reflection AI, açık ağırlıklı yapay zeka modelleri geliştirmeye odaklanıyor. Şirket, kapalı model geliştiren OpenAI ve Anthropic gi`,
+      body: `2024 yılında eski Google DeepMind araştırmacıları tarafından kurulan Reflection AI, açık ağırlıklı yapay zeka modelleri geliştirmeye odaklanıyor. Şirket, kapalı model geliştiren OpenAI ve Anthropic gibi laboratuvarlara karşı açık kaynaklı bir alternatif konumlanmasıyla öne çıkıyor.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [SpaceX, Reflection AI ile 6,3 milyar dolarlık yapay zeka işl](https://webrazzi.com/2026/06/23/spacex-reflection-ai-ile-6-3-milyar-dolarlik-yapay-zeka-islem-gucu-anlasmasi-yapti/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-25-tr-2-spacex-ten-6-3-milyar-dolarl-k`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-25`,
+    image: `images/2026-06-25-tr-2-spacex-ten-6-3-milyar-dolarl-k.jpg`,
+    de: {
+      title: `[DE-Fallback] SpaceX'ten 6,3 milyar dolarlık dev yapay zeka anlaşması`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [SpaceX'ten 6,3 milyar dolarlık dev yapay zeka anla](https://www.donanimhaber.com/spacex-ten-6-3-milyar-dolarlik-dev-yapay-zeka-anlasmasi--207214).`,
+    },
+    tr: {
+      title: `SpaceX'ten 6,3 milyar dolarlık dev yapay zeka anlaşması`,
+      teaser: `vor 1 Tag ... Anlaşma kapsamında Reflection AI, Elon Musk'ın Colossus 2 veri merkezindeki Nvidia GB300 yapay zeka çiplerine erişim sağlayacak. Nvidia GB300 çipleri ...`,
+      body: `vor 1 Tag ... Anlaşma kapsamında Reflection AI, Elon Musk'ın Colossus 2 veri merkezindeki Nvidia GB300 yapay zeka çiplerine erişim sağlayacak. Nvidia GB300 çipleri ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [SpaceX'ten 6,3 milyar dolarlık dev yapay zeka anlaşması](https://www.donanimhaber.com/spacex-ten-6-3-milyar-dolarlik-dev-yapay-zeka-anlasmasi--207214).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-25-tr-3-yerli-giri-im-thread-in-motion`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-25`,
+    image: `images/2026-06-25-tr-3-yerli-giri-im-thread-in-motion.jpg`,
+    de: {
+      title: `[DE-Fallback] Yerli girişim Thread in Motion'dan fiziksel yapay zeka cihaz`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yerli girişim Thread in Motion'dan fiziksel yapay ](https://egirisim.com/2026/06/24/yerli-girisim-thread-in-motiondan-fiziksel-yapay-zeka-cihazi-axion/).`,
+    },
+    tr: {
+      title: `Yerli girişim Thread in Motion'dan fiziksel yapay zeka cihazı: AXION`,
+      teaser: `vor 21 Stunden ... Türkiye merkezli teknoloji şirketi Thread in Motion, ülkemizde geliştirilen ilk fiziksel AI (yapay zeka) cihazı olarak konumlandırdığı AXION'u tanıttı.`,
+      body: `vor 21 Stunden ... Türkiye merkezli teknoloji şirketi Thread in Motion, ülkemizde geliştirilen ilk fiziksel AI (yapay zeka) cihazı olarak konumlandırdığı AXION'u tanıttı.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yerli girişim Thread in Motion'dan fiziksel yapay zeka cihaz](https://egirisim.com/2026/06/24/yerli-girisim-thread-in-motiondan-fiziksel-yapay-zeka-cihazi-axion/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-25-tr-4-yapay-zeka-giri-imi-aether-ai-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-25`,
+    image: `images/2026-06-25-tr-4-yapay-zeka-giri-imi-aether-ai-.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka girişimi Aether AI, 20 milyon dolar yatırım aldı `,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka girişimi Aether AI, 20 milyon dolar yat](https://webrazzi.com/2026/06/22/yapay-zeka-girisimi-aether-ai-20-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka girişimi Aether AI, 20 milyon dolar yatırım aldı - Webrazzi`,
+      teaser: `vor 3 Tagen ... Şirketin 20 milyon dolarlık tohum yatırım turuna MPCi liderlik etti. ABD merkezli Aether AI'ın yatırım turunda Inno Angel Fund, SWC Global, Unity Ventures yer ...`,
+      body: `vor 3 Tagen ... Şirketin 20 milyon dolarlık tohum yatırım turuna MPCi liderlik etti. ABD merkezli Aether AI'ın yatırım turunda Inno Angel Fund, SWC Global, Unity Ventures yer ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka girişimi Aether AI, 20 milyon dolar yatırım aldı ](https://webrazzi.com/2026/06/22/yapay-zeka-girisimi-aether-ai-20-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-24-de-1-schummeln-mit-ki-was-gegen-ein`,
     cat: `agentic`,
     lang: `de`,
@@ -4252,6 +4465,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-25-de-tip-1-anthropic-das-politischste-unt`,
+    date: `2026-06-25`,
+    youtube: `ou5jh8xHGK8`,
+    lang: `de`,
+    de: {
+      title: `Anthropic - das politischste Unternehmen der Welt`,
+      desc: `vor 6 Tagen ... ... KI am Morgen“ ( ... Profis: Der Berlin Playbook-Newsletter bietet jeden Morgen die ...`,
+    },
+    tr: {
+      title: `[TR] Anthropic - das politischste Unternehmen der Welt`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-25-de-tip-2-das-aendert-alles-mit-manus-ba`,
+    date: `2026-06-25`,
+    youtube: `5ll531O_jg8`,
+    lang: `de`,
+    de: {
+      title: `DAS ÄNDERT ALLES: Mit Manus baust du Apps ohne zu programmieren`,
+      desc: `vor 3 Tagen ... ... KI-Newsletter Deutschlands: https://neulandpro ... https://neulandpro.com... ▻ Learn about AI for free with Germany's best AI newsletter: https://neulandpro.com..`,
+    },
+    tr: {
+      title: `[TR] DAS ÄNDERT ALLES: Mit Manus baust du Apps ohne zu programmie`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-25-tr-tip-1-yapay-zeka-yks-ye-girdi-266-ne`,
+    date: `2026-06-25`,
+    youtube: `OGXHy4IsAZs`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zeka YKS'ye Girdi, 266 Net Yaptı! | NTV`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zeka YKS'ye Girdi, 266 Net Yaptı! | NTV`,
+      desc: `vor 1 Tag ... Yapay zekanın Yükseköğretim Kurumları Sınavı'ndaki performansı, global ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan ...`,
+    },
+  },
+  {
+    id: `2026-06-25-tr-tip-2-3-duenya-sava-oence-beyin-i-ga`,
+    date: `2026-06-25`,
+    youtube: `RmloTxnWQeA`,
+    lang: `tr`,
+    de: {
+      title: `[DE] 3. Dünya Savaşı: Önce Beyin İşgali Mi? Yapay Zeka Beynimizi `,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `3. Dünya Savaşı: Önce Beyin İşgali Mi? Yapay Zeka Beynimizi Ele Geçirebilir Mi?`,
+      desc: `vor 1 Tag ... HABER | Son Dakika Haber ve Güncel Haberleri İlk Bilen Siz Olun... 3. Dünya Savaşı: Önce Beyin İşgali Mi? Yapay Zeka ... Go to channel Barış Özcan · Dünyanın en ...`,
+    },
+  },
+
 
   {
     id: `2026-06-24-de-tip-1-so-haben-wir-mit-manus-eine-ki`,
