@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-26-de-1-400-milliarden-parameter-model`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-26`,
+    image: `images/2026-06-26-de-1-400-milliarden-parameter-model.jpg`,
+    featured: true,
+    de: {
+      title: `400-Milliarden-Parameter-Modell: Konsortium „Europa“ gewinnt KI ...`,
+      teaser: `vor 7 Tagen ... Die im Februar dieses Jahres gestartete Initiative forderte die führenden KI-Innovatoren des Kontinents dazu auf, ein System mit mehr als 400 Milliarden ...`,
+      body: `vor 7 Tagen ... Die im Februar dieses Jahres gestartete Initiative forderte die führenden KI-Innovatoren des Kontinents dazu auf, ein System mit mehr als 400 Milliarden ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [400-Milliarden-Parameter-Modell: Konsortium „Europa“ gewinnt](https://www.heise.de/news/400-Milliarden-Parameter-Modell-Konsortium-Europa-gewinnt-KI-Wettbewerb-11339003.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] 400-Milliarden-Parameter-Modell: Konsortium „Europa“ gewinnt`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [400-Milliarden-Parameter-Modell: Konsortium „Europ](https://www.heise.de/news/400-Milliarden-Parameter-Modell-Konsortium-Europa-gewinnt-KI-Wettbewerb-11339003.html).`,
+    },
+  },
+  {
+    id: `2026-06-26-de-2-ki-teurer-als-der-mensch-bis-2`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-26`,
+    image: `images/2026-06-26-de-2-ki-teurer-als-der-mensch-bis-2.jpg`,
+    de: {
+      title: `KI teurer als der Mensch: Bis 2028 übersteigen Coding-Kosten das ...`,
+      teaser: `Die Kosten für KI-gestützte Softwareentwicklung werden bis zum Jahr 2028 höher sein als die Ausgaben für das durchschnittliche Gehalt eines Entwicklers. Wie das Marktforschungsunternehmen ...`,
+      body: `Die Kosten für KI-gestützte Softwareentwicklung werden bis zum Jahr 2028 höher sein als die Ausgaben für das durchschnittliche Gehalt eines Entwicklers. Wie das Marktforschungsunternehmen ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI teurer als der Mensch: Bis 2028 übersteigen Coding-Kosten](https://www.golem.de/news/ki-teurer-als-der-mensch-bis-2028-uebersteigen-coding-kosten-das-entwicklergehalt-2606-210168.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI teurer als der Mensch: Bis 2028 übersteigen Coding-Kosten`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI teurer als der Mensch: Bis 2028 übersteigen Cod](https://www.golem.de/news/ki-teurer-als-der-mensch-bis-2028-uebersteigen-coding-kosten-das-entwicklergehalt-2606-210168.html).`,
+    },
+  },
+  {
+    id: `2026-06-26-de-3-ki-boom-beschert-micron-starke`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-26`,
+    image: `images/2026-06-26-de-3-ki-boom-beschert-micron-starke.jpg`,
+    de: {
+      title: `KI-Boom beschert Micron starken Ausblick – Aktie legt zu - Handelsblatt`,
+      teaser: `vor 1 Tag · Micron Technology hat dank der hohen Nachfrage nach Speicherchips für Anwendungen der Künstlichen Intelligenz (KI) mit seinem Umsatzausblick die Erwartungen der ...`,
+      body: `vor 1 Tag · Micron Technology hat dank der hohen Nachfrage nach Speicherchips für Anwendungen der Künstlichen Intelligenz (KI) mit seinem Umsatzausblick die Erwartungen der ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Boom beschert Micron starken Ausblick – Aktie legt zu - H](https://www.handelsblatt.com/technik/it-internet/technologie-ki-boom-beschert-micron-starken-ausblickaktie-legt-zu/100235517.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Boom beschert Micron starken Ausblick – Aktie legt zu - H`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Boom beschert Micron starken Ausblick – Aktie l](https://www.handelsblatt.com/technik/it-internet/technologie-ki-boom-beschert-micron-starken-ausblickaktie-legt-zu/100235517.html).`,
+    },
+  },
+  {
+    id: `2026-06-26-de-4-auslegungssache-162-aufsichtsb`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-26`,
+    image: `images/2026-06-26-de-4-auslegungssache-162-aufsichtsb.jpg`,
+    de: {
+      title: `Auslegungssache 162: Aufsichtsbehörde unter Druck | heise online`,
+      teaser: `vor 3 Stunden ... Neben unzulässig lange gespeicherten Unterlagen beanstandete die Behörde unzureichende Datenschutzschulungen. Keber betont, dass Datenschutz nur wirksam sei, ...`,
+      body: `vor 3 Stunden ... Neben unzulässig lange gespeicherten Unterlagen beanstandete die Behörde unzureichende Datenschutzschulungen. Keber betont, dass Datenschutz nur wirksam sei, ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Auslegungssache 162: Aufsichtsbehörde unter Druck | heise on](https://www.heise.de/hintergrund/Auslegungssache-162-Aufsichtsbehoerde-unter-Druck-11344967.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Auslegungssache 162: Aufsichtsbehörde unter Druck | heise on`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Auslegungssache 162: Aufsichtsbehörde unter Druck ](https://www.heise.de/hintergrund/Auslegungssache-162-Aufsichtsbehoerde-unter-Druck-11344967.html).`,
+    },
+  },
+  {
+    id: `2026-06-26-tr-1-openai-ve-broadcom-dan-llm-ler`,
+    cat: `modelle`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-26`,
+    image: `images/2026-06-26-tr-1-openai-ve-broadcom-dan-llm-ler.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] OpenAI ve Broadcom'dan LLM'ler için geliştirilen ilk yapay z`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [OpenAI ve Broadcom'dan LLM'ler için geliştirilen i](https://webrazzi.com/2026/06/25/openai-ve-broadcom-dan-llm-ler-icin-gelistirilen-ilk-yapay-zeka-cipi-jalape-o/).`,
+    },
+    tr: {
+      title: `OpenAI ve Broadcom'dan LLM'ler için geliştirilen ilk yapay zeka çipi`,
+      teaser: `vor 24 Stunden ... OpenAI ve Broadcom, LLM çıkarımı için geliştirilen ilk özel yapay zeka çipi Jalapeño'yu tanıttı. İlk dağıtımın 2026 sonunda gerçekleşmesi bekleniyor.`,
+      body: `vor 24 Stunden ... OpenAI ve Broadcom, LLM çıkarımı için geliştirilen ilk özel yapay zeka çipi Jalapeño'yu tanıttı. İlk dağıtımın 2026 sonunda gerçekleşmesi bekleniyor.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [OpenAI ve Broadcom'dan LLM'ler için geliştirilen ilk yapay z](https://webrazzi.com/2026/06/25/openai-ve-broadcom-dan-llm-ler-icin-gelistirilen-ilk-yapay-zeka-cipi-jalape-o/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-26-tr-2-openai-ilk-yapay-zeka-i-lemcis`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-26`,
+    image: `images/2026-06-26-tr-2-openai-ilk-yapay-zeka-i-lemcis.jpg`,
+    de: {
+      title: `[DE-Fallback] OpenAI ilk yapay zeka işlemcisini tanıttı: Jalapeno | Donanı`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [OpenAI ilk yapay zeka işlemcisini tanıttı: Jalapen](https://www.donanimhaber.com/openai-ilk-yapay-zeka-islemcisini-tanitti-jalapeno--207267).`,
+    },
+    tr: {
+      title: `OpenAI ilk yapay zeka işlemcisini tanıttı: Jalapeno | DonanımHaber`,
+      teaser: `23 saat önce · Broadcom ile ortak geliştirilen "Jalapeño" adlı yeni çip, ChatGPT ve Codex gibi üretken yapay zeka hizmetlerinde kullanıcı isteklerini işlemek için tasarlandı.`,
+      body: `23 saat önce · Broadcom ile ortak geliştirilen "Jalapeño" adlı yeni çip, ChatGPT ve Codex gibi üretken yapay zeka hizmetlerinde kullanıcı isteklerini işlemek için tasarlandı.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [OpenAI ilk yapay zeka işlemcisini tanıttı: Jalapeno | Donanı](https://www.donanimhaber.com/openai-ilk-yapay-zeka-islemcisini-tanitti-jalapeno--207267).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-26-tr-3-trai-meet-up-106-da-savunma-sa`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-26`,
+    image: `images/2026-06-26-tr-3-trai-meet-up-106-da-savunma-sa.jpg`,
+    de: {
+      title: `[DE-Fallback] TRAI Meet-Up #106'da Savunma Sanayisinde Yapay Zeka ...`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [TRAI Meet-Up #106'da Savunma Sanayisinde Yapay Zek](https://turkiye.ai/savunma-sanayi-yapay-zeka-uygulamalari-trai-meet-up-106/).`,
+    },
+    tr: {
+      title: `TRAI Meet-Up #106'da Savunma Sanayisinde Yapay Zeka ...`,
+      teaser: `vor 17 Stunden ... Açık kaynaklı modellere olan bağımlılığın azaltılmasının önemine dikkat çekti. Bu doğrultuda yerli büyük veri ve model kütüphanelerini bir araya getirecek “ ...`,
+      body: `vor 17 Stunden ... Açık kaynaklı modellere olan bağımlılığın azaltılmasının önemine dikkat çekti. Bu doğrultuda yerli büyük veri ve model kütüphanelerini bir araya getirecek “ ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [TRAI Meet-Up #106'da Savunma Sanayisinde Yapay Zeka ...](https://turkiye.ai/savunma-sanayi-yapay-zeka-uygulamalari-trai-meet-up-106/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-26-tr-4-pre-seed-devam-yat-r-m-n-tamam`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-26`,
+    image: `images/2026-06-26-tr-4-pre-seed-devam-yat-r-m-n-tamam.jpg`,
+    de: {
+      title: `[DE-Fallback] Pre-seed devam yatırımını tamamlayan Cypien AI, 4,5 milyon d`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Pre-seed devam yatırımını tamamlayan Cypien AI, 4,](https://webrazzi.com/2026/06/25/pre-seed-devam-yatirimini-tamamlayan-cypien-ai-4-5-milyon-dolar-degerlemeye-ulasti/).`,
+    },
+    tr: {
+      title: `Pre-seed devam yatırımını tamamlayan Cypien AI, 4,5 milyon dolar ...`,
+      teaser: `vor 20 Stunden ... Yapay zekâ destekli dijital deneyim platformu Cypien AI, tohum öncesi (pre-seed) yatırım turunun devam ayağını tamamladığını açıkladı.`,
+      body: `vor 20 Stunden ... Yapay zekâ destekli dijital deneyim platformu Cypien AI, tohum öncesi (pre-seed) yatırım turunun devam ayağını tamamladığını açıkladı.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Pre-seed devam yatırımını tamamlayan Cypien AI, 4,5 milyon d](https://webrazzi.com/2026/06/25/pre-seed-devam-yatirimini-tamamlayan-cypien-ai-4-5-milyon-dolar-degerlemeye-ulasti/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-25-de-1-bsi-warnt-vor-auswirkungen-von`,
     cat: `sicherheit`,
     lang: `de`,
@@ -4465,6 +4678,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-26-de-tip-1-manus-tutorial-2026-was-kann-d`,
+    date: `2026-06-26`,
+    youtube: `FomYsx2XHK0`,
+    lang: `de`,
+    de: {
+      title: `Manus Tutorial 2026: Was kann dieser KI-Agent wirklich? Lerne alles in 30 Minuten!`,
+      desc: `vor 15 Stunden ... ... KI-Agent eigentlich, wie unterscheidet er sich von einem klassischen ... Go to channel Digitale Profis · AI agents in everyday life: Automate research ...`,
+    },
+    tr: {
+      title: `[TR] Manus Tutorial 2026: Was kann dieser KI-Agent wirklich? Lern`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-26-de-tip-2-ist-claude-besser-als-copilot-`,
+    date: `2026-06-26`,
+    youtube: `lo97WVIZLOQ`,
+    lang: `de`,
+    de: {
+      title: `🔥Ist Claude besser als Copilot? #claude #copilot #vergleich`,
+      desc: `vor 4 Tagen ... ... KI-Chats echte Produktivitätskiller sind – und wie ein zentrales „KI ... Go to channel Digitale Profis · ChatGPT limit reached? You're probably using ...`,
+    },
+    tr: {
+      title: `[TR] 🔥Ist Claude besser als Copilot? #claude #copilot #vergleich`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-26-tr-tip-1-yapay-zeka-i-imizi-elimizden-a`,
+    date: `2026-06-26`,
+    youtube: `unL4ariHmoU`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay zeka işimizi elimizden alacak mı?`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay zeka işimizi elimizden alacak mı?`,
+      desc: `vor 16 Stunden ... Yapay zekâ gerçekten işimizi elimizden alacak mı, yoksa çalışma hayatını tamamen farklı bir yere mi taşıyacak? Bu videoda yapay zekânın hangi görevleri ...`,
+    },
+  },
+  {
+    id: `2026-06-26-tr-tip-2-yapay-zeka-92-milyon-i-i-yok-e`,
+    date: `2026-06-26`,
+    youtube: `HsetKULk4nc`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zeka 92 Milyon İşi Yok Edecek (Ama Gerçek Farklı)`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zeka 92 Milyon İşi Yok Edecek (Ama Gerçek Farklı)`,
+      desc: `6 gün önce · Yapay zeka 92 milyon işi yok edecek deniyor. Ama gerçek bundan çok farklı. Bu videoda, yapay zekanın senin işini almayacağını, asıl tehdidin yapay zekayı ...`,
+    },
+  },
+
 
   {
     id: `2026-06-25-de-tip-1-anthropic-das-politischste-unt`,
