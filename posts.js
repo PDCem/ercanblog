@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-27-de-1-ki-update-deep-dive-synthetisc`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-27`,
+    image: `images/2026-06-27-de-1-ki-update-deep-dive-synthetisc.jpg`,
+    featured: true,
+    de: {
+      title: `KI-Update Deep-Dive: Synthetische Bilder gegen den Bias | heise online`,
+      teaser: `Künstliche Intelligenz (KI) in der Medizin verspricht, Diagnosen zu unterstützen und Behandlungen zu verbessern. Doch die Modelle sind nur so gut wie die Daten, mit denen sie trainiert werden.`,
+      body: `Künstliche Intelligenz (KI) in der Medizin verspricht, Diagnosen zu unterstützen und Behandlungen zu verbessern. Doch die Modelle sind nur so gut wie die Daten, mit denen sie trainiert werden.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Update Deep-Dive: Synthetische Bilder gegen den Bias | he](https://www.heise.de/news/KI-Update-Deep-Dive-Synthetische-Bilder-gegen-den-Bias-11341480.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Update Deep-Dive: Synthetische Bilder gegen den Bias | he`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Update Deep-Dive: Synthetische Bilder gegen den](https://www.heise.de/news/KI-Update-Deep-Dive-Synthetische-Bilder-gegen-den-Bias-11341480.html).`,
+    },
+  },
+  {
+    id: `2026-06-27-de-2-modelle-unserer-welt-wie-ki-di`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-27`,
+    image: `images/2026-06-27-de-2-modelle-unserer-welt-wie-ki-di.jpg`,
+    de: {
+      title: `Modelle unserer Welt: Wie KI die simulierten Abbilder vorantreibt - t3n`,
+      teaser: `vor 18 Stunden ... Inzwischen beruhen Modelle zunehmend auf hochkomplexen Computermodellen und Künstlicher Intelligenz, für die Hochleistungsrechner mit gigantischen Datenmengen ...`,
+      body: `vor 18 Stunden ... Inzwischen beruhen Modelle zunehmend auf hochkomplexen Computermodellen und Künstlicher Intelligenz, für die Hochleistungsrechner mit gigantischen Datenmengen ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Modelle unserer Welt: Wie KI die simulierten Abbilder vorant](https://t3n.de/news/modelle-unserer-welt-wie-ki-die-simulierten-abbilder-vorantreibt-1749759/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Modelle unserer Welt: Wie KI die simulierten Abbilder vorant`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Modelle unserer Welt: Wie KI die simulierten Abbil](https://t3n.de/news/modelle-unserer-welt-wie-ki-die-simulierten-abbilder-vorantreibt-1749759/).`,
+    },
+  },
+  {
+    id: `2026-06-27-de-3-geldanlage-ki-aktien-die-stimm`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-27`,
+    image: `images/2026-06-27-de-3-geldanlage-ki-aktien-die-stimm.jpg`,
+    de: {
+      title: `Geldanlage – KI-Aktien: „Die Stimmung ist gerade dabei, sich zu ...`,
+      teaser: `vor 16 Stunden ... In Japan fielen am Freitag die Aktien des Technologieinvestors Softbank , der stark auf das KI-Unternehmen setzt, um mehr als zwölf Prozent. Analyst Jochen ...`,
+      body: `vor 16 Stunden ... In Japan fielen am Freitag die Aktien des Technologieinvestors Softbank , der stark auf das KI-Unternehmen setzt, um mehr als zwölf Prozent. Analyst Jochen ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Geldanlage – KI-Aktien: „Die Stimmung ist gerade dabei, sich](https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-ki-aktien-die-stimmung-ist-gerade-dabei-sich-zu-drehen/100236091.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Geldanlage – KI-Aktien: „Die Stimmung ist gerade dabei, sich`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Geldanlage – KI-Aktien: „Die Stimmung ist gerade d](https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-ki-aktien-die-stimmung-ist-gerade-dabei-sich-zu-drehen/100236091.html).`,
+    },
+  },
+  {
+    id: `2026-06-27-de-4-ki-ueberwachung-in-der-strasse`,
+    cat: `sicherheit`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-27`,
+    image: `images/2026-06-27-de-4-ki-ueberwachung-in-der-strasse.jpg`,
+    de: {
+      title: `KI-Überwachung in der Straßenbahn: Mehr Sicherheit im Fahrgastraum?`,
+      teaser: `vor 16 Stunden ... Ein KI-System „beobachtet“ den Fahrgastraum und erkennt aggressives Verhalten, um im Notfall schnell Alarm zu schlagen. Doch wie kann eine KI unterscheiden, ob ...`,
+      body: `vor 16 Stunden ... Ein KI-System „beobachtet“ den Fahrgastraum und erkennt aggressives Verhalten, um im Notfall schnell Alarm zu schlagen. Doch wie kann eine KI unterscheiden, ob ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Überwachung in der Straßenbahn: Mehr Sicherheit im Fahrga](https://www.heise.de/hintergrund/KI-Ueberwachung-in-der-Strassenbahn-Mehr-Sicherheit-im-Fahrgastraum-11344140.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Überwachung in der Straßenbahn: Mehr Sicherheit im Fahrga`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Überwachung in der Straßenbahn: Mehr Sicherheit](https://www.heise.de/hintergrund/KI-Ueberwachung-in-der-Strassenbahn-Mehr-Sicherheit-im-Fahrgastraum-11344140.html).`,
+    },
+  },
+  {
+    id: `2026-06-27-tr-1-yapay-zeka-giri-imi-patronus-a`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-27`,
+    image: `images/2026-06-27-tr-1-yapay-zeka-giri-imi-patronus-a.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Yapay zeka girişimi Patronus AI, 50 milyon dolar yatırım ald`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka girişimi Patronus AI, 50 milyon dolar y](https://webrazzi.com/2026/06/26/yapay-zeka-girisimi-patronus-ai-50-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka girişimi Patronus AI, 50 milyon dolar yatırım aldı - Webrazzi`,
+      teaser: `vor 20 Stunden ... Patronus AI, yeni gelen yatırımı, yapay zeka ajanlarını test ettiği dijital ortamları büyütmek ve daha fazla alana yaymak için kullanacağını açıkladı. Meta AI' ...`,
+      body: `vor 20 Stunden ... Patronus AI, yeni gelen yatırımı, yapay zeka ajanlarını test ettiği dijital ortamları büyütmek ve daha fazla alana yaymak için kullanacağını açıkladı. Meta AI' ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka girişimi Patronus AI, 50 milyon dolar yatırım ald](https://webrazzi.com/2026/06/26/yapay-zeka-girisimi-patronus-ai-50-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-27-tr-2-yapay-zeka-ford-u-pi-man-etti-`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-27`,
+    image: `images/2026-06-27-tr-2-yapay-zeka-ford-u-pi-man-etti-.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka Ford'u pişman etti: Çalışanlar işe geri alındı`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka Ford'u pişman etti: Çalışanlar işe geri](https://www.donanimhaber.com/yapay-zeka-ford-u-pisman-etti-calisanlar-ise-geri-alindi--207350).`,
+    },
+    tr: {
+      title: `Yapay zeka Ford'u pişman etti: Çalışanlar işe geri alındı`,
+      teaser: `vor 14 Stunden ... Ford, yapay zekayla değiştirdiği deneyimli mühendisleri geri işe aldı. Şirket, kalite sorunlarının azalması ve JD Power sıralamasındaki yükselişte bu ...`,
+      body: `vor 14 Stunden ... Ford, yapay zekayla değiştirdiği deneyimli mühendisleri geri işe aldı. Şirket, kalite sorunlarının azalması ve JD Power sıralamasındaki yükselişte bu ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka Ford'u pişman etti: Çalışanlar işe geri alındı](https://www.donanimhaber.com/yapay-zeka-ford-u-pisman-etti-calisanlar-ise-geri-alindi--207350).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-27-tr-3-ideasets-10-milyon-dolar-de-er`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-27`,
+    image: `images/2026-06-27-tr-3-ideasets-10-milyon-dolar-de-er.jpg`,
+    de: {
+      title: `[DE-Fallback] Ideasets, 10 milyon dolar değerleme üzerinden 1.25 milyon do`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Ideasets, 10 milyon dolar değerleme üzerinden 1.25](https://egirisim.com/2026/06/23/ideasets-10-milyon-dolar-degerleme-uzerinden-1-25-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Ideasets, 10 milyon dolar değerleme üzerinden 1.25 milyon dolar yatırım ...`,
+      teaser: `4 gün önce · Aralık 2025'te Berk Üder, Saltukhan Gülşen ve Arif Çelen tarafından kurulan Ideasets, yapay zekâ, veri bilimi ve öngörü sistemlerini tek bir üretim modelinde.`,
+      body: `4 gün önce · Aralık 2025'te Berk Üder, Saltukhan Gülşen ve Arif Çelen tarafından kurulan Ideasets, yapay zekâ, veri bilimi ve öngörü sistemlerini tek bir üretim modelinde.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Ideasets, 10 milyon dolar değerleme üzerinden 1.25 milyon do](https://egirisim.com/2026/06/23/ideasets-10-milyon-dolar-degerleme-uzerinden-1-25-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-27-tr-4-oyun-verileriyle-e-itilen-yapa`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-27`,
+    image: `images/2026-06-27-tr-4-oyun-verileriyle-e-itilen-yapa.jpg`,
+    de: {
+      title: `[DE-Fallback] Oyun verileriyle eğitilen yapay zeka ajanlarına odaklanan Ge`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Oyun verileriyle eğitilen yapay zeka ajanlarına od](https://webrazzi.com/2026/06/26/general-intuition-320-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Oyun verileriyle eğitilen yapay zeka ajanlarına odaklanan General ...`,
+      teaser: `vor 19 Stunden ... Khosla Ventures liderliğinde gerçekleşen yatırım turuna katılanlar arasında General Catalyst, Hedosophia, Jeff Bezos, Eric Schmidt, Nico Rosberg ve Google ...`,
+      body: `vor 19 Stunden ... Khosla Ventures liderliğinde gerçekleşen yatırım turuna katılanlar arasında General Catalyst, Hedosophia, Jeff Bezos, Eric Schmidt, Nico Rosberg ve Google ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Oyun verileriyle eğitilen yapay zeka ajanlarına odaklanan Ge](https://webrazzi.com/2026/06/26/general-intuition-320-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-26-de-1-400-milliarden-parameter-model`,
     cat: `modelle`,
     lang: `de`,
@@ -4678,6 +4891,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-27-de-tip-1-vision-ai-aus-deutschland-wett`,
+    date: `2026-06-27`,
+    youtube: `4VFn3AgHYYE`,
+    lang: `de`,
+    de: {
+      title: `Vision AI aus Deutschland: Wettbewerbsvorteil für die Industrie | Prof. Dumitrescu Tech Talk #51`,
+      desc: `vor 4 Tagen ... ... KI-Anwendungen sowie die Zukunft von Robotik und autonomen Systemen. Das ... Mietkauf für Profis: Mehr als nur Ratenkauf | Der Experten-Talk mit Patrick van ...`,
+    },
+    tr: {
+      title: `[TR] Vision AI aus Deutschland: Wettbewerbsvorteil für die Indust`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-27-de-tip-2-ab-einem-punkt-empfindet-ki-ec`,
+    date: `2026-06-27`,
+    youtube: `HQNCeCr6yy0`,
+    lang: `de`,
+    de: {
+      title: `„Ab einem Punkt empfindet KI echten Schmerz!" Warum ChatGPT NOCH nicht bewusst ist (Marcus Hutter)`,
+      desc: `vor 4 Tagen ... Komplette Folge bei Everlast AI: https://youtu.be/937qlGDh0-M?si=Y6WbdWgAHbUiD4Kz Weitere spannende Clips rund um die Themen KI & Zukunft gibts hier: ...`,
+    },
+    tr: {
+      title: `[TR] „Ab einem Punkt empfindet KI echten Schmerz!" Warum ChatGPT `,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-27-tr-tip-1-beyaz-saray-gpt-5-6-y-durdurdu`,
+    date: `2026-06-27`,
+    youtube: `lkvGHFANr7A`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Beyaz Saray GPT-5.6'yı Durdurdu! OpenAI ve Beyaz Saray Arası`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Beyaz Saray GPT-5.6'yı Durdurdu! OpenAI ve Beyaz Saray Arasındaki GPT-5.6 Anlaşmasının Sırrı`,
+      desc: `vor 15 Stunden ... Yapay zeka modellerinin halka erişiminin devletler tarafından kısıtlandığı ve ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış ...`,
+    },
+  },
+  {
+    id: `2026-06-27-tr-tip-2-prof-dr-m-i-r-adi-aksun-ile-ya`,
+    date: `2026-06-27`,
+    youtube: `bksdWCdBf9w`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Prof. Dr. M. İrşadi Aksun ile Yapay Zekâ'nın Toplumsal Etkil`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Prof. Dr. M. İrşadi Aksun ile Yapay Zekâ'nın Toplumsal Etkileri`,
+      desc: `vor 5 Tagen ... more. Subscribe. Comments. Comment... 27:28. Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış Özcan•743K views · 1:48:25. Go to channel ...`,
+    },
+  },
+
 
   {
     id: `2026-06-26-de-tip-1-manus-tutorial-2026-was-kann-d`,
