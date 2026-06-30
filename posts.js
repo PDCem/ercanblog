@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-06-30-de-1-interview-zur-deutschland-app-`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-30`,
+    image: `images/2026-06-30-de-1-interview-zur-deutschland-app-.jpg`,
+    featured: true,
+    de: {
+      title: `Interview zur Deutschland-App: Wie KI komplizierte Anträge entwirren soll | heise online`,
+      teaser: `Markus Richter: Ziel ist, dass die App mithilfe von künstlicher Intelligenz, einer Crawler-Technik und einem Assistenzsystem den Zugang zur Verwaltung erleichtert. Die App greift auf die bestehenden D`,
+      body: `Markus Richter: Ziel ist, dass die App mithilfe von künstlicher Intelligenz, einer Crawler-Technik und einem Assistenzsystem den Zugang zur Verwaltung erleichtert. Die App greift auf die bestehenden Dienste der Behörden zu. Die Bürger interagieren also nur mit der App und können leichter Verwaltungsleistungen beantragen. Wir sind gerade dabei, einen Prototyp zu erstellen. Das war die Leseprobe unseres heise-Plus-Artikels "Interview zur Deutschland-App: Wie KI ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Interview zur Deutschland-App: Wie KI komplizierte Anträge e](https://www.heise.de/hintergrund/Interview-zur-Deutschland-App-Wie-KI-komplizierte-Antraege-entwirren-soll-11306572.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Interview zur Deutschland-App: Wie KI komplizierte Anträge e`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Interview zur Deutschland-App: Wie KI komplizierte](https://www.heise.de/hintergrund/Interview-zur-Deutschland-App-Wie-KI-komplizierte-Antraege-entwirren-soll-11306572.html).`,
+    },
+  },
+  {
+    id: `2026-06-30-de-2-openai-oder-anthropic-sind-ope`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-30`,
+    image: `images/2026-06-30-de-2-openai-oder-anthropic-sind-ope.jpg`,
+    de: {
+      title: `OpenAI oder Anthropic: Sind Open-Source-Modelle eine gute ... - t3n`,
+      teaser: `vor 4 Tagen ... Die Fähigkeiten von KI-Modellen werden mit sogenannten Benchmarks gemessen. Dabei müssen die KI-Modelle in der Regel Fragen beantworten oder kleine Aufgaben ...`,
+      body: `vor 4 Tagen ... Die Fähigkeiten von KI-Modellen werden mit sogenannten Benchmarks gemessen. Dabei müssen die KI-Modelle in der Regel Fragen beantworten oder kleine Aufgaben ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [OpenAI oder Anthropic: Sind Open-Source-Modelle eine gute ..](https://t3n.de/news/openai-oder-anthropic-sind-open-source-modelle-eine-gute-alternative-1749657/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] OpenAI oder Anthropic: Sind Open-Source-Modelle eine gute ..`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [OpenAI oder Anthropic: Sind Open-Source-Modelle ei](https://t3n.de/news/openai-oder-anthropic-sind-open-source-modelle-eine-gute-alternative-1749657/).`,
+    },
+  },
+  {
+    id: `2026-06-30-de-3-usa-anthropic-darf-ki-modell-w`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-30`,
+    image: `images/2026-06-30-de-3-usa-anthropic-darf-ki-modell-w.jpg`,
+    de: {
+      title: `USA: Anthropic darf KI-Modell wohl an einzelne Firmen weitergeben`,
+      teaser: `vor 3 Tagen ... Mexiko-Stadt/Washington. Die US-Regierung hat dem Software-Entwickler Anthropic nach einer zweiwöchigen Sperre die Weitergabe seines leistungsstarken ...`,
+      body: `vor 3 Tagen ... Mexiko-Stadt/Washington. Die US-Regierung hat dem Software-Entwickler Anthropic nach einer zweiwöchigen Sperre die Weitergabe seines leistungsstarken ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [USA: Anthropic darf KI-Modell wohl an einzelne Firmen weiter](https://www.handelsblatt.com/technik/ki/usa-anthropic-darf-ki-modell-wohl-an-einzelne-firmen-weitergeben/100236245.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] USA: Anthropic darf KI-Modell wohl an einzelne Firmen weiter`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [USA: Anthropic darf KI-Modell wohl an einzelne Fir](https://www.handelsblatt.com/technik/ki/usa-anthropic-darf-ki-modell-wohl-an-einzelne-firmen-weitergeben/100236245.html).`,
+    },
+  },
+  {
+    id: `2026-06-30-de-4-ki-moderation-finanzmarkt-date`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-30`,
+    image: `images/2026-06-30-de-4-ki-moderation-finanzmarkt-date.jpg`,
+    de: {
+      title: `KI-Moderation, Finanzmarkt, Datenschutz, GPT-Images | heise online`,
+      teaser: `vor 18 Stunden ... Bei manchen Inhaltstypen sollen künftig neun von zehn Entscheidungen allein von der KI stammen. Offiziell nennt Meta die Qualität als Grund: Interne Tests ...`,
+      body: `vor 18 Stunden ... Bei manchen Inhaltstypen sollen künftig neun von zehn Entscheidungen allein von der KI stammen. Offiziell nennt Meta die Qualität als Grund: Interne Tests ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-Moderation, Finanzmarkt, Datenschutz, GPT-Images | heise ](https://www.heise.de/news/KI-Update-kompakt-KI-Moderation-Finanzmarkt-Datenschutz-GPT-Images-11347597.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-Moderation, Finanzmarkt, Datenschutz, GPT-Images | heise `,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-Moderation, Finanzmarkt, Datenschutz, GPT-Image](https://www.heise.de/news/KI-Update-kompakt-KI-Moderation-Finanzmarkt-Datenschutz-GPT-Images-11347597.html).`,
+    },
+  },
+  {
+    id: `2026-06-30-tr-1-ford-yapay-zeka-kalite-suere-l`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-30`,
+    image: `images/2026-06-30-tr-1-ford-yapay-zeka-kalite-suere-l.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Ford, yapay zeka kalite süreçlerinde yetersiz kalınca 350 de`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Ford, yapay zeka kalite süreçlerinde yetersiz kalı](https://webrazzi.com/2026/06/29/ford-yapay-zeka-kalite-sureclerinde-yetersiz-kalinca-350-deneyimli-muhendisi-yeniden-ise-aldi/).`,
+    },
+    tr: {
+      title: `Ford, yapay zeka kalite süreçlerinde yetersiz kalınca 350 deneyimli ...`,
+      teaser: `vor 21 Stunden ... Aksine şirket, 40 kişilik özel bir yazılım kalite güvence ekibi kurdu ve uç durumları yakalamak için 100 binden fazla yapay zeka destekli otomatik test ekledi.`,
+      body: `vor 21 Stunden ... Aksine şirket, 40 kişilik özel bir yazılım kalite güvence ekibi kurdu ve uç durumları yakalamak için 100 binden fazla yapay zeka destekli otomatik test ekledi.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Ford, yapay zeka kalite süreçlerinde yetersiz kalınca 350 de](https://webrazzi.com/2026/06/29/ford-yapay-zeka-kalite-sureclerinde-yetersiz-kalinca-350-deneyimli-muhendisi-yeniden-ise-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-30-tr-2-teknoloji-devlerinin-yapay-zek`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-30`,
+    image: `images/2026-06-30-tr-2-teknoloji-devlerinin-yapay-zek.jpg`,
+    de: {
+      title: `[DE-Fallback] Teknoloji devlerinin yapay zeka aşkı her şeyi daha pahalı ha`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Teknoloji devlerinin yapay zeka aşkı her şeyi daha](https://www.donanimhaber.com/teknoloji-devlerinin-yapay-zeka-aski-her-seyi-daha-pahali-yapti--207442).`,
+    },
+    tr: {
+      title: `Teknoloji devlerinin yapay zeka aşkı her şeyi daha pahalı hale getirdi`,
+      teaser: `17 saat önce · Van Nieuwerburgh, 2032 yılına kadar yapay zeka altyapısına yaklaşık 8 trilyon dolar yatırım yapılabileceğini öngörüyor. Teknoloji devlerinin harcamaları rekor ...`,
+      body: `17 saat önce · Van Nieuwerburgh, 2032 yılına kadar yapay zeka altyapısına yaklaşık 8 trilyon dolar yatırım yapılabileceğini öngörüyor. Teknoloji devlerinin harcamaları rekor ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Teknoloji devlerinin yapay zeka aşkı her şeyi daha pahalı ha](https://www.donanimhaber.com/teknoloji-devlerinin-yapay-zeka-aski-her-seyi-daha-pahali-yapti--207442).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-30-tr-3-causa-prima-borusan-ventures-n`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-30`,
+    image: `images/2026-06-30-tr-3-causa-prima-borusan-ventures-n.jpg`,
+    de: {
+      title: `[DE-Fallback] Causa Prima, Borusan Ventures'ın katıldığı turda 10 milyon .`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Causa Prima, Borusan Ventures'ın katıldığı turda 1](https://egirisim.com/2026/06/23/causa-prima-borusan-venturesin-katildigi-turda-10-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Causa Prima, Borusan Ventures'ın katıldığı turda 10 milyon ... - egirişim`,
+      teaser: `vor 7 Tagen ... Borusan Grubu'nun kurumsal girişim sermayesi şirketi Borusan Ventures, B2B finansman süreçlerini yapay zekâ ajanlarıyla dönüştüren Causa Prima'ya yatırım.`,
+      body: `vor 7 Tagen ... Borusan Grubu'nun kurumsal girişim sermayesi şirketi Borusan Ventures, B2B finansman süreçlerini yapay zekâ ajanlarıyla dönüştüren Causa Prima'ya yatırım.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Causa Prima, Borusan Ventures'ın katıldığı turda 10 milyon .](https://egirisim.com/2026/06/23/causa-prima-borusan-venturesin-katildigi-turda-10-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-06-30-tr-4-gueney-kore-ip-ve-yapay-zeka-a`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-06-30`,
+    image: `images/2026-06-30-tr-4-gueney-kore-ip-ve-yapay-zeka-a.jpg`,
+    de: {
+      title: `[DE-Fallback] Güney Kore, çip ve yapay zeka alanında 1 trilyon dolarlık ya`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Güney Kore, çip ve yapay zeka alanında 1 trilyon d](https://webrazzi.com/2026/06/29/guney-kore-cip-ve-yapay-zeka-alaninda-1-trilyon-dolarlik-yatirim-planini-acikladi/).`,
+    },
+    tr: {
+      title: `Güney Kore, çip ve yapay zeka alanında 1 trilyon dolarlık yatırım ...`,
+      teaser: `vor 16 Stunden ... Yapay zeka yarışında artık sadece algoritmalar değil, onları besleyen çipler ve dev veri merkezleri de belirleyici hale geliyor. Ülkeler, bu yeni teknoloji ...`,
+      body: `vor 16 Stunden ... Yapay zeka yarışında artık sadece algoritmalar değil, onları besleyen çipler ve dev veri merkezleri de belirleyici hale geliyor. Ülkeler, bu yeni teknoloji ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Güney Kore, çip ve yapay zeka alanında 1 trilyon dolarlık ya](https://webrazzi.com/2026/06/29/guney-kore-cip-ve-yapay-zeka-alaninda-1-trilyon-dolarlik-yatirim-planini-acikladi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-27-de-1-ki-update-deep-dive-synthetisc`,
     cat: `agentic`,
     lang: `de`,
@@ -4891,6 +5104,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-06-30-de-tip-1-ki-agenten-im-unternehmen-trot`,
+    date: `2026-06-30`,
+    youtube: `PhadMcP_6lA`,
+    lang: `de`,
+    de: {
+      title: `KI-Agenten im Unternehmen trotz Datenschutz? So setzt du Manus beruflich sicher und produktiv ein`,
+      desc: `vor 2 Tagen ... ChatGPT war gestern: Codex ist die beste KI-App von OpenAI (nicht nur fürs Programmieren). Digitale Profis•22K views · 29:34 · Go to channel Digitale Profis ...`,
+    },
+    tr: {
+      title: `[TR] KI-Agenten im Unternehmen trotz Datenschutz? So setzt du Man`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-30-de-tip-2-8-generative-ki-in-deutschland`,
+    date: `2026-06-30`,
+    youtube: `0_fQByxzH0E`,
+    lang: `de`,
+    de: {
+      title: `#8 – Generative KI in Deutschland`,
+      desc: `vor 20 Stunden ... ... Profis von generativer KI (https://www.it-business.de/genai-in-cybersicherheit-umfrage-ergebnisse-a-312e5597f336af16cbb3239da9fc357c/) • Wie Deutschland KI ...`,
+    },
+    tr: {
+      title: `[TR] #8 – Generative KI in Deutschland`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-06-30-tr-tip-1-ai-2041-yapay-zeka`,
+    date: `2026-06-30`,
+    youtube: `_RnK2BF7hy4`,
+    lang: `tr`,
+    de: {
+      title: `[DE] AI 2041: Yapay Zeka`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `AI 2041: Yapay Zeka`,
+      desc: `vor 10 Stunden ... AI 2041: Geleceğimiz İçin On Vizyon Bu kaynaklar, Kai-Fu Lee ve Chen Qiufan tarafından kaleme alınan **AI 2041: Geleceğimiz İçin On Vizyon** adlı eserin ...`,
+    },
+  },
+  {
+    id: `2026-06-30-tr-tip-2-yapay-zeka-bir-devrim-mi-yoksa`,
+    date: `2026-06-30`,
+    youtube: `7M8vHWxGHf4`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zeka Bir Devrim Mi, Yoksa Yeni Bir İmparatorluk Mu? Ka`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zeka Bir Devrim Mi, Yoksa Yeni Bir İmparatorluk Mu? Karen Hao’nun Şok İddiaları!`,
+      desc: `vor 13 Stunden ... Teknoloji gazetecisi Karen Hao'nun yapay zeka sektörünün karanlık yüzünü ve ... Go to channel Barış Özcan · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? Barış ...`,
+    },
+  },
+
 
   {
     id: `2026-06-27-de-tip-1-vision-ai-aus-deutschland-wett`,
