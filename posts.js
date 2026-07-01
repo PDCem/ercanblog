@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-07-01-de-1-dlr-projekt-loki-ki-soll-flugl`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-01`,
+    image: `images/2026-07-01-de-1-dlr-projekt-loki-ki-soll-flugl.jpg`,
+    featured: true,
+    de: {
+      title: `DLR-Projekt Loki: KI soll Fluglotsen und Piloten bei der Arbeit unterstützen | heise online`,
+      teaser: `Die Lage wird sich in den kommenden Jahren noch verschärfen, wenn viele der vorhandenen aus dem Berufsleben ausscheiden. Mit Ausbildung – so viel ist klar – wird sich der Bedarf nicht decken lassen. K`,
+      body: `Die Lage wird sich in den kommenden Jahren noch verschärfen, wenn viele der vorhandenen aus dem Berufsleben ausscheiden. Mit Ausbildung – so viel ist klar – wird sich der Bedarf nicht decken lassen. Künstliche Intelligenz (KI) soll künftig bei der Flugsicherung helfen.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [DLR-Projekt Loki: KI soll Fluglotsen und Piloten bei der Arb](https://www.heise.de/news/Loki-DLR-entwickelt-KI-Assistenten-fuer-Fluglotsen-und-Piloten-11349451.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] DLR-Projekt Loki: KI soll Fluglotsen und Piloten bei der Arb`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [DLR-Projekt Loki: KI soll Fluglotsen und Piloten b](https://www.heise.de/news/Loki-DLR-entwickelt-KI-Assistenten-fuer-Fluglotsen-und-Piloten-11349451.html).`,
+    },
+  },
+  {
+    id: `2026-07-01-de-2-chinesisches-ki-modell-erreich`,
+    cat: `modelle`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-01`,
+    image: `images/2026-07-01-de-2-chinesisches-ki-modell-erreich.jpg`,
+    de: {
+      title: `Chinesisches KI-Modell erreicht Mythos-Niveau – und ist frei verfügbar`,
+      teaser: `vor 19 Stunden ... Mit GLM-5.2 sorgt erneut ein offenes KI-Modell aus China für Aufsehen. Laut einem Test soll das Open-Weight-Modell fast so gut Sicherheitslücken aufspüren, wie ...`,
+      body: `vor 19 Stunden ... Mit GLM-5.2 sorgt erneut ein offenes KI-Modell aus China für Aufsehen. Laut einem Test soll das Open-Weight-Modell fast so gut Sicherheitslücken aufspüren, wie ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Chinesisches KI-Modell erreicht Mythos-Niveau – und ist frei](https://t3n.de/news/cybersecurity-wendepunkt-chinesisches-ki-modell-erreicht-mythos-niveau-und-ist-frei-verfuegbar-1750258/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Chinesisches KI-Modell erreicht Mythos-Niveau – und ist frei`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Chinesisches KI-Modell erreicht Mythos-Niveau – un](https://t3n.de/news/cybersecurity-wendepunkt-chinesisches-ki-modell-erreicht-mythos-niveau-und-ist-frei-verfuegbar-1750258/).`,
+    },
+  },
+  {
+    id: `2026-07-01-de-3-ki-gestuetzte-wissensdatenbank`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-01`,
+    image: `images/2026-07-01-de-3-ki-gestuetzte-wissensdatenbank.jpg`,
+    de: {
+      title: `KI-gestützte Wissensdatenbank für den Mittelstand - Handelsblatt`,
+      teaser: `vor 2 Tagen ... Viele Unternehmen, die heute KI-Lösungen anbieten, kamen erst mit dem Aufkommen von Large Language Models in den Markt. SYSTECS dagegen entwickelt seit 1994 ...`,
+      body: `vor 2 Tagen ... Viele Unternehmen, die heute KI-Lösungen anbieten, kamen erst mit dem Aufkommen von Large Language Models in den Markt. SYSTECS dagegen entwickelt seit 1994 ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI-gestützte Wissensdatenbank für den Mittelstand - Handelsb](https://www.handelsblatt.com/adv/firmen/ki-gestuetzte-wissensdatenbank.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI-gestützte Wissensdatenbank für den Mittelstand - Handelsb`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI-gestützte Wissensdatenbank für den Mittelstand ](https://www.handelsblatt.com/adv/firmen/ki-gestuetzte-wissensdatenbank.html).`,
+    },
+  },
+  {
+    id: `2026-07-01-de-4-datenleck-stoppt-ki-training-m`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-01`,
+    image: `images/2026-07-01-de-4-datenleck-stoppt-ki-training-m.jpg`,
+    de: {
+      title: `Datenleck stoppt KI-Training: Meta setzt Überwachung seiner ...`,
+      teaser: `vor 7 Tagen ... In einem internen Sicherheitshinweis wurde darauf hingewiesen, dass Datentabellen offen lägen, die unter anderem vollständige Prompts, Transkriptionen, private ...`,
+      body: `vor 7 Tagen ... In einem internen Sicherheitshinweis wurde darauf hingewiesen, dass Datentabellen offen lägen, die unter anderem vollständige Prompts, Transkriptionen, private ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Datenleck stoppt KI-Training: Meta setzt Überwachung seiner ](https://www.golem.de/news/datenleck-stoppt-ki-training-meta-setzt-ueberwachung-seiner-angestellten-aus-2606-210141.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Datenleck stoppt KI-Training: Meta setzt Überwachung seiner `,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Datenleck stoppt KI-Training: Meta setzt Überwachu](https://www.golem.de/news/datenleck-stoppt-ki-training-meta-setzt-ueberwachung-seiner-angestellten-aus-2606-210141.html).`,
+    },
+  },
+  {
+    id: `2026-07-01-tr-1-yapay-zeka-destekli-siber-guev`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-01`,
+    image: `images/2026-07-01-tr-1-yapay-zeka-destekli-siber-guev.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli siber güvenlik şirketi Straiker, 64 mily`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli siber güvenlik şirketi Straike](https://webrazzi.com/2026/06/30/yapay-zeka-destekli-siber-guvenlik-sirketi-straiker-64-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli siber güvenlik şirketi Straiker, 64 milyon dolar ...`,
+      teaser: `vor 18 Stunden ... Straiker, Ankur Shah ve Sreenath Kurupati tarafından 2025 yılında hayata geçirildi. Platform, şirketlerin içinde çalışan yapay zeka ajanlarını güvenlik ...`,
+      body: `vor 18 Stunden ... Straiker, Ankur Shah ve Sreenath Kurupati tarafından 2025 yılında hayata geçirildi. Platform, şirketlerin içinde çalışan yapay zeka ajanlarını güvenlik ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli siber güvenlik şirketi Straiker, 64 mily](https://webrazzi.com/2026/06/30/yapay-zeka-destekli-siber-guvenlik-sirketi-straiker-64-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-07-01-tr-2-ai-guenluekleri-yapay-zek-duen`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-01`,
+    image: `images/2026-07-01-tr-2-ai-guenluekleri-yapay-zek-duen.jpg`,
+    de: {
+      title: `[DE-Fallback] AI Günlükleri: Yapay zekâ dünyasında bu hafta (29 Haziran 20`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [AI Günlükleri: Yapay zekâ dünyasında bu hafta (29 ](https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-29-haziran-2026--207452).`,
+    },
+    tr: {
+      title: `AI Günlükleri: Yapay zekâ dünyasında bu hafta (29 Haziran 2026)`,
+      teaser: `vor 2 Tagen ... OpenAI, bu modellerin Anthropic'in çok konuşulan Mythos'unu bile performans testlerinde geçtiğini açıkladı. Nitekim Beyaz Saray'ın bu model ailesine yaklaşımı ...`,
+      body: `vor 2 Tagen ... OpenAI, bu modellerin Anthropic'in çok konuşulan Mythos'unu bile performans testlerinde geçtiğini açıkladı. Nitekim Beyaz Saray'ın bu model ailesine yaklaşımı ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [AI Günlükleri: Yapay zekâ dünyasında bu hafta (29 Haziran 20](https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-29-haziran-2026--207452).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-07-01-tr-3-yapay-zeka-ses-teknolojileri-i`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-01`,
+    image: `images/2026-07-01-tr-3-yapay-zeka-ses-teknolojileri-i.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka ses teknolojileri ile öğrenmeyi kolaylaştıran yer`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka ses teknolojileri ile öğrenmeyi kolayla](https://egirisim.com/2026/06/30/yapay-zeka-ses-teknolojileri-ile-ogrenmeyi-kolaylastiran-yerli-girisim-lucida-ai-7-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka ses teknolojileri ile öğrenmeyi kolaylaştıran yerli girişim ...`,
+      teaser: `vor 21 Stunden ... Geliştirdiği yapay zeka ses teknolojileri ile birçok alanda öğrenmeyi kolaylaştıran mobil uygulama Lucida AI, Birleşik Krallık merkezli Velocity Capital.`,
+      body: `vor 21 Stunden ... Geliştirdiği yapay zeka ses teknolojileri ile birçok alanda öğrenmeyi kolaylaştıran mobil uygulama Lucida AI, Birleşik Krallık merkezli Velocity Capital.
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka ses teknolojileri ile öğrenmeyi kolaylaştıran yer](https://egirisim.com/2026/06/30/yapay-zeka-ses-teknolojileri-ile-ogrenmeyi-kolaylastiran-yerli-girisim-lucida-ai-7-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-07-01-tr-4-yapay-zeka-destekli-lojistik-p`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-01`,
+    image: `images/2026-07-01-tr-4-yapay-zeka-destekli-lojistik-p.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli lojistik platformu Derya, 1.1 milyon dol`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli lojistik platformu Derya, 1.1 ](https://webrazzi.com/2026/06/30/yapay-zeka-destekli-lojistik-platformu-derya-1-1-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli lojistik platformu Derya, 1.1 milyon dolar yatırım aldı`,
+      teaser: `23 saat önce · Yapay zeka destekli lojistik ve yük taşımacılığı platformu Derya, 1.1 milyon dolar yatırım aldı. ABD merkezli şirketin 1.1 milyon dolarlık yatırım turunda Y ...`,
+      body: `23 saat önce · Yapay zeka destekli lojistik ve yük taşımacılığı platformu Derya, 1.1 milyon dolar yatırım aldı. ABD merkezli şirketin 1.1 milyon dolarlık yatırım turunda Y ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli lojistik platformu Derya, 1.1 milyon dol](https://webrazzi.com/2026/06/30/yapay-zeka-destekli-lojistik-platformu-derya-1-1-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-06-30-de-1-interview-zur-deutschland-app-`,
     cat: `agentic`,
     lang: `de`,
@@ -5104,6 +5317,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-07-01-de-tip-1-ki-app-statt-reiseplan-der-ki-`,
+    date: `2026-07-01`,
+    youtube: `Ac1hiBxfw78`,
+    lang: `de`,
+    de: {
+      title: `KI-App statt Reiseplan: Der KI-Agent Manus baut meinen Wochenend-Assistenten`,
+      desc: `vor 15 Stunden ... Go to channel Digitale Profis · ChatGPT war gestern: Codex ist die beste KI-App von OpenAI (nicht nur fürs Programmieren). Digitale Profis•22K views · 8:18.`,
+    },
+    tr: {
+      title: `[TR] KI-App statt Reiseplan: Der KI-Agent Manus baut meinen Woche`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-07-01-de-tip-2-claude-design-lohnt-sich-das-n`,
+    date: `2026-07-01`,
+    youtube: `sHrrfZkVWlo`,
+    lang: `de`,
+    de: {
+      title: `Claude Design: Lohnt sich das neue Feature?`,
+      desc: `vor 1 Tag ... ... ki-prompts Prompt-Playlist: https://www.youtube.com/playlist?list=PLjmD8Pk84PThPNoBjJLmbuF10y_zGrXkw NEU: Der KI ... Go to channel Digitale Profis · Claude Design ...`,
+    },
+    tr: {
+      title: `[TR] Claude Design: Lohnt sich das neue Feature?`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-07-01-tr-tip-1-senin-mavin-benimkiyle-ayn-m`,
+    date: `2026-07-01`,
+    youtube: `9dMSKvFMLm4`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Senin Mavin Benimkiyle Aynı mı?`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Senin Mavin Benimkiyle Aynı mı?`,
+      desc: `1 gün önce · Seyahatte ve evde ağlara bağlanırken telefonumda ve bilgisayarımda NordVPN kullanıyorum: https://NordVPN.com/BarisOzcan Bağlantımı şifreliyor, ...`,
+    },
+  },
+  {
+    id: `2026-07-01-tr-tip-2-yapay-zeka-uyardi-bi-tersi-ni-`,
+    date: `2026-07-01`,
+    youtube: `o2d8BenD3hA`,
+    lang: `tr`,
+    de: {
+      title: `[DE] YAPAY ZEKA UYARDI: BİTERSİNİZ! (yapmazsanız)`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `YAPAY ZEKA UYARDI: BİTERSİNİZ! (yapmazsanız)`,
+      desc: `vor 6 Tagen ... Comments · YAPAY ZEKALAR KENDİ DİNİNİ Mİ KURDU? · How to Identify Real Honey? · DOLANDIRICILARA KAPTIRDIĞI MÜLKÜNDEN ÇIKMADI.. · Why Do Those Who Emigrate Have ...`,
+    },
+  },
+
 
   {
     id: `2026-06-30-de-tip-1-ki-agenten-im-unternehmen-trot`,
