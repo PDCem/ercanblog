@@ -45,6 +45,219 @@ const CATEGORIES = [
 const POSTS = [
 
   {
+    id: `2026-07-02-de-1-bundesregierung-will-taskforce`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-02`,
+    image: `images/2026-07-02-de-1-bundesregierung-will-taskforce.jpg`,
+    featured: true,
+    de: {
+      title: `Bundesregierung will Taskforce: Deutschland soll „KI-Nation“ werden | heise online`,
+      teaser: `Die Bundesregierung will laut einem Bericht eine Taskforce für Künstliche Intelligenz (KI) einsetzen. Ziel sei es, eine Übersicht über die laufenden KI-Maßnahmen in den Ministerien zu gewinnen und bis`,
+      body: `Die Bundesregierung will laut einem Bericht eine Taskforce für Künstliche Intelligenz (KI) einsetzen. Ziel sei es, eine Übersicht über die laufenden KI-Maßnahmen in den Ministerien zu gewinnen und bis Oktober aufeinander abzustimmen. Das berichtet der Pro-Newsletter Technologie & KI des Nachrichtenmagazins Politico, dem ein entsprechendes Einladungsschreiben an die Staatssekretäre in Bundesministerien vorliegt.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Bundesregierung will Taskforce: Deutschland soll „KI-Nation“](https://www.heise.de/news/Bundesregierung-will-Taskforce-Deutschland-soll-KI-Nation-werden-11350190.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Bundesregierung will Taskforce: Deutschland soll „KI-Nation“`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Bundesregierung will Taskforce: Deutschland soll „](https://www.heise.de/news/Bundesregierung-will-Taskforce-Deutschland-soll-KI-Nation-werden-11350190.html).`,
+    },
+  },
+  {
+    id: `2026-07-02-de-2-ki-findet-schlupfloecher-in-ge`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-02`,
+    image: `images/2026-07-02-de-2-ki-findet-schlupfloecher-in-ge.jpg`,
+    de: {
+      title: `KI findet Schlupflöcher in Gesetzen und Steuern - Society ... - t3n`,
+      teaser: `vor 4 Tagen ... KI-Modell findet neue Schlupflöcher in Steuergesetzen. Forschende warnen vor „Society Hacking" – die Details bleiben aus gutem Grund geheim.`,
+      body: `vor 4 Tagen ... KI-Modell findet neue Schlupflöcher in Steuergesetzen. Forschende warnen vor „Society Hacking" – die Details bleiben aus gutem Grund geheim.
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI findet Schlupflöcher in Gesetzen und Steuern - Society ..](https://t3n.de/news/ki-findet-legale-steuertricks-society-hacking-1748499/).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI findet Schlupflöcher in Gesetzen und Steuern - Society ..`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI findet Schlupflöcher in Gesetzen und Steuern - ](https://t3n.de/news/ki-findet-legale-steuertricks-society-hacking-1748499/).`,
+    },
+  },
+  {
+    id: `2026-07-02-de-3-ki-meta-will-offenbar-ins-clou`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-02`,
+    image: `images/2026-07-02-de-3-ki-meta-will-offenbar-ins-clou.jpg`,
+    de: {
+      title: `KI: Meta will offenbar ins Cloud-Geschäft einsteigen - Handelsblatt`,
+      teaser: `vor 17 Stunden ... Elon Musks SpaceX , das im Februar sein KI-Startup xAI übernommen hat, hat sich in diesem Bereich zuletzt als wichtiger Akteur positioniert: Das Unternehmen ...`,
+      body: `vor 17 Stunden ... Elon Musks SpaceX , das im Februar sein KI-Startup xAI übernommen hat, hat sich in diesem Bereich zuletzt als wichtiger Akteur positioniert: Das Unternehmen ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [KI: Meta will offenbar ins Cloud-Geschäft einsteigen - Hande](https://www.handelsblatt.com/technik/it-internet/ki-meta-will-offenbar-ins-cloud-geschaeft-einsteigen/100237238.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] KI: Meta will offenbar ins Cloud-Geschäft einsteigen - Hande`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [KI: Meta will offenbar ins Cloud-Geschäft einsteig](https://www.handelsblatt.com/technik/it-internet/ki-meta-will-offenbar-ins-cloud-geschaeft-einsteigen/100237238.html).`,
+    },
+  },
+  {
+    id: `2026-07-02-de-4-forscher-tricksen-ki-browser-m`,
+    cat: `agentic`,
+    lang: `de`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-02`,
+    image: `images/2026-07-02-de-4-forscher-tricksen-ki-browser-m.jpg`,
+    de: {
+      title: `Forscher tricksen KI-Browser mit einem Spiel aus - Golem.de`,
+      teaser: `vor 21 Stunden ... Sicherheitsforscher haben wieder einmal einen ziemlich einfachen Weg gefunden, die Sicherheitsbarrieren mehrerer gängiger KI-Browser auszuhebeln und die ...`,
+      body: `vor 21 Stunden ... Sicherheitsforscher haben wieder einmal einen ziemlich einfachen Weg gefunden, die Sicherheitsbarrieren mehrerer gängiger KI-Browser auszuhebeln und die ...
+
+## Quelle und Kontext
+
+Dieser Beitrag basiert auf einer aktuellen Meldung. Die Originalquelle mit allen Details findest du hier: [Forscher tricksen KI-Browser mit einem Spiel aus - Golem.de](https://www.golem.de/news/fuer-datenklau-und-mehr-forscher-tricksen-ki-browser-mit-einem-spiel-aus-2607-210378.html).
+
+## Ercans Einordnung
+
+> Warum das wichtig ist: Diese Meldung zeigt, wie rasant sich der KI-Markt aktuell veraendert.`,
+    },
+    tr: {
+      title: `[TR-Fallback] Forscher tricksen KI-Browser mit einem Spiel aus - Golem.de`,
+      teaser: `Bu Almanca haberin kısa Türkçe özeti.`,
+      body: `Kisa Turkce ozet: Almanca kaynaklardan aktarilan bu haber, AI sektorundeki onemli bir gelismeyi ozetliyor. Tam metin icin: [Forscher tricksen KI-Browser mit einem Spiel aus -](https://www.golem.de/news/fuer-datenklau-und-mehr-forscher-tricksen-ki-browser-mit-einem-spiel-aus-2607-210378.html).`,
+    },
+  },
+  {
+    id: `2026-07-02-tr-1-yapay-zeka-veri-merkezleri-i-i`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-02`,
+    image: `images/2026-07-02-tr-1-yapay-zeka-veri-merkezleri-i-i.jpg`,
+    featured: true,
+    de: {
+      title: `[DE-Fallback] Yapay zeka veri merkezleri için zamanlama teknolojisi gelişt`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka veri merkezleri için zamanlama teknoloj](https://webrazzi.com/2026/07/01/yapay-zeka-veri-merkezleri-icin-zamanlama-teknolojisi-gelistiren-stathera-55-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka veri merkezleri için zamanlama teknolojisi geliştiren ...`,
+      teaser: `vor 17 Stunden ... Yapay zeka veri merkezlerinin hızla büyümesiyle birlikte, işlemciler ve ağ ekipmanları arasındaki senkronizasyonu sağlayan zamanlama teknolojileri de kritik ...`,
+      body: `vor 17 Stunden ... Yapay zeka veri merkezlerinin hızla büyümesiyle birlikte, işlemciler ve ağ ekipmanları arasındaki senkronizasyonu sağlayan zamanlama teknolojileri de kritik ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka veri merkezleri için zamanlama teknolojisi gelişt](https://webrazzi.com/2026/07/01/yapay-zeka-veri-merkezleri-icin-zamanlama-teknolojisi-gelistiren-stathera-55-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-07-02-tr-2-ai-uzmanlar-uyar-yor-yapay-zek`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-02`,
+    image: `images/2026-07-02-tr-2-ai-uzmanlar-uyar-yor-yapay-zek.jpg`,
+    de: {
+      title: `[DE-Fallback] AI uzmanları uyarıyor: Yapay zekanın Çernobil'i yaklaşıyor`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [AI uzmanları uyarıyor: Yapay zekanın Çernobil'i ya](https://www.donanimhaber.com/ai-uzmanlari-uyariyor-yapay-zekanin-cernobil-i-yaklasiyor--207558).`,
+    },
+    tr: {
+      title: `AI uzmanları uyarıyor: Yapay zekanın Çernobil'i yaklaşıyor`,
+      teaser: `vor 11 Stunden ... MIT'de görev yapan bilgisayar bilimcisi Stephen Casper, bu ay Pekin'de düzenlenen önemli bir yapay zek+a konferansında yaptığı açıklamada, sektörün en büyük ...`,
+      body: `vor 11 Stunden ... MIT'de görev yapan bilgisayar bilimcisi Stephen Casper, bu ay Pekin'de düzenlenen önemli bir yapay zek+a konferansında yaptığı açıklamada, sektörün en büyük ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [AI uzmanları uyarıyor: Yapay zekanın Çernobil'i yaklaşıyor](https://www.donanimhaber.com/ai-uzmanlari-uyariyor-yapay-zekanin-cernobil-i-yaklasiyor--207558).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-07-02-tr-3-anthropic-ten-ajan-odakl-yeni-`,
+    cat: `modelle`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-02`,
+    image: `images/2026-07-02-tr-3-anthropic-ten-ajan-odakl-yeni-.jpg`,
+    de: {
+      title: `[DE-Fallback] Anthropic'ten Ajan Odaklı Yeni Model: Claude Sonnet 5`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Anthropic'ten Ajan Odaklı Yeni Model: Claude Sonne](https://turkiye.ai/anthropicten-ajan-odakli-yeni-model-claude-sonnet-5/).`,
+    },
+    tr: {
+      title: `Anthropic'ten Ajan Odaklı Yeni Model: Claude Sonnet 5`,
+      teaser: `vor 22 Stunden ... Bu kapsamda modelin, yalnızca yanıt üretmenin ötesinde, araçlarla etkileşime giren ve çok adımlı süreçleri takip eden yapay zeka uygulamaları için ...`,
+      body: `vor 22 Stunden ... Bu kapsamda modelin, yalnızca yanıt üretmenin ötesinde, araçlarla etkileşime giren ve çok adımlı süreçleri takip eden yapay zeka uygulamaları için ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Anthropic'ten Ajan Odaklı Yeni Model: Claude Sonnet 5](https://turkiye.ai/anthropicten-ajan-odakli-yeni-model-claude-sonnet-5/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+  {
+    id: `2026-07-02-tr-4-yapay-zeka-destekli-yaz-l-m-ge`,
+    cat: `agentic`,
+    lang: `tr`,
+    author: `Ercan Yıldız`,
+    date: `2026-07-02`,
+    image: `images/2026-07-02-tr-4-yapay-zeka-destekli-yaz-l-m-ge.jpg`,
+    de: {
+      title: `[DE-Fallback] Yapay zeka destekli yazılım geliştirme platformu 8090, 135 m`,
+      teaser: `Kurze deutsche Zusammenfassung dieses türkischen KI-Artikels.`,
+      body: `Kurze deutsche Zusammenfassung: Dieser türkische Artikel behandelt eine wichtige KI-Entwicklung. Vollständiger Inhalt: [Yapay zeka destekli yazılım geliştirme platformu 8](https://webrazzi.com/2026/06/30/yapay-zeka-destekli-yazilim-gelistirme-platformu-8090-135-milyon-dolar-yatirim-aldi/).`,
+    },
+    tr: {
+      title: `Yapay zeka destekli yazılım geliştirme platformu 8090, 135 milyon ...`,
+      teaser: `vor 2 Tagen ... ABD merkezli 8090'nin 135 milyon dolarlık A serisi yatırım turuna Salesforce Ventures liderlik etti. ... Yapay zeka destekli yazılım geliştirme platformu 8090, ...`,
+      body: `vor 2 Tagen ... ABD merkezli 8090'nin 135 milyon dolarlık A serisi yatırım turuna Salesforce Ventures liderlik etti. ... Yapay zeka destekli yazılım geliştirme platformu 8090, ...
+
+## Kaynak ve baglam
+
+Bu yazi guncel bir habere dayaniyor. Orijinal kaynaga suradan ulasabilirsin: [Yapay zeka destekli yazılım geliştirme platformu 8090, 135 m](https://webrazzi.com/2026/06/30/yapay-zeka-destekli-yazilim-gelistirme-platformu-8090-135-milyon-dolar-yatirim-aldi/).
+
+## Ercan'in yorumu
+
+> Neden onemli: Bu haber, yapay zeka pazarinin ne kadar hizli degistigini gosteriyor.`,
+    },
+  },
+
+  
+
+  {
     id: `2026-07-01-de-1-dlr-projekt-loki-ki-soll-flugl`,
     cat: `agentic`,
     lang: `de`,
@@ -5317,6 +5530,64 @@ Uzmanlar, sağlayıcıların istek başına tüketimi açıklamasını savunuyor
 /* ---------- Video-Tipps ----------
    lang: "de" | "tr" | "all" – nur in der passenden Sprache anzeigen */
 const TIPS = [
+
+  {
+    id: `2026-07-02-de-tip-1-ki-programmiert-apps-aber-es-w`,
+    date: `2026-07-02`,
+    youtube: `cn7A98eCY0U`,
+    lang: `de`,
+    de: {
+      title: `KI programmiert Apps, aber es wird immer schwieriger`,
+      desc: `vor 3 Tagen ... ... KI-Apps 7:07 Level 4: OG Twitter 9:45 Level 5: Local-First 14:17 Level ... Go to channel Digitale Profis · GPT-5.6 is here, but not for everyone: Fable 5 ...`,
+    },
+    tr: {
+      title: `[TR] KI programmiert Apps, aber es wird immer schwieriger`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-07-02-de-tip-2-lovable-tutorial-auf-deutsch-2`,
+    date: `2026-07-02`,
+    youtube: `0yCQ-Io8gsk`,
+    lang: `de`,
+    de: {
+      title: `Lovable Tutorial auf Deutsch (2026) – Die komplette Anleitung für Einsteiger`,
+      desc: `vor 3 Tagen ... Go to channel Digitale Profis · Grundkurs KI: Alles über Künstliche Intelligenz. In dieser Einführung lernst du die KI Grundlagen. Digitale Profis•68K views.`,
+    },
+    tr: {
+      title: `[TR] Lovable Tutorial auf Deutsch (2026) – Die komplette Anleitun`,
+      desc: `Bu bir Almanca YouTube videosunun kısa Türkçe tanıtımıdır.`,
+    },
+  },
+  {
+    id: `2026-07-02-tr-tip-1-yapay-zeka-nedir-nas-l-daha-iy`,
+    date: `2026-07-02`,
+    youtube: `bINKkOK-70o`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zeka Nedir, Nasıl Daha iyi Kullanırım`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zeka Nedir, Nasıl Daha iyi Kullanırım`,
+      desc: `vor 18 Stunden ... Yapay zeka dediğimiz büyük dil modelleri, insanlık tarihinin gördüğü en büyük kütüphanelerdir ... Go to channel Barış Özcan · 3x+1 = 90 YILDIR ÇÖZÜLEMEYEN BASİT ...`,
+    },
+  },
+  {
+    id: `2026-07-02-tr-tip-2-yapay-zek-a-nda-i-nsan-olmak-y`,
+    date: `2026-07-02`,
+    youtube: `IFXRHMgbMoo`,
+    lang: `tr`,
+    de: {
+      title: `[DE] Yapay Zekâ Çağında İnsan Olmak | Yapay Zekâ Serisi (4/4)`,
+      desc: `Kurze deutsche Beschreibung dieses türkischen YouTube-Videos.`,
+    },
+    tr: {
+      title: `Yapay Zekâ Çağında İnsan Olmak | Yapay Zekâ Serisi (4/4)`,
+      desc: `vor 5 Tagen ... Yapay zekâ çağında insanı farklı kılan şey ne olacak?** Bilgiye saniyeler içinde ulaşabildiğimiz bir dünyada, insanı gerçekten değerli kılan nedir?`,
+    },
+  },
+
 
   {
     id: `2026-07-01-de-tip-1-ki-app-statt-reiseplan-der-ki-`,
